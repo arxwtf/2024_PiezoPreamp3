@@ -1,0 +1,13 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SSSS224100")(type "KiCad")(uri "${KIPRJMOD}/library/SSSS224100.kicad_sym")(options "")(descr ""))
+  (lib (name "ZXMP3A17E6TA_UL")(type "KiCad")(uri "${KIPRJMOD}/library/ZXMP3A17E6TA_UL.kicad_sym")(options "")(descr ""))
+  (lib (name "DDZ12B-7")(type "KiCad")(uri "${KIPRJMOD}/library/DDZ12B-7.kicad_sym")(options "")(descr ""))
+  (lib (name "MMDT2222A-7-F")(type "KiCad")(uri "${KIPRJMOD}/library/MMDT2222A-7-F.kicad_sym")(options "")(descr ""))
+  (lib (name "CUI_SJ-63053A")(type "KiCad")(uri "${KIPRJMOD}/library/CUI_SJ-63053A.kicad_sym")(options "")(descr ""))
+  (lib (name "LED_Light_Guide")(type "KiCad")(uri "${KIPRJMOD}/library/LED_Light_Guide.kicad_sym")(options "")(descr ""))
+  (lib (name "jumper")(type "KiCad")(uri "${KIPRJMOD}/library/jumper.kicad_sym")(options "")(descr ""))
+  (lib (name "MountingPegs")(type "KiCad")(uri "${KIPRJMOD}/library/MountingPegs.kicad_sym")(options "")(descr ""))
+  (lib (name "MolexPicoBladeCable")(type "KiCad")(uri "${KIPRJMOD}/library/MolexPicoBladeCable.kicad_sym")(options "")(descr ""))
+  (lib (name "MolexPicoBladePlug")(type "KiCad")(uri "${KIPRJMOD}/library/MolexPicoBladePlug.kicad_sym")(options "")(descr ""))
+)
