@@ -30,3 +30,6 @@ fp-info-cache
 /library/trash/
 /ltspice/trash/
 /resources/trash/
+
+# OS files
+.DS_Store
