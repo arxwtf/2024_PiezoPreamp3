@@ -7,7 +7,9 @@
 *.bck
 *.kicad_pcb-bak
 *.kicad_sch-bak
-*-backups
+*.kicad_sch.lck
+/*-backups/
+/2023_PiezoPreamp-backups/
 *.kicad_prl
 *.sch-bak
 *~
@@ -17,7 +19,7 @@ _autosave-*
 *-save.kicad_pcb
 fp-info-cache
 \#auto_saved_files\#
-/2023_PiezoPreamp-backups/
+
 
 # Netlist files (exported from Eeschema)
 *.net
