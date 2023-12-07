@@ -1,0 +1,11 @@
+* This is the linear potentiometer
+*      _____
+*  1--|_____|--3
+*        |
+*        2
+*
+.SUBCKT linearpot 1 2 3
+.param wl=limit(w,1m,.999)
+R0 1 2 {R*(wl)}
+R1 2 3 {R*(1-wl)}
+.ENDS
