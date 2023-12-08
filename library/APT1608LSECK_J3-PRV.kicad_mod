@@ -11,7 +11,7 @@
       (effects (font (size 1.27 1.27) (thickness 0.254)))
     (tstamp 784d4dcd-876b-4176-b08b-980c20c8b0f9)
   )
-  (fp_text user "k" (at -2.15 1 unlocked) (layer "F.SilkS")
+  (fp_text user "+" (at 0.8 1.15 unlocked) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.17) bold) (justify left bottom))
     (tstamp 7f6ddf73-3262-42e5-87f8-f710a2a53de3)
   )
