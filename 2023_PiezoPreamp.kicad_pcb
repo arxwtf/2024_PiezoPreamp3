@@ -4997,7 +4997,7 @@
   (gr_text "←IN" (at 81.7 57.5) (layer "B.SilkS") (tstamp 1155387e-f355-4354-b929-5fc8bd1a3738)
     (effects (font (size 1 1) (thickness 0.2) bold) (justify left bottom mirror))
   )
-  (gr_text "Piezo Preamp + EQ \nv2.0 12/2023\nArχ\narx.wtf\n" (at 73.9 54.7) (layer "B.SilkS") (tstamp 2bb95188-a62a-464b-a974-6c99a8ffd5cb)
+  (gr_text "Piezo Preamp + EQ \nv2.1 12/2023\nArχ\narx.wtf\n" (at 73.9 54.7) (layer "B.SilkS") (tstamp 2bb95188-a62a-464b-a974-6c99a8ffd5cb)
     (effects (font (size 1.2 1) (thickness 0.2) bold) (justify bottom mirror))
   )
   (gr_text "JLCJLCJLCJLC" (at 101.9 60.9) (layer "B.SilkS") (tstamp 2c3362d4-ee8f-43ad-a7c4-370639aae538)
