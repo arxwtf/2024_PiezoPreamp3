@@ -6,9 +6,11 @@
 
   (title_block
     (title "Piezo Preamp + EQ")
-    (date "2023-12-08")
-    (rev "2.1")
+    (date "2023-12-27")
+    (rev "2.2")
     (company "Arx")
+    (comment 1 "v2.1: PCB: fixing pad sizes - some were too small")
+    (comment 2 "v2.2: scheme, PCB: fixing T and R pins on audio jacks - they were swapped before")
   )
 
   (lib_symbols

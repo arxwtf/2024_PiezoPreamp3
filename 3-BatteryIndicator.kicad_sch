@@ -6,8 +6,8 @@
 
   (title_block
     (title "Battery & Power Indicator")
-    (date "2023-12-08")
-    (rev "2.1")
+    (date "2023-12-27")
+    (rev "2.2")
     (company "Arx")
   )
 
