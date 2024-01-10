@@ -4,6 +4,9 @@ A simple preamp to be used for e.g. guitar piezo (contact) microphones.
 
 Created in KiCAD v7 and LTSpice.
 
+![Rendered PCB](render.png?raw=true "Rendered PCB")
+
+
 ## Main circuit blocks
 
 ### Charge amplifier for piezo 
@@ -82,3 +85,6 @@ Folder containing all 3rd symbols, footprints and 3D models used in the project.
 
 ## /resources folder
 Contains some additional resources, inspiration and schematics used during development.
+
+## /schematics folder
+Contains schematic sheets plotted from KiCAD, individually as .png and in one file as .pdf.
