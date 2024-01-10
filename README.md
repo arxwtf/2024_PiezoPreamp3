@@ -88,3 +88,9 @@ Contains some additional resources, inspiration and schematics used during devel
 
 ## /schematics folder
 Contains schematic sheets plotted from KiCAD, individually as .png and in one file as .pdf.
+
+## Known problems
+- the slide switches are quite small! They might be hard to operate, especially when the PCB is inside an enclosure.
+- the mounting holes are too close to the edges of the PCB. Mounting pegs' bases might need to be trimmed, depending on the enclosure - or a different mounting accessories need to be used.
+- the enclosure I chose (TEKO 1/A.1) has a inner width (34mm) that seems to be about 1mm shorter than ideal. This will create PCB mounting problems. Future revisions of PCB should address this, or a different enclosure must be used (e.g. TEKO 2/A.1)
+- battery spring (used only for grounding) is too close to the PCB edge. This creates unnecessary force between the PCB and the enclosure wall. The spring can be shortened, or not used at all.
