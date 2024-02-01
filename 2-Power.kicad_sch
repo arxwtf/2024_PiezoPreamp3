@@ -1162,8 +1162,8 @@
     (effects (font (size 1 1)) (justify left bottom))
     (uuid 9c0aa892-d7c2-408c-923a-a88965e097d0)
   )
-  (text "TVS diode:\n- bidirectional because it's followed \nby reverse polarity protection \n- also protects from high inputs applied \nwhen battery is off, leaking through \nopamp inputs\n- reverse standoff 20V, clamping "
-    (at 94.615 43.18 0)
+  (text "TVS diode:\n- bidirectional because it's followed \nby reverse polarity protection \n- also protects from high inputs applied \nwhen battery is off, leaking through \nopamp inputs\n- reverse standoff 20V, breakdown 21-25V,\nclamping 27-30V"
+    (at 92.71 43.815 0)
     (effects (font (size 1 1)) (justify left bottom))
     (uuid 9cf83214-e8b7-44b1-9e26-9433f094b3f7)
   )

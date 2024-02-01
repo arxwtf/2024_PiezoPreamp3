@@ -1583,8 +1583,8 @@
     (effects (font (size 1 1)) (justify left bottom))
     (uuid b4816c0a-bc25-4e34-a508-f9b08bfbdc9a)
   )
-  (text "Output shouldn't be more \nthan +-9V (Vs=18V), so \n9V diode would be ok too.\nChoose lowest capacitance.\n"
-    (at 215.265 130.175 0)
+  (text "Output shouldn't be more \nthan +-9V (Vs=18V), so \n9V diode would be ok too.\nChoose lowest capacitance.\nBreakdown 13.3V, clamping 19V.\n"
+    (at 215.265 132.08 0)
     (effects (font (size 1 1)) (justify left bottom))
     (uuid c0250e1a-f876-472a-a704-45c05f96cafc)
   )
