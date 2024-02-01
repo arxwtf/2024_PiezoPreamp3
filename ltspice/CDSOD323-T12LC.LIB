@@ -1,0 +1,56 @@
+* Bourns Inc Spice model CDSOD323-T12LC Version 1.0
+* May 2018 
+* All rights reserved 
+*    
+*SPICE MODEL LICENSE AGREEMENT
+*
+*IMPORTANT NOTICE:
+*YOUR access to SPICE MODELS created by Bourns, Inc., a California corporation (“Bourns”), is conditioned on YOUR acceptance of and agreement to comply with the terms of this SPICE Model License Agreement (this “Agreement”).  YOU confirm your acceptance of and agreement to comply with this Agreement by clicking on the “AGREE” button below and downloading a SPICE MODEL from the Bourns website.
+*AGREEMENT
+*1.	As used herein, “YOU” and “YOUR” refer both to you as an individual and any entity on whose behalf you are downloading a SPICE MODEL.
+*2.	The information in each SPICE MODEL is protected under United States copyright laws.  Bourns grants YOU a non-exclusive, non-transferable, revocable license to use the downloaded SPICE MODEL and to modify the downloaded SPICE MODEL to enable use with YOUR specific application, subject to the condition that YOU fulfil the terms of this Agreement.
+*3.	YOU agree:
+*A.	That although YOU are permitted to modify the downloaded SPICE MODEL created by Bourns for YOUR specific applications, all rights to the modified SPICE MODEL and any derivatives from such modified SPICE MODEL shall revert to Bourns;
+*B.	Not to sell, lend out, or redistribute or grant a license to any third party for a version of the downloaded SPICE MODEL that YOU have completely or partially modified;
+*C.	Not to create copies of a version of the downloaded SPICE MODEL that has been completely or partially modified by YOU.
+*D.	To use only SPICE MODELS that YOU have directly downloaded from this website; and
+*E.	To perform thorough testing using the actual device and not to rely on simulation results received using the downloaded SPICE MODEL.
+*4.	YOU further agree that the following DISCLAIIMERS are applicable to Bourns and its affiliates, agents and representatives, and YOUR use of the downloaded SPICE MODELS:
+*A.	While the downloaded SPICE MODEL is an effective tool for testing product performance by simulation, it does not simulate product performance in all test environments and is not intended to be a replacement for testing of the actual device by means of a test board or otherwise.
+*B.	Each SPICE MODEL is provided by Bourns AS IS, WHERE IS, AND WITH NO WARRANTY OF ANY KIND EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+*C.	No assurances are offered that the SPICE MODEL will operate normally on all computer systems.
+*D.	No responsibility is assumed by Bourns for any discrepancies that may occur between the results of simulation using SPICE MODEL and the results of testing using the actual device.
+*E.	No responsibility is assumed by Bourns for any damages that occur directly or indirectly from the use of the downloaded SPICE MODEL.  BOURNS’ LIABILITY FOR DAMAGES TO YOU FOR ANY CAUSE WHATSOEVER, REGARDLESS OF THE FORM OF ANY CLAIM OR ACTION, SHALL IN NO EVENT EXCEED ONE HUNDRED US DOLLARS ($100.00 US).  IN NO EVENT SHALL BOURNS BE LIABLE FOR ANY LOSS OF DATA, PROFITS OR USE OF ANY DOWNLOADED SPICE MODEL, OR FOR ANY SPECIAL, INCIDENTAL, CONSEQUENTIAL OR OTHER INDIRECT DAMAGES ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THE DOWNLOADED SPICE MODEL.
+*F.	Bourns does not provide maintenance (including updates) or support services for the downloaded SPICE MODEL.
+*G.	Each downloaded SPICE MODEL is protected by copyright laws, and Bourns does not consent to the licensing of patent rights or other intellectual property rights (including those of third parties).
+*5.	This Agreement shall be governed by and construed in accordance with the laws of the State of California, without regard to its choice of law provisions.  The sole jurisdiction and venue for all actions related to the subject matter of this Agreement shall be the state and federal courts located in Riverside County, California.
+*6.	The United Nations Convention on Contracts for the International Sale of Goods is excluded in its entirety from this Agreement.
+*7.	The term of this Agreement shall commence when YOU download a SPICE MODEL and shall terminate when YOU stop using the downloaded SPICE MODEL, except that the provisions of Sections 3, 4 and 5 shall survive the termination of this Agreement.
+*
+*   This subcircuit models the nominal behavior of the CDSOD323-T12LC
+*   device within the limitations of SPICE standard models. 
+*
+*   While the models strive to match actual device performance, not all
+*   aspects of the performance of these models may correspond to
+*   actual device behavior due to SPICE modeling limitations.
+*   Simulations using these models should not be used to prove
+*   validity of circuit design or any aspects of performance, due
+*   to inherent inaccuracies of SPICE models.
+*   All simulations should be checked and correlated with actual
+*   bench measurements of typical devices.
+*   These models may be updated or changed without notice.
+
+.SUBCKT CDSOD323-T12LC 1 2
+L1 2 3 0.6n
+R1 1 3 13MEG
+R2 4 5 100MEG
+D1 4 3 DiodeRect
+D3 5 3 DiodeAval
+D4 4 1 DiodeAval
+D2 5 1 DiodeRect
+.MODEL DiodeRect D LEVEL=1 BV=200 IBV=0.01U CJO=0.5P IS=1E-11 
++ VJ=0.6 M=0.33 N=1 RS=0.75 TT=1E-9 EG=1.11
+.MODEL DiodeAval D LEVEL=1 BV=14.3 IBV=1U CJO=230P IS=1E-11 
++ VJ=0.6 M=0.33 N=1 RS=0.014 TT=1E-8 EG=1.11
+.ENDS
+*** End of subcircuit definition.
