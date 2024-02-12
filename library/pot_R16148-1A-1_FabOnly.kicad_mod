@@ -62,7 +62,7 @@
   (fp_circle (center 0 0.000001) (end 3.5 0.000001)
     (stroke (width 0.07) (type default)) (fill none) (layer "F.Fab") (tstamp 73be8776-71bd-47dd-8586-fc76d5a37563))
   (model "${KIPRJMOD}/library/pot_R16148-1A-1.stp"
-    (offset (xyz 0 0 13.8))
+    (offset (xyz 0 0 13))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))
   )
