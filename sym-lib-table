@@ -19,5 +19,4 @@
   (lib (name "Nut")(type "KiCad")(uri "${KIPRJMOD}/library/Nut.kicad_sym")(options "")(descr ""))
   (lib (name "Washer")(type "KiCad")(uri "${KIPRJMOD}/library/Washer.kicad_sym")(options "")(descr ""))
   (lib (name "Bolt")(type "KiCad")(uri "${KIPRJMOD}/library/Bolt.kicad_sym")(options "")(descr ""))
-  (lib (name "FreeStandingPads")(type "KiCad")(uri "${KIPRJMOD}/library/FreeStandingPads.kicad_sym")(options "")(descr ""))
 )

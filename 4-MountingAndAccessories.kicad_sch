@@ -1,1305 +1,3317 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid c93356c5-2155-4db7-af13-6ebc7100233e)
-
-  (paper "A4")
-
-  (title_block
-    (title "Mounting, hardware and accessories")
-    (date "2024-02-08")
-    (rev "3.0")
-    (company "Arx")
-  )
-
-  (lib_symbols
-    (symbol "9VBatteryHolder:9VBatteryHolder" (in_bom yes) (on_board yes)
-      (property "Reference" "H" (at 0 5.715 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "9VBatteryHolder_1_1"
-        (rectangle (start -3.81 3.175) (end 0.635 -3.175)
-          (stroke (width 0) (type default))
-          (fill (type background))
-        )
-        (polyline
-          (pts
-            (xy 0.635 -3.175)
-            (xy 2.54 -1.905)
-            (xy 0.635 -1.905)
-            (xy 0.635 -3.175)
-          )
-          (stroke (width 0) (type default))
-          (fill (type background))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -1.905)
-            (xy 2.54 4.445)
-            (xy -1.905 4.445)
-            (xy -1.905 3.175)
-            (xy 0.635 3.175)
-            (xy 0.635 -1.905)
-            (xy 2.54 -1.905)
-          )
-          (stroke (width 0) (type default))
-          (fill (type background))
-        )
-      )
-    )
-    (symbol "Bolt:Bolt" (in_bom yes) (on_board yes)
-      (property "Reference" "H" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Bolt_0_1"
-        (polyline
-          (pts
-            (xy -0.635 -5.715)
-            (xy 0.635 -5.715)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -0.635 -5.08)
-            (xy 0.635 -5.08)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -0.635 -3.81)
-            (xy 0.635 -3.81)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.635 -4.445)
-            (xy -0.635 -4.445)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "Bolt_1_1"
-        (polyline
-          (pts
-            (xy -0.635 -2.54)
-            (xy -0.635 -6.35)
-            (xy 0.635 -6.35)
-            (xy 0.635 -2.54)
-            (xy -0.635 -2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type background))
-        )
-        (polyline
-          (pts
-            (xy -1.905 -1.27)
-            (xy -0.635 -1.27)
-            (xy -0.635 -1.905)
-            (xy 0.635 -1.905)
-            (xy 0.635 -1.27)
-            (xy 1.905 -1.27)
-            (xy 1.905 -2.54)
-            (xy -1.905 -2.54)
-            (xy -1.905 -1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type background))
-        )
-      )
-    )
-    (symbol "Connector:Conn_01x01_Pin" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 0 2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Conn_01x01_Pin" (at 0 -2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_locked" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "ki_keywords" "connector" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Generic connector, single row, 01x01, script generated" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Conn_01x01_Pin_1_1"
-        (polyline
-          (pts
-            (xy 1.27 0)
-            (xy 0.8636 0)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start 0.8636 0.127) (end 0 -0.127)
-          (stroke (width 0.1524) (type default))
-          (fill (type outline))
-        )
-        (pin passive line (at 5.08 0 180) (length 3.81)
-          (name "Pin_1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "LED_Light_Guide:LED_Light_Guide" (in_bom yes) (on_board no)
-      (property "Reference" "H" (at -2.54 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "" (at 0 -2.032 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 -2.032 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 -2.032 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "LED_Light_Guide_1_1"
-        (rectangle (start -0.762 3.048) (end 0.762 -3.81)
-          (stroke (width 0) (type default))
-          (fill (type background))
-        )
-        (polyline
-          (pts
-            (xy -0.762 3.048)
-            (xy -1.27 3.556)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.762 3.048)
-            (xy 1.27 3.556)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 3.556)
-            (xy -1.27 3.556)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-    )
-    (symbol "Mechanical:MountingHole" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "H" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "MountingHole" (at 0 3.175 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "mounting hole" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Mounting Hole without connection" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "MountingHole*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "MountingHole_0_1"
-        (circle (center 0 0) (radius 1.27)
-          (stroke (width 1.27) (type default))
-          (fill (type none))
-        )
-      )
-    )
-    (symbol "Mechanical:MountingHole_Pad" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "H" (at 0 6.35 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "MountingHole_Pad" (at 0 4.445 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "mounting hole" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Mounting Hole with connection" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "MountingHole*Pad*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "MountingHole_Pad_0_1"
-        (circle (center 0 1.27) (radius 1.27)
-          (stroke (width 1.27) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "MountingHole_Pad_1_1"
-        (pin input line (at 0 -2.54 90) (length 2.54)
-          (name "1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "MountingPegs:MountingPeg" (in_bom yes) (on_board no)
-      (property "Reference" "H" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "" (at 0 -0.254 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 -0.254 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 -0.254 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Sim.Enable" "0" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "MountingPeg_1_1"
-        (rectangle (start -1.27 -1.27) (end 1.27 -1.778)
-          (stroke (width 0) (type default))
-          (fill (type background))
-        )
-        (rectangle (start -0.508 2.032) (end 0.508 -1.27)
-          (stroke (width 0) (type default))
-          (fill (type background))
-        )
-      )
-    )
-    (symbol "Nut:Nut" (in_bom yes) (on_board yes)
-      (property "Reference" "H" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Nut_1_1"
-        (circle (center 0 -2.54) (radius 0.635)
-          (stroke (width 0) (type default))
-          (fill (type color) (color 255 255 255 1))
-        )
-        (polyline
-          (pts
-            (xy -0.635 -1.27)
-            (xy 0.635 -1.27)
-            (xy 1.27 -1.905)
-            (xy 1.27 -3.175)
-            (xy 0.635 -3.81)
-            (xy -0.635 -3.81)
-            (xy -1.27 -3.175)
-            (xy -1.27 -1.905)
-            (xy -0.635 -1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type background))
-        )
-      )
-    )
-    (symbol "Washer:Washer" (in_bom yes) (on_board yes)
-      (property "Reference" "H" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Washer_1_1"
-        (circle (center 0 -2.54) (radius 0.635)
-          (stroke (width 0) (type default))
-          (fill (type color) (color 255 255 255 1))
-        )
-        (circle (center 0 -2.54) (radius 1.4199)
-          (stroke (width 0) (type default))
-          (fill (type background))
-        )
-      )
-    )
-    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "GND" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GND_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -1.27)
-            (xy 1.27 -1.27)
-            (xy 0 -2.54)
-            (xy -1.27 -1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "GND_1_1"
-        (pin power_in line (at 0 0 270) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-
-  (rectangle (start 76.2 100.965) (end 106.68 141.605)
-    (stroke (width 0) (type dash))
-    (fill (type none))
-    (uuid 4b3cd2e7-938e-4263-8919-5a8be0d34111)
-  )
-  (rectangle (start 76.2 29.21) (end 126.365 83.82)
-    (stroke (width 0) (type dash))
-    (fill (type none))
-    (uuid 585efa78-dabb-467c-ae6f-842b3c9c7202)
-  )
-  (rectangle (start 112.395 100.965) (end 179.07 141.605)
-    (stroke (width 0) (type dash))
-    (fill (type none))
-    (uuid 5a127583-a7f3-46c7-8b28-5bf49ef5dfba)
-  )
-  (rectangle (start 167.64 43.18) (end 213.995 83.82)
-    (stroke (width 0) (type dash))
-    (fill (type none))
-    (uuid 8e881046-8ac7-47c5-85de-4402b1566ea9)
-  )
-  (rectangle (start 128.905 43.18) (end 162.56 83.82)
-    (stroke (width 0) (type dash))
-    (fill (type none))
-    (uuid de249512-fe77-4485-8183-1f91b31241af)
-  )
-
-  (text "MOUNTING HOLES" (at 77.47 82.55 0)
-    (effects (font (size 2 2) (thickness 0.4) bold) (justify left bottom))
-    (uuid 023291d4-2ac2-4d76-a985-49a45aaf2e9c)
-  )
-  (text "fastened to the bottom side of PCB" (at 142.24 140.335 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 0f6f1030-6eee-4094-b4f1-22cee8eaa616)
-  )
-  (text "MOUNTING PEGS" (at 130.81 82.55 0)
-    (effects (font (size 2 2) (thickness 0.4) bold) (justify left bottom))
-    (uuid 1fc9178e-ff8c-4a70-b502-0491ba7ab5d5)
-  )
-  (text "LED LIGHT GUIDE" (at 78.105 140.335 0)
-    (effects (font (size 2 2) (thickness 0.4) bold) (justify left bottom))
-    (uuid 4ee6cedf-7361-46e4-b100-e01fbcd7e441)
-  )
-  (text "guides power LED light to\nthe top cover of enclosure"
-    (at 78.105 135.255 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 5e321455-29cc-4a88-9531-0aa1c188c84d)
-  )
-  (text "Battery spring pushing against enclosure.\nCan be used as a single point of grounding\nif mounting hole is not used for this\npurpose.\nOnly use one of these methods to prevent \nground loops."
-    (at 169.545 76.2 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 69ef6f0e-2656-4b6b-b05f-d2909871bc58)
-  )
-  (text "GROUNDING SPRING" (at 168.91 82.55 0)
-    (effects (font (size 2 2) (thickness 0.4) bold) (justify left bottom))
-    (uuid 6e24b1e1-068f-4420-a871-5d781ed6ebf8)
-  )
-  (text "BATTERY HOLDER" (at 114.3 140.335 0)
-    (effects (font (size 2 2) (thickness 0.4) bold) (justify left bottom))
-    (uuid 94ac9214-86de-459a-8a6a-f02a7eee93c7)
-  )
-  (text "alt: Keystone 79" (at 115.57 127 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 96a24aa5-e991-4413-bee8-267ba858ade3)
-  )
-  (text "TODO:\n- add all standoffs\n- remove battery spring?\n- renumber"
-    (at 90.805 20.32 0)
-    (effects (font (size 3 3) (thickness 0.254) bold (color 194 0 0 1)) (justify left bottom))
-    (uuid 992b8aa9-1158-433b-a23b-ac47d16514b8)
-  )
-  (text "can be used as a single\npoint of grounding for\nenclosure if the grounding\nspring is not used"
-    (at 78.74 41.91 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid c055d18e-9d24-4a95-b629-69fe81f583b7)
-  )
-  (text "what's missing:\n- knobs for pots" (at 157.48 9.525 0)
-    (effects (font (size 1.27 1.27) (thickness 0.254) bold (color 194 0 0 1)) (justify left bottom))
-    (uuid cd60e3c4-61b1-4fd5-bb6e-66ffbb6d64e4)
-  )
-  (text "alt: LPC_044_CTP" (at 83.82 127.635 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid df20c22d-d930-4ab5-a744-a1d3bb282360)
-  )
-
-  (symbol (lib_id "Connector:Conn_01x01_Pin") (at 186.69 48.895 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 197e721c-82ca-47d9-9764-e5a1052d0c09)
-    (property "Reference" "J001" (at 186.055 55.88 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Spring Contact" (at 186.055 57.785 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "library:KEYSTONE-5201" (at 186.69 48.895 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.tme.eu/Document/935c8711960b52fec0fbaf2926903193/KEYS5201.pdf" (at 186.69 48.895 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Purpose" "enclosure grounding" (at 186.69 48.895 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr" "Keystone" (at 186.69 48.895 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr Part #" "5201" (at 186.69 48.895 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mouser Part #" "534-5201" (at 186.69 48.895 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC Part #" "-" (at 186.69 48.895 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "TME Part #" "KEYS5201" (at 186.69 48.895 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Source" "" (at 186.69 48.895 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d2a5203e-ef87-434d-b8ca-15cc7e428edc))
-    (instances
-      (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "J001") (unit 1)
-        )
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
-          (reference "J401") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 86.36 46.99 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 1f2cd221-6767-4d3c-ae53-72e5608818f7)
-    (property "Reference" "#PWR021" (at 86.36 53.34 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 86.36 51.1255 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 86.36 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 86.36 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid bfc738bc-8703-4595-aab7-d9ad9b34bdc2))
-    (instances
-      (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
-          (reference "#PWR021") (unit 1)
-        )
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "#PWR019") (unit 1)
-        )
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
-          (reference "#PWR019") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Washer:Washer") (at 165.1 115.57 0) (unit 1)
-    (in_bom yes) (on_board no) (dnp no)
-    (uuid 1f46ceb2-b18f-4a86-8d9a-d3c3098b1233)
-    (property "Reference" "H418" (at 167.1549 118.11 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Washer, H=?" (at 165.1 121.285 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 165.1 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 165.1 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Purpose" "battery holder" (at 165.1 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr" "" (at 165.1 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr Part #" "" (at 165.1 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mouser Part #" "" (at 165.1 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC Part #" "" (at 165.1 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "TME Part #" "" (at 165.1 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Source" "" (at 165.1 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
-          (reference "H418") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 191.77 48.895 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 3450249e-e215-4a72-af25-7ae8504514db)
-    (property "Reference" "#PWR021" (at 191.77 55.245 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 191.77 53.0305 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 191.77 48.895 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 191.77 48.895 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 329927e9-c87c-4344-b5b9-0c5c42267ee5))
-    (instances
-      (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
-          (reference "#PWR021") (unit 1)
-        )
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "#PWR020") (unit 1)
-        )
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
-          (reference "#PWR020") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 82.55 64.135 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 57be1ee6-2ca8-4c81-847b-9537b0b0fc75)
-    (property "Reference" "H002" (at 80.645 69.215 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "M2.5 MountingHole" (at 80.645 71.12 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO14580" (at 82.55 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "-" (at 82.55 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Purpose" "PCB mounting hole" (at 82.55 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr" "-" (at 82.55 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr Part #" "-" (at 82.55 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mouser Part #" "-" (at 82.55 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC Part #" "-" (at 82.55 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "TME Part #" "-" (at 82.55 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Source" "" (at 82.55 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "H002") (unit 1)
-        )
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
-          (reference "H403") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 83.82 46.99 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 635f27a3-4e1c-4ac9-aa49-8bdc297bbbb1)
-    (property "Reference" "H001" (at 80.645 53.975 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "M2.5 MountingHole_Pad" (at 80.645 55.88 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO14580_Pad" (at 83.82 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "-" (at 83.82 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Purpose" "PCB mounting hole" (at 83.82 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr" "-" (at 83.82 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr Part #" "-" (at 83.82 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mouser Part #" "-" (at 83.82 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC Part #" "-" (at 83.82 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "TME Part #" "-" (at 83.82 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Source" "" (at 83.82 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9eed4da1-3d98-4e1f-829a-01b7ade8b85d))
-    (instances
-      (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "H001") (unit 1)
-        )
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
-          (reference "H401") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Nut:Nut") (at 145.415 106.045 0) (unit 1)
-    (in_bom yes) (on_board no) (dnp no)
-    (uuid 8964a464-1bc2-481d-a744-14edc50f2ca4)
-    (property "Reference" "H419" (at 147.32 108.585 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "M2, H=3, locking" (at 146.05 111.76 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 145.415 106.045 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 145.415 106.045 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Purpose" "for battery holder" (at 145.415 106.045 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr" "" (at 145.415 106.045 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr Part #" "" (at 145.415 106.045 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mouser Part #" "" (at 145.415 106.045 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC Part #" "" (at 145.415 106.045 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "TME Part #" "" (at 145.415 106.045 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Source" "" (at 145.415 106.045 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
-          (reference "H419") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Nut:Nut") (at 165.1 106.045 0) (unit 1)
-    (in_bom yes) (on_board no) (dnp no)
-    (uuid 8cae1b77-2dfe-4fdc-8784-6bf0d8c8dbd5)
-    (property "Reference" "H420" (at 167.005 108.585 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "M2, H=3, locking" (at 165.735 111.76 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 165.1 106.045 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 165.1 106.045 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Purpose" "for battery holder" (at 165.1 106.045 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr" "" (at 165.1 106.045 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr Part #" "" (at 165.1 106.045 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mouser Part #" "" (at 165.1 106.045 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC Part #" "" (at 165.1 106.045 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "TME Part #" "" (at 165.1 106.045 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Source" "" (at 165.1 106.045 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
-          (reference "H420") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 108.585 46.99 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 9555a647-fdf4-4b69-ba93-8e0493f76b39)
-    (property "Reference" "H003" (at 106.68 53.975 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "M2.5 MountingHole" (at 106.68 55.88 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO14580" (at 108.585 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "-" (at 108.585 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Purpose" "PCB mounting hole" (at 108.585 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr" "-" (at 108.585 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr Part #" "-" (at 108.585 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mouser Part #" "-" (at 108.585 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC Part #" "-" (at 108.585 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "TME Part #" "-" (at 108.585 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Source" "" (at 108.585 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "H003") (unit 1)
-        )
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
-          (reference "H402") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "9VBatteryHolder:9VBatteryHolder") (at 121.92 116.205 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 959a9431-6cfb-444d-9fc5-7f41ca70bb42)
-    (property "Reference" "H414" (at 132.08 117.475 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "9V battery holder" (at 123.825 123.19 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "library:KEYSTONE-71" (at 121.92 116.205 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://cz.mouser.com/datasheet/2/215/1-745942.pdf" (at 121.92 116.205 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Purpose" "Holding 9V battery. Fastened to enclosure" (at 121.92 116.205 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr" "Keystone" (at 121.92 116.205 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr Part #" "71" (at 121.92 116.205 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mouser Part #" "534-071" (at 121.92 116.205 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC Part #" "-" (at 121.92 116.205 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "TME Part #" "KEYS71" (at 121.92 116.205 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Source" "Mouser" (at 121.92 116.205 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
-          (reference "H414") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Washer:Washer") (at 145.415 115.57 0) (unit 1)
-    (in_bom yes) (on_board no) (dnp no)
-    (uuid a5dbe990-e6d9-4ee0-a4fd-c8b3f08ab6b9)
-    (property "Reference" "H417" (at 147.4699 118.11 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Washer, H=?" (at 145.415 121.285 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 145.415 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 145.415 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Purpose" "battery holder" (at 145.415 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr" "" (at 145.415 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr Part #" "" (at 145.415 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mouser Part #" "" (at 145.415 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC Part #" "" (at 145.415 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "TME Part #" "" (at 145.415 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Source" "" (at 145.415 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
-          (reference "H417") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "MountingPegs:MountingPeg") (at 134.62 64.135 0) (unit 1)
-    (in_bom yes) (on_board no) (dnp no)
-    (uuid b9c2eff5-4366-4c25-b53c-001d0bf242b5)
-    (property "Reference" "H406" (at 132.08 69.215 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "3.2/12.7mm" (at 132.08 71.12 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 134.62 64.389 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.tme.eu/Document/60023342cb3b7f5bab5c552f8b6583c0/RI-LCBSBM801ART.pdf" (at 134.62 64.389 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Enable" "0" (at 134.62 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Purpose" "Holding PCB in place. Height similar to audio jack height." (at 134.62 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr" "Essentra" (at 134.62 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr Part #" "LCBSBM-8-01A2" (at 134.62 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mouser Part #" "-" (at 134.62 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC Part #" "-" (at 134.62 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "TME Part #" "RI-LCBSBM801ART" (at 134.62 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Source" "" (at 134.62 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
-          (reference "H406") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "MountingPegs:MountingPeg") (at 135.255 48.895 0) (unit 1)
-    (in_bom yes) (on_board no) (dnp no)
-    (uuid c7f741a0-c15f-44c8-a3b4-288cb9d24f22)
-    (property "Reference" "H405" (at 132.08 53.975 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "3.2/12.7mm" (at 132.08 55.88 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 135.255 49.149 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.tme.eu/Document/60023342cb3b7f5bab5c552f8b6583c0/RI-LCBSBM801ART.pdf" (at 135.255 49.149 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Enable" "0" (at 135.255 48.895 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Purpose" "Holding PCB in place. Height similar to audio jack height." (at 135.255 48.895 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr" "Essentra" (at 135.255 48.895 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr Part #" "LCBSBM-8-01A2" (at 135.255 48.895 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mouser Part #" "-" (at 135.255 48.895 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC Part #" "-" (at 135.255 48.895 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "TME Part #" "RI-LCBSBM801ART" (at 135.255 48.895 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Source" "" (at 135.255 48.895 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
-          (reference "H405") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 108.585 64.135 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid c83c3bf2-680c-4702-8ecd-004753bd2a21)
-    (property "Reference" "H003" (at 106.68 69.215 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "M2.5 MountingHole" (at 106.68 71.12 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO14580" (at 108.585 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "-" (at 108.585 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Purpose" "PCB mounting hole" (at 108.585 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr" "-" (at 108.585 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr Part #" "-" (at 108.585 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mouser Part #" "-" (at 108.585 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC Part #" "-" (at 108.585 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "TME Part #" "-" (at 108.585 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Source" "" (at 108.585 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "H003") (unit 1)
-        )
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
-          (reference "H404") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "MountingPegs:MountingPeg") (at 149.86 64.135 0) (unit 1)
-    (in_bom yes) (on_board no) (dnp no)
-    (uuid cdd2aa41-fb58-4e57-bfc9-870f345a8a5e)
-    (property "Reference" "H407" (at 147.32 69.215 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "3.2/12.7mm" (at 147.32 71.12 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 149.86 64.389 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.tme.eu/Document/60023342cb3b7f5bab5c552f8b6583c0/RI-LCBSBM801ART.pdf" (at 149.86 64.389 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Enable" "0" (at 149.86 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Purpose" "Holding PCB in place. Height similar to audio jack height." (at 149.86 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr" "Essentra" (at 149.86 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr Part #" "LCBSBM-8-01A2" (at 149.86 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mouser Part #" "-" (at 149.86 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC Part #" "-" (at 149.86 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "TME Part #" "RI-LCBSBM801ART" (at 149.86 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Source" "" (at 149.86 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
-          (reference "H407") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Bolt:Bolt") (at 165.1 132.08 180) (unit 1)
-    (in_bom yes) (on_board no) (dnp no)
-    (uuid e54ff399-56bc-4617-9c38-452a55ac94a2)
-    (property "Reference" "H416" (at 172.085 128.27 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "M2, L>7mm" (at 165.1 132.715 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 165.1 132.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 165.1 132.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Purpose" "Battery holder. Length: 0.5 (holder) + 1.6 (PCB) + 1? (washer) + 3 (nut) + 1 (reserve)" (at 165.1 132.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr" "" (at 165.1 132.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr Part #" "" (at 165.1 132.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mouser Part #" "" (at 165.1 132.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC Part #" "" (at 165.1 132.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "TME Part #" "" (at 165.1 132.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Source" "" (at 165.1 132.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
-          (reference "H416") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "LED_Light_Guide:LED_Light_Guide") (at 92.075 114.935 0) (unit 1)
-    (in_bom yes) (on_board no) (dnp no)
-    (uuid ee117c21-afec-4521-a427-05fd6ed56aac)
-    (property "Reference" "H413" (at 89.535 121.285 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "LED light guide" (at 84.455 123.825 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 92.075 114.935 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://cz.mouser.com/datasheet/2/50/PLPC3_XXX-2302352.pdf" (at 92.075 114.935 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Purpose" "LED light pipe from top of the enclosure to LED" (at 92.075 114.935 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr" "Bivar" (at 92.075 114.935 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr Part #" "PLPC3-10MM" (at 92.075 114.935 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mouser Part #" "749-PLPC310MM" (at 92.075 114.935 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC Part #" "-" (at 92.075 114.935 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "TME Part #" "PLPC3-10MM" (at 92.075 114.935 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Source" "" (at 92.075 114.935 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
-          (reference "H413") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Bolt:Bolt") (at 145.415 132.08 180) (unit 1)
-    (in_bom yes) (on_board no) (dnp no)
-    (uuid eeb07e8a-31ff-4f21-a963-5eb0a798e9af)
-    (property "Reference" "H415" (at 153.035 128.27 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "M2, L>7mm" (at 145.415 132.715 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 145.415 132.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 145.415 132.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Purpose" "Battery holder. Length: 0.5 (holder) + 1.6 (PCB) + 1? (washer) + 3 (nut) + 1 (reserve)" (at 145.415 132.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr" "" (at 145.415 132.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr Part #" "" (at 145.415 132.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mouser Part #" "" (at 145.415 132.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC Part #" "" (at 145.415 132.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "TME Part #" "" (at 145.415 132.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Source" "" (at 145.415 132.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
-          (reference "H415") (unit 1)
-        )
-      )
-    )
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "c93356c5-2155-4db7-af13-6ebc7100233e")
+	(paper "A4")
+	(title_block
+		(title "Mounting, hardware and accessories")
+		(date "2024-02-08")
+		(rev "3.0")
+		(company "Arx")
+	)
+	(lib_symbols
+		(symbol "9VBatteryHolder:9VBatteryHolder"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "9VBatteryHolder_1_1"
+				(rectangle
+					(start -3.81 3.175)
+					(end 0.635 -3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -3.175) (xy 2.54 -1.905) (xy 0.635 -1.905) (xy 0.635 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.905) (xy 2.54 4.445) (xy -1.905 4.445) (xy -1.905 3.175) (xy 0.635 3.175) (xy 0.635 -1.905)
+						(xy 2.54 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
+		(symbol "Bolt:Bolt"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Bolt_0_1"
+				(polyline
+					(pts
+						(xy -0.635 -5.715) (xy 0.635 -5.715)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -5.08) (xy 0.635 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -3.81) (xy 0.635 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -4.445) (xy -0.635 -4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Bolt_1_1"
+				(polyline
+					(pts
+						(xy -0.635 -2.54) (xy -0.635 -6.35) (xy 0.635 -6.35) (xy 0.635 -2.54) (xy -0.635 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.27) (xy -0.635 -1.27) (xy -0.635 -1.905) (xy 0.635 -1.905) (xy 0.635 -1.27) (xy 1.905 -1.27)
+						(xy 1.905 -2.54) (xy -1.905 -2.54) (xy -1.905 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
+		(symbol "Connector:Conn_01x01_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LED_Light_Guide:LED_Light_Guide"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board no)
+			(property "Reference" "H"
+				(at -2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_Light_Guide_1_1"
+				(rectangle
+					(start -0.762 3.048)
+					(end 0.762 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 3.048) (xy -1.27 3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.048) (xy 1.27 3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.556) (xy -1.27 3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "MountingPegs:MountingPeg"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board no)
+			(property "Reference" "H"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 -0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Enable" "0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingPeg_1_1"
+				(rectangle
+					(start -1.27 -1.27)
+					(end 1.27 -1.778)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -0.508 2.032)
+					(end 0.508 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
+		(symbol "Nut:Nut"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Nut_1_1"
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 255 255 255 1)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.27) (xy 0.635 -1.27) (xy 1.27 -1.905) (xy 1.27 -3.175) (xy 0.635 -3.81) (xy -0.635 -3.81)
+						(xy -1.27 -3.175) (xy -1.27 -1.905) (xy -0.635 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
+		(symbol "Washer:Washer"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Washer_1_1"
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 255 255 255 1)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 1.4199)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(rectangle
+		(start 76.2 100.965)
+		(end 106.68 141.605)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4b3cd2e7-938e-4263-8919-5a8be0d34111)
+	)
+	(rectangle
+		(start 76.2 29.21)
+		(end 126.365 83.82)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 585efa78-dabb-467c-ae6f-842b3c9c7202)
+	)
+	(rectangle
+		(start 112.395 100.965)
+		(end 179.07 141.605)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5a127583-a7f3-46c7-8b28-5bf49ef5dfba)
+	)
+	(rectangle
+		(start 167.64 43.18)
+		(end 213.995 83.82)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8e881046-8ac7-47c5-85de-4402b1566ea9)
+	)
+	(rectangle
+		(start 128.905 43.18)
+		(end 162.56 83.82)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid de249512-fe77-4485-8183-1f91b31241af)
+	)
+	(text "MOUNTING HOLES"
+		(exclude_from_sim no)
+		(at 77.47 82.55 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "023291d4-2ac2-4d76-a985-49a45aaf2e9c")
+	)
+	(text "fastened to the bottom side of PCB"
+		(exclude_from_sim no)
+		(at 142.24 140.335 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0f6f1030-6eee-4094-b4f1-22cee8eaa616")
+	)
+	(text "MOUNTING PEGS"
+		(exclude_from_sim no)
+		(at 130.81 82.55 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "1fc9178e-ff8c-4a70-b502-0491ba7ab5d5")
+	)
+	(text "LED LIGHT GUIDE"
+		(exclude_from_sim no)
+		(at 78.105 140.335 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "4ee6cedf-7361-46e4-b100-e01fbcd7e441")
+	)
+	(text "guides power LED light to\nthe top cover of enclosure"
+		(exclude_from_sim no)
+		(at 78.105 135.255 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5e321455-29cc-4a88-9531-0aa1c188c84d")
+	)
+	(text "Battery spring pushing against enclosure.\nCan be used as a single point of grounding\nif mounting hole is not used for this\npurpose.\nOnly use one of these methods to prevent \nground loops."
+		(exclude_from_sim no)
+		(at 169.545 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "69ef6f0e-2656-4b6b-b05f-d2909871bc58")
+	)
+	(text "GROUNDING SPRING"
+		(exclude_from_sim no)
+		(at 168.91 82.55 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e24b1e1-068f-4420-a871-5d781ed6ebf8")
+	)
+	(text "BATTERY HOLDER"
+		(exclude_from_sim no)
+		(at 114.3 140.335 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "94ac9214-86de-459a-8a6a-f02a7eee93c7")
+	)
+	(text "alt: Keystone 79"
+		(exclude_from_sim no)
+		(at 115.57 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "96a24aa5-e991-4413-bee8-267ba858ade3")
+	)
+	(text "TODO:\n- add all standoffs\n- remove battery spring?\n- renumber"
+		(exclude_from_sim no)
+		(at 90.805 20.32 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.254)
+				(bold yes)
+				(color 194 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "992b8aa9-1158-433b-a23b-ac47d16514b8")
+	)
+	(text "can be used as a single\npoint of grounding for\nenclosure if the grounding\nspring is not used"
+		(exclude_from_sim no)
+		(at 78.74 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c055d18e-9d24-4a95-b629-69fe81f583b7")
+	)
+	(text "what's missing:\n- knobs for pots"
+		(exclude_from_sim no)
+		(at 157.48 9.525 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 194 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "cd60e3c4-61b1-4fd5-bb6e-66ffbb6d64e4")
+	)
+	(text "alt: LPC_044_CTP"
+		(exclude_from_sim no)
+		(at 83.82 127.635 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "df20c22d-d930-4ab5-a744-a1d3bb282360")
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 186.69 48.895 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "197e721c-82ca-47d9-9764-e5a1052d0c09")
+		(property "Reference" "J401"
+			(at 186.055 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Spring Contact"
+			(at 186.055 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "library:KEYSTONE-5201"
+			(at 186.69 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/935c8711960b52fec0fbaf2926903193/KEYS5201.pdf"
+			(at 186.69 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "enclosure grounding"
+			(at 186.69 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Keystone"
+			(at 186.69 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "5201"
+			(at 186.69 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" "534-5201"
+			(at 186.69 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "-"
+			(at 186.69 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part #" "KEYS5201"
+			(at 186.69 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" ""
+			(at 186.69 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2a5203e-ef87-434d-b8ca-15cc7e428edc")
+		)
+		(instances
+			(project "2023_PiezoPreamp"
+				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
+					(reference "J401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 86.36 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f2cd221-6767-4d3c-ae53-72e5608818f7")
+		(property "Reference" "#PWR019"
+			(at 86.36 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 86.36 51.1255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bfc738bc-8703-4595-aab7-d9ad9b34bdc2")
+		)
+		(instances
+			(project "2023_PiezoPreamp"
+				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Washer:Washer")
+		(at 165.1 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "1f46ceb2-b18f-4a86-8d9a-d3c3098b1233")
+		(property "Reference" "H418"
+			(at 167.1549 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Washer, H=?"
+			(at 165.1 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "battery holder"
+			(at 165.1 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" ""
+			(at 165.1 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" ""
+			(at 165.1 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" ""
+			(at 165.1 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 165.1 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part #" ""
+			(at 165.1 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" ""
+			(at 165.1 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "2023_PiezoPreamp"
+				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
+					(reference "H418")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 191.77 48.895 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3450249e-e215-4a72-af25-7ae8504514db")
+		(property "Reference" "#PWR020"
+			(at 191.77 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 191.77 53.0305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 191.77 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "329927e9-c87c-4344-b5b9-0c5c42267ee5")
+		)
+		(instances
+			(project "2023_PiezoPreamp"
+				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 82.55 64.135 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "57be1ee6-2ca8-4c81-847b-9537b0b0fc75")
+		(property "Reference" "H403"
+			(at 80.645 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "M2.5 MountingHole"
+			(at 80.645 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO14580"
+			(at 82.55 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "-"
+			(at 82.55 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "PCB mounting hole"
+			(at 82.55 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "-"
+			(at 82.55 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "-"
+			(at 82.55 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" "-"
+			(at 82.55 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "-"
+			(at 82.55 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part #" "-"
+			(at 82.55 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" ""
+			(at 82.55 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "2023_PiezoPreamp"
+				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
+					(reference "H403")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 83.82 46.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "635f27a3-4e1c-4ac9-aa49-8bdc297bbbb1")
+		(property "Reference" "H401"
+			(at 80.645 53.975 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "M2.5 MountingHole_Pad"
+			(at 80.645 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO14580_Pad"
+			(at 83.82 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "-"
+			(at 83.82 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "PCB mounting hole"
+			(at 83.82 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "-"
+			(at 83.82 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "-"
+			(at 83.82 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" "-"
+			(at 83.82 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "-"
+			(at 83.82 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part #" "-"
+			(at 83.82 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" ""
+			(at 83.82 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9eed4da1-3d98-4e1f-829a-01b7ade8b85d")
+		)
+		(instances
+			(project "2023_PiezoPreamp"
+				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
+					(reference "H401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Nut:Nut")
+		(at 145.415 106.045 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "8964a464-1bc2-481d-a744-14edc50f2ca4")
+		(property "Reference" "H419"
+			(at 147.32 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2, H=3, locking"
+			(at 146.05 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 145.415 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 145.415 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 145.415 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "for battery holder"
+			(at 145.415 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" ""
+			(at 145.415 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" ""
+			(at 145.415 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" ""
+			(at 145.415 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 145.415 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part #" ""
+			(at 145.415 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" ""
+			(at 145.415 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "2023_PiezoPreamp"
+				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
+					(reference "H419")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Nut:Nut")
+		(at 165.1 106.045 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "8cae1b77-2dfe-4fdc-8784-6bf0d8c8dbd5")
+		(property "Reference" "H420"
+			(at 167.005 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2, H=3, locking"
+			(at 165.735 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "for battery holder"
+			(at 165.1 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" ""
+			(at 165.1 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" ""
+			(at 165.1 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" ""
+			(at 165.1 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 165.1 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part #" ""
+			(at 165.1 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" ""
+			(at 165.1 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "2023_PiezoPreamp"
+				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
+					(reference "H420")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 108.585 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9555a647-fdf4-4b69-ba93-8e0493f76b39")
+		(property "Reference" "H402"
+			(at 106.68 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2.5 MountingHole"
+			(at 106.68 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO14580"
+			(at 108.585 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "-"
+			(at 108.585 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 108.585 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "PCB mounting hole"
+			(at 108.585 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "-"
+			(at 108.585 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "-"
+			(at 108.585 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" "-"
+			(at 108.585 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "-"
+			(at 108.585 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part #" "-"
+			(at 108.585 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" ""
+			(at 108.585 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "2023_PiezoPreamp"
+				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
+					(reference "H402")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "9VBatteryHolder:9VBatteryHolder")
+		(at 121.92 116.205 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "959a9431-6cfb-444d-9fc5-7f41ca70bb42")
+		(property "Reference" "H414"
+			(at 132.08 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "9V battery holder"
+			(at 123.825 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "library:KEYSTONE-71"
+			(at 121.92 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cz.mouser.com/datasheet/2/215/1-745942.pdf"
+			(at 121.92 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "Holding 9V battery. Fastened to enclosure"
+			(at 121.92 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Keystone"
+			(at 121.92 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "71"
+			(at 121.92 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" "534-071"
+			(at 121.92 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "-"
+			(at 121.92 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part #" "KEYS71"
+			(at 121.92 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "Mouser"
+			(at 121.92 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "2023_PiezoPreamp"
+				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
+					(reference "H414")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Washer:Washer")
+		(at 145.415 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "a5dbe990-e6d9-4ee0-a4fd-c8b3f08ab6b9")
+		(property "Reference" "H417"
+			(at 147.4699 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Washer, H=?"
+			(at 145.415 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 145.415 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 145.415 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 145.415 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "battery holder"
+			(at 145.415 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" ""
+			(at 145.415 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" ""
+			(at 145.415 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" ""
+			(at 145.415 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 145.415 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part #" ""
+			(at 145.415 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" ""
+			(at 145.415 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "2023_PiezoPreamp"
+				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
+					(reference "H417")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MountingPegs:MountingPeg")
+		(at 134.62 64.135 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "b9c2eff5-4366-4c25-b53c-001d0bf242b5")
+		(property "Reference" "H406"
+			(at 132.08 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.2/12.7mm"
+			(at 132.08 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 64.389 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/60023342cb3b7f5bab5c552f8b6583c0/RI-LCBSBM801ART.pdf"
+			(at 134.62 64.389 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "Holding PCB in place. Height similar to audio jack height."
+			(at 134.62 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Essentra"
+			(at 134.62 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "LCBSBM-8-01A2"
+			(at 134.62 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" "-"
+			(at 134.62 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "-"
+			(at 134.62 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part #" "RI-LCBSBM801ART"
+			(at 134.62 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" ""
+			(at 134.62 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "2023_PiezoPreamp"
+				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
+					(reference "H406")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MountingPegs:MountingPeg")
+		(at 135.255 48.895 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "c7f741a0-c15f-44c8-a3b4-288cb9d24f22")
+		(property "Reference" "H405"
+			(at 132.08 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.2/12.7mm"
+			(at 132.08 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.255 49.149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/60023342cb3b7f5bab5c552f8b6583c0/RI-LCBSBM801ART.pdf"
+			(at 135.255 49.149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.255 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "Holding PCB in place. Height similar to audio jack height."
+			(at 135.255 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Essentra"
+			(at 135.255 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "LCBSBM-8-01A2"
+			(at 135.255 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" "-"
+			(at 135.255 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "-"
+			(at 135.255 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part #" "RI-LCBSBM801ART"
+			(at 135.255 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" ""
+			(at 135.255 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "2023_PiezoPreamp"
+				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
+					(reference "H405")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 108.585 64.135 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c83c3bf2-680c-4702-8ecd-004753bd2a21")
+		(property "Reference" "H404"
+			(at 106.68 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2.5 MountingHole"
+			(at 106.68 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO14580"
+			(at 108.585 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "-"
+			(at 108.585 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 108.585 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "PCB mounting hole"
+			(at 108.585 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "-"
+			(at 108.585 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "-"
+			(at 108.585 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" "-"
+			(at 108.585 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "-"
+			(at 108.585 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part #" "-"
+			(at 108.585 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" ""
+			(at 108.585 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "2023_PiezoPreamp"
+				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
+					(reference "H404")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MountingPegs:MountingPeg")
+		(at 149.86 64.135 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "cdd2aa41-fb58-4e57-bfc9-870f345a8a5e")
+		(property "Reference" "H407"
+			(at 147.32 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.2/12.7mm"
+			(at 147.32 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 64.389 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/60023342cb3b7f5bab5c552f8b6583c0/RI-LCBSBM801ART.pdf"
+			(at 149.86 64.389 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "Holding PCB in place. Height similar to audio jack height."
+			(at 149.86 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Essentra"
+			(at 149.86 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "LCBSBM-8-01A2"
+			(at 149.86 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" "-"
+			(at 149.86 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "-"
+			(at 149.86 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part #" "RI-LCBSBM801ART"
+			(at 149.86 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" ""
+			(at 149.86 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "2023_PiezoPreamp"
+				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
+					(reference "H407")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Bolt:Bolt")
+		(at 165.1 132.08 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "e54ff399-56bc-4617-9c38-452a55ac94a2")
+		(property "Reference" "H416"
+			(at 172.085 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2, L>7mm"
+			(at 165.1 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "Battery holder. Length: 0.5 (holder) + 1.6 (PCB) + 1? (washer) + 3 (nut) + 1 (reserve)"
+			(at 165.1 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" ""
+			(at 165.1 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" ""
+			(at 165.1 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" ""
+			(at 165.1 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 165.1 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part #" ""
+			(at 165.1 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" ""
+			(at 165.1 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "2023_PiezoPreamp"
+				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
+					(reference "H416")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED_Light_Guide:LED_Light_Guide")
+		(at 92.075 114.935 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "ee117c21-afec-4521-a427-05fd6ed56aac")
+		(property "Reference" "H413"
+			(at 89.535 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED light guide"
+			(at 84.455 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.075 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cz.mouser.com/datasheet/2/50/PLPC3_XXX-2302352.pdf"
+			(at 92.075 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 92.075 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "LED light pipe from top of the enclosure to LED"
+			(at 92.075 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Bivar"
+			(at 92.075 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "PLPC3-10MM"
+			(at 92.075 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" "749-PLPC310MM"
+			(at 92.075 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "-"
+			(at 92.075 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part #" "PLPC3-10MM"
+			(at 92.075 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" ""
+			(at 92.075 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "2023_PiezoPreamp"
+				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
+					(reference "H413")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Bolt:Bolt")
+		(at 145.415 132.08 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "eeb07e8a-31ff-4f21-a963-5eb0a798e9af")
+		(property "Reference" "H415"
+			(at 153.035 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2, L>7mm"
+			(at 145.415 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 145.415 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 145.415 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 145.415 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "Battery holder. Length: 0.5 (holder) + 1.6 (PCB) + 1? (washer) + 3 (nut) + 1 (reserve)"
+			(at 145.415 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" ""
+			(at 145.415 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" ""
+			(at 145.415 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" ""
+			(at 145.415 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 145.415 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part #" ""
+			(at 145.415 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" ""
+			(at 145.415 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "2023_PiezoPreamp"
+				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
+					(reference "H415")
+					(unit 1)
+				)
+			)
+		)
+	)
 )

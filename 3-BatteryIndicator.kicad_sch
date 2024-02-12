@@ -1,1358 +1,3431 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 6e88fcc8-cb18-4805-a8cb-ce28bc0c2bd6)
-
-  (paper "A4")
-
-  (title_block
-    (title "Battery & Power Indicator")
-    (date "2024-02-08")
-    (rev "3.0")
-    (company "Arx")
-  )
-
-  (lib_symbols
-    (symbol "Device:C_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "C" (at 0.254 1.778 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "C_Small" (at 0.254 -2.032 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "capacitor cap" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Unpolarized capacitor, small symbol" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "C_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "C_Small_0_1"
-        (polyline
-          (pts
-            (xy -1.524 -0.508)
-            (xy 1.524 -0.508)
-          )
-          (stroke (width 0.3302) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.524 0.508)
-            (xy 1.524 0.508)
-          )
-          (stroke (width 0.3048) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "C_Small_1_1"
-        (pin passive line (at 0 2.54 270) (length 2.032)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -2.54 90) (length 2.032)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Device:LED" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "D" (at 0 2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "LED" (at 0 -2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "LED diode" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Light emitting diode" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "LED_0_1"
-        (polyline
-          (pts
-            (xy -1.27 -1.27)
-            (xy -1.27 1.27)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.27 0)
-            (xy 1.27 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 -1.27)
-            (xy 1.27 1.27)
-            (xy -1.27 0)
-            (xy 1.27 -1.27)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -3.048 -0.762)
-            (xy -4.572 -2.286)
-            (xy -3.81 -2.286)
-            (xy -4.572 -2.286)
-            (xy -4.572 -1.524)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.778 -0.762)
-            (xy -3.302 -2.286)
-            (xy -2.54 -2.286)
-            (xy -3.302 -2.286)
-            (xy -3.302 -1.524)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "LED_1_1"
-        (pin passive line (at -3.81 0 0) (length 2.54)
-          (name "K" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 3.81 0 180) (length 2.54)
-          (name "A" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Device:R_Potentiometer_Trim" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "RV" (at -4.445 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "R_Potentiometer_Trim" (at -2.54 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "resistor variable trimpot trimmer" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Trim-potentiometer" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Potentiometer*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "R_Potentiometer_Trim_0_1"
-        (polyline
-          (pts
-            (xy 1.524 0.762)
-            (xy 1.524 -0.762)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 0)
-            (xy 1.524 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (rectangle (start 1.016 2.54) (end -1.016 -2.54)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "R_Potentiometer_Trim_1_1"
-        (pin passive line (at 0 3.81 270) (length 1.27)
-          (name "1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 3.81 0 180) (length 1.27)
-          (name "2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 1.27)
-          (name "3" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Device:R_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "R" (at 0.762 0.508 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "R_Small" (at 0.762 -1.016 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "R resistor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Resistor, small symbol" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "R_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "R_Small_0_1"
-        (rectangle (start -0.762 1.778) (end 0.762 -1.778)
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "R_Small_1_1"
-        (pin passive line (at 0 2.54 270) (length 0.762)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -2.54 90) (length 0.762)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "MMDT2222A-7-F:MMDT2222A-7-F" (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at 8.255 7.62 0)
-        (effects (font (size 1.27 1.27)) (justify left top))
-      )
-      (property "Value" "MMDT2222A-7-F" (at 8.255 5.715 0)
-        (effects (font (size 1.27 1.27)) (justify left top))
-      )
-      (property "Footprint" "library:MMDT2222A-7-F" (at 19.05 -94.92 0)
-        (effects (font (size 1.27 1.27)) (justify left top) hide)
-      )
-      (property "Datasheet" "http://componentsearchengine.com/Datasheets/1/MMDT2222A-7-F.pdf" (at 19.05 -194.92 0)
-        (effects (font (size 1.27 1.27)) (justify left top) hide)
-      )
-      (property "Height" "1.1" (at 19.05 -394.92 0)
-        (effects (font (size 1.27 1.27)) (justify left top) hide)
-      )
-      (property "Mfr" "Diodes Inc." (at -8.255 5.08 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Mouser Part #" "621-MMDT2222A-F" (at -5.08 6.985 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Mfr Part #" "MMDT2222A-7-F" (at -6.985 6.985 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Diodes Inc MMDT2222A-7-F Dual NPN Bipolar Transistor, 600 mA, 40 V, 6-Pin SOT-363" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "MMDT2222A-7-F_0_1"
-        (polyline
-          (pts
-            (xy -1.27 -0.635)
-            (xy 1.27 -0.635)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 -4.445)
-            (xy 2.54 -4.445)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.54 -2.54)
-            (xy 0 -2.54)
-            (xy 0 -0.635)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 3.81 -2.54)
-            (xy 1.27 -2.54)
-            (xy 1.27 -4.445)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.54 0.635)
-            (xy -1.27 0.635)
-            (xy -0.635 0)
-            (xy 0 -0.635)
-            (xy 1.27 0.635)
-            (xy 3.81 0.635)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 3.81 -5.715)
-            (xy 2.54 -5.715)
-            (xy 1.905 -5.08)
-            (xy 1.27 -4.445)
-            (xy 0 -5.715)
-            (xy -2.54 -5.715)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "MMDT2222A-7-F_1_1"
-        (rectangle (start -5.715 3.81) (end 6.985 -8.89)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (polyline
-          (pts
-            (xy -1.27 0.635)
-            (xy -1.27 0)
-            (xy -1.27 0.635)
-            (xy -0.635 0.635)
-            (xy -1.27 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -5.715)
-            (xy 2.54 -5.08)
-            (xy 2.54 -5.715)
-            (xy 1.905 -5.715)
-            (xy 2.54 -5.08)
-          )
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (pin passive line (at -10.795 0.635 0) (length 5.08)
-          (name "E2" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -10.795 -2.54 0) (length 5.08)
-          (name "B2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -10.795 -5.715 0) (length 5.08)
-          (name "C1" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 12.065 -5.715 180) (length 5.08)
-          (name "E1" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 12.065 -2.54 180) (length 5.08)
-          (name "B1" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 12.065 0.635 180) (length 5.08)
-          (name "C2" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "OS102011MA1QN1:OS102011MA1QN1" (in_bom yes) (on_board yes)
-      (property "Reference" "S" (at 8.89 20.32 0)
-        (effects (font (size 1.27 1.27)) (justify left top))
-      )
-      (property "Value" "OS102011MA1QN1" (at 8.89 17.78 0)
-        (effects (font (size 1.27 1.27)) (justify left top))
-      )
-      (property "Footprint" "library:OS102011MA1QN1" (at 8.89 -82.22 0)
-        (effects (font (size 1.27 1.27)) (justify left top) hide)
-      )
-      (property "Datasheet" "https://www.ckswitches.com/media/1428/os.pdf" (at 8.89 -182.22 0)
-        (effects (font (size 1.27 1.27)) (justify left top) hide)
-      )
-      (property "Height" "" (at 8.89 -382.22 0)
-        (effects (font (size 1.27 1.27)) (justify left top) hide)
-      )
-      (property "Mfr" "C&K" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Mfr Part #" "OS102011MA1QN1" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Mouser Part #" "611-OS102011MA1QN1" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "TME Part #" "OS102011MA1QN1" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Switch Slide Right Angle SPDT 0.1A 12VDC Through Hole Slide Switch SPDT On-On 0.1 A@ 12 V dc Slide" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "OS102011MA1QN1_0_1"
-        (polyline
-          (pts
-            (xy 5.08 7.62)
-            (xy 5.08 9.525)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 7.62)
-            (xy 0 9.525)
-            (xy 2.54 9.525)
-            (xy 2.54 7.62)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "OS102011MA1QN1_1_1"
-        (rectangle (start -2.54 15.24) (end 7.62 5.08)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (polyline
-          (pts
-            (xy 2.54 9.525)
-            (xy 5.08 9.525)
-          )
-          (stroke (width 0) (type dot))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 5.08 12.065)
-            (xy 0 12.065)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 5.08 12.065)
-            (xy 4.445 12.7)
-            (xy 4.445 11.43)
-            (xy 5.08 12.065)
-          )
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (pin passive line (at 0 0 90) (length 5.08)
-          (name "1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 2.54 0 90) (length 5.08)
-          (name "2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 0 90) (length 5.08)
-          (name "3" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "PCM_4ms_Power-symbol:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "GND" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GND_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -1.27)
-            (xy 1.27 -1.27)
-            (xy 0 -2.54)
-            (xy -1.27 -1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "GND_1_1"
-        (pin power_in line (at 0 0 270) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-  (junction (at 170.18 70.485) (diameter 0) (color 0 0 0 0)
-    (uuid 2c5b44db-1e4c-43e3-bb13-fc4f3f48fbde)
-  )
-  (junction (at 170.18 43.18) (diameter 0) (color 0 0 0 0)
-    (uuid 74f1cde0-dd1e-48ac-831a-1339f11f4938)
-  )
-  (junction (at 95.885 86.995) (diameter 0) (color 0 0 0 0)
-    (uuid 7bc23d76-07a4-492d-aef5-791d4164fdc6)
-  )
-  (junction (at 111.125 73.66) (diameter 0) (color 0 0 0 0)
-    (uuid 8f77710a-659f-4f7f-82c2-41d3927dedb5)
-  )
-  (junction (at 95.885 73.66) (diameter 0) (color 0 0 0 0)
-    (uuid d40b8ea5-18d7-4453-9565-572b77f8a216)
-  )
-
-  (no_connect (at 76.2 133.985) (uuid 269467ca-4239-4b6a-b655-6a230ee6bb81))
-
-  (wire (pts (xy 134.62 76.835) (xy 139.7 76.835))
-    (stroke (width 0) (type default))
-    (uuid 00344d7f-d857-457d-adc4-dca6fd0fc0b8)
-  )
-  (wire (pts (xy 95.885 95.885) (xy 95.885 97.79))
-    (stroke (width 0) (type default))
-    (uuid 0f7bce58-5224-4e6d-8ad2-3820dc2c2db9)
-  )
-  (wire (pts (xy 95.885 73.66) (xy 95.885 76.2))
-    (stroke (width 0) (type default))
-    (uuid 36528e22-3b42-400f-a94e-dd75f33d33a4)
-  )
-  (wire (pts (xy 75.565 139.065) (xy 75.565 141.605))
-    (stroke (width 0) (type default))
-    (uuid 5314f6da-fd99-4a78-bb1d-96e702ec932e)
-  )
-  (wire (pts (xy 162.56 73.66) (xy 170.18 73.66))
-    (stroke (width 0) (type default))
-    (uuid 5a72d6dd-01b6-46f6-9a78-63d277755832)
-  )
-  (wire (pts (xy 95.885 68.58) (xy 95.885 73.66))
-    (stroke (width 0) (type default))
-    (uuid 5eeadaac-0865-47c8-8bb0-a68b8ac03aa9)
-  )
-  (wire (pts (xy 139.7 73.66) (xy 111.125 73.66))
-    (stroke (width 0) (type default))
-    (uuid 659b7bb4-52fa-42e4-89ce-f72738aee365)
-  )
-  (wire (pts (xy 95.885 86.995) (xy 95.885 88.265))
-    (stroke (width 0) (type default))
-    (uuid 77cdde24-4d75-4aa4-88d7-53dd486f520c)
-  )
-  (wire (pts (xy 100.965 86.995) (xy 100.965 92.075))
-    (stroke (width 0) (type default))
-    (uuid 7f499221-dd34-487a-aa30-c895be02f3d9)
-  )
-  (wire (pts (xy 200.66 76.2) (xy 207.645 76.2))
-    (stroke (width 0) (type default))
-    (uuid 81ef4388-53f9-43a0-8728-1f84af2f4a9c)
-  )
-  (wire (pts (xy 139.7 62.23) (xy 129.54 62.23))
-    (stroke (width 0) (type default))
-    (uuid 82874336-60ae-480b-92a9-a89e4b835f0a)
-  )
-  (wire (pts (xy 170.18 97.79) (xy 170.18 76.835))
-    (stroke (width 0) (type default))
-    (uuid 8ca6945c-c491-4a62-a8d3-6cca65655f52)
-  )
-  (wire (pts (xy 99.695 92.075) (xy 100.965 92.075))
-    (stroke (width 0) (type default))
-    (uuid 8e770103-b655-4116-8664-031ca2892583)
-  )
-  (polyline (pts (xy 95.885 60.96) (xy 95.885 55.245))
-    (stroke (width 0) (type dot))
-    (uuid 8ea9f82c-2ab4-45a8-8442-37f4c5557591)
-  )
-
-  (wire (pts (xy 95.885 60.96) (xy 95.885 63.5))
-    (stroke (width 0) (type default))
-    (uuid a0d2c99a-d6ac-413e-83ec-dedbbb983f18)
-  )
-  (wire (pts (xy 75.565 136.525) (xy 76.2 136.525))
-    (stroke (width 0) (type default))
-    (uuid a706a63e-e312-4745-8bb4-c6a0fa468c1a)
-  )
-  (wire (pts (xy 207.645 50.8) (xy 207.645 62.865))
-    (stroke (width 0) (type default))
-    (uuid aeba94d6-5bc6-4e80-b3c7-da741bf354aa)
-  )
-  (wire (pts (xy 170.18 43.18) (xy 207.645 43.18))
-    (stroke (width 0) (type default))
-    (uuid b6075b09-be66-4e3d-a34b-92eafdb363f2)
-  )
-  (wire (pts (xy 207.645 67.945) (xy 207.645 76.2))
-    (stroke (width 0) (type default))
-    (uuid bc79bbde-e9ef-414e-997c-69bfb0bc573b)
-  )
-  (wire (pts (xy 170.18 59.055) (xy 170.18 70.485))
-    (stroke (width 0) (type default))
-    (uuid bd64bf73-6fbe-4c94-9d61-857782f35f7d)
-  )
-  (wire (pts (xy 95.885 86.995) (xy 100.965 86.995))
-    (stroke (width 0) (type default))
-    (uuid be6705bd-31f6-46be-b4f0-2bc0b9625308)
-  )
-  (wire (pts (xy 129.54 62.23) (xy 129.54 66.04))
-    (stroke (width 0) (type default))
-    (uuid be89c0b9-c7de-49ef-a25d-dc4c68bc1f65)
-  )
-  (wire (pts (xy 95.885 73.66) (xy 111.125 73.66))
-    (stroke (width 0) (type default))
-    (uuid c14c536e-69ea-45ff-8ac8-4124ab440709)
-  )
-  (wire (pts (xy 95.885 81.28) (xy 95.885 86.995))
-    (stroke (width 0) (type default))
-    (uuid c491f0b1-0a1d-4756-a4f5-a328566cdc11)
-  )
-  (wire (pts (xy 111.125 87.63) (xy 111.125 97.79))
-    (stroke (width 0) (type default))
-    (uuid ccc4a17b-b320-475e-bf85-2138c7edc974)
-  )
-  (wire (pts (xy 162.56 70.485) (xy 170.18 70.485))
-    (stroke (width 0) (type default))
-    (uuid d17b4527-be29-4b81-b0cd-3ae6d228667c)
-  )
-  (polyline (pts (xy 95.885 48.895) (xy 95.885 43.18))
-    (stroke (width 0) (type dot))
-    (uuid d2e1b1ab-6be9-4d71-8077-eb27437ac391)
-  )
-
-  (wire (pts (xy 111.125 73.66) (xy 111.125 82.55))
-    (stroke (width 0) (type default))
-    (uuid d424d427-1923-4874-87fc-71658b97f407)
-  )
-  (wire (pts (xy 66.675 43.18) (xy 170.18 43.18))
-    (stroke (width 0) (type default))
-    (uuid db9da733-0f5b-4732-8594-83b777dfb433)
-  )
-  (wire (pts (xy 170.18 70.485) (xy 170.18 73.66))
-    (stroke (width 0) (type default))
-    (uuid e0769f84-7915-419f-9b11-2c3bbd1cd815)
-  )
-  (wire (pts (xy 66.675 38.1) (xy 66.675 43.18))
-    (stroke (width 0) (type default))
-    (uuid e17acd18-bf89-43e0-ac68-5337e13e54e6)
-  )
-  (wire (pts (xy 170.18 43.18) (xy 170.18 53.975))
-    (stroke (width 0) (type default))
-    (uuid e3172153-9351-41ab-bb57-77e701aba954)
-  )
-  (wire (pts (xy 74.295 141.605) (xy 75.565 141.605))
-    (stroke (width 0) (type default))
-    (uuid eabd0dd6-04b9-42bc-8503-fce61410c8d8)
-  )
-  (wire (pts (xy 162.56 76.835) (xy 170.18 76.835))
-    (stroke (width 0) (type default))
-    (uuid f1f451ef-8524-4551-bd6d-5a0fa1bb6573)
-  )
-  (wire (pts (xy 139.7 62.23) (xy 139.7 70.485))
-    (stroke (width 0) (type default))
-    (uuid f9fceb0c-f0de-42d6-9832-a6f07b38ccc7)
-  )
-  (wire (pts (xy 76.2 139.065) (xy 75.565 139.065))
-    (stroke (width 0) (type default))
-    (uuid fed8c712-1e8b-4cd9-b1d4-7090f7181c25)
-  )
-
-  (rectangle (start 55.245 22.225) (end 186.055 113.665)
-    (stroke (width 0) (type dash))
-    (fill (type none))
-    (uuid 2c0bcd92-c041-46e6-815e-d8a90f1f39fa)
-  )
-  (rectangle (start 186.69 22.225) (end 240.03 113.665)
-    (stroke (width 0) (type dash))
-    (fill (type none))
-    (uuid 2f3c0a8c-4942-43ec-b7e8-beada981eb8c)
-  )
-  (rectangle (start 55.245 116.84) (end 153.67 161.925)
-    (stroke (width 0) (type dash))
-    (fill (type none))
-    (uuid 82f832a4-d237-4674-8f72-519c142cd3c5)
-  )
-
-  (text "POWER-ON LED MODE SWITCH" (at 57.15 160.655 0)
-    (effects (font (size 2 2) (thickness 0.4) bold) (justify left bottom))
-    (uuid 04dc9d94-b562-4480-8cd0-b1dc734a7500)
-  )
-  (text "I = (20-1.5)V / 10000\n= 1.85mA max" (at 210.185 73.66 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 17f524c2-32db-4766-a6ba-9a930298f253)
-  )
-  (text "2xNPN BJT package.\nhFE should be > 150.\n\nIf BJT2 is ON (B2-E2 > 0.6V),\nBJT1 is ON and LED is OFF."
-    (at 136.525 90.805 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 32db31c3-4312-46e1-b993-1babf939c368)
-  )
-  (text "cw→" (at 94.615 93.345 90)
-    (effects (font (size 1 1)) (justify left bottom))
-    (uuid 34f0c436-5987-4dbc-9af2-372300a9ec81)
-  )
-  (text "BI threshold\nadjustment" (at 80.01 99.06 0)
-    (effects (font (size 1.27 1.27) (thickness 0.308) bold) (justify left bottom))
-    (uuid 3b95efff-cf1a-486e-a058-7552583d5ea5)
-  )
-  (text "with adjustable brightness\n" (at 212.725 112.395 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 5d4487fb-f163-490d-b8a2-3778d847828f)
-  )
-  (text "Voltage divider sets BI threshold.\nIf voltage over (R302 + RV301)\nis lower than Vbe (~0.6V), the LED\nstays ON.\n\nThreshold range 4.9V - 15V.\nSet to e.g. 6.9V for 9V battery."
-    (at 58.42 82.55 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 5d8c08df-66d0-4d0f-b59f-04b54fac6195)
-  )
-  (text "with two modes: \"battery indication\" or \"LED always on\", and adjustable threshold.\nInspiration: https://freecircuits.wordpress.com/2011/04/22/low-battery-indicator/"
-    (at 90.805 112.395 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 5f485021-5e03-4610-b693-6e6af70f568f)
-  )
-  (text "POWER-ON LED" (at 187.96 112.395 0)
-    (effects (font (size 2 2) (thickness 0.4) bold) (justify left bottom))
-    (uuid 61488f05-59ef-4a79-8f6d-12949000f16a)
-  )
-  (text "alt (same footprint):\nOS102011MA1QN1C\nOS102011MA1QS1\nOS102011MA1QS1C\n\nalt (different footprint):\n1825232-1"
-    (at 115.57 144.145 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 7b6877da-34e1-410a-84ee-1c99ba226c6a)
-  )
-  (text "Power-on LED mode \nswitch goes here" (at 86.36 53.975 0)
-    (effects (font (size 1.27 1.27) (thickness 0.308) bold) (justify left bottom))
-    (uuid 8a63fa59-2d0c-4a4f-9213-a64f347821a8)
-  )
-  (text "\"BI\" mode: if input voltage > threshold, LED will flash briefly and then turn off to save power.\nThe lower the voltage, the longer the flash. Under the threshold, the LED stays on to signal\nreplacement. 9V battery is dead <6.5V (but differs with type)."
-    (at 82.55 31.75 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 91142601-da4f-4d14-981a-9f03a3b5fc08)
-  )
-  (text "left = closed = NC = \"Battery indicator mode\"\nright = open = NO = \"LED always on\"\n"
-    (at 105.41 160.655 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid a92c803e-4287-454d-b4e3-fd6f90514cdf)
-  )
-  (text "Vf = 1.5-1.8-2.1V" (at 211.455 50.8 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid af76f60a-fe8e-4568-8d7e-551e3710a9c2)
-  )
-  (text "BATTERY INDICATOR" (at 57.15 112.395 0)
-    (effects (font (size 2 2) (thickness 0.4) bold) (justify left bottom))
-    (uuid bf78d7ba-0815-4e84-b40d-3b0c4af3172f)
-  )
-  (text "\"LED always on\" mode: power-on LED stays on regardless of input voltage."
-    (at 82.55 37.465 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid e9b45b24-ff17-439e-96c6-d3271ad4e555)
-  )
-  (text "goes to collector of BJT1" (at 195.58 79.375 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid fe75af61-209c-431b-a294-fbfba9f0545e)
-  )
-  (text "Ceramic X5R.\nBigger cap = longer TC\n= longer flash"
-    (at 113.03 97.155 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid ffccbfec-5ed9-4675-a2ec-4c5caa756f8e)
-  )
-
-  (label "TRIM_BI_3" (at 95.885 85.09 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 009883c9-2b77-4516-b682-b13fd3ec7240)
-  )
-  (label "BI_B2" (at 134.62 73.66 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 2b013bdd-c679-48b9-82c5-9ce419176ab2)
-  )
-  (label "BI_C1" (at 134.62 76.835 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 4507cb62-1ccd-496c-9a8f-b6ac32c84af5)
-  )
-  (label "BI_C1" (at 200.66 76.2 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 8ec89679-b7b1-4c72-a76c-97efe2b614a9)
-  )
-  (label "BI_SW" (at 74.295 141.605 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid a87ead2c-1508-4719-b6ce-746b2de29760)
-  )
-  (label "BI_B1" (at 162.56 73.66 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid a91ba2c4-369a-49a3-a255-d7aec26c74d8)
-  )
-  (label "LED_K" (at 207.645 57.785 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid e658981d-13bf-4f1c-8fe6-d028dfd9f23d)
-  )
-  (label "BI_SW" (at 95.885 60.96 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid ebfb080e-d411-40dd-9c9e-0860ec16c86e)
-  )
-
-  (global_label "Vbi" (shape input) (at 75.565 136.525 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 0f5c434f-4b1a-4c26-9229-40fb03a8cf80)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 69.7374 136.525 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "Vbi" (shape input) (at 66.675 38.1 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 2870cd71-a4a5-4c28-8b8e-7869b20c6eae)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 66.675 32.3518 90)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-
-  (symbol (lib_id "Device:LED") (at 207.645 46.99 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 0aebe032-9040-4fd3-b4d3-546bfdc7130e)
-    (property "Reference" "D301" (at 211.455 45.085 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "Red 100mcd/120°/2mA" (at 211.455 47.625 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "library:APT1608LSECK_J3-PRV" (at 207.645 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://cz.mouser.com/datasheet/2/216/APT1608LSECK_J3_PRV-535661.pdf" (at 207.645 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Purpose" "power-on LED" (at 207.645 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr" "Kingbright" (at 207.645 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr Part #" "APT1608LSECK/J3-PRV" (at 207.645 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mouser Part #" "604-APT1608LSECKJ3RV" (at 207.645 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC Part #" "C5357909" (at 207.645 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Source" "" (at 207.645 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 10921d5f-ea15-4624-a2af-592e4e305a58))
-    (pin "2" (uuid baba25ad-9768-4e9f-8d18-1bdbf27b95f0))
-    (instances
-      (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26/92c2a844-101a-40c5-a0eb-d2ce1ffb9165"
-          (reference "D301") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "PCM_4ms_Power-symbol:GND") (at 111.125 97.79 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 0d7e9e96-be57-498f-b9a0-f4ee62705849)
-    (property "Reference" "#PWR09" (at 111.125 104.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 111.125 101.9255 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 111.125 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 111.125 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 0553bdcf-3ed9-4a56-8982-3b148620c80a))
-    (instances
-      (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26/92c2a844-101a-40c5-a0eb-d2ce1ffb9165"
-          (reference "#PWR09") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R_Small") (at 207.645 65.405 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 336a40dd-1c74-428a-84f6-d5a8b245955b)
-    (property "Reference" "R?" (at 209.55 64.135 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "10k" (at 209.55 66.675 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "library:RT0603BRD0710KL" (at 207.645 65.405 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://cz.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_12-3003070.pdf" (at 207.645 65.405 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC Part #" "C95204" (at 207.645 65.405 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mouser Part #" "603-RT0603BRD0710KL" (at 207.645 65.405 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr Part #" "RT0603BRD0710KL" (at 207.645 65.405 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr" "Yageo" (at 207.645 65.405 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Purpose" "CLR for power-on LED" (at 207.645 65.405 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "TME Part #" "" (at 207.645 65.405 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Source" "" (at 207.645 65.405 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 8522ee7f-b226-46fd-b444-43f96c425c54))
-    (pin "2" (uuid a3671e08-5060-47de-b5bb-c00880397486))
-    (instances
-      (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "R?") (unit 1)
-        )
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
-          (reference "R201") (unit 1)
-        )
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26/92c2a844-101a-40c5-a0eb-d2ce1ffb9165"
-          (reference "R304") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "PCM_4ms_Power-symbol:GND") (at 95.885 97.79 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 37ea122b-9b5a-42c6-965c-38a3f8f15b78)
-    (property "Reference" "#PWR05" (at 95.885 104.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 95.885 101.9255 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 95.885 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 95.885 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 96d750a1-4b51-488f-8933-4966956613b1))
-    (instances
-      (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26/92c2a844-101a-40c5-a0eb-d2ce1ffb9165"
-          (reference "#PWR05") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 111.125 85.09 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 65a94269-454d-465a-ae89-dd3877ff1c8e)
-    (property "Reference" "C?" (at 115.57 83.185 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "22u" (at 114.935 86.995 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "library:GRM21BR61E226ME44L" (at 111.125 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://cz.mouser.com/datasheet/2/281/1/GRM21BR61E226ME44_01A-1986898.pdf" (at 111.125 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Purpose" "Battery Indicator flash duration" (at 111.125 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC Part #" "C86816" (at 111.125 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mouser Part #" "81-GRM21BR61E226ME4L" (at 111.125 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr Part #" "GRM21BR61E226ME44L" (at 111.125 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr" "Murata" (at 111.125 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Source" "" (at 111.125 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 429b41a3-3246-44b4-b29a-8812a1c643aa))
-    (pin "2" (uuid 4c7a2caf-6dda-4e2b-b2ab-dc22356a158f))
-    (instances
-      (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "C?") (unit 1)
-        )
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
-          (reference "C201") (unit 1)
-        )
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26/92c2a844-101a-40c5-a0eb-d2ce1ffb9165"
-          (reference "C301") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "PCM_4ms_Power-symbol:GND") (at 129.54 66.04 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 6a49a39e-8075-4ba5-8537-fd3aabb65cee)
-    (property "Reference" "#PWR012" (at 129.54 72.39 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 129.54 70.1755 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 129.54 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 129.54 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 47a7e38e-8aba-4a7c-b272-f32d2cd5bd61))
-    (instances
-      (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26/92c2a844-101a-40c5-a0eb-d2ce1ffb9165"
-          (reference "#PWR012") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R_Small") (at 95.885 66.04 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 74613d96-b6fe-4013-b6c7-905719dc4ff4)
-    (property "Reference" "R301" (at 97.3836 65.3963 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100k" (at 97.3836 67.3173 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "library:RT0603BRD07100KL" (at 95.885 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://cz.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_12-3003070.pdf" (at 95.885 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Purpose" "BI - threshold voltage divider" (at 95.885 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC Part #" "C122538" (at 95.885 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr" "Yageo" (at 95.885 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr Part #" "RT0603BRD07100KL" (at 95.885 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mouser Part #" "603-RT0603BRD07100KL" (at 95.885 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Source" "" (at 95.885 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 8496c88d-8f42-4364-900f-a3cb74bedebf))
-    (pin "2" (uuid 1c0b1813-20b5-4df1-b83e-3898465f7448))
-    (instances
-      (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26/92c2a844-101a-40c5-a0eb-d2ce1ffb9165"
-          (reference "R301") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "PCM_4ms_Power-symbol:GND") (at 170.18 97.79 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 91787328-8391-4ef2-9be7-2c267e6d25e1)
-    (property "Reference" "#PWR013" (at 170.18 104.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 170.18 101.9255 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 170.18 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 170.18 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid fa06bf38-fae9-4cdc-93ed-21741e495aac))
-    (instances
-      (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26/92c2a844-101a-40c5-a0eb-d2ce1ffb9165"
-          (reference "#PWR013") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R_Potentiometer_Trim") (at 95.885 92.075 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid ab5781ef-1ca5-47f6-bd41-8bd44b1e1f21)
-    (property "Reference" "RV301" (at 92.075 90.805 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "trim B10k" (at 92.075 92.71 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "library:ST-4ETB103" (at 95.885 92.075 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://cz.mouser.com/datasheet/2/972/st_4-1827515.pdf" (at 95.885 92.075 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Purpose" "BI mode threshold trim" (at 95.885 92.075 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr" "Nidec" (at 95.885 92.075 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr Part #" "ST-4ETB103" (at 95.885 92.075 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mouser Part #" "229-ST-4ETB103" (at 95.885 92.075 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC Part #" "C2922095" (at 95.885 92.075 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Source" "" (at 95.885 92.075 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 61155340-341f-4a59-a5a6-c375bfd8f82b))
-    (pin "2" (uuid 7b129898-b89e-461f-8a20-7c4835e1948f))
-    (pin "3" (uuid a4b59187-0dff-4020-acb7-89fb84319e14))
-    (instances
-      (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26/92c2a844-101a-40c5-a0eb-d2ce1ffb9165"
-          (reference "RV301") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R_Small") (at 95.885 78.74 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid ad1827bf-7f2b-4d62-811e-69785ea1f413)
-    (property "Reference" "R302" (at 97.3836 78.0963 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "3k9" (at 97.3836 80.0173 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "library:ERA-3AEB392V" (at 95.885 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://cz.mouser.com/datasheet/2/315/AOA0000C307-1149632.pdf" (at 95.885 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Purpose" "CLR for battery indicator threshold trimpot" (at 95.885 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr" "Panasonic" (at 95.885 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr Part #" "ERA-3AEB392V" (at 95.885 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mouser Part #" "667-ERA-3AEB392V" (at 95.885 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC Part #" "C473237" (at 95.885 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Source" "" (at 95.885 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3ae0dad9-e162-4e7f-adc6-f420d401ef86))
-    (pin "2" (uuid 9741d41c-e391-4064-8e5c-e7535df52262))
-    (instances
-      (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26/92c2a844-101a-40c5-a0eb-d2ce1ffb9165"
-          (reference "R302") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R_Small") (at 170.18 56.515 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid be535837-bd40-4f68-8331-bcde06aab845)
-    (property "Reference" "R303" (at 171.6786 55.8713 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "47k" (at 171.6786 57.7923 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "library:RT0603BRD0747KL" (at 170.18 56.515 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://cz.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_12-3003070.pdf" (at 170.18 56.515 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Purpose" "BI - CLR for base and collector of transistors" (at 170.18 56.515 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC Part #" "C326725" (at 170.18 56.515 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr" "Yageo" (at 170.18 56.515 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr Part #" "RT0603BRD0747KL" (at 170.18 56.515 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mouser Part #" "603-RT0603BRD0747KL" (at 170.18 56.515 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Source" "" (at 170.18 56.515 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 87c44e98-ae63-4ce0-9d1b-da2f36f068c7))
-    (pin "2" (uuid aa2473b2-244f-46e3-9f7f-638db2ce632e))
-    (instances
-      (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26/92c2a844-101a-40c5-a0eb-d2ce1ffb9165"
-          (reference "R303") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "OS102011MA1QN1:OS102011MA1QN1") (at 76.2 133.985 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid c9505d5f-081e-4456-be6a-4ac53f931550)
-    (property "Reference" "S301" (at 92.202 135.3129 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "OS102011MA1QN1" (at 92.202 137.7371 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "library:OS102011MA1QN1" (at -6.02 142.875 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Datasheet" "https://www.ckswitches.com/media/1428/os.pdf" (at -106.02 142.875 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Height" "" (at -306.02 142.875 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Purpose" "changes the mode of power-on LED. Left = BI, right = LED always on" (at 76.2 133.985 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr" "C&K" (at 76.2 133.985 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr Part #" "OS102011MA1QN1" (at 76.2 133.985 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mouser Part #" "611-OS102011MA1QN1" (at 76.2 133.985 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC Part #" "-" (at 76.2 133.985 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "TME Part #" "OS102011MA1QN1" (at 76.2 133.985 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Source" "" (at 76.2 133.985 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid c1f80ec6-6c57-4f31-a444-bce58881e18a))
-    (pin "1" (uuid f278ffbc-2398-4d1c-86b3-b3c38b5af3b9))
-    (pin "3" (uuid 2552c69c-ded6-4603-9477-27884c11b2ca))
-    (instances
-      (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26/92c2a844-101a-40c5-a0eb-d2ce1ffb9165"
-          (reference "S301") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "MMDT2222A-7-F:MMDT2222A-7-F") (at 150.495 71.12 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid d20916f6-8fd8-43f1-9e90-e6712964b96d)
-    (property "Reference" "U301" (at 151.13 62.865 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "MMDT2222A-7-F" (at 151.13 65.405 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "library:MMDT2222A-7-F" (at 169.545 166.04 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Datasheet" "http://componentsearchengine.com/Datasheets/1/MMDT2222A-7-F.pdf" (at 169.545 266.04 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Height" "1.1" (at 169.545 466.04 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Mfr" "Diodes Inc" (at 150.495 71.12 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr Part #" "MMDT2222A-7-F" (at 150.495 71.12 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Purpose" "2x BJT for battery indicator" (at 150.495 71.12 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mouser Part #" "621-MMDT2222A-F" (at 150.495 71.12 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC Part #" "C96379" (at 150.495 71.12 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "TME Part #" "" (at 150.495 71.12 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Source" "" (at 150.495 71.12 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 6ea619a3-53e7-4bf2-97dd-f17a45a56727))
-    (pin "2" (uuid 240dff1a-629e-4747-8680-ef3dcf5a3b1f))
-    (pin "3" (uuid 343e0992-55ac-44df-be42-7d76c31d3ac8))
-    (pin "4" (uuid d8e904b7-c095-4593-96c4-ccd3817ecac8))
-    (pin "5" (uuid 8456ee41-eea8-4f57-ba96-31f7aa891dd8))
-    (pin "6" (uuid a901e71e-2b75-4542-b441-34d89aeb3c87))
-    (instances
-      (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26/92c2a844-101a-40c5-a0eb-d2ce1ffb9165"
-          (reference "U301") (unit 1)
-        )
-      )
-    )
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "6e88fcc8-cb18-4805-a8cb-ce28bc0c2bd6")
+	(paper "A4")
+	(title_block
+		(title "Battery & Power Indicator")
+		(date "2024-02-08")
+		(rev "3.0")
+		(company "Arx")
+	)
+	(lib_symbols
+		(symbol "Device:C_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:LED"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R_Potentiometer_Trim"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RV"
+				(at -4.445 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Potentiometer_Trim"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Trim-potentiometer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resistor variable trimpot trimmer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Potentiometer_Trim_0_1"
+				(polyline
+					(pts
+						(xy 1.524 0.762) (xy 1.524 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_Trim_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "MMDT2222A-7-F:MMDT2222A-7-F"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 8.255 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "MMDT2222A-7-F"
+				(at 8.255 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "library:MMDT2222A-7-F"
+				(at 19.05 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://componentsearchengine.com/Datasheets/1/MMDT2222A-7-F.pdf"
+				(at 19.05 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diodes Inc MMDT2222A-7-F Dual NPN Bipolar Transistor, 600 mA, 40 V, 6-Pin SOT-363"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.1"
+				(at 19.05 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mfr" "Diodes Inc."
+				(at -8.255 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part #" "621-MMDT2222A-F"
+				(at -5.08 6.985 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfr Part #" "MMDT2222A-7-F"
+				(at -6.985 6.985 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MMDT2222A-7-F_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -0.635) (xy 1.27 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.445) (xy 2.54 -4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 0 -2.54) (xy 0 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 1.27 -2.54) (xy 1.27 -4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0.635) (xy -1.27 0.635) (xy -0.635 0) (xy 0 -0.635) (xy 1.27 0.635) (xy 3.81 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -5.715) (xy 2.54 -5.715) (xy 1.905 -5.08) (xy 1.27 -4.445) (xy 0 -5.715) (xy -2.54 -5.715)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MMDT2222A-7-F_1_1"
+				(rectangle
+					(start -5.715 3.81)
+					(end 6.985 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0.635) (xy -1.27 0) (xy -1.27 0.635) (xy -0.635 0.635) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -5.715) (xy 2.54 -5.08) (xy 2.54 -5.715) (xy 1.905 -5.715) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -10.795 0.635 0)
+					(length 5.08)
+					(name "E2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.795 -2.54 0)
+					(length 5.08)
+					(name "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.795 -5.715 0)
+					(length 5.08)
+					(name "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.065 -5.715 180)
+					(length 5.08)
+					(name "E1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.065 -2.54 180)
+					(length 5.08)
+					(name "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.065 0.635 180)
+					(length 5.08)
+					(name "C2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "OS102011MA1QN1:OS102011MA1QN1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at 8.89 20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "OS102011MA1QN1"
+				(at 8.89 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "library:OS102011MA1QN1"
+				(at 8.89 -82.22 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ckswitches.com/media/1428/os.pdf"
+				(at 8.89 -182.22 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch Slide Right Angle SPDT 0.1A 12VDC Through Hole Slide Switch SPDT On-On 0.1 A@ 12 V dc Slide"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" ""
+				(at 8.89 -382.22 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mfr" "C&K"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfr Part #" "OS102011MA1QN1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part #" "611-OS102011MA1QN1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "TME Part #" "OS102011MA1QN1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "OS102011MA1QN1_0_1"
+				(polyline
+					(pts
+						(xy 5.08 7.62) (xy 5.08 9.525)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 7.62) (xy 0 9.525) (xy 2.54 9.525) (xy 2.54 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "OS102011MA1QN1_1_1"
+				(rectangle
+					(start -2.54 15.24)
+					(end 7.62 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 9.525) (xy 5.08 9.525)
+					)
+					(stroke
+						(width 0)
+						(type dot)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 12.065) (xy 0 12.065)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 12.065) (xy 4.445 12.7) (xy 4.445 11.43) (xy 5.08 12.065)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 0 90)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 90)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 90)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PCM_4ms_Power-symbol:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 170.18 70.485)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c5b44db-1e4c-43e3-bb13-fc4f3f48fbde")
+	)
+	(junction
+		(at 170.18 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74f1cde0-dd1e-48ac-831a-1339f11f4938")
+	)
+	(junction
+		(at 95.885 86.995)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7bc23d76-07a4-492d-aef5-791d4164fdc6")
+	)
+	(junction
+		(at 111.125 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f77710a-659f-4f7f-82c2-41d3927dedb5")
+	)
+	(junction
+		(at 95.885 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d40b8ea5-18d7-4453-9565-572b77f8a216")
+	)
+	(no_connect
+		(at 76.2 133.985)
+		(uuid "269467ca-4239-4b6a-b655-6a230ee6bb81")
+	)
+	(wire
+		(pts
+			(xy 134.62 76.835) (xy 139.7 76.835)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00344d7f-d857-457d-adc4-dca6fd0fc0b8")
+	)
+	(wire
+		(pts
+			(xy 95.885 95.885) (xy 95.885 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f7bce58-5224-4e6d-8ad2-3820dc2c2db9")
+	)
+	(wire
+		(pts
+			(xy 95.885 73.66) (xy 95.885 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36528e22-3b42-400f-a94e-dd75f33d33a4")
+	)
+	(wire
+		(pts
+			(xy 75.565 139.065) (xy 75.565 141.605)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5314f6da-fd99-4a78-bb1d-96e702ec932e")
+	)
+	(wire
+		(pts
+			(xy 162.56 73.66) (xy 170.18 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a72d6dd-01b6-46f6-9a78-63d277755832")
+	)
+	(wire
+		(pts
+			(xy 95.885 68.58) (xy 95.885 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5eeadaac-0865-47c8-8bb0-a68b8ac03aa9")
+	)
+	(wire
+		(pts
+			(xy 139.7 73.66) (xy 111.125 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "659b7bb4-52fa-42e4-89ce-f72738aee365")
+	)
+	(wire
+		(pts
+			(xy 95.885 86.995) (xy 95.885 88.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77cdde24-4d75-4aa4-88d7-53dd486f520c")
+	)
+	(wire
+		(pts
+			(xy 100.965 86.995) (xy 100.965 92.075)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f499221-dd34-487a-aa30-c895be02f3d9")
+	)
+	(wire
+		(pts
+			(xy 200.66 76.2) (xy 207.645 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81ef4388-53f9-43a0-8728-1f84af2f4a9c")
+	)
+	(wire
+		(pts
+			(xy 139.7 62.23) (xy 129.54 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82874336-60ae-480b-92a9-a89e4b835f0a")
+	)
+	(wire
+		(pts
+			(xy 170.18 97.79) (xy 170.18 76.835)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ca6945c-c491-4a62-a8d3-6cca65655f52")
+	)
+	(wire
+		(pts
+			(xy 99.695 92.075) (xy 100.965 92.075)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e770103-b655-4116-8664-031ca2892583")
+	)
+	(polyline
+		(pts
+			(xy 95.885 60.96) (xy 95.885 55.245)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(uuid "8ea9f82c-2ab4-45a8-8442-37f4c5557591")
+	)
+	(wire
+		(pts
+			(xy 95.885 60.96) (xy 95.885 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0d2c99a-d6ac-413e-83ec-dedbbb983f18")
+	)
+	(wire
+		(pts
+			(xy 75.565 136.525) (xy 76.2 136.525)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a706a63e-e312-4745-8bb4-c6a0fa468c1a")
+	)
+	(wire
+		(pts
+			(xy 207.645 50.8) (xy 207.645 62.865)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aeba94d6-5bc6-4e80-b3c7-da741bf354aa")
+	)
+	(wire
+		(pts
+			(xy 170.18 43.18) (xy 207.645 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6075b09-be66-4e3d-a34b-92eafdb363f2")
+	)
+	(wire
+		(pts
+			(xy 207.645 67.945) (xy 207.645 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc79bbde-e9ef-414e-997c-69bfb0bc573b")
+	)
+	(wire
+		(pts
+			(xy 170.18 59.055) (xy 170.18 70.485)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd64bf73-6fbe-4c94-9d61-857782f35f7d")
+	)
+	(wire
+		(pts
+			(xy 95.885 86.995) (xy 100.965 86.995)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be6705bd-31f6-46be-b4f0-2bc0b9625308")
+	)
+	(wire
+		(pts
+			(xy 129.54 62.23) (xy 129.54 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be89c0b9-c7de-49ef-a25d-dc4c68bc1f65")
+	)
+	(wire
+		(pts
+			(xy 95.885 73.66) (xy 111.125 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c14c536e-69ea-45ff-8ac8-4124ab440709")
+	)
+	(wire
+		(pts
+			(xy 95.885 81.28) (xy 95.885 86.995)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c491f0b1-0a1d-4756-a4f5-a328566cdc11")
+	)
+	(wire
+		(pts
+			(xy 111.125 87.63) (xy 111.125 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccc4a17b-b320-475e-bf85-2138c7edc974")
+	)
+	(wire
+		(pts
+			(xy 162.56 70.485) (xy 170.18 70.485)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d17b4527-be29-4b81-b0cd-3ae6d228667c")
+	)
+	(polyline
+		(pts
+			(xy 95.885 48.895) (xy 95.885 43.18)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(uuid "d2e1b1ab-6be9-4d71-8077-eb27437ac391")
+	)
+	(wire
+		(pts
+			(xy 111.125 73.66) (xy 111.125 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d424d427-1923-4874-87fc-71658b97f407")
+	)
+	(wire
+		(pts
+			(xy 66.675 43.18) (xy 170.18 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db9da733-0f5b-4732-8594-83b777dfb433")
+	)
+	(wire
+		(pts
+			(xy 170.18 70.485) (xy 170.18 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0769f84-7915-419f-9b11-2c3bbd1cd815")
+	)
+	(wire
+		(pts
+			(xy 66.675 38.1) (xy 66.675 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e17acd18-bf89-43e0-ac68-5337e13e54e6")
+	)
+	(wire
+		(pts
+			(xy 170.18 43.18) (xy 170.18 53.975)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3172153-9351-41ab-bb57-77e701aba954")
+	)
+	(wire
+		(pts
+			(xy 74.295 141.605) (xy 75.565 141.605)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eabd0dd6-04b9-42bc-8503-fce61410c8d8")
+	)
+	(wire
+		(pts
+			(xy 162.56 76.835) (xy 170.18 76.835)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1f451ef-8524-4551-bd6d-5a0fa1bb6573")
+	)
+	(wire
+		(pts
+			(xy 139.7 62.23) (xy 139.7 70.485)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9fceb0c-f0de-42d6-9832-a6f07b38ccc7")
+	)
+	(wire
+		(pts
+			(xy 76.2 139.065) (xy 75.565 139.065)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fed8c712-1e8b-4cd9-b1d4-7090f7181c25")
+	)
+	(rectangle
+		(start 55.245 22.225)
+		(end 186.055 113.665)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2c0bcd92-c041-46e6-815e-d8a90f1f39fa)
+	)
+	(rectangle
+		(start 186.69 22.225)
+		(end 240.03 113.665)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2f3c0a8c-4942-43ec-b7e8-beada981eb8c)
+	)
+	(rectangle
+		(start 55.245 116.84)
+		(end 153.67 161.925)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 82f832a4-d237-4674-8f72-519c142cd3c5)
+	)
+	(text "POWER-ON LED MODE SWITCH"
+		(exclude_from_sim no)
+		(at 57.15 160.655 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "04dc9d94-b562-4480-8cd0-b1dc734a7500")
+	)
+	(text "I = (20-1.5)V / 10000\n= 1.85mA max"
+		(exclude_from_sim no)
+		(at 210.185 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "17f524c2-32db-4766-a6ba-9a930298f253")
+	)
+	(text "2xNPN BJT package.\nhFE should be > 150.\n\nIf BJT2 is ON (B2-E2 > 0.6V),\nBJT1 is ON and LED is OFF."
+		(exclude_from_sim no)
+		(at 136.525 90.805 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "32db31c3-4312-46e1-b993-1babf939c368")
+	)
+	(text "cw→"
+		(exclude_from_sim no)
+		(at 94.615 93.345 90)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "34f0c436-5987-4dbc-9af2-372300a9ec81")
+	)
+	(text "BI threshold\nadjustment"
+		(exclude_from_sim no)
+		(at 80.01 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.308)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b95efff-cf1a-486e-a058-7552583d5ea5")
+	)
+	(text "with adjustable brightness\n"
+		(exclude_from_sim no)
+		(at 212.725 112.395 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5d4487fb-f163-490d-b8a2-3778d847828f")
+	)
+	(text "Voltage divider sets BI threshold.\nIf voltage over (R302 + RV301)\nis lower than Vbe (~0.6V), the LED\nstays ON.\n\nThreshold range 4.9V - 15V.\nSet to e.g. 6.9V for 9V battery."
+		(exclude_from_sim no)
+		(at 58.42 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5d8c08df-66d0-4d0f-b59f-04b54fac6195")
+	)
+	(text "with two modes: \"battery indication\" or \"LED always on\", and adjustable threshold.\nInspiration: https://freecircuits.wordpress.com/2011/04/22/low-battery-indicator/"
+		(exclude_from_sim no)
+		(at 90.805 112.395 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5f485021-5e03-4610-b693-6e6af70f568f")
+	)
+	(text "POWER-ON LED"
+		(exclude_from_sim no)
+		(at 187.96 112.395 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "61488f05-59ef-4a79-8f6d-12949000f16a")
+	)
+	(text "alt (same footprint):\nOS102011MA1QN1C\nOS102011MA1QS1\nOS102011MA1QS1C\n\nalt (different footprint):\n1825232-1"
+		(exclude_from_sim no)
+		(at 115.57 144.145 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b6877da-34e1-410a-84ee-1c99ba226c6a")
+	)
+	(text "Power-on LED mode \nswitch goes here"
+		(exclude_from_sim no)
+		(at 86.36 53.975 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.308)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "8a63fa59-2d0c-4a4f-9213-a64f347821a8")
+	)
+	(text "\"BI\" mode: if input voltage > threshold, LED will flash briefly and then turn off to save power.\nThe lower the voltage, the longer the flash. Under the threshold, the LED stays on to signal\nreplacement. 9V battery is dead <6.5V (but differs with type)."
+		(exclude_from_sim no)
+		(at 82.55 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "91142601-da4f-4d14-981a-9f03a3b5fc08")
+	)
+	(text "left = closed = NC = \"Battery indicator mode\"\nright = open = NO = \"LED always on\"\n"
+		(exclude_from_sim no)
+		(at 105.41 160.655 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a92c803e-4287-454d-b4e3-fd6f90514cdf")
+	)
+	(text "Vf = 1.5-1.8-2.1V"
+		(exclude_from_sim no)
+		(at 211.455 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "af76f60a-fe8e-4568-8d7e-551e3710a9c2")
+	)
+	(text "BATTERY INDICATOR"
+		(exclude_from_sim no)
+		(at 57.15 112.395 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "bf78d7ba-0815-4e84-b40d-3b0c4af3172f")
+	)
+	(text "\"LED always on\" mode: power-on LED stays on regardless of input voltage."
+		(exclude_from_sim no)
+		(at 82.55 37.465 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e9b45b24-ff17-439e-96c6-d3271ad4e555")
+	)
+	(text "goes to collector of BJT1"
+		(exclude_from_sim no)
+		(at 195.58 79.375 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe75af61-209c-431b-a294-fbfba9f0545e")
+	)
+	(text "Ceramic X5R.\nBigger cap = longer TC\n= longer flash"
+		(exclude_from_sim no)
+		(at 113.03 97.155 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ffccbfec-5ed9-4675-a2ec-4c5caa756f8e")
+	)
+	(label "TRIM_BI_3"
+		(at 95.885 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "009883c9-2b77-4516-b682-b13fd3ec7240")
+	)
+	(label "BI_B2"
+		(at 134.62 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2b013bdd-c679-48b9-82c5-9ce419176ab2")
+	)
+	(label "BI_C1"
+		(at 134.62 76.835 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4507cb62-1ccd-496c-9a8f-b6ac32c84af5")
+	)
+	(label "BI_C1"
+		(at 200.66 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8ec89679-b7b1-4c72-a76c-97efe2b614a9")
+	)
+	(label "BI_SW"
+		(at 74.295 141.605 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a87ead2c-1508-4719-b6ce-746b2de29760")
+	)
+	(label "BI_B1"
+		(at 162.56 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a91ba2c4-369a-49a3-a255-d7aec26c74d8")
+	)
+	(label "LED_K"
+		(at 207.645 57.785 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e658981d-13bf-4f1c-8fe6-d028dfd9f23d")
+	)
+	(label "BI_SW"
+		(at 95.885 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ebfb080e-d411-40dd-9c9e-0860ec16c86e")
+	)
+	(global_label "Vbi"
+		(shape input)
+		(at 75.565 136.525 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0f5c434f-4b1a-4c26-9229-40fb03a8cf80")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.7374 136.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Vbi"
+		(shape input)
+		(at 66.675 38.1 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2870cd71-a4a5-4c28-8b8e-7869b20c6eae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.675 32.3518 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 207.645 46.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0aebe032-9040-4fd3-b4d3-546bfdc7130e")
+		(property "Reference" "D301"
+			(at 211.455 45.085 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Red 100mcd/120°/2mA"
+			(at 211.455 47.625 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "library:APT1608LSECK_J3-PRV"
+			(at 207.645 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cz.mouser.com/datasheet/2/216/APT1608LSECK_J3_PRV-535661.pdf"
+			(at 207.645 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 207.645 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "power-on LED"
+			(at 207.645 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Kingbright"
+			(at 207.645 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "APT1608LSECK/J3-PRV"
+			(at 207.645 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" "604-APT1608LSECKJ3RV"
+			(at 207.645 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C5357909"
+			(at 207.645 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" ""
+			(at 207.645 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10921d5f-ea15-4624-a2af-592e4e305a58")
+		)
+		(pin "2"
+			(uuid "baba25ad-9768-4e9f-8d18-1bdbf27b95f0")
+		)
+		(instances
+			(project "2023_PiezoPreamp"
+				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/92c2a844-101a-40c5-a0eb-d2ce1ffb9165"
+					(reference "D301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Power-symbol:GND")
+		(at 111.125 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d7e9e96-be57-498f-b9a0-f4ee62705849")
+		(property "Reference" "#PWR09"
+			(at 111.125 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 111.125 101.9255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.125 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.125 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.125 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0553bdcf-3ed9-4a56-8982-3b148620c80a")
+		)
+		(instances
+			(project "2023_PiezoPreamp"
+				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/92c2a844-101a-40c5-a0eb-d2ce1ffb9165"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 207.645 65.405 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "336a40dd-1c74-428a-84f6-d5a8b245955b")
+		(property "Reference" "R304"
+			(at 209.55 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 209.55 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "library:RT0603BRD0710KL"
+			(at 207.645 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cz.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_12-3003070.pdf"
+			(at 207.645 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 207.645 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C95204"
+			(at 207.645 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" "603-RT0603BRD0710KL"
+			(at 207.645 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "RT0603BRD0710KL"
+			(at 207.645 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Yageo"
+			(at 207.645 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "CLR for power-on LED"
+			(at 207.645 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part #" ""
+			(at 207.645 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" ""
+			(at 207.645 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8522ee7f-b226-46fd-b444-43f96c425c54")
+		)
+		(pin "2"
+			(uuid "a3671e08-5060-47de-b5bb-c00880397486")
+		)
+		(instances
+			(project "2023_PiezoPreamp"
+				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/92c2a844-101a-40c5-a0eb-d2ce1ffb9165"
+					(reference "R304")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Power-symbol:GND")
+		(at 95.885 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37ea122b-9b5a-42c6-965c-38a3f8f15b78")
+		(property "Reference" "#PWR05"
+			(at 95.885 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 95.885 101.9255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.885 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.885 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.885 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96d750a1-4b51-488f-8933-4966956613b1")
+		)
+		(instances
+			(project "2023_PiezoPreamp"
+				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/92c2a844-101a-40c5-a0eb-d2ce1ffb9165"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 111.125 85.09 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65a94269-454d-465a-ae89-dd3877ff1c8e")
+		(property "Reference" "C301"
+			(at 115.57 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22u"
+			(at 114.935 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "library:GRM21BR61E226ME44L"
+			(at 111.125 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cz.mouser.com/datasheet/2/281/1/GRM21BR61E226ME44_01A-1986898.pdf"
+			(at 111.125 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.125 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "Battery Indicator flash duration"
+			(at 111.125 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C86816"
+			(at 111.125 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" "81-GRM21BR61E226ME4L"
+			(at 111.125 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "GRM21BR61E226ME44L"
+			(at 111.125 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Murata"
+			(at 111.125 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" ""
+			(at 111.125 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "429b41a3-3246-44b4-b29a-8812a1c643aa")
+		)
+		(pin "2"
+			(uuid "4c7a2caf-6dda-4e2b-b2ab-dc22356a158f")
+		)
+		(instances
+			(project "2023_PiezoPreamp"
+				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/92c2a844-101a-40c5-a0eb-d2ce1ffb9165"
+					(reference "C301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Power-symbol:GND")
+		(at 129.54 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a49a39e-8075-4ba5-8537-fd3aabb65cee")
+		(property "Reference" "#PWR012"
+			(at 129.54 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 129.54 70.1755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47a7e38e-8aba-4a7c-b272-f32d2cd5bd61")
+		)
+		(instances
+			(project "2023_PiezoPreamp"
+				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/92c2a844-101a-40c5-a0eb-d2ce1ffb9165"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 95.885 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74613d96-b6fe-4013-b6c7-905719dc4ff4")
+		(property "Reference" "R301"
+			(at 97.3836 65.3963 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 97.3836 67.3173 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "library:RT0603BRD07100KL"
+			(at 95.885 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cz.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_12-3003070.pdf"
+			(at 95.885 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.885 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "BI - threshold voltage divider"
+			(at 95.885 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C122538"
+			(at 95.885 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Yageo"
+			(at 95.885 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "RT0603BRD07100KL"
+			(at 95.885 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" "603-RT0603BRD07100KL"
+			(at 95.885 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" ""
+			(at 95.885 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8496c88d-8f42-4364-900f-a3cb74bedebf")
+		)
+		(pin "2"
+			(uuid "1c0b1813-20b5-4df1-b83e-3898465f7448")
+		)
+		(instances
+			(project "2023_PiezoPreamp"
+				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/92c2a844-101a-40c5-a0eb-d2ce1ffb9165"
+					(reference "R301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Power-symbol:GND")
+		(at 170.18 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "91787328-8391-4ef2-9be7-2c267e6d25e1")
+		(property "Reference" "#PWR013"
+			(at 170.18 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 170.18 101.9255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa06bf38-fae9-4cdc-93ed-21741e495aac")
+		)
+		(instances
+			(project "2023_PiezoPreamp"
+				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/92c2a844-101a-40c5-a0eb-d2ce1ffb9165"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_Trim")
+		(at 95.885 92.075 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab5781ef-1ca5-47f6-bd41-8bd44b1e1f21")
+		(property "Reference" "RV301"
+			(at 92.075 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "trim B10k"
+			(at 92.075 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "library:ST-4ETB103"
+			(at 95.885 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cz.mouser.com/datasheet/2/972/st_4-1827515.pdf"
+			(at 95.885 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.885 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "BI mode threshold trim"
+			(at 95.885 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Nidec"
+			(at 95.885 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "ST-4ETB103"
+			(at 95.885 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" "229-ST-4ETB103"
+			(at 95.885 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2922095"
+			(at 95.885 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" ""
+			(at 95.885 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61155340-341f-4a59-a5a6-c375bfd8f82b")
+		)
+		(pin "2"
+			(uuid "7b129898-b89e-461f-8a20-7c4835e1948f")
+		)
+		(pin "3"
+			(uuid "a4b59187-0dff-4020-acb7-89fb84319e14")
+		)
+		(instances
+			(project "2023_PiezoPreamp"
+				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/92c2a844-101a-40c5-a0eb-d2ce1ffb9165"
+					(reference "RV301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 95.885 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad1827bf-7f2b-4d62-811e-69785ea1f413")
+		(property "Reference" "R302"
+			(at 97.3836 78.0963 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3k9"
+			(at 97.3836 80.0173 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "library:ERA-3AEB392V"
+			(at 95.885 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cz.mouser.com/datasheet/2/315/AOA0000C307-1149632.pdf"
+			(at 95.885 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.885 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "CLR for battery indicator threshold trimpot"
+			(at 95.885 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Panasonic"
+			(at 95.885 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "ERA-3AEB392V"
+			(at 95.885 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" "667-ERA-3AEB392V"
+			(at 95.885 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C473237"
+			(at 95.885 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" ""
+			(at 95.885 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ae0dad9-e162-4e7f-adc6-f420d401ef86")
+		)
+		(pin "2"
+			(uuid "9741d41c-e391-4064-8e5c-e7535df52262")
+		)
+		(instances
+			(project "2023_PiezoPreamp"
+				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/92c2a844-101a-40c5-a0eb-d2ce1ffb9165"
+					(reference "R302")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 170.18 56.515 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be535837-bd40-4f68-8331-bcde06aab845")
+		(property "Reference" "R303"
+			(at 171.6786 55.8713 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47k"
+			(at 171.6786 57.7923 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "library:RT0603BRD0747KL"
+			(at 170.18 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cz.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_12-3003070.pdf"
+			(at 170.18 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "BI - CLR for base and collector of transistors"
+			(at 170.18 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C326725"
+			(at 170.18 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Yageo"
+			(at 170.18 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "RT0603BRD0747KL"
+			(at 170.18 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" "603-RT0603BRD0747KL"
+			(at 170.18 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" ""
+			(at 170.18 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87c44e98-ae63-4ce0-9d1b-da2f36f068c7")
+		)
+		(pin "2"
+			(uuid "aa2473b2-244f-46e3-9f7f-638db2ce632e")
+		)
+		(instances
+			(project "2023_PiezoPreamp"
+				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/92c2a844-101a-40c5-a0eb-d2ce1ffb9165"
+					(reference "R303")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "OS102011MA1QN1:OS102011MA1QN1")
+		(at 76.2 133.985 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9505d5f-081e-4456-be6a-4ac53f931550")
+		(property "Reference" "S301"
+			(at 92.202 135.3129 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OS102011MA1QN1"
+			(at 92.202 137.7371 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "library:OS102011MA1QN1"
+			(at -6.02 142.875 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ckswitches.com/media/1428/os.pdf"
+			(at -106.02 142.875 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at -306.02 142.875 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "changes the mode of power-on LED. Left = BI, right = LED always on"
+			(at 76.2 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "C&K"
+			(at 76.2 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "OS102011MA1QN1"
+			(at 76.2 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" "611-OS102011MA1QN1"
+			(at 76.2 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "-"
+			(at 76.2 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part #" "OS102011MA1QN1"
+			(at 76.2 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" ""
+			(at 76.2 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c1f80ec6-6c57-4f31-a444-bce58881e18a")
+		)
+		(pin "1"
+			(uuid "f278ffbc-2398-4d1c-86b3-b3c38b5af3b9")
+		)
+		(pin "3"
+			(uuid "2552c69c-ded6-4603-9477-27884c11b2ca")
+		)
+		(instances
+			(project "2023_PiezoPreamp"
+				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/92c2a844-101a-40c5-a0eb-d2ce1ffb9165"
+					(reference "S301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MMDT2222A-7-F:MMDT2222A-7-F")
+		(at 150.495 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d20916f6-8fd8-43f1-9e90-e6712964b96d")
+		(property "Reference" "U301"
+			(at 151.13 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMDT2222A-7-F"
+			(at 151.13 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "library:MMDT2222A-7-F"
+			(at 169.545 166.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://componentsearchengine.com/Datasheets/1/MMDT2222A-7-F.pdf"
+			(at 169.545 266.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 150.495 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 169.545 466.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Diodes Inc"
+			(at 150.495 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "MMDT2222A-7-F"
+			(at 150.495 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "2x BJT for battery indicator"
+			(at 150.495 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" "621-MMDT2222A-F"
+			(at 150.495 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C96379"
+			(at 150.495 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part #" ""
+			(at 150.495 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" ""
+			(at 150.495 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ea619a3-53e7-4bf2-97dd-f17a45a56727")
+		)
+		(pin "2"
+			(uuid "240dff1a-629e-4747-8680-ef3dcf5a3b1f")
+		)
+		(pin "3"
+			(uuid "343e0992-55ac-44df-be42-7d76c31d3ac8")
+		)
+		(pin "4"
+			(uuid "d8e904b7-c095-4593-96c4-ccd3817ecac8")
+		)
+		(pin "5"
+			(uuid "8456ee41-eea8-4f57-ba96-31f7aa891dd8")
+		)
+		(pin "6"
+			(uuid "a901e71e-2b75-4542-b441-34d89aeb3c87")
+		)
+		(instances
+			(project "2023_PiezoPreamp"
+				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/92c2a844-101a-40c5-a0eb-d2ce1ffb9165"
+					(reference "U301")
+					(unit 1)
+				)
+			)
+		)
+	)
 )
