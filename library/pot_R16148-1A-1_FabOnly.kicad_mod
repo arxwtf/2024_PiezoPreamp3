@@ -63,7 +63,7 @@
 			)
 		)
 	)
-	(attr through_hole board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 	(fp_rect
 		(start -7.5 5.499999)
 		(end 7.5 11.499999)
