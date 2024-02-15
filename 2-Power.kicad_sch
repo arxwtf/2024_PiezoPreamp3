@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Power Supply and Opamp Biasing")
-		(date "2024-02-08")
+		(date "2024-02-15")
 		(rev "3.0")
 		(company "Arx")
 	)
@@ -4474,6 +4474,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.895 121.285) (xy 49.53 121.285)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1a1a0ad-0f8c-4406-bd81-103b0ff35d96")
+	)
+	(wire
+		(pts
 			(xy 147.32 36.83) (xy 147.32 37.465)
 		)
 		(stroke
@@ -4481,16 +4491,6 @@
 			(type default)
 		)
 		(uuid "f5c8c905-fc07-48e2-87b2-6bfd78eb273a")
-	)
-	(wire
-		(pts
-			(xy 49.53 121.285) (xy 48.895 121.285)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f647c704-4214-4bcf-83cb-16b8c67d0afc")
 	)
 	(wire
 		(pts
@@ -4610,9 +4610,9 @@
 		)
 		(uuid "27a4d222-f829-4b2c-91b6-7adceb46a564")
 	)
-	(text "3PDT is sufficient\nbut unavailable"
+	(text "3PDT is sufficient\nbut unavailable.\nMaybe we could switch\nDC_IN_NEG here."
 		(exclude_from_sim no)
-		(at 33.655 143.51 0)
+		(at 30.48 146.05 0)
 		(effects
 			(font
 				(size 1 1)
@@ -4992,6 +4992,17 @@
 			(justify right bottom)
 		)
 		(uuid "344b11d6-83b3-4957-9062-c3f8b99aa6cd")
+	)
+	(label "BYPASS"
+		(at 50.165 117.475 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "35b215fe-7494-498d-b126-7f1b411c08d7")
 	)
 	(label "DC_IN_POS"
 		(at 90.17 146.685 0)
@@ -5561,6 +5572,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 49.53 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "22cabf6b-d337-4e2a-b5da-052a2794c570")
 		)
@@ -5697,7 +5717,7 @@
 				)
 			)
 		)
-		(property "Footprint" "library:C3216X5R1H106K160AB"
+		(property "Footprint" "library:cap_CL21A106KAYNNNE"
 			(at 142.24 138.43 0)
 			(effects
 				(font
@@ -5706,7 +5726,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
+		(property "Datasheet" "https://cz.mouser.com/datasheet/2/585/MLCC-1837944.pdf"
 			(at 142.24 138.43 0)
 			(effects
 				(font
@@ -5724,7 +5744,7 @@
 				(hide yes)
 			)
 		)
-		(property "Purpose" "opamp biasing"
+		(property "Purpose" "opamp biasing. C3216X5R1H106K160AB in Mouser"
 			(at 142.24 138.43 0)
 			(effects
 				(font
@@ -5733,7 +5753,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C329928"
+		(property "LCSC Part #" "C15850"
 			(at 142.24 138.43 0)
 			(effects
 				(font
@@ -5742,7 +5762,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part #" "810-C3216X5R1H106K"
+		(property "Mouser Part #" "187-CL21A106KAYNNNE "
 			(at 142.24 138.43 0)
 			(effects
 				(font
@@ -5751,7 +5771,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr Part #" "C3216X5R1H106K160AB"
+		(property "Mfr Part #" "CL21A106KAYNNNE"
 			(at 142.24 138.43 0)
 			(effects
 				(font
@@ -5760,7 +5780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "TDK"
+		(property "Mfr" "Samsung"
 			(at 142.24 138.43 0)
 			(effects
 				(font
@@ -5769,7 +5789,16 @@
 				(hide yes)
 			)
 		)
-		(property "Source" ""
+		(property "Source" "LCSC"
+			(at 142.24 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 142.24 138.43 0)
 			(effects
 				(font
@@ -5820,7 +5849,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "library:GRM21BR61E226ME44L"
+		(property "Footprint" "library:cap_CL31A226KAHNNNE"
 			(at 229.235 63.5 0)
 			(effects
 				(font
@@ -5829,7 +5858,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cz.mouser.com/datasheet/2/281/1/GRM21BR61E226ME44_01A-1986898.pdf"
+		(property "Datasheet" "https://cz.mouser.com/datasheet/2/585/MLCC-1837944.pdf"
 			(at 229.235 63.5 0)
 			(effects
 				(font
@@ -5856,7 +5885,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C86816"
+		(property "LCSC Part #" "C12891"
 			(at 229.235 63.5 0)
 			(effects
 				(font
@@ -5865,7 +5894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part #" "81-GRM21BR61E226ME4L"
+		(property "Mouser Part #" "187-CL31A226KAHNNNE "
 			(at 229.235 63.5 0)
 			(effects
 				(font
@@ -5874,7 +5903,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr Part #" "GRM21BR61E226ME44L"
+		(property "Mfr Part #" "CL31A226KAHNNNE"
 			(at 229.235 63.5 0)
 			(effects
 				(font
@@ -5883,7 +5912,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Murata"
+		(property "Mfr" "Samsung"
 			(at 229.235 63.5 0)
 			(effects
 				(font
@@ -5892,7 +5921,16 @@
 				(hide yes)
 			)
 		)
-		(property "Source" ""
+		(property "Source" "LCSC"
+			(at 229.235 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 229.235 63.5 0)
 			(effects
 				(font
@@ -6015,7 +6053,16 @@
 				(hide yes)
 			)
 		)
-		(property "Source" ""
+		(property "Source" "LCSC"
+			(at 152.4 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 152.4 76.2 0)
 			(effects
 				(font
@@ -6130,7 +6177,7 @@
 				)
 			)
 		)
-		(property "Footprint" "library:GRM21BR61E226ME44L"
+		(property "Footprint" "library:cap_CL31A226KAHNNNE"
 			(at 214.63 63.5 0)
 			(effects
 				(font
@@ -6139,7 +6186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cz.mouser.com/datasheet/2/281/1/GRM21BR61E226ME44_01A-1986898.pdf"
+		(property "Datasheet" "https://cz.mouser.com/datasheet/2/585/MLCC-1837944.pdf"
 			(at 214.63 63.5 0)
 			(effects
 				(font
@@ -6166,7 +6213,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C86816"
+		(property "LCSC Part #" "C12891"
 			(at 214.63 63.5 0)
 			(effects
 				(font
@@ -6175,7 +6222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part #" "81-GRM21BR61E226ME4L"
+		(property "Mouser Part #" "187-CL31A226KAHNNNE "
 			(at 214.63 63.5 0)
 			(effects
 				(font
@@ -6184,7 +6231,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr Part #" "GRM21BR61E226ME44L"
+		(property "Mfr Part #" "CL31A226KAHNNNE"
 			(at 214.63 63.5 0)
 			(effects
 				(font
@@ -6193,7 +6240,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Murata"
+		(property "Mfr" "Samsung"
 			(at 214.63 63.5 0)
 			(effects
 				(font
@@ -6202,7 +6249,16 @@
 				(hide yes)
 			)
 		)
-		(property "Source" ""
+		(property "Source" "LCSC"
+			(at 214.63 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 214.63 63.5 0)
 			(effects
 				(font
@@ -6325,7 +6381,16 @@
 				(hide yes)
 			)
 		)
-		(property "Source" ""
+		(property "Source" "LCSC"
+			(at 222.25 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 222.25 48.895 0)
 			(effects
 				(font
@@ -6579,7 +6644,16 @@
 				(hide yes)
 			)
 		)
-		(property "Source" ""
+		(property "Source" "LCSC"
+			(at 131.445 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 131.445 121.92 0)
 			(effects
 				(font
@@ -6628,7 +6702,7 @@
 				)
 			)
 		)
-		(property "Footprint" "library:C3216X5R1H106K160AB"
+		(property "Footprint" "library:cap_CL21A106KAYNNNE"
 			(at 236.22 146.05 0)
 			(effects
 				(font
@@ -6637,7 +6711,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
+		(property "Datasheet" "https://cz.mouser.com/datasheet/2/585/MLCC-1837944.pdf"
 			(at 236.22 146.05 0)
 			(effects
 				(font
@@ -6655,7 +6729,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C329928"
+		(property "LCSC Part #" "C15850"
 			(at 236.22 146.05 0)
 			(effects
 				(font
@@ -6664,7 +6738,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part #" "810-C3216X5R1H106K"
+		(property "Mouser Part #" "187-CL21A106KAYNNNE "
 			(at 236.22 146.05 0)
 			(effects
 				(font
@@ -6673,7 +6747,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr Part #" "C3216X5R1H106K160AB"
+		(property "Mfr Part #" "CL21A106KAYNNNE"
 			(at 236.22 146.05 0)
 			(effects
 				(font
@@ -6682,7 +6756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "TDK"
+		(property "Mfr" "Samsung"
 			(at 236.22 146.05 0)
 			(effects
 				(font
@@ -6691,7 +6765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Purpose" "opamp power supply decoupling"
+		(property "Purpose" "opamp power supply decoupling. C3216X5R1H106K160AB in Mouser in Mouser"
 			(at 236.22 146.05 0)
 			(effects
 				(font
@@ -6700,7 +6774,16 @@
 				(hide yes)
 			)
 		)
-		(property "Source" ""
+		(property "Source" "LCSC"
+			(at 236.22 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 236.22 146.05 0)
 			(effects
 				(font
@@ -6834,7 +6917,16 @@
 				(hide yes)
 			)
 		)
-		(property "Source" ""
+		(property "Source" "LCSC"
+			(at 147.32 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 147.32 67.945 0)
 			(effects
 				(font
@@ -7164,7 +7256,16 @@
 				(hide yes)
 			)
 		)
-		(property "Source" ""
+		(property "Source" "Mouser"
+			(at 40.64 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 40.64 51.435 0)
 			(effects
 				(font
@@ -7290,7 +7391,16 @@
 				(hide yes)
 			)
 		)
-		(property "Source" ""
+		(property "Source" "LCSC"
+			(at 131.445 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 131.445 138.43 0)
 			(effects
 				(font
@@ -7477,7 +7587,16 @@
 				(hide yes)
 			)
 		)
-		(property "Source" ""
+		(property "Source" "LCSC"
+			(at 225.425 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 225.425 120.65 0)
 			(effects
 				(font
@@ -7607,7 +7726,16 @@
 				(hide yes)
 			)
 		)
-		(property "Source" ""
+		(property "Source" "TME"
+			(at 39.37 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 39.37 77.47 0)
 			(effects
 				(font
@@ -7656,7 +7784,7 @@
 				)
 			)
 		)
-		(property "Footprint" "library:C3216X5R1H106K160AB"
+		(property "Footprint" "library:cap_CL21A106KAYNNNE"
 			(at 236.22 120.65 0)
 			(effects
 				(font
@@ -7665,7 +7793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
+		(property "Datasheet" "https://cz.mouser.com/datasheet/2/585/MLCC-1837944.pdf"
 			(at 236.22 120.65 0)
 			(effects
 				(font
@@ -7683,7 +7811,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C329928"
+		(property "LCSC Part #" "C15850"
 			(at 236.22 120.65 0)
 			(effects
 				(font
@@ -7692,7 +7820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part #" "810-C3216X5R1H106K"
+		(property "Mouser Part #" "187-CL21A106KAYNNNE "
 			(at 236.22 120.65 0)
 			(effects
 				(font
@@ -7701,7 +7829,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr Part #" "C3216X5R1H106K160AB"
+		(property "Mfr Part #" "CL21A106KAYNNNE"
 			(at 236.22 120.65 0)
 			(effects
 				(font
@@ -7710,7 +7838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "TDK"
+		(property "Mfr" "Samsung"
 			(at 236.22 120.65 0)
 			(effects
 				(font
@@ -7719,7 +7847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Purpose" "opamp power supply decoupling"
+		(property "Purpose" "opamp power supply decoupling. C3216X5R1H106K160AB in Mouser"
 			(at 236.22 120.65 0)
 			(effects
 				(font
@@ -7728,7 +7856,16 @@
 				(hide yes)
 			)
 		)
-		(property "Source" ""
+		(property "Source" "LCSC"
+			(at 236.22 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 236.22 120.65 0)
 			(effects
 				(font
@@ -7849,7 +7986,16 @@
 				(hide yes)
 			)
 		)
-		(property "Source" ""
+		(property "Source" "LCSC"
+			(at 225.425 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 225.425 146.05 0)
 			(effects
 				(font
@@ -7972,7 +8118,16 @@
 				(hide yes)
 			)
 		)
-		(property "Source" ""
+		(property "Source" "LCSC"
+			(at 167.005 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 167.005 54.61 0)
 			(effects
 				(font
@@ -8096,7 +8251,16 @@
 				(hide yes)
 			)
 		)
-		(property "Source" ""
+		(property "Source" "LCSC"
+			(at 106.045 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 106.045 66.04 0)
 			(effects
 				(font

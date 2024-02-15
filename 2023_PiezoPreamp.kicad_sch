@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Piezo Preamp + EQ")
-		(date "2024-02-08")
+		(date "2024-02-15")
 		(rev "3.0")
 		(company "Arx")
 		(comment 1 "v3.0: +ON/OFF sw w/ true bypass, +BI mode sw, + DC jack, external pots, -LED trimpot")
