@@ -1,6 +1,5 @@
 (sym_lib_table
   (version 7)
-  (lib (name "SSSS224100")(type "KiCad")(uri "${KIPRJMOD}/library/SSSS224100.kicad_sym")(options "")(descr ""))
   (lib (name "ZXMP3A17E6TA_UL")(type "KiCad")(uri "${KIPRJMOD}/library/ZXMP3A17E6TA_UL.kicad_sym")(options "")(descr ""))
   (lib (name "DDZ12B-7")(type "KiCad")(uri "${KIPRJMOD}/library/DDZ12B-7.kicad_sym")(options "")(descr ""))
   (lib (name "CUI_SJ-63053A")(type "KiCad")(uri "${KIPRJMOD}/library/CUI_SJ-63053A.kicad_sym")(options "")(descr ""))
@@ -15,4 +14,7 @@
   (lib (name "Washer")(type "KiCad")(uri "${KIPRJMOD}/library/Washer.kicad_sym")(options "")(descr ""))
   (lib (name "Bolt")(type "KiCad")(uri "${KIPRJMOD}/library/Bolt.kicad_sym")(options "")(descr ""))
   (lib (name "bjt_BC847BS_115")(type "KiCad")(uri "${KIPRJMOD}/library/bjt_BC847BS_115.kicad_sym")(options "")(descr ""))
+  (lib (name "sw_OS103011MA7QP1")(type "KiCad")(uri "${KIPRJMOD}/library/sw_OS103011MA7QP1.kicad_sym")(options "")(descr ""))
+  (lib (name "sw_0S203011MA2QP1")(type "KiCad")(uri "${KIPRJMOD}/library/sw_0S203011MA2QP1.kicad_sym")(options "")(descr ""))
+  (lib (name "sw_SK14D01G6")(type "KiCad")(uri "${KIPRJMOD}/library/sw_SK14D01G6.kicad_sym")(options "")(descr ""))
 )

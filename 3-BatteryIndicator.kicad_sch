@@ -3774,7 +3774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Source" ""
+		(property "Source" "Mouser"
 			(at 66.04 151.13 0)
 			(effects
 				(font
