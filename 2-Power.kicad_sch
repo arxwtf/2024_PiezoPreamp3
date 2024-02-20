@@ -3973,7 +3973,7 @@
 		(uuid "18c19440-a46c-4746-9d70-e4a55233b544")
 	)
 	(no_connect
-		(at 90.17 142.24)
+		(at 49.53 142.24)
 		(uuid "33d85c81-6721-49ee-9639-998fdd9ae1ad")
 	)
 	(no_connect
@@ -3981,7 +3981,7 @@
 		(uuid "7ed1b81d-e274-4b20-af18-13ad0deffc26")
 	)
 	(no_connect
-		(at 90.17 147.32)
+		(at 49.53 147.32)
 		(uuid "8432a507-a7a7-4247-a486-61aa89e056b2")
 	)
 	(wire
@@ -4834,7 +4834,7 @@
 	)
 	(text "3PDT is sufficient\nbut unavailable.\nMaybe we could switch\nDC_IN_NEG here."
 		(exclude_from_sim no)
-		(at 100.33 151.13 0)
+		(at 29.21 147.32 0)
 		(effects
 			(font
 				(size 1 1)
@@ -4893,7 +4893,7 @@
 	)
 	(text "DC IN pole"
 		(exclude_from_sim no)
-		(at 30.48 151.13 0)
+		(at 99.06 151.13 0)
 		(effects
 			(font
 				(size 1.54 1.54)
@@ -5194,13 +5194,13 @@
 		(uuid "ffba3df4-33b5-4650-963a-0673f3309bb2")
 	)
 	(label "DC_IN_ESD"
-		(at 49.53 142.24 180)
+		(at 90.17 142.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "1086304b-8d0c-4caf-a143-49fc4cf1b282")
 	)
@@ -5227,13 +5227,13 @@
 		(uuid "35b215fe-7494-498d-b126-7f1b411c08d7")
 	)
 	(label "DC_IN_POS"
-		(at 49.53 147.32 180)
+		(at 90.17 147.32 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "988a754a-5060-4b5f-b302-14800928c5a1")
 	)
