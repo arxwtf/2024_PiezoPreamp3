@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Charge Amp and Baxandall EQ")
-		(date "2024-02-15")
+		(date "2024-02-20")
 		(rev "3.0")
 		(company "Arx")
 	)
@@ -2310,278 +2310,6 @@
 				)
 			)
 		)
-		(symbol "sw_OS103011MA7QP1:OS103011MA7QP1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "S"
-				(at 16.51 -4.064 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "OS103011MA7QP1"
-				(at 16.256 -6.604 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "library:sw_OS103011MA7QP1"
-				(at 19.05 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ckswitches.com/media/1428/os.pdf"
-				(at 19.05 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Switch Slide ON ON ON SP3T Side Slide 0.1A 12VDC 10000Cycles PC Pins Bracket Mount/Through Hole Bulk"
-				(at -2.286 4.318 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "4.7"
-				(at 19.05 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mfr" "C&K"
-				(at 19.05 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mfr Part #" "OS103011MA7QP1"
-				(at 19.05 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part #" "611-OS103011MA7QP1"
-				(at 8.89 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "OS103011MA7QP1_1_1"
-				(polyline
-					(pts
-						(xy 12.7 -2.54) (xy 12.7 -10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -10.16) (xy 8.89 -10.16) (xy 8.89 -5.08) (xy 7.62 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type dot)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -7.62) (xy 10.16 -7.62) (xy 10.16 -5.08) (xy 8.89 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type dash)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 11.43 -2.54) (xy 11.43 -5.08) (xy 10.16 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -10.16) (xy 11.43 -8.89) (xy 13.97 -8.89) (xy 12.7 -10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 5.08 2.54)
-					(end 15.24 -15.24)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "MH1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MH1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -12.7 0)
-					(length 5.08)
-					(name "MH2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MH2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "sw_SK14D01G6:SK14D01G6"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2919,13 +2647,19 @@
 		(uuid "15730e70-c280-4c23-af0f-ab0d8f36694b")
 	)
 	(junction
+		(at 31.75 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "266c4c71-a1e0-4e5e-9015-c3777c280ebf")
+	)
+	(junction
 		(at 181.61 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "26e2eab0-22bd-4a14-a45a-df9c7e5fd411")
 	)
 	(junction
-		(at 238.76 30.48)
+		(at 236.22 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2cc4118b-3bcd-447a-8597-d98dc5235c5f")
@@ -2965,6 +2699,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4bc03e24-3c81-4ce2-a340-2920ef5b5585")
+	)
+	(junction
+		(at 76.2 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54aa3439-9d61-497f-8b01-35090c267b8d")
 	)
 	(junction
 		(at 147.32 53.34)
@@ -3027,6 +2767,12 @@
 		(uuid "bb82d2d2-e0d9-4e63-b6e2-59ba2db880b5")
 	)
 	(junction
+		(at 49.53 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4d54a28-f19e-4df6-9d18-d2b09d93f1e0")
+	)
+	(junction
 		(at 196.85 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3043,6 +2789,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e93cf076-0ac6-48e2-ba50-fc3ca9eeb943")
+	)
+	(junction
+		(at 49.53 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f34481d0-52c7-4bed-94b0-e2abf2e05e48")
+	)
+	(junction
+		(at 30.48 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd79ac42-aca0-46e7-8b62-ab9aa1bfed2d")
 	)
 	(junction
 		(at 60.96 113.03)
@@ -3063,11 +2821,11 @@
 		(uuid "501c9f33-2e95-4382-87bf-c0ab0ec7ef22")
 	)
 	(no_connect
-		(at 71.12 167.64)
+		(at 78.74 165.1)
 		(uuid "8c0cfb14-46b4-4632-b966-576a27a70fe0")
 	)
 	(no_connect
-		(at 71.12 177.8)
+		(at 78.74 180.34)
 		(uuid "90a8576d-6e6a-4027-8eb2-94b1c6f9c39d")
 	)
 	(no_connect
@@ -3075,7 +2833,7 @@
 		(uuid "ddabb92d-a5e7-44af-868c-c262c3da8318")
 	)
 	(no_connect
-		(at 71.12 165.1)
+		(at 78.74 162.56)
 		(uuid "e1fa7140-70b9-4833-b615-fa3aebcb6bf6")
 	)
 	(no_connect
@@ -3118,13 +2876,23 @@
 	)
 	(polyline
 		(pts
-			(xy 68.58 157.48) (xy 46.99 157.48)
+			(xy 76.2 149.86) (xy 54.61 149.86)
 		)
 		(stroke
 			(width 0)
 			(type dot)
 		)
 		(uuid "02d6258c-4441-41e7-ba39-e8321d7b046d")
+	)
+	(wire
+		(pts
+			(xy 30.48 170.18) (xy 38.1 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "041c5c5b-9084-4221-91ba-48d6f52c6eec")
 	)
 	(wire
 		(pts
@@ -3158,13 +2926,23 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 177.8) (xy 36.83 177.8)
+			(xy 22.86 181.61) (xy 38.1 181.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "08db4097-3b95-44ec-8cfc-aa06fa5fe67c")
+	)
+	(wire
+		(pts
+			(xy 43.18 170.18) (xy 49.53 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08e67b5c-b6da-47a5-9184-926f14c4c982")
 	)
 	(wire
 		(pts
@@ -3218,7 +2996,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 170.18) (xy 71.12 170.18)
+			(xy 73.66 167.64) (xy 78.74 167.64)
 		)
 		(stroke
 			(width 0)
@@ -3288,7 +3066,7 @@
 	)
 	(polyline
 		(pts
-			(xy 68.58 167.64) (xy 68.58 157.48)
+			(xy 76.2 165.1) (xy 76.2 149.86)
 		)
 		(stroke
 			(width 0)
@@ -3368,6 +3146,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 177.8) (xy 78.74 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21232658-146e-4514-8f2c-67eae6b14567")
+	)
+	(wire
+		(pts
 			(xy 54.61 39.37) (xy 59.69 39.37)
 		)
 		(stroke
@@ -3375,6 +3163,16 @@
 			(type default)
 		)
 		(uuid "21c6f9ca-aef0-452d-8caf-c8223909156a")
+	)
+	(wire
+		(pts
+			(xy 31.75 160.02) (xy 31.75 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21ec34f4-3470-4067-b9c6-25e8867bd579")
 	)
 	(wire
 		(pts
@@ -3506,6 +3304,16 @@
 		)
 		(uuid "2f8b99a0-4360-42d6-96a1-5707a7e1aea1")
 	)
+	(wire
+		(pts
+			(xy 30.48 165.1) (xy 30.48 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fb5621c-9a41-4955-b73e-6b9688e37b6a")
+	)
 	(polyline
 		(pts
 			(xy 238.76 107.95) (xy 241.3 107.95)
@@ -3528,7 +3336,7 @@
 	)
 	(polyline
 		(pts
-			(xy 71.12 167.64) (xy 68.58 167.64)
+			(xy 78.74 165.1) (xy 76.2 165.1)
 		)
 		(stroke
 			(width 0)
@@ -3686,6 +3494,16 @@
 		)
 		(uuid "43bfcdc4-7f0b-42a4-9554-feecffc1aced")
 	)
+	(wire
+		(pts
+			(xy 31.75 154.94) (xy 38.1 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43ca34ed-394e-4924-b596-acb8db5829b3")
+	)
 	(polyline
 		(pts
 			(xy 33.02 31.75) (xy 34.29 31.75)
@@ -3808,6 +3626,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 165.1) (xy 30.48 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53cf29b6-d6f6-4a46-9d1c-4ff1719d55a4")
+	)
+	(wire
+		(pts
 			(xy 270.51 53.34) (xy 269.24 53.34)
 		)
 		(stroke
@@ -3848,7 +3676,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 177.8) (xy 66.04 175.26)
+			(xy 76.2 177.8) (xy 76.2 181.61)
 		)
 		(stroke
 			(width 0)
@@ -3865,6 +3693,16 @@
 			(type default)
 		)
 		(uuid "5d9d46b7-9af2-4710-981c-efdc17ffecd9")
+	)
+	(wire
+		(pts
+			(xy 49.53 165.1) (xy 49.53 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e781843-2d0d-4d4e-980b-6145f6bdecfc")
 	)
 	(wire
 		(pts
@@ -3938,7 +3776,7 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 172.72) (xy 71.12 172.72)
+			(xy 17.78 175.26) (xy 76.2 175.26)
 		)
 		(stroke
 			(width 0)
@@ -3965,6 +3803,16 @@
 			(type default)
 		)
 		(uuid "6bb0e5ef-f60c-406b-bf03-893f15222083")
+	)
+	(wire
+		(pts
+			(xy 49.53 170.18) (xy 78.74 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cf2888e-b085-4591-adf0-f79662819ebf")
 	)
 	(wire
 		(pts
@@ -4008,6 +3856,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 160.02) (xy 73.66 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "728948b9-454d-485c-b653-a82dff29a112")
+	)
+	(wire
+		(pts
 			(xy 198.12 107.95) (xy 191.77 107.95)
 		)
 		(stroke
@@ -4018,7 +3876,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 177.8) (xy 66.04 177.8)
+			(xy 43.18 181.61) (xy 76.2 181.61)
 		)
 		(stroke
 			(width 0)
@@ -4108,7 +3966,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 167.64) (xy 36.83 167.64)
+			(xy 22.86 160.02) (xy 31.75 160.02)
 		)
 		(stroke
 			(width 0)
@@ -4155,6 +4013,16 @@
 			(type default)
 		)
 		(uuid "81452b2f-75cd-486b-9aa4-8cc58fb29c4e")
+	)
+	(wire
+		(pts
+			(xy 31.75 160.02) (xy 38.1 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "820f8633-08b4-4370-ba33-afedc0bd7cb1")
 	)
 	(wire
 		(pts
@@ -4328,6 +4196,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 172.72) (xy 76.2 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0cc448c-fde2-4836-b2fa-b2c4d8e4d8c3")
+	)
+	(wire
+		(pts
 			(xy 33.02 119.38) (xy 33.02 123.19)
 		)
 		(stroke
@@ -4348,7 +4226,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 77.47) (xy 238.76 77.47)
+			(xy 218.44 77.47) (xy 236.22 77.47)
 		)
 		(stroke
 			(width 0)
@@ -4375,6 +4253,26 @@
 			(type dot)
 		)
 		(uuid "a6d2c162-9b2c-42c6-9809-c46eb65cacbe")
+	)
+	(wire
+		(pts
+			(xy 76.2 175.26) (xy 78.74 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a711709f-d9f2-4f72-b0e4-be6f4ccb8d25")
+	)
+	(wire
+		(pts
+			(xy 43.18 154.94) (xy 49.53 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8716e7c-c7a2-4b3f-a71c-b749be862cf8")
 	)
 	(wire
 		(pts
@@ -4465,6 +4363,16 @@
 			(type default)
 		)
 		(uuid "ad4fa1bf-a879-434e-8835-03e928d2a322")
+	)
+	(wire
+		(pts
+			(xy 22.86 170.18) (xy 30.48 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aff566f5-5475-4f8c-8269-9b466c8f0ab0")
 	)
 	(wire
 		(pts
@@ -4585,6 +4493,16 @@
 			(type default)
 		)
 		(uuid "b8ce554d-b932-43c7-89fb-6f6a835cd8f4")
+	)
+	(wire
+		(pts
+			(xy 43.18 165.1) (xy 49.53 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b940a12c-f347-43f2-8e2e-f01ed79df318")
 	)
 	(polyline
 		(pts
@@ -4718,7 +4636,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 30.48) (xy 247.65 30.48)
+			(xy 236.22 30.48) (xy 247.65 30.48)
 		)
 		(stroke
 			(width 0)
@@ -4828,7 +4746,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 167.64) (xy 66.04 170.18)
+			(xy 73.66 160.02) (xy 73.66 167.64)
 		)
 		(stroke
 			(width 0)
@@ -4838,7 +4756,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 30.48) (xy 238.76 30.48)
+			(xy 234.95 30.48) (xy 236.22 30.48)
 		)
 		(stroke
 			(width 0)
@@ -5058,6 +4976,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 154.94) (xy 49.53 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5e109e5-7129-4cd2-abf3-e8baba78b219")
+	)
+	(wire
+		(pts
 			(xy 170.18 125.73) (xy 167.64 125.73)
 		)
 		(stroke
@@ -5078,6 +5006,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 172.72) (xy 76.2 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8518617-fdd7-4a8d-8dfc-10b5a8166568")
+	)
+	(wire
+		(pts
 			(xy 195.58 57.15) (xy 195.58 55.88)
 		)
 		(stroke
@@ -5095,16 +5033,6 @@
 			(type dot)
 		)
 		(uuid "eb2571dd-d517-4900-a6ef-af35ccf9b949")
-	)
-	(wire
-		(pts
-			(xy 66.04 175.26) (xy 71.12 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec0ba397-8ac9-430e-9b29-8f3526b90af2")
 	)
 	(polyline
 		(pts
@@ -5208,23 +5136,23 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 30.48) (xy 238.76 77.47)
+			(xy 43.18 160.02) (xy 49.53 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa572b40-f859-4362-90f5-bdf2017cd0cf")
+	)
+	(wire
+		(pts
+			(xy 236.22 30.48) (xy 236.22 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fb9e5de2-3b9b-4cf3-875b-9f24fd2d9e8f")
-	)
-	(wire
-		(pts
-			(xy 41.91 167.64) (xy 66.04 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fda7cd57-d4a9-4630-8204-9de017f8d694")
 	)
 	(wire
 		(pts
@@ -5432,6 +5360,17 @@
 			(justify left bottom)
 		)
 		(uuid "24db69a1-e5f2-4224-bb34-1fcc35bbd9a0")
+	)
+	(text "948n total\n50Hz"
+		(exclude_from_sim no)
+		(at 54.61 173.99 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "25bef9d8-dc29-4633-b1ae-09cb348b8448")
 	)
 	(text "ceramic C0G/NP0"
 		(exclude_from_sim no)
@@ -5671,7 +5610,7 @@
 	)
 	(text "ceramic C0G/NP0"
 		(exclude_from_sim no)
-		(at 31.75 163.83 0)
+		(at 34.29 151.13 0)
 		(effects
 			(font
 				(size 1 1)
@@ -5679,6 +5618,17 @@
 			(justify left bottom)
 		)
 		(uuid "6feb94fa-60e4-4162-aac5-903f23dceb6d")
+	)
+	(text "alt: SK14D01G6L"
+		(exclude_from_sim no)
+		(at 81.28 118.11 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "705a8fab-dfed-4907-8b95-7f9593d6b44b")
 	)
 	(text "DP3T slide switch that sets the center of the Baxandall tone control.\nIt moves both bass and treble cutoffs at the same time.\n"
 		(exclude_from_sim no)
@@ -5704,9 +5654,9 @@
 		)
 		(uuid "87a79363-2621-4819-bd3f-b455e4541929")
 	)
-	(text "508n total\n120Hz = max cut"
+	(text "508n total\n113Hz = max cut"
 		(exclude_from_sim no)
-		(at 46.99 161.29 0)
+		(at 54.61 153.67 0)
 		(effects
 			(font
 				(size 1 1)
@@ -5877,9 +5827,9 @@
 		)
 		(uuid "d15a93db-e722-4392-8339-73cdd7939910")
 	)
-	(text "100.288u total\nwith Chp101 + Chp102\nfull BW"
+	(text "100.508u total\nwith Chp101 + Chp102\nfull BW"
 		(exclude_from_sim no)
-		(at 46.99 182.88 0)
+		(at 54.61 186.69 0)
 		(effects
 			(font
 				(size 1 1)
@@ -5910,9 +5860,9 @@
 		)
 		(uuid "e4f57922-d648-45f1-92f5-185d90bc03af")
 	)
-	(text "728n total\n75Hz"
+	(text "676n total\n77Hz"
 		(exclude_from_sim no)
-		(at 46.99 171.45 0)
+		(at 54.61 163.83 0)
 		(effects
 			(font
 				(size 1 1)
@@ -6028,9 +5978,9 @@
 		)
 		(uuid "fa022a41-e061-4663-a746-f10c11c40072")
 	)
-	(text "SP3T slide switch that forms low-end cutoff with Baxandall input\nimpedance. Cutoffs calculated with Bass and Treble pots centered.\n\n\n\n"
+	(text "SP4T slide switch that forms high-pass filter with Baxandall input\nimpedance. Cutoffs calculated with Bass and Treble pots centered."
 		(exclude_from_sim no)
-		(at 34.29 201.93 0)
+		(at 34.29 195.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6072,8 +6022,8 @@
 		)
 		(uuid "0ceb3217-2b81-40bd-bb83-ac84b375c31f")
 	)
-	(label "HPF_SW_10"
-		(at 54.61 177.8 0)
+	(label "HPF_SW_1"
+		(at 62.23 181.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6082,6 +6032,17 @@
 			(justify left bottom)
 		)
 		(uuid "0cf94121-5515-43cf-9cd6-3f2745b60921")
+	)
+	(label "BAX_IN"
+		(at 22.86 170.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1c343e3a-03fc-472c-8b13-3deb54554975")
 	)
 	(label "TREB_2"
 		(at 209.55 55.88 0)
@@ -6139,7 +6100,7 @@
 		(uuid "2826e56d-c551-4991-bf4a-dbd81e2c8342")
 	)
 	(label "BAX_IN"
-		(at 21.59 167.64 0)
+		(at 22.86 160.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6292,6 +6253,17 @@
 		)
 		(uuid "912c8036-acec-45b2-8736-5c68c5715ba9")
 	)
+	(label "HPF_SW_4"
+		(at 62.23 170.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "930523e6-dea9-4b41-ae2d-8144fb1b7239")
+	)
 	(label "BASS_1"
 		(at 124.46 157.48 180)
 		(fields_autoplaced yes)
@@ -6304,7 +6276,7 @@
 		(uuid "949bb645-9f3d-4b32-baa7-243efaa040c5")
 	)
 	(label "BAX_IN"
-		(at 21.59 177.8 0)
+		(at 22.86 181.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6370,7 +6342,7 @@
 		(uuid "aec136bb-7890-4cb5-b1ca-17df2cdb4809")
 	)
 	(label "CH_A_OUT"
-		(at 16.51 172.72 0)
+		(at 17.78 175.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6557,7 +6529,7 @@
 		(uuid "e80fa65f-ed3c-421a-bec5-22a064c572ea")
 	)
 	(label "HPF_SW_3"
-		(at 54.61 167.64 0)
+		(at 62.23 160.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7039,6 +7011,130 @@
 			(project "2023_PiezoPreamp"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "Rb102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 40.64 154.94 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d49cc65-0344-4cef-9540-2193ccec1314")
+		(property "Reference" "Chp108"
+			(at 39.37 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "68n"
+			(at 46.99 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "library:GRM31C5C1H683JA01L"
+			(at 40.64 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cz.mouser.com/datasheet/2/281/1/GRM31C5C1H683JA01_01A-1987729.pdf"
+			(at 40.64 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C77084"
+			(at 40.64 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" "81-GRM31C5C1H683JA01"
+			(at 40.64 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "GRM31C5C1H683JA01L"
+			(at 40.64 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Murata"
+			(at 40.64 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "HPF - sets high-pass cutoff frequency"
+			(at 40.64 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "LCSC"
+			(at 40.64 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05820319-de52-4db7-93ad-244b1d5c42ea")
+		)
+		(pin "2"
+			(uuid "1cd4452e-b15e-4c72-9cb5-e6761e4d8731")
+		)
+		(instances
+			(project "2023_PiezoPreamp"
+				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
+					(reference "Chp108")
 					(unit 1)
 				)
 			)
@@ -7918,8 +8014,156 @@
 		)
 	)
 	(symbol
+		(lib_id "sw_SK14D01G6:SK14D01G6")
+		(at 78.74 180.34 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "20f5cd50-cb23-4f28-a46f-42e34a9ef620")
+		(property "Reference" "S102"
+			(at 83.82 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SK14D01G6"
+			(at 83.82 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "library:sw_SK14D01G6"
+			(at 97.79 85.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.arrow.com/en/products/sk14d01g6/ck"
+			(at 97.79 -14.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Slide Switches SP4T 0.3 Amp at 30 V"
+			(at 78.74 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.7"
+			(at 97.79 -214.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "Sets high-pass filter cutoff frequency"
+			(at 78.74 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" "611-SK-14D01-G6 "
+			(at 97.79 -314.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "C&K"
+			(at 97.79 -514.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "SK14D01G6"
+			(at 97.79 -614.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Source" "Mouser"
+			(at 78.74 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f64ca55-006f-4704-82f7-ac1e4b624fd8")
+		)
+		(pin "2"
+			(uuid "f0f76ee0-e3c6-4fa9-bf9a-a068737d787f")
+		)
+		(pin "4"
+			(uuid "55fb545a-0312-4ab3-915e-2a65d22663f9")
+		)
+		(pin "MH2"
+			(uuid "489e4ab5-d4d2-4057-bf39-c319592b3323")
+		)
+		(pin "6"
+			(uuid "b2739294-0706-41a9-9821-e9b1b96d2682")
+		)
+		(pin "MH1"
+			(uuid "2151bc3b-1dad-41a5-9c8a-4a52c7004d49")
+		)
+		(pin "3"
+			(uuid "e1c4bbf1-419d-4b59-95c6-378e1b1fe63a")
+		)
+		(pin "5"
+			(uuid "2fce26ee-f881-436a-ad1b-c3f3aa878b72")
+		)
+		(instances
+			(project "2023_PiezoPreamp"
+				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
+					(reference "S102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized_Small")
-		(at 39.37 177.8 270)
+		(at 40.64 181.61 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7927,7 +8171,7 @@
 		(dnp no)
 		(uuid "23462491-9738-4657-9975-d9dce7104298")
 		(property "Reference" "Chp104"
-			(at 39.37 180.975 90)
+			(at 35.56 180.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7935,7 +8179,7 @@
 			)
 		)
 		(property "Value" "100u 50V"
-			(at 38.735 183.515 90)
+			(at 48.26 180.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7943,7 +8187,7 @@
 			)
 		)
 		(property "Footprint" "library:EEEFTH101XAP"
-			(at 39.37 177.8 0)
+			(at 40.64 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7952,7 +8196,7 @@
 			)
 		)
 		(property "Datasheet" "https://cz.mouser.com/datasheet/2/315/ABA0000C1240-1130326.pdf"
-			(at 39.37 177.8 0)
+			(at 40.64 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7961,7 +8205,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 39.37 177.8 0)
+			(at 40.64 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7970,7 +8214,7 @@
 			)
 		)
 		(property "Purpose" "HPF - sets high-pass cutoff frequency "
-			(at 39.37 177.8 0)
+			(at 40.64 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7979,7 +8223,7 @@
 			)
 		)
 		(property "LCSC Part #" "C165974 "
-			(at 39.37 177.8 0)
+			(at 40.64 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7988,7 +8232,7 @@
 			)
 		)
 		(property "Mouser Part #" "667-EEE-FTH101XAP"
-			(at 39.37 177.8 0)
+			(at 40.64 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7997,7 +8241,7 @@
 			)
 		)
 		(property "Mfr Part #" "EEEFTH101XAP"
-			(at 39.37 177.8 0)
+			(at 40.64 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8006,7 +8250,7 @@
 			)
 		)
 		(property "Mfr" "Panasonic"
-			(at 39.37 177.8 0)
+			(at 40.64 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8015,7 +8259,7 @@
 			)
 		)
 		(property "Source" "LCSC"
-			(at 39.37 177.8 0)
+			(at 40.64 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9430,6 +9674,127 @@
 			(project "2023_PiezoPreamp"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "H101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 40.64 170.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e01253e-c611-4755-bbb3-174635ec416f")
+		(property "Reference" "Chp105"
+			(at 35.56 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220n"
+			(at 45.72 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "library:GRM31C5C1H224JE02L"
+			(at 40.64 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cz.mouser.com/datasheet/2/281/1/GRM31C5C1H224JE02_01A-1987815.pdf"
+			(at 40.64 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C464977"
+			(at 40.64 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" "81-GRM31C5C1H224JE2L"
+			(at 40.64 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "GRM31C5C1H224JE02L"
+			(at 40.64 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Murata"
+			(at 40.64 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "HPF - sets high-pass cutoff frequency"
+			(at 40.64 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "LCSC"
+			(at 40.64 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60188843-8153-4b8f-98a6-cff6482f3fe5")
+		)
+		(pin "2"
+			(uuid "ad116fa4-3865-49ba-9819-3d30748e5643")
+		)
+		(instances
+			(project "2023_PiezoPreamp"
+				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
+					(reference "Chp105")
 					(unit 1)
 				)
 			)
@@ -11036,7 +11401,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "library:RT0603BRD07150RL_UL-M"
+		(property "Footprint" "library:RT0603BRE07150RL_UL-M"
 			(at 81.28 36.83 0)
 			(effects
 				(font
@@ -11072,7 +11437,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C705726"
+		(property "LCSC Part #" "C728601"
 			(at 81.28 36.83 0)
 			(effects
 				(font
@@ -11081,7 +11446,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part #" "603-RT0603BRD07150RL"
+		(property "Mouser Part #" "603-RT0603BRE07150RL "
 			(at 81.28 36.83 0)
 			(effects
 				(font
@@ -11090,7 +11455,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr Part #" "RT0603BRD07150RL"
+		(property "Mfr Part #" "RT0603BRE07150RL"
 			(at 81.28 36.83 0)
 			(effects
 				(font
@@ -11799,147 +12164,6 @@
 		)
 	)
 	(symbol
-		(lib_id "sw_OS103011MA7QP1:OS103011MA7QP1")
-		(at 71.12 177.8 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b47a64cc-e8a0-4994-be3d-e947e612f048")
-		(property "Reference" "S102"
-			(at 76.2 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "OS103011MA7QP1"
-			(at 76.2 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "library:sw_OS103011MA7QP1"
-			(at 90.17 82.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ckswitches.com/media/1428/os.pdf"
-			(at 90.17 -17.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch Slide ON ON ON SP3T Side Slide 0.1A 12VDC 10000Cycles PC Pins Bracket Mount/Through Hole Bulk"
-			(at 71.12 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "4.7"
-			(at 90.17 -217.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Purpose" "Sets low-pass filter cutoff frequency"
-			(at 71.12 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "C&K"
-			(at 90.17 -517.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mfr Part #" "OS103011MA7QP1"
-			(at 90.17 -617.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part #" "611-OS103011MA7QP1"
-			(at 80.01 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Source" "Mouser"
-			(at 71.12 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "MH1"
-			(uuid "c6b1ba02-0c4d-4637-bd03-d1f41059d077")
-		)
-		(pin "4"
-			(uuid "0be9360c-d094-4283-a0f0-e6334e6a4a3d")
-		)
-		(pin "1"
-			(uuid "734fa8f9-cc1b-4023-a43f-e519f0547841")
-		)
-		(pin "3"
-			(uuid "040b398a-36ee-46fa-afda-7f1c4de8d952")
-		)
-		(pin "2"
-			(uuid "a888d408-60ef-493c-a222-64bdad3d30f0")
-		)
-		(pin "MH2"
-			(uuid "869a3b44-2e41-491a-aee9-a42206f90237")
-		)
-		(instances
-			(project "2023_PiezoPreamp"
-				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
-					(reference "S102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 208.28 16.51 90)
 		(unit 1)
@@ -12129,6 +12353,130 @@
 			(project "2023_PiezoPreamp"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 40.64 160.02 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba4b5470-81d0-4169-9744-1e20e59d88a2")
+		(property "Reference" "Chp107"
+			(at 39.37 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 48.26 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "library:GRM31C5C2A104JA01L"
+			(at 40.64 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cz.mouser.com/datasheet/2/281/1/GRM31C5C2A104JA01_01A-1987817.pdf"
+			(at 40.64 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C405303"
+			(at 40.64 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" "81-GRM31C5C2A104JA1L"
+			(at 40.64 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "GRM31C5C2A104JA01L"
+			(at 40.64 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Murata"
+			(at 40.64 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "HPF - sets high-pass cutoff frequency"
+			(at 40.64 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "LCSC"
+			(at 40.64 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6fba6cd-2266-4420-8a62-239c3de5171e")
+		)
+		(pin "2"
+			(uuid "ae03962f-fa1f-4bd3-bd37-fab5e340203e")
+		)
+		(instances
+			(project "2023_PiezoPreamp"
+				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
+					(reference "Chp107")
 					(unit 1)
 				)
 			)
@@ -13273,15 +13621,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 39.37 167.64 90)
+		(at 40.64 165.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "dd3eb56c-1d38-49f5-818d-dcde1bffa5e7")
-		(property "Reference" "Chp105"
-			(at 34.29 166.37 90)
+		(property "Reference" "Chp106"
+			(at 35.56 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13289,7 +13637,7 @@
 			)
 		)
 		(property "Value" "220n"
-			(at 43.18 166.37 90)
+			(at 45.72 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13297,7 +13645,7 @@
 			)
 		)
 		(property "Footprint" "library:GRM31C5C1H224JE02L"
-			(at 39.37 167.64 0)
+			(at 40.64 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13306,7 +13654,7 @@
 			)
 		)
 		(property "Datasheet" "https://cz.mouser.com/datasheet/2/281/1/GRM31C5C1H224JE02_01A-1987815.pdf"
-			(at 39.37 167.64 0)
+			(at 40.64 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13315,7 +13663,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 39.37 167.64 0)
+			(at 40.64 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13324,7 +13672,7 @@
 			)
 		)
 		(property "LCSC Part #" "C464977"
-			(at 39.37 167.64 0)
+			(at 40.64 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13333,7 +13681,7 @@
 			)
 		)
 		(property "Mouser Part #" "81-GRM31C5C1H224JE2L"
-			(at 39.37 167.64 0)
+			(at 40.64 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13342,7 +13690,7 @@
 			)
 		)
 		(property "Mfr Part #" "GRM31C5C1H224JE02L"
-			(at 39.37 167.64 0)
+			(at 40.64 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13351,7 +13699,7 @@
 			)
 		)
 		(property "Mfr" "Murata"
-			(at 39.37 167.64 0)
+			(at 40.64 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13360,7 +13708,7 @@
 			)
 		)
 		(property "Purpose" "HPF - sets high-pass cutoff frequency"
-			(at 39.37 167.64 0)
+			(at 40.64 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13369,7 +13717,7 @@
 			)
 		)
 		(property "Source" "LCSC"
-			(at 39.37 167.64 0)
+			(at 40.64 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13386,7 +13734,7 @@
 		(instances
 			(project "2023_PiezoPreamp"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
-					(reference "Chp105")
+					(reference "Chp106")
 					(unit 1)
 				)
 			)
@@ -13540,7 +13888,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "library:RT0603BRD07150RL_UL-M"
+		(property "Footprint" "library:RT0603BRE07150RL_UL-M"
 			(at 81.28 41.91 0)
 			(effects
 				(font
@@ -13576,7 +13924,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C705726"
+		(property "LCSC Part #" "C728601"
 			(at 81.28 41.91 0)
 			(effects
 				(font
@@ -13585,7 +13933,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part #" "603-RT0603BRD07150RL"
+		(property "Mouser Part #" "603-RT0603BRE07150RL "
 			(at 81.28 41.91 0)
 			(effects
 				(font
@@ -13594,7 +13942,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr Part #" "RT0603BRD07150RL"
+		(property "Mfr Part #" "RT0603BRE07150RL"
 			(at 81.28 41.91 0)
 			(effects
 				(font

@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Battery & Power Indicator")
-		(date "2024-02-15")
+		(date "2024-02-20")
 		(rev "3.0")
 		(company "Arx")
 	)

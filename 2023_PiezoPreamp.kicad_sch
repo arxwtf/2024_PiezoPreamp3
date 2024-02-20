@@ -6,10 +6,11 @@
 	(paper "A4")
 	(title_block
 		(title "Piezo Preamp + EQ")
-		(date "2024-02-15")
+		(date "2024-02-20")
 		(rev "3.0")
 		(company "Arx")
-		(comment 1 "v3.0: +ON/OFF sw w/ true bypass, +BI mode sw, + DC jack, external pots, -LED trimpot")
+		(comment 1 "changing switches, reducing BOM")
+		(comment 2 "v3.0: +ON/OFF sw w/ true bypass, +BI mode sw, + DC jack, external pots, -LED trimpot,")
 	)
 	(lib_symbols)
 	(text "[4] Mounting, hardware\nand accessories"
@@ -27,14 +28,14 @@
 	)
 	(text "Piezo preamp with EQ"
 		(exclude_from_sim no)
-		(at 43.18 31.115 0)
+		(at 143.51 38.1 0)
 		(effects
 			(font
 				(size 5 5)
 				(thickness 1)
 				(bold yes)
 			)
-			(justify left bottom)
+			(justify bottom)
 		)
 		(uuid "841d2a1c-36bc-473f-96fb-c55e52ab10c5")
 	)
