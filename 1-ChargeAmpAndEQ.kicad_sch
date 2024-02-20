@@ -5866,7 +5866,7 @@
 		)
 		(uuid "cf769ed7-f6da-4134-8909-1febf447e872")
 	)
-	(text "Rf101 forms low-pass filter with\nCf100 and Cf10x selected by gain sw:\n1 / (2pi * Rf101 * (Cf100 + Cf10x))\n\n"
+	(text "Rf101 forms high-pass filter with\nCf100 and Cf10x selected by gain sw:\n1 / (2pi * Rf101 * (Cf100 + Cf10x))\n\n"
 		(exclude_from_sim no)
 		(at 90.17 81.28 0)
 		(effects
@@ -8712,7 +8712,7 @@
 				(hide yes)
 			)
 		)
-		(property "Purpose" "charge amp feedback resistor - sets LP cutoff with feedback capacitance"
+		(property "Purpose" "charge amp feedback resistor - sets high-pass cutoff with feedback capacitance"
 			(at 105.41 73.66 0)
 			(effects
 				(font
