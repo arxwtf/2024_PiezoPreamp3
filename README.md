@@ -40,9 +40,9 @@ OPA145 is the opamp of choice because of these characteristics:
 
 Opamp also unfortunately seems to have bias current cancellation, which might introduce more current noise - this has to be determined by measurement. The same opamp is also used for Baxandall tone control section. Two single OPA145 components are used instead of dual OPA2145 package because it's easier to route, minimizes crosstalk and improves power dissipation (less heat). This increases the price, of course.
 
-### Low-pass filter
+### High-pass filter
 
-The charge amp is followed by a simple first-order low-pass filter with switchable cutoff frequency:
+The charge amp is followed by a simple first-order high-pass filter with switchable cutoff frequency:
 - 0Hz 
 - 75Hz
 - 120Hz
