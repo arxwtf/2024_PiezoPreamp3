@@ -1275,7 +1275,7 @@
   (symbol (lib_id "power:GND") (at 164.465 148.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0d057ab3-8ea8-45c3-b8e9-a90ed81d42cf)
-    (property "Reference" "#PWR022" (at 164.465 154.94 0)
+    (property "Reference" "#PWR028" (at 164.465 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 164.465 152.7255 0)
@@ -1290,9 +1290,6 @@
     (pin "1" (uuid 93335922-faa2-4b7b-ae52-369c5fe822db))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
-          (reference "#PWR022") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
           (reference "#PWR028") (unit 1)
         )
@@ -1353,7 +1350,7 @@
   (symbol (lib_id "power:GND") (at 164.465 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 19fdc72a-08dd-449d-966f-5951d2ee1f50)
-    (property "Reference" "#PWR022" (at 164.465 129.54 0)
+    (property "Reference" "#PWR015" (at 164.465 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 164.465 127.3255 0)
@@ -1368,9 +1365,6 @@
     (pin "1" (uuid b1aa617e-fa4d-48e4-a00a-1e011ed4a0fe))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
-          (reference "#PWR022") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
           (reference "#PWR015") (unit 1)
         )
@@ -1381,7 +1375,7 @@
   (symbol (lib_id "Device:C_Small") (at 62.23 137.795 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1a44450c-dd4f-4d16-aedf-4bfaa31a47bf)
-    (property "Reference" "C?" (at 66.675 136.525 0)
+    (property "Reference" "C203" (at 66.675 136.525 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10u" (at 66.04 139.065 0)
@@ -1412,9 +1406,6 @@
     (pin "2" (uuid c6985b71-4d3f-4e57-8437-1afbb22c4c92))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "C?") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
           (reference "C203") (unit 1)
         )
@@ -1425,7 +1416,7 @@
   (symbol (lib_id "Device:C_Small") (at 229.235 63.5 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1cf1428c-f093-4e1a-943d-e3a8baab2159)
-    (property "Reference" "C?" (at 231.14 61.595 0)
+    (property "Reference" "C202" (at 231.14 61.595 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "22u" (at 231.14 65.405 0)
@@ -1456,9 +1447,6 @@
     (pin "2" (uuid f4ed1ce5-c0f6-4dc5-b76d-5e21fb13e5fc))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "C?") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
           (reference "C202") (unit 1)
         )
@@ -1469,7 +1457,7 @@
   (symbol (lib_id "Device:R_Small") (at 152.4 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 299ad78b-b805-4e1d-be39-c896b173a5d2)
-    (property "Reference" "R?" (at 146.05 74.93 0)
+    (property "Reference" "R201" (at 146.05 74.93 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 147.32 77.47 0)
@@ -1500,9 +1488,6 @@
     (pin "2" (uuid b1b7fb2d-4cd2-4f3f-95d8-fd1cdfd803d2))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "R?") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
           (reference "R201") (unit 1)
         )
@@ -1513,7 +1498,7 @@
   (symbol (lib_id "power:GND") (at 51.435 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 311730bc-325d-4067-b751-d64caba08a9f)
-    (property "Reference" "#PWR022" (at 51.435 151.13 0)
+    (property "Reference" "#PWR02" (at 51.435 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 51.435 148.9155 0)
@@ -1528,9 +1513,6 @@
     (pin "1" (uuid 82e6b471-e8fb-4073-a8ca-ad34995637e6))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
-          (reference "#PWR022") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
           (reference "#PWR02") (unit 1)
         )
@@ -1541,7 +1523,7 @@
   (symbol (lib_id "Device:C_Small") (at 214.63 63.5 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 32f6de0d-27af-4693-83d0-933e342776e2)
-    (property "Reference" "C?" (at 219.075 61.595 0)
+    (property "Reference" "C201" (at 219.075 61.595 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22u" (at 218.44 65.405 0)
@@ -1572,9 +1554,6 @@
     (pin "2" (uuid c1675cc7-8135-4107-a06d-6c5259c15bf8))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "C?") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
           (reference "C201") (unit 1)
         )
@@ -1585,7 +1564,7 @@
   (symbol (lib_id "Device:R_Small") (at 222.25 48.895 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 33da1130-9d60-42fd-b5b0-3fe848ba469c)
-    (property "Reference" "R?" (at 215.265 46.99 90)
+    (property "Reference" "R202" (at 215.265 46.99 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100R" (at 224.155 46.99 90)
@@ -1616,9 +1595,6 @@
     (pin "2" (uuid b2b6f811-22ce-4383-a4fe-e9abbf197327))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "R?") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
           (reference "R202") (unit 1)
         )
@@ -1629,7 +1605,7 @@
   (symbol (lib_id "power:GND") (at 175.26 148.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 35811e40-4bdc-4a25-8a37-8359b09d2fd0)
-    (property "Reference" "#PWR022" (at 175.26 154.94 0)
+    (property "Reference" "#PWR029" (at 175.26 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 175.26 152.7255 0)
@@ -1644,9 +1620,6 @@
     (pin "1" (uuid 21b65cea-3036-44cf-adda-7622b0136890))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
-          (reference "#PWR022") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
           (reference "#PWR029") (unit 1)
         )
@@ -1682,7 +1655,7 @@
   (symbol (lib_id "Device:R_Small") (at 51.435 121.285 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3a227af9-057d-4a35-bdd3-d5544961b19b)
-    (property "Reference" "R?" (at 45.085 120.015 0)
+    (property "Reference" "R203" (at 45.085 120.015 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47k" (at 46.355 122.555 0)
@@ -1713,9 +1686,6 @@
     (pin "2" (uuid d7f1124b-c288-40dd-9d35-e0d63f4e9eb1))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "R?") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
           (reference "R203") (unit 1)
         )
@@ -1726,7 +1696,7 @@
   (symbol (lib_id "Device:C_Small") (at 175.26 145.415 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 48d29059-4a95-4bd3-beee-e99b8f2f5f26)
-    (property "Reference" "C5" (at 180.34 144.145 0)
+    (property "Reference" "C207" (at 180.34 144.145 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10u" (at 179.705 146.685 0)
@@ -1757,12 +1727,6 @@
     (pin "2" (uuid e4638045-4159-43c6-9cdd-4d45a33c0275))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "C5") (unit 1)
-        )
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
-          (reference "C5") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
           (reference "C207") (unit 1)
         )
@@ -1818,7 +1782,7 @@
   (symbol (lib_id "power:VS") (at 156.21 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 56fcfe70-7020-4c15-8152-2d21837d8667)
-    (property "Reference" "#PWR010" (at 151.13 140.97 0)
+    (property "Reference" "#PWR014" (at 151.13 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VS" (at 156.21 133.6581 0)
@@ -1848,9 +1812,6 @@
     (pin "1" (uuid cd5dceef-2c51-4749-b4fa-a3c4b1808696))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
-          (reference "#PWR010") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
           (reference "#PWR014") (unit 1)
         )
@@ -1905,7 +1866,7 @@
   (symbol (lib_id "power:GND") (at 62.23 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5c4276d3-b0c8-4ad0-8218-d90c8cb80b70)
-    (property "Reference" "#PWR022" (at 62.23 151.13 0)
+    (property "Reference" "#PWR04" (at 62.23 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 62.23 148.9155 0)
@@ -1920,9 +1881,6 @@
     (pin "1" (uuid 17f983c5-9832-418c-b329-4c766f6cc37f))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
-          (reference "#PWR022") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
           (reference "#PWR04") (unit 1)
         )
@@ -1933,7 +1891,7 @@
   (symbol (lib_id "Device:R_Small") (at 51.435 137.795 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6a5e2f67-3668-4aaf-93f4-3eff39dc332e)
-    (property "Reference" "R?" (at 45.085 136.525 0)
+    (property "Reference" "R204" (at 45.085 136.525 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47k" (at 46.355 139.065 0)
@@ -1964,9 +1922,6 @@
     (pin "2" (uuid 4905be69-fe7e-47dc-a6d3-60790c423a09))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "R?") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
           (reference "R204") (unit 1)
         )
@@ -1977,7 +1932,7 @@
   (symbol (lib_id "power:GND") (at 106.045 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 74f6ea51-073c-485e-86ae-b5129dccb142)
-    (property "Reference" "#PWR022" (at 106.045 88.9 0)
+    (property "Reference" "#PWR06" (at 106.045 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 106.045 86.6855 0)
@@ -1992,9 +1947,6 @@
     (pin "1" (uuid 422958a1-b20f-4cbc-ab6e-d6984a6ffe9e))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
-          (reference "#PWR022") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
           (reference "#PWR06") (unit 1)
         )
@@ -2005,7 +1957,7 @@
   (symbol (lib_id "Device:C_Small") (at 164.465 120.015 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7c69dd11-b891-4057-b471-7abd6e1849f7)
-    (property "Reference" "C5" (at 168.91 118.745 0)
+    (property "Reference" "C204" (at 168.91 118.745 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n" (at 168.91 121.285 0)
@@ -2036,12 +1988,6 @@
     (pin "2" (uuid 7538f2cd-d193-41bd-861a-150f6e7838e3))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "C5") (unit 1)
-        )
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
-          (reference "C3") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
           (reference "C204") (unit 1)
         )
@@ -2052,7 +1998,7 @@
   (symbol (lib_id "Device:C_Small") (at 175.26 120.015 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9d138330-c985-4a40-ba99-3337c0ecbf23)
-    (property "Reference" "C5" (at 180.34 118.745 0)
+    (property "Reference" "C205" (at 180.34 118.745 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10u" (at 179.705 121.285 0)
@@ -2083,12 +2029,6 @@
     (pin "2" (uuid b8f0fc38-11cd-40b5-82cd-51f290027061))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "C5") (unit 1)
-        )
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
-          (reference "C5") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
           (reference "C205") (unit 1)
         )
@@ -2099,7 +2039,7 @@
   (symbol (lib_id "Device:C_Small") (at 164.465 145.415 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b071136e-e312-4d5d-b17d-0f0483eb1c60)
-    (property "Reference" "C5" (at 168.91 144.145 0)
+    (property "Reference" "C206" (at 168.91 144.145 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n" (at 168.91 146.685 0)
@@ -2130,12 +2070,6 @@
     (pin "2" (uuid 08f15338-01e6-4980-8950-88d48b750154))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "C5") (unit 1)
-        )
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
-          (reference "C3") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
           (reference "C206") (unit 1)
         )
@@ -2187,7 +2121,7 @@
   (symbol (lib_id "Device:D_TVS") (at 106.045 66.04 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c6e519a7-1494-43c8-9548-bafdf8d48218)
-    (property "Reference" "D1" (at 108.077 65.3963 90)
+    (property "Reference" "D201" (at 108.077 65.3963 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "20V 15pF" (at 108.077 67.3173 90)
@@ -2218,9 +2152,6 @@
     (pin "2" (uuid 7afea47a-4164-4937-b181-527ff0b52af0))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "D1") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
           (reference "D201") (unit 1)
         )
@@ -2261,9 +2192,6 @@
     (pin "1" (uuid e4b6e32e-4e3b-4d80-be2f-4cb025ec923b))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
-          (reference "#PWR010") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
           (reference "#PWR010") (unit 1)
         )
@@ -2274,7 +2202,7 @@
   (symbol (lib_id "power:GND") (at 175.26 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d7c9eb01-047a-4b17-bfee-e5bee1030e0d)
-    (property "Reference" "#PWR022" (at 175.26 129.54 0)
+    (property "Reference" "#PWR016" (at 175.26 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 175.26 127.3255 0)
@@ -2289,9 +2217,6 @@
     (pin "1" (uuid 0fb0c35b-6120-4719-99a8-fa34ca10d74c))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
-          (reference "#PWR022") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
           (reference "#PWR016") (unit 1)
         )
@@ -2302,7 +2227,7 @@
   (symbol (lib_id "power:GND") (at 152.4 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e0dcffd2-c514-4e94-a464-54475849f363)
-    (property "Reference" "#PWR022" (at 152.4 88.9 0)
+    (property "Reference" "#PWR017" (at 152.4 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 152.4 86.6855 0)
@@ -2317,9 +2242,6 @@
     (pin "1" (uuid 3efb18c2-af99-46a6-a1cf-aa895b41761f))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
-          (reference "#PWR022") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
           (reference "#PWR017") (unit 1)
         )
@@ -2330,7 +2252,7 @@
   (symbol (lib_id "power:GND") (at 229.235 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f5cb5868-567e-4453-bcaf-7dd80e3454cc)
-    (property "Reference" "#PWR022" (at 229.235 82.55 0)
+    (property "Reference" "#PWR08" (at 229.235 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 229.235 80.3355 0)
@@ -2345,9 +2267,6 @@
     (pin "1" (uuid 6c8830e6-3e45-4031-80ce-623373d0d8b4))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
-          (reference "#PWR022") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
           (reference "#PWR08") (unit 1)
         )
@@ -2358,7 +2277,7 @@
   (symbol (lib_id "power:GND") (at 214.63 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ff751425-f767-4158-a222-2591258ffef4)
-    (property "Reference" "#PWR022" (at 214.63 82.55 0)
+    (property "Reference" "#PWR07" (at 214.63 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 214.63 80.3355 0)
@@ -2373,9 +2292,6 @@
     (pin "1" (uuid e3c9738f-b1a1-49b9-b26d-21121c9662d6))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
-          (reference "#PWR022") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
           (reference "#PWR07") (unit 1)
         )

@@ -1471,7 +1471,7 @@
     (effects (font (size 1 1)) (justify left bottom))
     (uuid 24db69a1-e5f2-4224-bb34-1fcc35bbd9a0)
   )
-  (text "LPF switch\ngoes here" (at 130.81 41.275 0)
+  (text "HPF switch\ngoes here" (at 130.81 41.275 0)
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
     (uuid 268155a2-d5ee-41c7-9b2e-20ea3b9072e8)
   )
@@ -1505,7 +1505,7 @@
     (effects (font (size 1.54 1.54) (thickness 0.4) bold) (justify left bottom))
     (uuid 3fe4a058-d4a1-44f3-b084-f68dba54ad87)
   )
-  (text "LOW-PASS FILTER" (at 121.92 88.265 0)
+  (text "HIGH-PASS FILTER" (at 121.92 88.265 0)
     (effects (font (size 2 2) (thickness 0.4) bold) (justify left bottom))
     (uuid 404c52be-ae63-4b98-a861-9cc5788f51ef)
   )
@@ -1593,7 +1593,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c12ae4e6-719b-4011-88a3-e225714e18a0)
   )
-  (text "LPF SWITCH" (at 15.875 194.31 0)
+  (text "HPF SWITCH" (at 15.875 194.31 0)
     (effects (font (size 2 2) (thickness 0.4) bold) (justify left bottom))
     (uuid c742ec0e-da4e-4f54-bd0b-4ba9468704ff)
   )
@@ -1614,7 +1614,7 @@
     (effects (font (size 1 1)) (justify left bottom))
     (uuid cf769ed7-f6da-4134-8909-1febf447e872)
   )
-  (text "Rf101 forms low-pass filter with\nCf100 and Cf10x selected by gain sw:\n1 / (2pi * Rf101 * (Cf100 + Cf10x))\n\n"
+  (text "Rf101 forms high-pass filter with\nCf100 and Cf10x selected by gain sw:\n1 / (2pi * Rf101 * (Cf100 + Cf10x))\n\n"
     (at 84.455 83.82 0)
     (effects (font (size 1 1)) (justify left bottom))
     (uuid d15a93db-e722-4392-8339-73cdd7939910)
@@ -1666,7 +1666,7 @@
     (effects (font (size 1 1)) (justify left bottom))
     (uuid fa022a41-e061-4663-a746-f10c11c40072)
   )
-  (text "Slide switch that forms low-end cutoff with Baxandall input\nimpedance. Cutoffs calculated with Bass and Treble pots centered.\n\n\n\n"
+  (text "Slide switch that forms high-pass filter with Baxandall input\nimpedance. Cutoffs calculated with Bass and Treble pots centered.\n\n\n\n"
     (at 35.56 201.295 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid fe3abf6b-a1c7-4aea-b34e-ed4a2977999b)
@@ -1688,7 +1688,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0ceb3217-2b81-40bd-bb83-ac84b375c31f)
   )
-  (label "LPF_SW_6" (at 57.15 179.705 0) (fields_autoplaced)
+  (label "HPF_SW_6" (at 57.15 179.705 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0cf94121-5515-43cf-9cd6-3f2745b60921)
   )
@@ -1712,7 +1712,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 2b798311-0ec1-4466-87ab-e4229d89f1ce)
   )
-  (label "LPF_SW_7" (at 56.515 167.005 0) (fields_autoplaced)
+  (label "HPF_SW_7" (at 56.515 167.005 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2d7382af-ecc1-4782-a7a9-592508cd4971)
   )
@@ -1848,7 +1848,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e80fa65f-ed3c-421a-bec5-22a064c572ea)
   )
-  (label "LPF_SW_9" (at 56.515 154.305 0) (fields_autoplaced)
+  (label "HPF_SW_9" (at 56.515 154.305 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid efa05efc-5a7d-4c65-bfe9-a89b3775b100)
   )
@@ -1890,7 +1890,7 @@
   (symbol (lib_id "Device:R_Potentiometer_Small") (at 218.44 57.785 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00130de1-a567-40fa-abfc-27480266b595)
-    (property "Reference" "RVT" (at 220.98 57.15 0)
+    (property "Reference" "RV102" (at 220.98 57.15 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "B10k" (at 220.98 59.055 0)
@@ -1922,9 +1922,6 @@
     (pin "3" (uuid df0876cd-3cb6-4ce9-b59f-989abf8c2ada))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "RVT") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
           (reference "RV102") (unit 1)
         )
@@ -1935,7 +1932,7 @@
   (symbol (lib_id "Device:R_Small") (at 182.245 70.485 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 002800ac-df8c-45d4-8d9d-52dccc6b9185)
-    (property "Reference" "RB2" (at 174.625 69.215 0)
+    (property "Reference" "Rb102" (at 174.625 69.215 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3k9" (at 177.165 71.755 0)
@@ -1966,9 +1963,6 @@
     (pin "2" (uuid 3c02b252-33c9-432d-baa8-06490d165481))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "RB2") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
           (reference "Rb102") (unit 1)
         )
@@ -1979,7 +1973,7 @@
   (symbol (lib_id "Device:C_Polarized_Small") (at 266.7 32.385 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0dedface-3f51-4f7f-a216-4b5184435cf9)
-    (property "Reference" "Cout" (at 266.7 26.67 90)
+    (property "Reference" "C103" (at 266.7 26.67 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100u 50V" (at 267.335 28.575 90)
@@ -2010,9 +2004,6 @@
     (pin "2" (uuid 4dc43dff-c5f9-4d00-ab92-fd12e3c0418d))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "Cout") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
           (reference "C103") (unit 1)
         )
@@ -2023,7 +2014,7 @@
   (symbol (lib_id "Device:C_Small") (at 189.865 106.68 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 10b19a35-d3e0-4f8a-b7dd-ee00e1ff854f)
-    (property "Reference" "Cfv2" (at 185.42 105.41 90)
+    (property "Reference" "Cb104" (at 185.42 105.41 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22n" (at 193.675 105.41 90)
@@ -2054,9 +2045,6 @@
     (pin "2" (uuid 8ef9c8a6-6224-4f2f-afd3-23d68529735d))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "Cfv2") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
           (reference "Cb104") (unit 1)
         )
@@ -2067,7 +2055,7 @@
   (symbol (lib_id "Amplifier_Operational:OPA197xDBV") (at 227.33 32.385 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 136861b4-0198-4b18-aa63-aba3fcb1c786)
-    (property "Reference" "U1" (at 234.95 35.56 0)
+    (property "Reference" "U102" (at 234.95 35.56 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "OPA145" (at 234.95 38.1 0)
@@ -2101,9 +2089,6 @@
     (pin "4" (uuid 2a25f24e-fb41-4b2a-9c5b-9f065a73357e))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "U1") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
           (reference "U102") (unit 1)
         )
@@ -2114,7 +2099,7 @@
   (symbol (lib_id "SSSS224100:SSSS224100") (at 79.375 105.41 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1ade820b-70f9-4642-b9e6-e16bee27f6b6)
-    (property "Reference" "S2" (at 67.945 121.285 0)
+    (property "Reference" "S101" (at 67.945 121.285 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SSSS224100" (at 67.945 119.38 0)
@@ -2156,9 +2141,6 @@
     (pin "9" (uuid 2dccc3c2-2b61-455d-9c63-4860341672bb))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "S2") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
           (reference "S101") (unit 1)
         )
@@ -2169,7 +2151,7 @@
   (symbol (lib_id "Device:C_Small") (at 136.525 55.245 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1bad02be-d1b4-4d2d-89e4-2bd530184cf1)
-    (property "Reference" "Cfv2" (at 131.445 53.975 90)
+    (property "Reference" "Chp102" (at 131.445 53.975 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220n" (at 140.335 53.975 90)
@@ -2193,18 +2175,15 @@
     (property "Mfr" "Murata" (at 136.525 55.245 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Purpose" "LPF - sets low-pass cutoff frequency" (at 136.525 55.245 0)
+    (property "Purpose" "HPF - sets low-pass cutoff frequency" (at 136.525 55.245 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 48df1596-14e7-4374-996d-deee7c676352))
     (pin "2" (uuid 181efc4e-b651-4bef-9f3c-f1c30c454aa0))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "Cfv2") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
-          (reference "Clp102") (unit 1)
+          (reference "Chp102") (unit 1)
         )
       )
     )
@@ -2213,7 +2192,7 @@
   (symbol (lib_id "Device:C_Small") (at 40.005 154.305 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 328bf469-a8df-4a35-a452-a3622df6abef)
-    (property "Reference" "Cfv3" (at 34.925 153.035 90)
+    (property "Reference" "Chp106" (at 34.925 153.035 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220n" (at 43.815 153.035 90)
@@ -2237,18 +2216,15 @@
     (property "Mfr" "Murata" (at 40.005 154.305 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Purpose" "LPF - sets low-pass cutoff frequency" (at 40.005 154.305 0)
+    (property "Purpose" "HPF - sets low-pass cutoff frequency" (at 40.005 154.305 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 0255a469-0ece-454a-8326-39e07a17b236))
     (pin "2" (uuid 500da0a8-c551-4eec-8a3c-d3ad4f34d4b9))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "Cfv3") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
-          (reference "Clp106") (unit 1)
+          (reference "Chp106") (unit 1)
         )
       )
     )
@@ -2257,7 +2233,7 @@
   (symbol (lib_id "Device:C_Small") (at 126.365 118.11 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 35159f3e-bf45-41ee-961f-3b00316ca7fd)
-    (property "Reference" "Cfv2" (at 122.555 116.84 90)
+    (property "Reference" "Ct103" (at 122.555 116.84 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "6n8" (at 129.54 116.84 90)
@@ -2288,9 +2264,6 @@
     (pin "2" (uuid d41d0214-da14-4fb9-b1cb-d3c894525ed4))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "Cfv2") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
           (reference "Ct103") (unit 1)
         )
@@ -2301,7 +2274,7 @@
   (symbol (lib_id "Device:C_Small") (at 189.865 128.27 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 38c67b0a-f298-407a-8505-a4b8eb806e37)
-    (property "Reference" "Cfv2" (at 185.42 127 90)
+    (property "Reference" "Cb102" (at 185.42 127 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n" (at 193.675 127 90)
@@ -2332,9 +2305,6 @@
     (pin "2" (uuid d8ae79e4-ac27-411d-8087-c7bf892476ca))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "Cfv2") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
           (reference "Cb102") (unit 1)
         )
@@ -2345,7 +2315,7 @@
   (symbol (lib_id "Device:R_Small") (at 99.06 75.565 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3ede5b4b-d454-47f7-a70b-c7a13dbb0df2)
-    (property "Reference" "Rfp" (at 96.52 74.295 90)
+    (property "Reference" "Rf101" (at 96.52 74.295 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10M" (at 105.41 74.295 90)
@@ -2376,9 +2346,6 @@
     (pin "2" (uuid 0685eda9-6993-442b-b13e-cf9af5a0e139))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "Rfp") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
           (reference "Rf101") (unit 1)
         )
@@ -2389,7 +2356,7 @@
   (symbol (lib_id "Device:C_Small") (at 126.365 106.68 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 417dc94d-32cc-4600-9c54-f5303f12d004)
-    (property "Reference" "Cfv2" (at 122.555 105.41 90)
+    (property "Reference" "Ct104" (at 122.555 105.41 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4n7" (at 129.54 105.41 90)
@@ -2420,9 +2387,6 @@
     (pin "2" (uuid 6972b652-ae6f-4315-9904-0b14a90792ed))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "Cfv2") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
           (reference "Ct104") (unit 1)
         )
@@ -2511,9 +2475,6 @@
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
           (reference "#PWR027") (unit 1)
         )
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
-          (reference "#PWR010") (unit 1)
-        )
       )
     )
   )
@@ -2521,7 +2482,7 @@
   (symbol (lib_id "Device:C_Polarized_Small") (at 40.005 179.705 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5a199ea7-2aa9-486a-8670-f9d1611cb6c6)
-    (property "Reference" "Cout" (at 40.005 182.88 90)
+    (property "Reference" "Chp103" (at 40.005 182.88 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10u 50V" (at 40.005 185.42 90)
@@ -2533,7 +2494,7 @@
     (property "Datasheet" "https://cz.mouser.com/datasheet/2/315/ABA0000C1181-947564.pdf" (at 40.005 179.705 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Purpose" "LPF - sets low-pass cutoff frequency" (at 40.005 179.705 0)
+    (property "Purpose" "HPF - sets low-pass cutoff frequency" (at 40.005 179.705 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC Part #" "C178547" (at 40.005 179.705 0)
@@ -2552,11 +2513,8 @@
     (pin "2" (uuid d313ce9a-b5fa-4666-bd7e-fda4da18176c))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "Cout") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
-          (reference "Clp103") (unit 1)
+          (reference "Chp103") (unit 1)
         )
       )
     )
@@ -2565,7 +2523,7 @@
   (symbol (lib_id "Device:R_Small") (at 218.44 70.485 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 689ccb10-48d1-4f65-ad2a-efc55751487d)
-    (property "Reference" "RT2" (at 210.82 69.215 0)
+    (property "Reference" "Rt102" (at 210.82 69.215 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2k2" (at 213.36 71.755 0)
@@ -2596,9 +2554,6 @@
     (pin "2" (uuid e52412a1-58e4-42e9-94c4-38a32bcdaaa5))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "RT2") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
           (reference "Rt102") (unit 1)
         )
@@ -2609,7 +2564,7 @@
   (symbol (lib_id "Device:R_Small") (at 194.31 57.785 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6a9b426c-a1d3-4a38-8e67-4d71f8200628)
-    (property "Reference" "R3" (at 196.85 54.61 90)
+    (property "Reference" "R103" (at 196.85 54.61 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3k9" (at 196.215 60.96 90)
@@ -2640,9 +2595,6 @@
     (pin "2" (uuid e2f28879-7e18-46f0-b854-4067206c3f21))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "R3") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
           (reference "R103") (unit 1)
         )
@@ -2653,7 +2605,7 @@
   (symbol (lib_id "Device:C_Small") (at 38.735 121.285 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6c3ab7fc-c396-4894-81e9-074fa8ea2ce9)
-    (property "Reference" "Cfv4" (at 34.29 120.015 90)
+    (property "Reference" "Cf102" (at 34.29 120.015 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22n" (at 41.91 120.015 90)
@@ -2684,9 +2636,6 @@
     (pin "2" (uuid 95305bbb-fc43-41ca-b014-904490382f73))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "Cfv4") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
           (reference "Cf102") (unit 1)
         )
@@ -2722,7 +2671,7 @@
   (symbol (lib_id "Device:R_Small") (at 182.245 45.085 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7c61d49f-fae1-43ef-ac2a-05570d556fd6)
-    (property "Reference" "RB1" (at 174.625 43.815 0)
+    (property "Reference" "Rb101" (at 174.625 43.815 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3k9" (at 177.165 46.355 0)
@@ -2753,9 +2702,6 @@
     (pin "2" (uuid 9f3b4903-176c-4c2a-96f9-3be528326551))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "RB1") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
           (reference "Rb101") (unit 1)
         )
@@ -2791,7 +2737,7 @@
   (symbol (lib_id "Device:C_Small") (at 205.74 57.785 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 857b0b58-8b9c-4240-8d19-882fce2b7c0c)
-    (property "Reference" "Cfv2" (at 205.74 54.61 90)
+    (property "Reference" "Ct101" (at 205.74 54.61 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "6n8" (at 205.74 60.96 90)
@@ -2822,9 +2768,6 @@
     (pin "2" (uuid f47aef4e-e2f7-4766-9bf4-769e6a836744))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "Cfv2") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
           (reference "Ct101") (unit 1)
         )
@@ -2835,7 +2778,7 @@
   (symbol (lib_id "Device:C_Small") (at 40.005 171.45 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8769404f-d34a-40cc-b7c5-35d4b7d4bd3d)
-    (property "Reference" "Cfv2" (at 34.925 170.18 90)
+    (property "Reference" "Chp104" (at 34.925 170.18 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220n" (at 43.815 170.18 90)
@@ -2859,18 +2802,15 @@
     (property "Mfr" "Murata" (at 40.005 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Purpose" "LPF - sets low-pass cutoff frequency" (at 40.005 171.45 0)
+    (property "Purpose" "HPF - sets low-pass cutoff frequency" (at 40.005 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid aaeb7e46-581d-48b5-869d-d648dc4b4c8a))
     (pin "2" (uuid 9a4f2093-d045-4eb2-a2c6-a72639094dd4))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "Cfv2") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
-          (reference "Clp104") (unit 1)
+          (reference "Chp104") (unit 1)
         )
       )
     )
@@ -2904,7 +2844,7 @@
   (symbol (lib_id "Amplifier_Operational:OPA197xDBV") (at 100.965 38.735 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 928b82ca-ced7-4bd3-b04a-34937b049177)
-    (property "Reference" "U1" (at 104.775 41.275 0)
+    (property "Reference" "U101" (at 104.775 41.275 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "OPA145" (at 102.235 43.815 0)
@@ -2938,9 +2878,6 @@
     (pin "4" (uuid 1a3dea14-8862-4c80-b038-cab8725e1bc1))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "U1") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
           (reference "U101") (unit 1)
         )
@@ -2951,7 +2888,7 @@
   (symbol (lib_id "Device:D_TVS") (at 238.125 116.84 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 92ccfacc-6359-4050-975e-e33490c4cfd2)
-    (property "Reference" "D2" (at 230.505 115.57 90)
+    (property "Reference" "D102" (at 230.505 115.57 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "12V 1pF" (at 227.965 118.745 90)
@@ -2982,9 +2919,6 @@
     (pin "2" (uuid fa36ce6b-2f19-4f6b-a790-72c8b5653a0e))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "D2") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
           (reference "D102") (unit 1)
         )
@@ -2995,7 +2929,7 @@
   (symbol (lib_id "Device:C_Small") (at 166.37 57.785 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9b23d72d-68a2-443d-b13c-28a96ecc1eb9)
-    (property "Reference" "Cfv2" (at 169.6911 55.9993 0)
+    (property "Reference" "Cb101" (at 169.6911 55.9993 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "68n" (at 168.5009 59.7224 0)
@@ -3026,9 +2960,6 @@
     (pin "2" (uuid 02972f75-c597-496b-8c77-27080c8dea55))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "Cfv2") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
           (reference "Cb101") (unit 1)
         )
@@ -3039,7 +2970,7 @@
   (symbol (lib_id "Device:C_Small") (at 189.865 118.11 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a3d8e19f-c1e2-45b8-a801-58f7456a1f52)
-    (property "Reference" "Cfv2" (at 185.42 116.84 90)
+    (property "Reference" "Cb103" (at 185.42 116.84 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "68n" (at 193.675 116.84 90)
@@ -3070,9 +3001,6 @@
     (pin "2" (uuid 40ec837f-df1c-4490-82fb-95bb3432315e))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "Cfv2") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
           (reference "Cb103") (unit 1)
         )
@@ -3083,7 +3011,7 @@
   (symbol (lib_id "Device:R_Small") (at 73.66 39.37 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a453f0a1-5c81-49fb-b24f-060905b6e0ef)
-    (property "Reference" "Rin" (at 67.945 37.465 90)
+    (property "Reference" "R101" (at 67.945 37.465 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "150R" (at 80.01 37.465 90)
@@ -3114,9 +3042,6 @@
     (pin "2" (uuid 4cb5a3b4-63f7-450a-9c15-712cf88d1e25))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "Rin") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
           (reference "R101") (unit 1)
         )
@@ -3127,7 +3052,7 @@
   (symbol (lib_id "Device:R_Small") (at 199.39 70.485 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a8b40479-ff6c-4751-98fc-05f3af9d4f2c)
-    (property "Reference" "R4" (at 198.12 69.215 0)
+    (property "Reference" "R104" (at 198.12 69.215 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10M" (at 198.12 71.12 0)
@@ -3158,9 +3083,6 @@
     (pin "2" (uuid 37d35d31-cf2e-4206-9fe6-a88aa55f7967))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "R4") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
           (reference "R104") (unit 1)
         )
@@ -3216,7 +3138,7 @@
   (symbol (lib_id "Device:R_Small") (at 252.73 32.385 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b35fbecc-20c6-4f00-826b-f1e0500fb0dd)
-    (property "Reference" "Rout" (at 250.19 29.21 90)
+    (property "Reference" "R105" (at 250.19 29.21 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100R" (at 250.19 35.56 90)
@@ -3247,9 +3169,6 @@
     (pin "2" (uuid c5f44995-0575-4b8e-a037-9d5b69ae4f83))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "Rout") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
           (reference "R105") (unit 1)
         )
@@ -3260,7 +3179,7 @@
   (symbol (lib_id "Device:C_Small") (at 208.28 19.05 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b4f1da3a-c499-4835-9776-786f37bc46b0)
-    (property "Reference" "Cfv2" (at 204.47 17.78 90)
+    (property "Reference" "C102" (at 204.47 17.78 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100p" (at 212.09 17.78 90)
@@ -3291,9 +3210,6 @@
     (pin "2" (uuid 40ff59db-bc70-4510-b79d-74578d446165))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "Cfv2") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
           (reference "C102") (unit 1)
         )
@@ -3329,7 +3245,7 @@
   (symbol (lib_id "Device:C_Small") (at 126.365 128.27 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bf47c6fe-e785-4751-a050-a115db25c618)
-    (property "Reference" "Cfv2" (at 122.555 127 90)
+    (property "Reference" "Ct102" (at 122.555 127 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22n" (at 129.54 127 90)
@@ -3360,9 +3276,6 @@
     (pin "2" (uuid fd6db232-6b4e-42d1-a19f-750a569c4f0b))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "Cfv2") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
           (reference "Ct102") (unit 1)
         )
@@ -3373,7 +3286,7 @@
   (symbol (lib_id "Device:R_Potentiometer_Small") (at 182.245 57.785 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c24d65ba-c2cc-4480-8d08-18eb93ea6a9d)
-    (property "Reference" "RVB" (at 179.9216 57.1741 0)
+    (property "Reference" "RV101" (at 179.9216 57.1741 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "B10k" (at 179.6338 59.1311 0)
@@ -3405,9 +3318,6 @@
     (pin "3" (uuid 458aa421-13cd-4f2f-8033-72b76652c417))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "RVB") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
           (reference "RV101") (unit 1)
         )
@@ -3418,7 +3328,7 @@
   (symbol (lib_id "Device:R_Small") (at 218.44 45.085 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c6927a2a-b727-49ea-8220-c09bb9269423)
-    (property "Reference" "RT1" (at 211.455 43.815 0)
+    (property "Reference" "Rt101" (at 211.455 43.815 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2k2" (at 213.36 46.355 0)
@@ -3449,9 +3359,6 @@
     (pin "2" (uuid d72263e7-a66b-4000-af08-8c643878f0a1))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "RT1") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
           (reference "Rt101") (unit 1)
         )
@@ -3462,7 +3369,7 @@
   (symbol (lib_id "SSSS224100:SSSS224100") (at 168.91 107.315 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c773201c-8ca4-45a4-9a38-84d6d41e33b3)
-    (property "Reference" "S2" (at 157.48 123.19 0)
+    (property "Reference" "S103" (at 157.48 123.19 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SSSS224100" (at 157.48 121.285 0)
@@ -3504,9 +3411,6 @@
     (pin "9" (uuid 33925b3d-8a0e-4023-b7f4-febc02ddf976))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "S2") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
           (reference "S103") (unit 1)
         )
@@ -3517,7 +3421,7 @@
   (symbol (lib_id "SSSS224100:SSSS224100") (at 91.44 156.21 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cb1ab548-309a-490c-b86a-0b5e24772aae)
-    (property "Reference" "S2" (at 80.01 150.495 0)
+    (property "Reference" "S102" (at 80.01 150.495 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SSSS224100" (at 80.01 152.4 0)
@@ -3532,7 +3436,7 @@
     (property "Height" "3.5" (at 72.39 551.13 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "Purpose" "Sets low-pass filter cutoff frequency" (at 91.44 156.21 0)
+    (property "Purpose" "Sets high-pass filter cutoff frequency" (at 91.44 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC Part #" "-" (at 91.44 156.21 0)
@@ -3559,9 +3463,6 @@
     (pin "9" (uuid e82f4cf8-494d-4392-916a-2a60b9c3c34b))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "S2") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
           (reference "S102") (unit 1)
         )
@@ -3572,7 +3473,7 @@
   (symbol (lib_id "Device:D_TVS") (at 48.895 48.26 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d6809b98-b87c-4200-bf8c-18a1e0a69e64)
-    (property "Reference" "D2" (at 41.91 46.99 90)
+    (property "Reference" "D101" (at 41.91 46.99 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "12V 1pF" (at 38.735 49.53 90)
@@ -3603,9 +3504,6 @@
     (pin "2" (uuid 70579a7b-a16a-4cee-be64-488157f7ed02))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "D2") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
           (reference "D101") (unit 1)
         )
@@ -3616,7 +3514,7 @@
   (symbol (lib_id "Device:C_Small") (at 38.735 100.33 90) (mirror x) (unit 1)
     (in_bom no) (on_board yes) (dnp yes)
     (uuid d9129fd3-9fb9-4a4f-95b1-1ece9cd2ec54)
-    (property "Reference" "Cfv1" (at 34.29 99.06 90)
+    (property "Reference" "Cf105" (at 34.29 99.06 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1n" (at 41.275 99.06 90)
@@ -3647,9 +3545,6 @@
     (pin "2" (uuid d2b75f6d-80f8-43ee-a916-00b8558b7aab))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "Cfv1") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
           (reference "Cf105") (unit 1)
         )
@@ -3710,7 +3605,7 @@
   (symbol (lib_id "Device:C_Small") (at 40.005 167.005 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dd3eb56c-1d38-49f5-818d-dcde1bffa5e7)
-    (property "Reference" "Cfv2" (at 34.925 165.735 90)
+    (property "Reference" "Chp105" (at 34.925 165.735 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220n" (at 43.815 165.735 90)
@@ -3734,18 +3629,15 @@
     (property "Mfr" "Murata" (at 40.005 167.005 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Purpose" "LPF - sets low-pass cutoff frequency" (at 40.005 167.005 0)
+    (property "Purpose" "HPF - sets low-pass cutoff frequency" (at 40.005 167.005 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid ae76626f-b664-49a2-8393-b9667e620ff1))
     (pin "2" (uuid 5f3c7a7f-5b70-4c7e-8874-ed72c78ca6ee))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "Cfv2") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
-          (reference "Clp105") (unit 1)
+          (reference "Chp105") (unit 1)
         )
       )
     )
@@ -3754,7 +3646,7 @@
   (symbol (lib_id "Device:C_Small") (at 97.79 62.865 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e70604e3-daf2-440a-8057-1278e89f65cf)
-    (property "Reference" "Cf" (at 93.98 61.595 90)
+    (property "Reference" "Cf101" (at 93.98 61.595 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1n" (at 101.6 61.595 90)
@@ -3785,9 +3677,6 @@
     (pin "2" (uuid b422858d-2e37-448a-8c4a-2e119fa39fe2))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "Cf") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
           (reference "Cf101") (unit 1)
         )
@@ -3798,7 +3687,7 @@
   (symbol (lib_id "Device:R_Small") (at 73.66 43.18 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ec7e2b7a-b909-481d-9965-04cfe43b332d)
-    (property "Reference" "Rin" (at 67.945 45.72 90)
+    (property "Reference" "R102" (at 67.945 45.72 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "150R" (at 80.01 45.72 90)
@@ -3829,9 +3718,6 @@
     (pin "2" (uuid cbf7c6e0-f3b6-4a33-8cae-ae7958c6477d))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "Rin") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
           (reference "R102") (unit 1)
         )
@@ -3842,7 +3728,7 @@
   (symbol (lib_id "Device:C_Polarized_Small") (at 58.42 41.275 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ee917cac-5b3e-44a1-90dd-49db9252b55f)
-    (property "Reference" "Cout" (at 58.42 36.195 90)
+    (property "Reference" "C101" (at 58.42 36.195 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10u 50V" (at 58.42 38.1 90)
@@ -3873,9 +3759,6 @@
     (pin "2" (uuid f6d54130-df18-4af1-ba55-c87bc6b150fd))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "Cout") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
           (reference "C101") (unit 1)
         )
@@ -3886,7 +3769,7 @@
   (symbol (lib_id "Device:C_Small") (at 38.735 114.935 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f1063566-8b31-4b22-9d2c-38494fa7dacb)
-    (property "Reference" "Cfv3" (at 34.29 113.665 90)
+    (property "Reference" "Cf103" (at 34.29 113.665 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10n" (at 41.91 113.665 90)
@@ -3917,9 +3800,6 @@
     (pin "2" (uuid fe4b4758-7a99-432b-b591-dfb9a0eccb01))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "Cfv3") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
           (reference "Cf103") (unit 1)
         )
@@ -3963,9 +3843,6 @@
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
           (reference "#PWR025") (unit 1)
         )
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
-          (reference "#PWR010") (unit 1)
-        )
       )
     )
   )
@@ -3973,7 +3850,7 @@
   (symbol (lib_id "Device:C_Small") (at 38.735 106.68 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f33bce7e-1167-4a57-a6a2-9afbe1335593)
-    (property "Reference" "Cfv2" (at 34.29 105.41 90)
+    (property "Reference" "Cf104" (at 34.29 105.41 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4n7" (at 41.91 105.41 90)
@@ -4004,9 +3881,6 @@
     (pin "2" (uuid aea863b1-1688-4665-b3cc-90dcf240e419))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "Cfv2") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
           (reference "Cf104") (unit 1)
         )
@@ -4017,7 +3891,7 @@
   (symbol (lib_id "Device:R_Potentiometer_Small") (at 269.24 50.165 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f3e9037e-217e-4d2d-959c-2c5c6bc83b15)
-    (property "Reference" "RVV" (at 266.065 49.53 0)
+    (property "Reference" "RV103" (at 266.065 49.53 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "A10k" (at 266.065 51.435 0)
@@ -4049,9 +3923,6 @@
     (pin "3" (uuid 236f59ea-d71c-4647-b87b-0c243a328fd1))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "RVV") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
           (reference "RV103") (unit 1)
         )
@@ -4112,7 +3983,7 @@
   (symbol (lib_id "Device:C_Small") (at 136.525 48.895 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fec15c9f-9f71-4a6d-bc1c-5bb14cddfcba)
-    (property "Reference" "Cin" (at 131.445 47.625 90)
+    (property "Reference" "Chp101" (at 131.445 47.625 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "68n" (at 140.335 47.625 90)
@@ -4136,18 +4007,15 @@
     (property "Mfr" "Murata" (at 136.525 48.895 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Purpose" "LPF - sets low-pass cutoff frequency" (at 136.525 48.895 0)
+    (property "Purpose" "HPF - sets low-pass cutoff frequency" (at 136.525 48.895 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 5d2952c3-feff-432f-be7c-8bdcb1e2c68f))
     (pin "2" (uuid 17439519-2d6e-4d26-a83b-855583f513cc))
     (instances
       (project "2023_PiezoPreamp"
-        (path "/6e141482-2809-49ad-b316-4cdedc98ad26"
-          (reference "Cin") (unit 1)
-        )
         (path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
-          (reference "Clp101") (unit 1)
+          (reference "Chp101") (unit 1)
         )
       )
     )
