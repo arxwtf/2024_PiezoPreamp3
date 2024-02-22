@@ -1975,7 +1975,7 @@
 	)
 	(text "Ceramic X5R.\nBigger cap = longer TC\n= longer flash"
 		(exclude_from_sim no)
-		(at 116.84 115.57 0)
+		(at 116.84 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
