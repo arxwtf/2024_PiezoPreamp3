@@ -622,87 +622,6 @@
 				)
 			)
 		)
-		(symbol "MountingPegs:MountingPeg"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board no)
-			(property "Reference" "H"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 -0.254 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 -0.254 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -0.254 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Enable" "0"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingPeg_1_1"
-				(rectangle
-					(start -1.27 -1.27)
-					(end 1.27 -1.778)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -0.508 2.032)
-					(end 0.508 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-		)
 		(symbol "Nut:Nut"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -774,6 +693,249 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+			)
+		)
+		(symbol "StandoffPCB:Standoff_Female_Female"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Standoff_Female_Female_1_1"
+				(polyline
+					(pts
+						(xy -2.54 -3.175) (xy -2.54 4.445) (xy -1.27 3.175) (xy -1.27 -4.445) (xy -2.54 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -4.445) (xy -1.27 -4.445) (xy -1.27 3.175) (xy 1.27 3.175) (xy 1.27 -4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -4.445) (xy 1.27 3.175) (xy 2.54 4.445) (xy 2.54 -3.175) (xy 1.27 -4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 3.175) (xy 1.27 3.175) (xy 2.54 4.445) (xy 1.27 5.715) (xy -1.27 5.715) (xy -2.54 4.445)
+						(xy -1.27 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 0 4.445)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+		)
+		(symbol "StandoffPCB:Standoff_Female_Male"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Standoff_Female_Male_1_1"
+				(polyline
+					(pts
+						(xy -2.54 -3.175) (xy -2.54 4.445) (xy -1.27 3.175) (xy -1.27 -4.445) (xy -2.54 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 4.445) (xy -0.635 6.985) (xy 0.635 6.985) (xy 0.635 4.445) (xy -0.635 4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -4.445) (xy -1.27 -4.445) (xy -1.27 3.175) (xy 1.27 3.175) (xy 1.27 -4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -4.445) (xy 1.27 3.175) (xy 2.54 4.445) (xy 2.54 -3.175) (xy 1.27 -4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 3.175) (xy 1.27 3.175) (xy 2.54 4.445) (xy 1.27 5.715) (xy -1.27 5.715) (xy -2.54 4.445)
+						(xy -1.27 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 0 4.445)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 6.985)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 			)
@@ -949,8 +1111,20 @@
 		)
 	)
 	(rectangle
-		(start 76.2 100.965)
-		(end 106.68 141.605)
+		(start 138.43 25.4)
+		(end 177.8 80.01)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 396da49c-a638-4071-a313-000495b5d1f1)
+	)
+	(rectangle
+		(start 100.33 93.98)
+		(end 130.81 134.62)
 		(stroke
 			(width 0)
 			(type dash)
@@ -961,8 +1135,8 @@
 		(uuid 4b3cd2e7-938e-4263-8919-5a8be0d34111)
 	)
 	(rectangle
-		(start 76.2 29.21)
-		(end 126.365 83.82)
+		(start 41.91 25.4)
+		(end 92.71 80.01)
 		(stroke
 			(width 0)
 			(type dash)
@@ -973,8 +1147,8 @@
 		(uuid 585efa78-dabb-467c-ae6f-842b3c9c7202)
 	)
 	(rectangle
-		(start 112.395 100.965)
-		(end 179.07 141.605)
+		(start 136.525 93.98)
+		(end 209.55 134.62)
 		(stroke
 			(width 0)
 			(type dash)
@@ -985,8 +1159,20 @@
 		(uuid 5a127583-a7f3-46c7-8b28-5bf49ef5dfba)
 	)
 	(rectangle
-		(start 167.64 43.18)
-		(end 213.995 83.82)
+		(start 179.07 25.4)
+		(end 222.25 80.01)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 605057a7-444b-4979-9dbb-92c6c3b5e44a)
+	)
+	(rectangle
+		(start 41.91 93.98)
+		(end 93.98 134.62)
 		(stroke
 			(width 0)
 			(type dash)
@@ -997,8 +1183,20 @@
 		(uuid 8e881046-8ac7-47c5-85de-4402b1566ea9)
 	)
 	(rectangle
-		(start 128.905 43.18)
-		(end 162.56 83.82)
+		(start 223.52 25.4)
+		(end 262.89 80.01)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b0296023-03c2-4b02-81d9-275e2be0342e)
+	)
+	(rectangle
+		(start 93.98 25.4)
+		(end 137.16 80.01)
 		(stroke
 			(width 0)
 			(type dash)
@@ -1010,7 +1208,7 @@
 	)
 	(text "MOUNTING HOLES"
 		(exclude_from_sim no)
-		(at 77.47 82.55 0)
+		(at 43.18 78.74 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1023,7 +1221,7 @@
 	)
 	(text "fastened to the bottom side of PCB"
 		(exclude_from_sim no)
-		(at 142.24 140.335 0)
+		(at 166.37 132.715 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1032,9 +1230,20 @@
 		)
 		(uuid "0f6f1030-6eee-4094-b4f1-22cee8eaa616")
 	)
-	(text "MOUNTING PEGS"
+	(text "Stainless steel or nylon (PA), 20mm,\nfemale-male, M2.5, pitch 0.45, hex."
 		(exclude_from_sim no)
-		(at 130.81 82.55 0)
+		(at 181.61 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "18a652a6-2a0a-4526-955b-a4ee297302a8")
+	)
+	(text "TOP STANDOFFS"
+		(exclude_from_sim no)
+		(at 95.25 78.74 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1045,9 +1254,35 @@
 		)
 		(uuid "1fc9178e-ff8c-4a70-b502-0491ba7ab5d5")
 	)
+	(text "TOP SCREWS"
+		(exclude_from_sim no)
+		(at 139.7 78.74 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "44018223-ad66-4f81-9561-2438f5396688")
+	)
+	(text "BOTTOM STANDOFFS"
+		(exclude_from_sim no)
+		(at 181.61 78.74 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "4cf0ea8c-41e5-4fc4-9628-d5cde60db29c")
+	)
 	(text "LED LIGHT GUIDE"
 		(exclude_from_sim no)
-		(at 78.105 140.335 0)
+		(at 102.235 132.715 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1058,9 +1293,22 @@
 		)
 		(uuid "4ee6cedf-7361-46e4-b100-e01fbcd7e441")
 	)
+	(text "BOTTOM SCREWS"
+		(exclude_from_sim no)
+		(at 224.79 78.74 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "5d2e49a2-790d-4602-930a-5a23453d97b9")
+	)
 	(text "guides power LED light to\nthe top cover of enclosure"
 		(exclude_from_sim no)
-		(at 78.105 135.255 0)
+		(at 102.235 127.635 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1069,9 +1317,9 @@
 		)
 		(uuid "5e321455-29cc-4a88-9531-0aa1c188c84d")
 	)
-	(text "Battery spring pushing against enclosure.\nCan be used as a single point of grounding\nif mounting hole is not used for this\npurpose.\nOnly use one of these methods to prevent \nground loops."
+	(text "Battery spring pushing against enclosure.\nCan be used as a single point of grounding.\n\nOne point of contact with enclosure is ideal,\nbut we can also use two (spring and mounting\nhole + pad + metal standoff)."
 		(exclude_from_sim no)
-		(at 169.545 76.2 0)
+		(at 44.45 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1082,7 +1330,7 @@
 	)
 	(text "GROUNDING SPRING"
 		(exclude_from_sim no)
-		(at 168.91 82.55 0)
+		(at 43.18 133.35 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1093,9 +1341,20 @@
 		)
 		(uuid "6e24b1e1-068f-4420-a871-5d781ed6ebf8")
 	)
+	(text "Stainless steel, flat thin head <1mm,\nPhillips, M2.5, L=6mm, pitch 0.45."
+		(exclude_from_sim no)
+		(at 224.79 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "82e511ff-7cb2-4547-9225-741495657921")
+	)
 	(text "BATTERY HOLDER"
 		(exclude_from_sim no)
-		(at 114.3 140.335 0)
+		(at 138.43 132.715 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1108,7 +1367,7 @@
 	)
 	(text "alt: Keystone 79"
 		(exclude_from_sim no)
-		(at 115.57 127 0)
+		(at 139.7 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1117,23 +1376,20 @@
 		)
 		(uuid "96a24aa5-e991-4413-bee8-267ba858ade3")
 	)
-	(text "TODO:\n- add all standoffs\n- remove battery spring?\n- renumber"
+	(text "Stainless steel or nylon (PA), 15mm,\nfemale-female, M2.5, pitch 0.45, hex."
 		(exclude_from_sim no)
-		(at 90.805 20.32 0)
+		(at 96.52 73.66 0)
 		(effects
 			(font
-				(size 3 3)
-				(thickness 0.254)
-				(bold yes)
-				(color 194 0 0 1)
+				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "992b8aa9-1158-433b-a23b-ac47d16514b8")
+		(uuid "9bd53d43-518d-423e-8987-a8a6504c9695")
 	)
 	(text "can be used as a single\npoint of grounding for\nenclosure if the grounding\nspring is not used"
 		(exclude_from_sim no)
-		(at 78.74 41.91 0)
+		(at 44.45 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1142,9 +1398,20 @@
 		)
 		(uuid "c055d18e-9d24-4a95-b629-69fe81f583b7")
 	)
+	(text "Stainless steel, flat thin head <1mm,\nPhillips, M2.5, L=6mm, pitch 0.45."
+		(exclude_from_sim no)
+		(at 139.7 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c947cc30-11de-428a-96db-40ec82b93136")
+	)
 	(text "what's missing:\n- knobs for pots"
 		(exclude_from_sim no)
-		(at 157.48 9.525 0)
+		(at 220.98 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1156,28 +1423,28 @@
 		)
 		(uuid "cd60e3c4-61b1-4fd5-bb6e-66ffbb6d64e4")
 	)
-	(text "alt: LPC_044_CTP"
+	(text "alt:\nFIX-LEMB2-4.8V0-F\nFIX-LEMB2-7V0-F\nFIX-LEMB2-8V0-F\nFIX-LEMB2-10V0-F"
 		(exclude_from_sim no)
-		(at 83.82 127.635 0)
+		(at 105.41 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "df20c22d-d930-4ab5-a744-a1d3bb282360")
+		(uuid "e7052139-ceee-4cc5-86fc-9200e9f10e03")
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 186.69 49.53 0)
+		(lib_id "Bolt:Bolt")
+		(at 163.83 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
-		(uuid "197e721c-82ca-47d9-9764-e5a1052d0c09")
-		(property "Reference" "J401"
-			(at 186.055 56.515 0)
+		(uuid "04a42042-7835-4031-b958-1ef9b1149e9a")
+		(property "Reference" "H410"
+			(at 160.02 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1185,8 +1452,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Spring Contact"
-			(at 186.055 58.42 0)
+		(property "Value" "M2.5, L=6mm"
+			(at 160.02 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1194,8 +1461,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "library:KEYSTONE-5201"
-			(at 186.69 49.53 0)
+		(property "Footprint" ""
+			(at 163.83 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1203,8 +1470,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.tme.eu/Document/935c8711960b52fec0fbaf2926903193/KEYS5201.pdf"
-			(at 186.69 49.53 0)
+		(property "Datasheet" "-"
+			(at 163.83 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1212,8 +1479,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 186.69 49.53 0)
+		(property "Description" "-"
+			(at 163.83 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1221,8 +1488,8 @@
 				(hide yes)
 			)
 		)
-		(property "Purpose" "enclosure grounding"
-			(at 186.69 49.53 0)
+		(property "Purpose" "Fastening enclosure side to standoff"
+			(at 163.83 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1230,8 +1497,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Keystone"
-			(at 186.69 49.53 0)
+		(property "Mfr" "-"
+			(at 163.83 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1239,8 +1506,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr Part #" "5201"
-			(at 186.69 49.53 0)
+		(property "Mfr Part #" "-"
+			(at 163.83 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1248,8 +1515,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part #" "534-5201"
-			(at 186.69 49.53 0)
+		(property "Mouser Part #" "-"
+			(at 163.83 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1258,7 +1525,133 @@
 			)
 		)
 		(property "LCSC Part #" "-"
-			(at 186.69 49.53 0)
+			(at 163.83 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part #" "-"
+			(at 163.83 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" ""
+			(at 163.83 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "2024_PiezoPreamp3"
+				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
+					(reference "H410")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 60.96 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "197e721c-82ca-47d9-9764-e5a1052d0c09")
+		(property "Reference" "J401"
+			(at 60.325 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Spring Contact"
+			(at 60.325 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "library:KEYSTONE-5201"
+			(at 60.96 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/935c8711960b52fec0fbaf2926903193/KEYS5201.pdf"
+			(at 60.96 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "enclosure grounding"
+			(at 60.96 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Keystone"
+			(at 60.96 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "5201"
+			(at 60.96 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" "534-5201"
+			(at 60.96 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "-"
+			(at 60.96 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1267,7 +1660,7 @@
 			)
 		)
 		(property "TME Part #" "KEYS5201"
-			(at 186.69 49.53 0)
+			(at 60.96 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1275,8 +1668,8 @@
 				(hide yes)
 			)
 		)
-		(property "Source" "TME"
-			(at 186.69 49.53 0)
+		(property "Source" "Mouser"
+			(at 60.96 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1288,7 +1681,7 @@
 			(uuid "d2a5203e-ef87-434d-b8ca-15cc7e428edc")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
 					(reference "J401")
 					(unit 1)
@@ -1297,8 +1690,134 @@
 		)
 	)
 	(symbol
+		(lib_id "StandoffPCB:Standoff_Female_Female")
+		(at 101.6 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b11284a-921c-465b-ac11-5af1427a756c")
+		(property "Reference" "H405"
+			(at 99.06 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "hex M2.5/15mm"
+			(at 99.06 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/451757bfa0cf89650334b0f101e3f2bd/Dremec_13.pdf"
+			(at 101.6 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "PCB standoff between top enclosure side and PCB. Stainless steel or nylon (PA). 4mm spanner. Female-female"
+			(at 101.6 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "-"
+			(at 101.6 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Dremec"
+			(at 101.6 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "1212X15"
+			(at 101.6 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" "-"
+			(at 101.6 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "TME"
+			(at 101.6 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part #" "TFF-M2.5X15/DR1212"
+			(at 101.6 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "2024_PiezoPreamp3"
+				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
+					(reference "H405")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 86.36 46.99 0)
+		(at 52.07 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1307,7 +1826,7 @@
 		(fields_autoplaced yes)
 		(uuid "1f2cd221-6767-4d3c-ae53-72e5608818f7")
 		(property "Reference" "#PWR019"
-			(at 86.36 53.34 0)
+			(at 52.07 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1316,7 +1835,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 86.36 51.1255 0)
+			(at 52.07 47.3155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1324,7 +1843,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 46.99 0)
+			(at 52.07 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1333,7 +1852,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 46.99 0)
+			(at 52.07 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1342,7 +1861,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 86.36 46.99 0)
+			(at 52.07 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1354,7 +1873,7 @@
 			(uuid "bfc738bc-8703-4595-aab7-d9ad9b34bdc2")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
 					(reference "#PWR019")
 					(unit 1)
@@ -1363,16 +1882,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Washer:Washer")
-		(at 165.1 115.57 0)
+		(lib_id "StandoffPCB:Standoff_Female_Female")
+		(at 120.65 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
-		(uuid "1f46ceb2-b18f-4a86-8d9a-d3c3098b1233")
-		(property "Reference" "H418"
-			(at 167.1549 118.11 0)
+		(uuid "3049d612-4735-4e4a-856b-e5e4cd7a44ff")
+		(property "Reference" "H406"
+			(at 118.11 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1380,16 +1899,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Washer, H=?"
-			(at 165.1 121.285 0)
+		(property "Value" "hex M2.5/15mm"
+			(at 118.11 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 115.57 0)
+			(at 120.65 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1397,8 +1917,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 165.1 115.57 0)
+		(property "Datasheet" "https://www.tme.eu/Document/451757bfa0cf89650334b0f101e3f2bd/Dremec_13.pdf"
+			(at 120.65 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1407,7 +1927,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 165.1 115.57 0)
+			(at 120.65 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1415,8 +1935,8 @@
 				(hide yes)
 			)
 		)
-		(property "Purpose" "battery holder"
-			(at 165.1 115.57 0)
+		(property "Purpose" "PCB standoff between top enclosure side and PCB. Stainless steel or nylon (PA). 4mm spanner. Female-female"
+			(at 120.65 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1424,8 +1944,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" ""
-			(at 165.1 115.57 0)
+		(property "LCSC Part #" "-"
+			(at 120.65 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1433,8 +1953,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr Part #" ""
-			(at 165.1 115.57 0)
+		(property "Mfr" "Dremec"
+			(at 120.65 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1442,8 +1962,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part #" ""
-			(at 165.1 115.57 0)
+		(property "Mfr Part #" "1212X15"
+			(at 120.65 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1451,8 +1971,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
-			(at 165.1 115.57 0)
+		(property "Mouser Part #" "-"
+			(at 120.65 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1460,8 +1980,8 @@
 				(hide yes)
 			)
 		)
-		(property "TME Part #" ""
-			(at 165.1 115.57 0)
+		(property "Source" "TME"
+			(at 120.65 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1469,8 +1989,8 @@
 				(hide yes)
 			)
 		)
-		(property "Source" ""
-			(at 165.1 115.57 0)
+		(property "TME Part #" "TFF-M2.5X15/DR1212"
+			(at 120.65 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1479,9 +1999,9 @@
 			)
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
-					(reference "H418")
+					(reference "H406")
 					(unit 1)
 				)
 			)
@@ -1489,7 +2009,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 191.77 49.53 0)
+		(at 66.04 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1498,7 +2018,7 @@
 		(fields_autoplaced yes)
 		(uuid "3450249e-e215-4a72-af25-7ae8504514db")
 		(property "Reference" "#PWR020"
-			(at 191.77 55.88 0)
+			(at 66.04 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1507,7 +2027,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 191.77 53.6655 0)
+			(at 66.04 104.4655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1515,7 +2035,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 191.77 49.53 0)
+			(at 66.04 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1524,7 +2044,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 49.53 0)
+			(at 66.04 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1533,7 +2053,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 191.77 49.53 0)
+			(at 66.04 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1545,7 +2065,7 @@
 			(uuid "329927e9-c87c-4344-b5b9-0c5c42267ee5")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
 					(reference "#PWR020")
 					(unit 1)
@@ -1554,34 +2074,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 82.55 64.135 180)
+		(lib_id "StandoffPCB:Standoff_Female_Male")
+		(at 186.69 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
-		(uuid "57be1ee6-2ca8-4c81-847b-9537b0b0fc75")
-		(property "Reference" "H403"
-			(at 80.645 69.215 0)
+		(uuid "37be18b4-d92d-40ca-a758-e0aac14d64d5")
+		(property "Reference" "H413"
+			(at 184.15 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "M2.5 MountingHole"
-			(at 80.645 71.12 0)
+		(property "Value" "hex M2.5/20mm"
+			(at 184.15 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO14580"
-			(at 82.55 64.135 0)
+		(property "Footprint" ""
+			(at 186.69 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1589,8 +2109,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "-"
-			(at 82.55 64.135 0)
+		(property "Datasheet" "https://www.tme.eu/Document/451757bfa0cf89650334b0f101e3f2bd/Dremec_13.pdf"
+			(at 186.69 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1599,7 +2119,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 82.55 64.135 0)
+			(at 186.69 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1607,35 +2127,8 @@
 				(hide yes)
 			)
 		)
-		(property "Purpose" "PCB mounting hole"
-			(at 82.55 64.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "-"
-			(at 82.55 64.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr Part #" "-"
-			(at 82.55 64.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part #" "-"
-			(at 82.55 64.135 0)
+		(property "Purpose" "PCB standoff between bottom enclosure side and PCB. Stainless steel or nylon (PA). 4mm spanner. Female-male"
+			(at 186.69 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1644,7 +2137,7 @@
 			)
 		)
 		(property "LCSC Part #" "-"
-			(at 82.55 64.135 0)
+			(at 186.69 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1652,8 +2145,8 @@
 				(hide yes)
 			)
 		)
-		(property "TME Part #" "-"
-			(at 82.55 64.135 0)
+		(property "Mfr" "Dremec"
+			(at 186.69 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1661,8 +2154,35 @@
 				(hide yes)
 			)
 		)
-		(property "Source" "-"
-			(at 82.55 64.135 0)
+		(property "Mfr Part #" "2212X20"
+			(at 186.69 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" "-"
+			(at 186.69 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "TME"
+			(at 186.69 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part #" "TFM-M2.5X20/DR2212"
+			(at 186.69 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1671,7 +2191,133 @@
 			)
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
+				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
+					(reference "H413")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 48.26 60.325 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "57be1ee6-2ca8-4c81-847b-9537b0b0fc75")
+		(property "Reference" "H403"
+			(at 46.355 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "M2.5 MountingHole"
+			(at 46.355 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO14580"
+			(at 48.26 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "-"
+			(at 48.26 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "PCB mounting hole"
+			(at 48.26 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "-"
+			(at 48.26 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "-"
+			(at 48.26 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" "-"
+			(at 48.26 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "-"
+			(at 48.26 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part #" "-"
+			(at 48.26 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "-"
+			(at 48.26 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
 					(reference "H403")
 					(unit 1)
@@ -1681,15 +2327,15 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 83.82 46.99 90)
+		(at 49.53 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "635f27a3-4e1c-4ac9-aa49-8bdc297bbbb1")
 		(property "Reference" "H401"
-			(at 80.645 53.975 90)
+			(at 46.355 50.165 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1698,7 +2344,7 @@
 			)
 		)
 		(property "Value" "M2.5 MountingHole_Pad"
-			(at 80.645 55.88 90)
+			(at 46.355 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1707,7 +2353,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO14580_Pad"
-			(at 83.82 46.99 0)
+			(at 49.53 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1716,7 +2362,7 @@
 			)
 		)
 		(property "Datasheet" "-"
-			(at 83.82 46.99 0)
+			(at 49.53 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1725,7 +2371,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 83.82 46.99 0)
+			(at 49.53 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1734,7 +2380,7 @@
 			)
 		)
 		(property "Purpose" "PCB mounting hole"
-			(at 83.82 46.99 0)
+			(at 49.53 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1743,7 +2389,7 @@
 			)
 		)
 		(property "Mfr" "-"
-			(at 83.82 46.99 0)
+			(at 49.53 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1752,7 +2398,7 @@
 			)
 		)
 		(property "Mfr Part #" "-"
-			(at 83.82 46.99 0)
+			(at 49.53 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1761,7 +2407,7 @@
 			)
 		)
 		(property "Mouser Part #" "-"
-			(at 83.82 46.99 0)
+			(at 49.53 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1770,7 +2416,7 @@
 			)
 		)
 		(property "LCSC Part #" "-"
-			(at 83.82 46.99 0)
+			(at 49.53 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1779,7 +2425,7 @@
 			)
 		)
 		(property "TME Part #" "-"
-			(at 83.82 46.99 0)
+			(at 49.53 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1788,7 +2434,7 @@
 			)
 		)
 		(property "Source" "-"
-			(at 83.82 46.99 0)
+			(at 49.53 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1800,7 +2446,7 @@
 			(uuid "9eed4da1-3d98-4e1f-829a-01b7ade8b85d")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
 					(reference "H401")
 					(unit 1)
@@ -1809,16 +2455,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Nut:Nut")
-		(at 145.415 106.045 0)
+		(lib_id "StandoffPCB:Standoff_Female_Male")
+		(at 207.01 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
 		(dnp no)
-		(uuid "8964a464-1bc2-481d-a744-14edc50f2ca4")
-		(property "Reference" "H419"
-			(at 147.32 108.585 0)
+		(uuid "88722dc2-1c65-4c64-bbcb-f8de6db224be")
+		(property "Reference" "H416"
+			(at 204.47 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1826,16 +2472,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "M2, H=3, locking"
-			(at 146.05 111.76 0)
+		(property "Value" "hex M2.5/20mm"
+			(at 204.47 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 145.415 106.045 0)
+			(at 207.01 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1843,133 +2490,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 145.415 106.045 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 145.415 106.045 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purpose" "for battery holder"
-			(at 145.415 106.045 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" ""
-			(at 145.415 106.045 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr Part #" ""
-			(at 145.415 106.045 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part #" ""
-			(at 145.415 106.045 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" ""
-			(at 145.415 106.045 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TME Part #" ""
-			(at 145.415 106.045 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Source" ""
-			(at 145.415 106.045 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "2023_PiezoPreamp"
-				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
-					(reference "H419")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Nut:Nut")
-		(at 165.1 106.045 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(uuid "8cae1b77-2dfe-4fdc-8784-6bf0d8c8dbd5")
-		(property "Reference" "H420"
-			(at 167.005 108.585 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "M2, H=3, locking"
-			(at 165.735 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 106.045 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 106.045 0)
+		(property "Datasheet" "https://www.tme.eu/Document/451757bfa0cf89650334b0f101e3f2bd/Dremec_13.pdf"
+			(at 207.01 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1978,7 +2500,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 165.1 106.045 0)
+			(at 207.01 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1986,161 +2508,8 @@
 				(hide yes)
 			)
 		)
-		(property "Purpose" "for battery holder"
-			(at 165.1 106.045 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" ""
-			(at 165.1 106.045 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr Part #" ""
-			(at 165.1 106.045 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part #" ""
-			(at 165.1 106.045 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" ""
-			(at 165.1 106.045 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TME Part #" ""
-			(at 165.1 106.045 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Source" ""
-			(at 165.1 106.045 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "2023_PiezoPreamp"
-				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
-					(reference "H420")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 108.585 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9555a647-fdf4-4b69-ba93-8e0493f76b39")
-		(property "Reference" "H402"
-			(at 106.68 53.975 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "M2.5 MountingHole"
-			(at 106.68 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO14580"
-			(at 108.585 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "-"
-			(at 108.585 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 108.585 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purpose" "PCB mounting hole"
-			(at 108.585 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "-"
-			(at 108.585 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr Part #" "-"
-			(at 108.585 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part #" "-"
-			(at 108.585 46.99 0)
+		(property "Purpose" "PCB standoff between bottom enclosure side and PCB. Stainless steel or nylon (PA). 4mm spanner. Female-male"
+			(at 207.01 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2149,7 +2518,7 @@
 			)
 		)
 		(property "LCSC Part #" "-"
-			(at 108.585 46.99 0)
+			(at 207.01 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2157,8 +2526,8 @@
 				(hide yes)
 			)
 		)
-		(property "TME Part #" "-"
-			(at 108.585 46.99 0)
+		(property "Mfr" "Dremec"
+			(at 207.01 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2166,8 +2535,35 @@
 				(hide yes)
 			)
 		)
-		(property "Source" "-"
-			(at 108.585 46.99 0)
+		(property "Mfr Part #" "2212X20"
+			(at 207.01 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" "-"
+			(at 207.01 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "TME"
+			(at 207.01 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part #" "TFM-M2.5X20/DR2212"
+			(at 207.01 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2176,7 +2572,635 @@
 			)
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
+				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
+					(reference "H416")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Nut:Nut")
+		(at 170.18 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "8964a464-1bc2-481d-a744-14edc50f2ca4")
+		(property "Reference" "H423"
+			(at 172.085 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2, H=3, locking"
+			(at 170.815 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "span = 5mm"
+			(at 170.18 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "for battery holder"
+			(at 170.18 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "-"
+			(at 170.18 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "-"
+			(at 170.18 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" "-"
+			(at 170.18 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "-"
+			(at 170.18 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part #" "-"
+			(at 170.18 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" ""
+			(at 170.18 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "2024_PiezoPreamp3"
+				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
+					(reference "H423")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "StandoffPCB:Standoff_Female_Male")
+		(at 186.69 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "8c0ddaca-15bc-4921-bbe0-29de465d7132")
+		(property "Reference" "H415"
+			(at 184.15 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "hex M2.5/20mm"
+			(at 184.15 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/451757bfa0cf89650334b0f101e3f2bd/Dremec_13.pdf"
+			(at 186.69 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "PCB standoff between bottom enclosure side and PCB. Stainless steel or nylon (PA). 4mm spanner. Female-male"
+			(at 186.69 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "-"
+			(at 186.69 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Dremec"
+			(at 186.69 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "2212X20"
+			(at 186.69 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" "-"
+			(at 186.69 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "TME"
+			(at 186.69 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part #" "TFM-M2.5X20/DR2212"
+			(at 186.69 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "2024_PiezoPreamp3"
+				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
+					(reference "H415")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Nut:Nut")
+		(at 194.31 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "8cae1b77-2dfe-4fdc-8784-6bf0d8c8dbd5")
+		(property "Reference" "H424"
+			(at 196.215 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2, H=3, locking"
+			(at 194.945 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "span = 5mm"
+			(at 194.31 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "for battery holder"
+			(at 194.31 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" ""
+			(at 194.31 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" ""
+			(at 194.31 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" ""
+			(at 194.31 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 194.31 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part #" ""
+			(at 194.31 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" ""
+			(at 194.31 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "2024_PiezoPreamp3"
+				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
+					(reference "H424")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Bolt:Bolt")
+		(at 147.32 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "8f815800-f5a5-4f6c-9f7d-9191aa438896")
+		(property "Reference" "H411"
+			(at 143.51 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2.5, L=6mm"
+			(at 143.51 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "-"
+			(at 147.32 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-"
+			(at 147.32 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "Fastening enclosure side to standoff"
+			(at 147.32 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "-"
+			(at 147.32 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "-"
+			(at 147.32 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" "-"
+			(at 147.32 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "-"
+			(at 147.32 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part #" "-"
+			(at 147.32 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" ""
+			(at 147.32 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "2024_PiezoPreamp3"
+				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
+					(reference "H411")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 74.295 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "9555a647-fdf4-4b69-ba93-8e0493f76b39")
+		(property "Reference" "H402"
+			(at 72.39 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2.5 MountingHole"
+			(at 72.39 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO14580"
+			(at 74.295 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "-"
+			(at 74.295 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.295 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "PCB mounting hole"
+			(at 74.295 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "-"
+			(at 74.295 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "-"
+			(at 74.295 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" "-"
+			(at 74.295 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "-"
+			(at 74.295 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part #" "-"
+			(at 74.295 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "-"
+			(at 74.295 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
 					(reference "H402")
 					(unit 1)
@@ -2186,15 +3210,15 @@
 	)
 	(symbol
 		(lib_id "9VBatteryHolder:9VBatteryHolder")
-		(at 121.92 116.205 180)
+		(at 146.05 108.585 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "959a9431-6cfb-444d-9fc5-7f41ca70bb42")
-		(property "Reference" "H414"
-			(at 132.08 117.475 0)
+		(property "Reference" "H422"
+			(at 156.21 109.855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2203,7 +3227,7 @@
 			)
 		)
 		(property "Value" "9V battery holder"
-			(at 123.825 123.19 0)
+			(at 147.955 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2211,7 +3235,7 @@
 			)
 		)
 		(property "Footprint" "library:KEYSTONE-71"
-			(at 121.92 116.205 0)
+			(at 146.05 108.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2220,7 +3244,7 @@
 			)
 		)
 		(property "Datasheet" "https://cz.mouser.com/datasheet/2/215/1-745942.pdf"
-			(at 121.92 116.205 0)
+			(at 146.05 108.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2229,7 +3253,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 121.92 116.205 0)
+			(at 146.05 108.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2238,7 +3262,7 @@
 			)
 		)
 		(property "Purpose" "Holding 9V battery. Fastened to enclosure"
-			(at 121.92 116.205 0)
+			(at 146.05 108.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2247,7 +3271,7 @@
 			)
 		)
 		(property "Mfr" "Keystone"
-			(at 121.92 116.205 0)
+			(at 146.05 108.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2256,7 +3280,7 @@
 			)
 		)
 		(property "Mfr Part #" "71"
-			(at 121.92 116.205 0)
+			(at 146.05 108.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2265,7 +3289,7 @@
 			)
 		)
 		(property "Mouser Part #" "534-071"
-			(at 121.92 116.205 0)
+			(at 146.05 108.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2274,7 +3298,7 @@
 			)
 		)
 		(property "LCSC Part #" "-"
-			(at 121.92 116.205 0)
+			(at 146.05 108.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2283,7 +3307,7 @@
 			)
 		)
 		(property "TME Part #" "KEYS71"
-			(at 121.92 116.205 0)
+			(at 146.05 108.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2292,7 +3316,7 @@
 			)
 		)
 		(property "Source" "Mouser"
-			(at 121.92 116.205 0)
+			(at 146.05 108.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2301,7 +3325,1392 @@
 			)
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
+				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
+					(reference "H422")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Bolt:Bolt")
+		(at 232.41 57.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "98d57d88-e6f8-401e-919b-de5223b072d3")
+		(property "Reference" "H419"
+			(at 228.6 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "M2.5, L=6mm"
+			(at 228.6 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "-"
+			(at 232.41 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-"
+			(at 232.41 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "Fastening enclosure side to standoff"
+			(at 232.41 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "-"
+			(at 232.41 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "-"
+			(at 232.41 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" "-"
+			(at 232.41 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "-"
+			(at 232.41 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part #" "-"
+			(at 232.41 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" ""
+			(at 232.41 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "2024_PiezoPreamp3"
+				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
+					(reference "H419")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Bolt:Bolt")
+		(at 232.41 38.1 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "9c3c39a8-b87c-4996-8cd0-135f6e629feb")
+		(property "Reference" "H417"
+			(at 228.6 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "M2.5, L=6mm"
+			(at 228.6 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "-"
+			(at 232.41 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-"
+			(at 232.41 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "Fastening enclosure side to standoff"
+			(at 232.41 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "-"
+			(at 232.41 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "-"
+			(at 232.41 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" "-"
+			(at 232.41 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "-"
+			(at 232.41 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part #" "-"
+			(at 232.41 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" ""
+			(at 232.41 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "2024_PiezoPreamp3"
+				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
+					(reference "H417")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Washer:Washer")
+		(at 170.18 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "a5dbe990-e6d9-4ee0-a4fd-c8b3f08ab6b9")
+		(property "Reference" "H425"
+			(at 172.2349 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Washer, H=0.35, D=5"
+			(at 170.18 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "-"
+			(at 170.18 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-"
+			(at 170.18 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "battery holder"
+			(at 170.18 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "-"
+			(at 170.18 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "-"
+			(at 170.18 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" "-"
+			(at 170.18 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "-"
+			(at 170.18 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part #" "-"
+			(at 170.18 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" ""
+			(at 170.18 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "2024_PiezoPreamp3"
+				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
+					(reference "H425")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Bolt:Bolt")
+		(at 250.19 57.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "b0ce2fd3-a72d-4fd6-9d0b-b8604615ecc4")
+		(property "Reference" "H420"
+			(at 246.38 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "M2.5, L=6mm"
+			(at 246.38 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "-"
+			(at 250.19 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-"
+			(at 250.19 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "Fastening enclosure side to standoff"
+			(at 250.19 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "-"
+			(at 250.19 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "-"
+			(at 250.19 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" "-"
+			(at 250.19 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "-"
+			(at 250.19 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part #" "-"
+			(at 250.19 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" ""
+			(at 250.19 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "2024_PiezoPreamp3"
+				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
+					(reference "H420")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Bolt:Bolt")
+		(at 250.19 38.1 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "b8f11571-6705-4e64-80b5-0cb8a9f6dceb")
+		(property "Reference" "H418"
+			(at 246.38 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "M2.5, L=6mm"
+			(at 246.38 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "-"
+			(at 250.19 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-"
+			(at 250.19 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "Fastening enclosure side to standoff"
+			(at 250.19 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "-"
+			(at 250.19 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "-"
+			(at 250.19 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" "-"
+			(at 250.19 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "-"
+			(at 250.19 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part #" "-"
+			(at 250.19 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" ""
+			(at 250.19 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "2024_PiezoPreamp3"
+				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
+					(reference "H418")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Bolt:Bolt")
+		(at 147.32 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "be4e979b-cccc-4484-b91f-df13e0686313")
+		(property "Reference" "H409"
+			(at 143.51 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2.5, L=6mm"
+			(at 143.51 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "-"
+			(at 147.32 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-"
+			(at 147.32 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "Fastening enclosure side to standoff"
+			(at 147.32 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "-"
+			(at 147.32 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "-"
+			(at 147.32 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" "-"
+			(at 147.32 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "-"
+			(at 147.32 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part #" "-"
+			(at 147.32 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" ""
+			(at 147.32 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "2024_PiezoPreamp3"
+				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
+					(reference "H409")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "StandoffPCB:Standoff_Female_Female")
+		(at 101.6 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6d347e5-1977-418c-acae-d59348969b71")
+		(property "Reference" "H407"
+			(at 99.06 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "hex M2.5/15mm"
+			(at 99.06 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/451757bfa0cf89650334b0f101e3f2bd/Dremec_13.pdf"
+			(at 101.6 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "PCB standoff between top enclosure side and PCB. Stainless steel or nylon (PA). 4mm spanner. Female-female"
+			(at 101.6 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "-"
+			(at 101.6 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Dremec"
+			(at 101.6 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "1212X15"
+			(at 101.6 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" "-"
+			(at 101.6 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "TME"
+			(at 101.6 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part #" "TFF-M2.5X15/DR1212"
+			(at 101.6 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "2024_PiezoPreamp3"
+				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
+					(reference "H407")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 74.295 60.325 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "c83c3bf2-680c-4702-8ecd-004753bd2a21")
+		(property "Reference" "H404"
+			(at 72.39 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2.5 MountingHole"
+			(at 72.39 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO14580"
+			(at 74.295 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "-"
+			(at 74.295 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.295 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "PCB mounting hole"
+			(at 74.295 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "-"
+			(at 74.295 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "-"
+			(at 74.295 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" "-"
+			(at 74.295 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "-"
+			(at 74.295 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part #" "-"
+			(at 74.295 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "-"
+			(at 74.295 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "2024_PiezoPreamp3"
+				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
+					(reference "H404")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "StandoffPCB:Standoff_Female_Female")
+		(at 120.65 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cfbc999b-8300-43d3-94f8-d63be7565dee")
+		(property "Reference" "H408"
+			(at 118.11 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "hex M2.5/15mm"
+			(at 118.11 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/451757bfa0cf89650334b0f101e3f2bd/Dremec_13.pdf"
+			(at 120.65 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "PCB standoff between top enclosure side and PCB. Stainless steel or nylon (PA). 4mm spanner. Female-female"
+			(at 120.65 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "-"
+			(at 120.65 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Dremec"
+			(at 120.65 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "1212X15"
+			(at 120.65 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" "-"
+			(at 120.65 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "TME"
+			(at 120.65 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part #" "TFF-M2.5X15/DR1212"
+			(at 120.65 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "2024_PiezoPreamp3"
+				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
+					(reference "H408")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Bolt:Bolt")
+		(at 163.83 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "d0cc156f-6538-4897-90a7-470c6f2ebd65")
+		(property "Reference" "H412"
+			(at 160.02 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2.5, L=6mm"
+			(at 160.02 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "-"
+			(at 163.83 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-"
+			(at 163.83 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "Fastening enclosure side to standoff"
+			(at 163.83 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "-"
+			(at 163.83 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "-"
+			(at 163.83 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" "-"
+			(at 163.83 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "-"
+			(at 163.83 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part #" "-"
+			(at 163.83 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" ""
+			(at 163.83 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "2024_PiezoPreamp3"
+				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
+					(reference "H412")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "StandoffPCB:Standoff_Female_Male")
+		(at 207.01 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "d3f26b9e-8b2f-4348-ad27-4a8ac6a1c75a")
+		(property "Reference" "H414"
+			(at 204.47 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "hex M2.5/20mm"
+			(at 204.47 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/451757bfa0cf89650334b0f101e3f2bd/Dremec_13.pdf"
+			(at 207.01 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 207.01 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "PCB standoff between bottom enclosure side and PCB. Stainless steel or nylon (PA). 4mm spanner. Female-male"
+			(at 207.01 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "-"
+			(at 207.01 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Dremec"
+			(at 207.01 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr Part #" "2212X20"
+			(at 207.01 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" "-"
+			(at 207.01 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "TME"
+			(at 207.01 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part #" "TFM-M2.5X20/DR2212"
+			(at 207.01 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
 					(reference "H414")
 					(unit 1)
@@ -2311,15 +4720,15 @@
 	)
 	(symbol
 		(lib_id "Washer:Washer")
-		(at 145.415 115.57 0)
+		(at 194.31 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
 		(dnp no)
-		(uuid "a5dbe990-e6d9-4ee0-a4fd-c8b3f08ab6b9")
-		(property "Reference" "H417"
-			(at 147.4699 118.11 0)
+		(uuid "d96e00f7-ff63-4afe-b4aa-3c42cdeae18a")
+		(property "Reference" "H426"
+			(at 196.3649 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2327,8 +4736,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Washer, H=?"
-			(at 145.415 121.285 0)
+		(property "Value" "Washer, H=0.35, D=5"
+			(at 194.31 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2336,385 +4745,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 145.415 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 145.415 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 145.415 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purpose" "battery holder"
-			(at 145.415 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" ""
-			(at 145.415 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr Part #" ""
-			(at 145.415 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part #" ""
-			(at 145.415 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" ""
-			(at 145.415 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TME Part #" ""
-			(at 145.415 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Source" ""
-			(at 145.415 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "2023_PiezoPreamp"
-				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
-					(reference "H417")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MountingPegs:MountingPeg")
-		(at 134.62 64.135 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(uuid "b9c2eff5-4366-4c25-b53c-001d0bf242b5")
-		(property "Reference" "H406"
-			(at 132.08 69.215 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3.2/12.7mm"
-			(at 132.08 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 64.389 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/60023342cb3b7f5bab5c552f8b6583c0/RI-LCBSBM801ART.pdf"
-			(at 134.62 64.389 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 134.62 64.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purpose" "Holding PCB in place. Height similar to audio jack height."
-			(at 134.62 64.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Essentra"
-			(at 134.62 64.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr Part #" "LCBSBM-8-01A2"
-			(at 134.62 64.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part #" "-"
-			(at 134.62 64.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "-"
-			(at 134.62 64.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TME Part #" "RI-LCBSBM801ART"
-			(at 134.62 64.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Source" ""
-			(at 134.62 64.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "2023_PiezoPreamp"
-				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
-					(reference "H406")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MountingPegs:MountingPeg")
-		(at 135.255 48.895 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(uuid "c7f741a0-c15f-44c8-a3b4-288cb9d24f22")
-		(property "Reference" "H405"
-			(at 132.08 53.975 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3.2/12.7mm"
-			(at 132.08 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.255 49.149 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/60023342cb3b7f5bab5c552f8b6583c0/RI-LCBSBM801ART.pdf"
-			(at 135.255 49.149 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 135.255 48.895 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purpose" "Holding PCB in place. Height similar to audio jack height."
-			(at 135.255 48.895 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Essentra"
-			(at 135.255 48.895 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr Part #" "LCBSBM-8-01A2"
-			(at 135.255 48.895 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part #" "-"
-			(at 135.255 48.895 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "-"
-			(at 135.255 48.895 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TME Part #" "RI-LCBSBM801ART"
-			(at 135.255 48.895 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Source" ""
-			(at 135.255 48.895 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "2023_PiezoPreamp"
-				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
-					(reference "H405")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 108.585 64.135 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c83c3bf2-680c-4702-8ecd-004753bd2a21")
-		(property "Reference" "H404"
-			(at 106.68 69.215 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "M2.5 MountingHole"
-			(at 106.68 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO14580"
-			(at 108.585 64.135 0)
+			(at 194.31 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2723,7 +4754,7 @@
 			)
 		)
 		(property "Datasheet" "-"
-			(at 108.585 64.135 0)
+			(at 194.31 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2731,8 +4762,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 108.585 64.135 0)
+		(property "Description" "-"
+			(at 194.31 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2740,8 +4771,8 @@
 				(hide yes)
 			)
 		)
-		(property "Purpose" "PCB mounting hole"
-			(at 108.585 64.135 0)
+		(property "Purpose" "battery holder"
+			(at 194.31 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2750,7 +4781,7 @@
 			)
 		)
 		(property "Mfr" "-"
-			(at 108.585 64.135 0)
+			(at 194.31 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2759,7 +4790,7 @@
 			)
 		)
 		(property "Mfr Part #" "-"
-			(at 108.585 64.135 0)
+			(at 194.31 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2768,7 +4799,7 @@
 			)
 		)
 		(property "Mouser Part #" "-"
-			(at 108.585 64.135 0)
+			(at 194.31 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2777,7 +4808,7 @@
 			)
 		)
 		(property "LCSC Part #" "-"
-			(at 108.585 64.135 0)
+			(at 194.31 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2786,7 +4817,7 @@
 			)
 		)
 		(property "TME Part #" "-"
-			(at 108.585 64.135 0)
+			(at 194.31 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2794,8 +4825,8 @@
 				(hide yes)
 			)
 		)
-		(property "Source" "-"
-			(at 108.585 64.135 0)
+		(property "Source" ""
+			(at 194.31 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2804,25 +4835,25 @@
 			)
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
-					(reference "H404")
+					(reference "H426")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "MountingPegs:MountingPeg")
-		(at 149.86 64.135 0)
+		(lib_id "Bolt:Bolt")
+		(at 194.31 124.46 180)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
 		(dnp no)
-		(uuid "cdd2aa41-fb58-4e57-bfc9-870f345a8a5e")
-		(property "Reference" "H407"
-			(at 147.32 69.215 0)
+		(uuid "e54ff399-56bc-4617-9c38-452a55ac94a2")
+		(property "Reference" "H428"
+			(at 201.295 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2830,17 +4861,16 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.2/12.7mm"
-			(at 147.32 71.12 0)
+		(property "Value" "M2, L>7mm"
+			(at 194.31 125.095 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 64.389 0)
+			(at 194.31 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2848,8 +4878,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.tme.eu/Document/60023342cb3b7f5bab5c552f8b6583c0/RI-LCBSBM801ART.pdf"
-			(at 149.86 64.389 0)
+		(property "Datasheet" "-"
+			(at 194.31 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2857,8 +4887,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 149.86 64.135 0)
+		(property "Description" "Ultra thin head <1mm. Phillips"
+			(at 194.31 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2866,8 +4896,8 @@
 				(hide yes)
 			)
 		)
-		(property "Purpose" "Holding PCB in place. Height similar to audio jack height."
-			(at 149.86 64.135 0)
+		(property "Purpose" "Battery holder. Length: 0.5 (holder) + 1.6 (PCB) + 1? (washer) + 3 (nut) + 1 (reserve)"
+			(at 194.31 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2875,8 +4905,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Essentra"
-			(at 149.86 64.135 0)
+		(property "Mfr" "-"
+			(at 194.31 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2884,8 +4914,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr Part #" "LCBSBM-8-01A2"
-			(at 149.86 64.135 0)
+		(property "Mfr Part #" "-"
+			(at 194.31 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2894,7 +4924,7 @@
 			)
 		)
 		(property "Mouser Part #" "-"
-			(at 149.86 64.135 0)
+			(at 194.31 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2903,7 +4933,7 @@
 			)
 		)
 		(property "LCSC Part #" "-"
-			(at 149.86 64.135 0)
+			(at 194.31 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2911,8 +4941,8 @@
 				(hide yes)
 			)
 		)
-		(property "TME Part #" "RI-LCBSBM801ART"
-			(at 149.86 64.135 0)
+		(property "TME Part #" "-"
+			(at 194.31 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2920,133 +4950,8 @@
 				(hide yes)
 			)
 		)
-		(property "Source" ""
-			(at 149.86 64.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "2023_PiezoPreamp"
-				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
-					(reference "H407")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Bolt:Bolt")
-		(at 165.1 132.08 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(uuid "e54ff399-56bc-4617-9c38-452a55ac94a2")
-		(property "Reference" "H416"
-			(at 172.085 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "M2, L>7mm"
-			(at 165.1 132.715 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 165.1 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purpose" "Battery holder. Length: 0.5 (holder) + 1.6 (PCB) + 1? (washer) + 3 (nut) + 1 (reserve)"
-			(at 165.1 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" ""
-			(at 165.1 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr Part #" ""
-			(at 165.1 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part #" ""
-			(at 165.1 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" ""
-			(at 165.1 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TME Part #" ""
-			(at 165.1 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Source" ""
-			(at 165.1 132.08 0)
+		(property "Source" "-"
+			(at 194.31 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3055,9 +4960,9 @@
 			)
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
-					(reference "H416")
+					(reference "H428")
 					(unit 1)
 				)
 			)
@@ -3065,15 +4970,15 @@
 	)
 	(symbol
 		(lib_id "LED_Light_Guide:LED_Light_Guide")
-		(at 92.075 114.935 0)
+		(at 116.84 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
 		(dnp no)
 		(uuid "ee117c21-afec-4521-a427-05fd6ed56aac")
-		(property "Reference" "H413"
-			(at 89.535 121.285 0)
+		(property "Reference" "H421"
+			(at 114.3 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3082,7 +4987,7 @@
 			)
 		)
 		(property "Value" "LED light guide"
-			(at 84.455 123.825 0)
+			(at 109.22 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3091,7 +4996,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.075 114.935 0)
+			(at 116.84 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3099,8 +5004,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cz.mouser.com/datasheet/2/50/PLPC3_XXX-2302352.pdf"
-			(at 92.075 114.935 0)
+		(property "Datasheet" "https://www.tme.eu/Document/ff2728ec20ffc962365f3d27dbd8df78/FIX-LEMB.pdf"
+			(at 116.84 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3109,7 +5014,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 92.075 114.935 0)
+			(at 116.84 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3117,8 +5022,8 @@
 				(hide yes)
 			)
 		)
-		(property "Purpose" "LED light pipe from top of the enclosure to LED"
-			(at 92.075 114.935 0)
+		(property "Purpose" "LED light pipe from top of the enclosure to LED. Dia guide 1.9mm, MH 1.98mm, dia top 2.3mm"
+			(at 116.84 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3127,7 +5032,7 @@
 			)
 		)
 		(property "Mfr" "Bivar"
-			(at 92.075 114.935 0)
+			(at 116.84 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3135,8 +5040,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr Part #" "PLPC3-10MM"
-			(at 92.075 114.935 0)
+		(property "Mfr Part #" "FIX-LEMB2-10V0-F"
+			(at 116.84 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3144,8 +5049,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part #" "749-PLPC310MM"
-			(at 92.075 114.935 0)
+		(property "Mouser Part #" "-"
+			(at 116.84 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3154,7 +5059,7 @@
 			)
 		)
 		(property "LCSC Part #" "-"
-			(at 92.075 114.935 0)
+			(at 116.84 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3162,8 +5067,8 @@
 				(hide yes)
 			)
 		)
-		(property "TME Part #" "PLPC3-10MM"
-			(at 92.075 114.935 0)
+		(property "TME Part #" "FIX-LEMB2-10V0-F"
+			(at 116.84 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3171,8 +5076,8 @@
 				(hide yes)
 			)
 		)
-		(property "Source" "Mouser"
-			(at 92.075 114.935 0)
+		(property "Source" "TME"
+			(at 116.84 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3181,9 +5086,9 @@
 			)
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
-					(reference "H413")
+					(reference "H421")
 					(unit 1)
 				)
 			)
@@ -3191,15 +5096,15 @@
 	)
 	(symbol
 		(lib_id "Bolt:Bolt")
-		(at 145.415 132.08 180)
+		(at 170.18 124.46 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
 		(dnp no)
 		(uuid "eeb07e8a-31ff-4f21-a963-5eb0a798e9af")
-		(property "Reference" "H415"
-			(at 153.035 128.27 0)
+		(property "Reference" "H427"
+			(at 177.8 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3208,7 +5113,7 @@
 			)
 		)
 		(property "Value" "M2, L>7mm"
-			(at 145.415 132.715 0)
+			(at 170.18 125.095 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3216,7 +5121,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 145.415 132.08 0)
+			(at 170.18 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3224,8 +5129,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 145.415 132.08 0)
+		(property "Datasheet" "-"
+			(at 170.18 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3233,8 +5138,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 145.415 132.08 0)
+		(property "Description" "Ultra thin head <1mm. Phillips"
+			(at 170.18 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3243,7 +5148,7 @@
 			)
 		)
 		(property "Purpose" "Battery holder. Length: 0.5 (holder) + 1.6 (PCB) + 1? (washer) + 3 (nut) + 1 (reserve)"
-			(at 145.415 132.08 0)
+			(at 170.18 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3251,8 +5156,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" ""
-			(at 145.415 132.08 0)
+		(property "Mfr" "-"
+			(at 170.18 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3260,8 +5165,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr Part #" ""
-			(at 145.415 132.08 0)
+		(property "Mfr Part #" "-"
+			(at 170.18 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3269,8 +5174,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part #" ""
-			(at 145.415 132.08 0)
+		(property "Mouser Part #" "-"
+			(at 170.18 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3278,8 +5183,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
-			(at 145.415 132.08 0)
+		(property "LCSC Part #" "-"
+			(at 170.18 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3287,8 +5192,8 @@
 				(hide yes)
 			)
 		)
-		(property "TME Part #" ""
-			(at 145.415 132.08 0)
+		(property "TME Part #" "-"
+			(at 170.18 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3297,7 +5202,7 @@
 			)
 		)
 		(property "Source" ""
-			(at 145.415 132.08 0)
+			(at 170.18 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3306,9 +5211,9 @@
 			)
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
-					(reference "H415")
+					(reference "H427")
 					(unit 1)
 				)
 			)

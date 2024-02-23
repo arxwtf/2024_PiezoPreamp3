@@ -5647,7 +5647,7 @@
 			(uuid "6eb90c3a-86cf-49bf-9d23-fe46192e273d")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
 					(reference "#PWR018")
 					(unit 1)
@@ -5713,7 +5713,7 @@
 			(uuid "93335922-faa2-4b7b-ae52-369c5fe822db")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
 					(reference "#PWR028")
 					(unit 1)
@@ -5788,7 +5788,7 @@
 			(uuid "689569b8-1b8b-4d10-94bb-c9987be1581e")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
 					(reference "#FLG02")
 					(unit 1)
@@ -5863,7 +5863,7 @@
 			(uuid "969cb125-18ca-41b0-88aa-5fb54c32efee")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
 					(reference "#FLG01")
 					(unit 1)
@@ -5979,7 +5979,7 @@
 				(hide yes)
 			)
 		)
-		(property "Source" "Mouser"
+		(property "Source" "TME"
 			(at 49.53 121.92 0)
 			(effects
 				(font
@@ -6025,7 +6025,7 @@
 			(uuid "0947f628-3928-477e-86d2-2a3c6fccad57")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
 					(reference "S201")
 					(unit 1)
@@ -6091,7 +6091,7 @@
 			(uuid "b1aa617e-fa4d-48e4-a00a-1e011ed4a0fe")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
 					(reference "#PWR015")
 					(unit 1)
@@ -6212,7 +6212,7 @@
 			(uuid "c6985b71-4d3f-4e57-8437-1afbb22c4c92")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
 					(reference "C203")
 					(unit 1)
@@ -6335,7 +6335,7 @@
 			(uuid "f4ed1ce5-c0f6-4dc5-b76d-5e21fb13e5fc")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
 					(reference "C202")
 					(unit 1)
@@ -6458,7 +6458,7 @@
 			(uuid "b1b7fb2d-4cd2-4f3f-95d8-fd1cdfd803d2")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
 					(reference "R201")
 					(unit 1)
@@ -6524,7 +6524,7 @@
 			(uuid "82e6b471-e8fb-4073-a8ca-ad34995637e6")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
 					(reference "#PWR02")
 					(unit 1)
@@ -6645,7 +6645,7 @@
 			(uuid "c1675cc7-8135-4107-a06d-6c5259c15bf8")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
 					(reference "C201")
 					(unit 1)
@@ -6768,7 +6768,7 @@
 			(uuid "b2b6f811-22ce-4383-a4fe-e9abbf197327")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
 					(reference "R202")
 					(unit 1)
@@ -6834,7 +6834,7 @@
 			(uuid "21b65cea-3036-44cf-adda-7622b0136890")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
 					(reference "#PWR029")
 					(unit 1)
@@ -6908,7 +6908,7 @@
 			(uuid "e56ed41a-e4ce-40ce-8d80-b9f45ae1d605")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
 					(reference "#PWR01")
 					(unit 1)
@@ -7031,7 +7031,7 @@
 			(uuid "d7f1124b-c288-40dd-9d35-e0d63f4e9eb1")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
 					(reference "R203")
 					(unit 1)
@@ -7044,8 +7044,8 @@
 		(at 39.37 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(uuid "3cb5a586-dc04-4c16-b5df-727640a62923")
 		(property "Reference" "J202"
@@ -7108,7 +7108,7 @@
 			(uuid "e3802e0e-2214-4988-811c-5a1ffd6a6cf6")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
 					(reference "J202")
 					(unit 1)
@@ -7229,7 +7229,7 @@
 			(uuid "e4638045-4159-43c6-9cdd-4d45a33c0275")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
 					(reference "C207")
 					(unit 1)
@@ -7375,7 +7375,7 @@
 			(uuid "6c6eb243-ddde-4132-832e-089d7ba3dc3b")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
 					(reference "U201")
 					(unit 1)
@@ -7486,7 +7486,7 @@
 			(uuid "cd5dceef-2c51-4749-b4fa-a3c4b1808696")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
 					(reference "#PWR014")
 					(unit 1)
@@ -7552,7 +7552,7 @@
 			(uuid "17f983c5-9832-418c-b329-4c766f6cc37f")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
 					(reference "#PWR04")
 					(unit 1)
@@ -7697,7 +7697,7 @@
 			(uuid "5f063b84-ae72-4f3e-ad1a-baa6a6d5d394")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
 					(reference "J201")
 					(unit 1)
@@ -7820,7 +7820,7 @@
 			(uuid "4905be69-fe7e-47dc-a6d3-60790c423a09")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
 					(reference "R204")
 					(unit 1)
@@ -7886,7 +7886,7 @@
 			(uuid "422958a1-b20f-4cbc-ab6e-d6984a6ffe9e")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
 					(reference "#PWR06")
 					(unit 1)
@@ -8007,7 +8007,7 @@
 			(uuid "7538f2cd-d193-41bd-861a-150f6e7838e3")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
 					(reference "C204")
 					(unit 1)
@@ -8128,7 +8128,7 @@
 			(uuid "b8f0fc38-11cd-40b5-82cd-51f290027061")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
 					(reference "C205")
 					(unit 1)
@@ -8249,7 +8249,7 @@
 			(uuid "08f15338-01e6-4980-8950-88d48b750154")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
 					(reference "C206")
 					(unit 1)
@@ -8372,7 +8372,7 @@
 			(uuid "897b8dee-f0ee-4b45-85a9-333074e3d0ea")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
 					(reference "D202")
 					(unit 1)
@@ -8496,7 +8496,7 @@
 			(uuid "7afea47a-4164-4937-b181-527ff0b52af0")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
 					(reference "D201")
 					(unit 1)
@@ -8607,7 +8607,7 @@
 			(uuid "e4b6e32e-4e3b-4d80-be2f-4cb025ec923b")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
 					(reference "#PWR010")
 					(unit 1)
@@ -8673,7 +8673,7 @@
 			(uuid "0fb0c35b-6120-4719-99a8-fa34ca10d74c")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
 					(reference "#PWR016")
 					(unit 1)
@@ -8739,7 +8739,7 @@
 			(uuid "3efb18c2-af99-46a6-a1cf-aa895b41761f")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
 					(reference "#PWR017")
 					(unit 1)
@@ -8805,7 +8805,7 @@
 			(uuid "6c8830e6-3e45-4031-80ce-623373d0d8b4")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
 					(reference "#PWR08")
 					(unit 1)
@@ -8871,7 +8871,7 @@
 			(uuid "e3c9738f-b1a1-49b9-b26d-21121c9662d6")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/b10e95cd-10a1-4d25-b6a0-2bd4304f390c"
 					(reference "#PWR07")
 					(unit 1)

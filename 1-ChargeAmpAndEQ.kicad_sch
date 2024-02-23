@@ -1629,6 +1629,317 @@
 				)
 			)
 		)
+		(symbol "SK14D01G6_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at 19.05 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "SK14D01G6"
+				(at 19.05 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "library:sw_SK14D01G6"
+				(at 19.05 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cz.mouser.com/datasheet/2/240/sk-3051091.pdf"
+				(at 19.05 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Slide Switches SP4T 0.3 Amp at 30 V"
+				(at 1.27 4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "4.7"
+				(at 19.05 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part #" "611-SK-14D01-G6 "
+				(at 19.05 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mfr" "C&K"
+				(at 19.05 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mfr Part #" "SK14D01G6"
+				(at 19.05 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "SK14D01G6_1_0_1"
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 13.97 -2.54) (xy 13.97 -7.62) (xy 8.89 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SK14D01G6_1_1_1"
+				(polyline
+					(pts
+						(xy 10.16 -10.16) (xy 10.16 -15.24) (xy 7.62 -15.24)
+					)
+					(stroke
+						(width 0)
+						(type dot)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 -7.62) (xy 11.43 -12.7) (xy 7.62 -12.7)
+					)
+					(stroke
+						(width 0)
+						(type dash_dot_dot)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 12.7 -5.08) (xy 12.7 -10.16) (xy 8.89 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 -2.54) (xy 15.24 -15.24) (xy 13.97 -13.97) (xy 16.51 -13.97) (xy 15.24 -15.24)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 5.08 2.54)
+					(end 17.78 -20.32)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "C2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "MH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 0)
+					(length 5.08)
+					(name "MH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "VS_1"
 			(power)
 			(pin_numbers hide)
@@ -2342,7 +2653,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.arrow.com/en/products/sk14d01g6/ck"
+			(property "Datasheet" "https://cz.mouser.com/datasheet/2/240/sk-3051091.pdf"
 				(at 19.05 -194.92 0)
 				(effects
 					(font
@@ -2442,7 +2753,7 @@
 				)
 				(polyline
 					(pts
-						(xy 8.89 -5.08) (xy 12.7 -5.08) (xy 12.7 -10.16) (xy 7.62 -10.16)
+						(xy 7.62 -5.08) (xy 12.7 -5.08) (xy 12.7 -10.16) (xy 8.89 -10.16)
 					)
 					(stroke
 						(width 0)
@@ -2496,7 +2807,7 @@
 				(pin passive line
 					(at 0 -5.08 0)
 					(length 5.08)
-					(name "C1"
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2514,7 +2825,7 @@
 				(pin passive line
 					(at 0 -7.62 0)
 					(length 5.08)
-					(name "C2"
+					(name "C1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2532,7 +2843,7 @@
 				(pin passive line
 					(at 0 -10.16 0)
 					(length 5.08)
-					(name "2"
+					(name "C2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2647,7 +2958,7 @@
 		(uuid "15730e70-c280-4c23-af0f-ab0d8f36694b")
 	)
 	(junction
-		(at 31.75 160.02)
+		(at 31.75 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "266c4c71-a1e0-4e5e-9015-c3777c280ebf")
@@ -2701,12 +3012,6 @@
 		(uuid "4bc03e24-3c81-4ce2-a340-2920ef5b5585")
 	)
 	(junction
-		(at 76.2 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "54aa3439-9d61-497f-8b01-35090c267b8d")
-	)
-	(junction
 		(at 147.32 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2743,6 +3048,12 @@
 		(uuid "78beb973-a6cb-405e-a596-3930f0d7dd6d")
 	)
 	(junction
+		(at 76.2 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98758419-862e-462a-aea2-2a9cc22c556e")
+	)
+	(junction
 		(at 234.95 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2767,7 +3078,7 @@
 		(uuid "bb82d2d2-e0d9-4e63-b6e2-59ba2db880b5")
 	)
 	(junction
-		(at 49.53 160.02)
+		(at 49.53 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4d54a28-f19e-4df6-9d18-d2b09d93f1e0")
@@ -2791,13 +3102,13 @@
 		(uuid "e93cf076-0ac6-48e2-ba50-fc3ca9eeb943")
 	)
 	(junction
-		(at 49.53 170.18)
+		(at 49.53 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f34481d0-52c7-4bed-94b0-e2abf2e05e48")
 	)
 	(junction
-		(at 30.48 170.18)
+		(at 30.48 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fd79ac42-aca0-46e7-8b62-ab9aa1bfed2d")
@@ -2821,11 +3132,11 @@
 		(uuid "501c9f33-2e95-4382-87bf-c0ab0ec7ef22")
 	)
 	(no_connect
-		(at 78.74 165.1)
+		(at 78.74 160.02)
 		(uuid "8c0cfb14-46b4-4632-b966-576a27a70fe0")
 	)
 	(no_connect
-		(at 78.74 180.34)
+		(at 78.74 175.26)
 		(uuid "90a8576d-6e6a-4027-8eb2-94b1c6f9c39d")
 	)
 	(no_connect
@@ -2833,7 +3144,7 @@
 		(uuid "ddabb92d-a5e7-44af-868c-c262c3da8318")
 	)
 	(no_connect
-		(at 78.74 162.56)
+		(at 78.74 157.48)
 		(uuid "e1fa7140-70b9-4833-b615-fa3aebcb6bf6")
 	)
 	(no_connect
@@ -2876,7 +3187,7 @@
 	)
 	(polyline
 		(pts
-			(xy 76.2 149.86) (xy 54.61 149.86)
+			(xy 76.2 151.13) (xy 54.61 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2886,7 +3197,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 170.18) (xy 38.1 170.18)
+			(xy 30.48 175.26) (xy 38.1 175.26)
 		)
 		(stroke
 			(width 0)
@@ -2926,7 +3237,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 181.61) (xy 38.1 181.61)
+			(xy 22.86 182.88) (xy 38.1 182.88)
 		)
 		(stroke
 			(width 0)
@@ -2936,7 +3247,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 170.18) (xy 49.53 170.18)
+			(xy 43.18 175.26) (xy 49.53 175.26)
 		)
 		(stroke
 			(width 0)
@@ -2996,7 +3307,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 167.64) (xy 78.74 167.64)
+			(xy 73.66 162.56) (xy 78.74 162.56)
 		)
 		(stroke
 			(width 0)
@@ -3066,7 +3377,7 @@
 	)
 	(polyline
 		(pts
-			(xy 76.2 165.1) (xy 76.2 149.86)
+			(xy 76.2 160.02) (xy 76.2 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3136,6 +3447,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 170.18) (xy 73.66 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f5bcf0d-7608-4c5a-99f2-cb2f94274cb6")
+	)
+	(wire
+		(pts
 			(xy 85.09 39.37) (xy 90.17 39.37)
 		)
 		(stroke
@@ -3146,7 +3467,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 177.8) (xy 78.74 177.8)
+			(xy 76.2 172.72) (xy 78.74 172.72)
 		)
 		(stroke
 			(width 0)
@@ -3166,7 +3487,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 160.02) (xy 31.75 154.94)
+			(xy 31.75 161.29) (xy 31.75 156.21)
 		)
 		(stroke
 			(width 0)
@@ -3306,7 +3627,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 165.1) (xy 30.48 170.18)
+			(xy 30.48 170.18) (xy 30.48 175.26)
 		)
 		(stroke
 			(width 0)
@@ -3336,7 +3657,7 @@
 	)
 	(polyline
 		(pts
-			(xy 78.74 165.1) (xy 76.2 165.1)
+			(xy 78.74 160.02) (xy 76.2 160.02)
 		)
 		(stroke
 			(width 0)
@@ -3496,7 +3817,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 154.94) (xy 38.1 154.94)
+			(xy 31.75 156.21) (xy 38.1 156.21)
 		)
 		(stroke
 			(width 0)
@@ -3626,7 +3947,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 165.1) (xy 30.48 165.1)
+			(xy 38.1 170.18) (xy 30.48 170.18)
 		)
 		(stroke
 			(width 0)
@@ -3676,7 +3997,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 177.8) (xy 76.2 181.61)
+			(xy 76.2 172.72) (xy 76.2 182.88)
 		)
 		(stroke
 			(width 0)
@@ -3696,7 +4017,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 165.1) (xy 49.53 170.18)
+			(xy 49.53 170.18) (xy 49.53 175.26)
 		)
 		(stroke
 			(width 0)
@@ -3776,7 +4097,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 175.26) (xy 76.2 175.26)
+			(xy 17.78 166.37) (xy 76.2 166.37)
 		)
 		(stroke
 			(width 0)
@@ -3806,7 +4127,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 170.18) (xy 78.74 170.18)
+			(xy 49.53 175.26) (xy 73.66 175.26)
 		)
 		(stroke
 			(width 0)
@@ -3856,7 +4177,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 160.02) (xy 73.66 160.02)
+			(xy 49.53 161.29) (xy 73.66 161.29)
 		)
 		(stroke
 			(width 0)
@@ -3876,7 +4197,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 181.61) (xy 76.2 181.61)
+			(xy 43.18 182.88) (xy 76.2 182.88)
 		)
 		(stroke
 			(width 0)
@@ -3966,7 +4287,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 160.02) (xy 31.75 160.02)
+			(xy 22.86 161.29) (xy 31.75 161.29)
 		)
 		(stroke
 			(width 0)
@@ -4016,7 +4337,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 160.02) (xy 38.1 160.02)
+			(xy 31.75 161.29) (xy 38.1 161.29)
 		)
 		(stroke
 			(width 0)
@@ -4196,7 +4517,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 172.72) (xy 76.2 175.26)
+			(xy 76.2 165.1) (xy 76.2 166.37)
 		)
 		(stroke
 			(width 0)
@@ -4256,7 +4577,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 175.26) (xy 78.74 175.26)
+			(xy 76.2 167.64) (xy 78.74 167.64)
 		)
 		(stroke
 			(width 0)
@@ -4266,7 +4587,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 154.94) (xy 49.53 154.94)
+			(xy 43.18 156.21) (xy 49.53 156.21)
 		)
 		(stroke
 			(width 0)
@@ -4326,6 +4647,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 166.37) (xy 76.2 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab299ebd-4e75-47b0-9dc8-0aeb2cc0821b")
+	)
+	(wire
+		(pts
 			(xy 147.32 53.34) (xy 147.32 59.69)
 		)
 		(stroke
@@ -4333,6 +4664,16 @@
 			(type default)
 		)
 		(uuid "ab5afbd1-2e88-4bd5-ab4c-826f6cdcfdd6")
+	)
+	(wire
+		(pts
+			(xy 73.66 170.18) (xy 73.66 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac71749a-7465-4ac3-bb41-4d8028191ab9")
 	)
 	(wire
 		(pts
@@ -4366,7 +4707,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 170.18) (xy 30.48 170.18)
+			(xy 22.86 175.26) (xy 30.48 175.26)
 		)
 		(stroke
 			(width 0)
@@ -4496,7 +4837,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 165.1) (xy 49.53 165.1)
+			(xy 43.18 170.18) (xy 49.53 170.18)
 		)
 		(stroke
 			(width 0)
@@ -4746,7 +5087,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 160.02) (xy 73.66 167.64)
+			(xy 73.66 161.29) (xy 73.66 162.56)
 		)
 		(stroke
 			(width 0)
@@ -4976,7 +5317,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 154.94) (xy 49.53 160.02)
+			(xy 49.53 156.21) (xy 49.53 161.29)
 		)
 		(stroke
 			(width 0)
@@ -5006,7 +5347,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 172.72) (xy 76.2 172.72)
+			(xy 78.74 165.1) (xy 76.2 165.1)
 		)
 		(stroke
 			(width 0)
@@ -5136,7 +5477,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 160.02) (xy 49.53 160.02)
+			(xy 43.18 161.29) (xy 49.53 161.29)
 		)
 		(stroke
 			(width 0)
@@ -5363,7 +5704,7 @@
 	)
 	(text "948n total\n50Hz"
 		(exclude_from_sim no)
-		(at 54.61 173.99 0)
+		(at 54.61 179.07 0)
 		(effects
 			(font
 				(size 1 1)
@@ -5610,7 +5951,7 @@
 	)
 	(text "ceramic C0G/NP0"
 		(exclude_from_sim no)
-		(at 34.29 151.13 0)
+		(at 33.02 152.4 0)
 		(effects
 			(font
 				(size 1 1)
@@ -5656,7 +5997,7 @@
 	)
 	(text "508n total\n113Hz = max cut"
 		(exclude_from_sim no)
-		(at 54.61 153.67 0)
+		(at 54.61 154.94 0)
 		(effects
 			(font
 				(size 1 1)
@@ -5829,7 +6170,7 @@
 	)
 	(text "100.508u total\nwith Chp101 + Chp102\nfull BW"
 		(exclude_from_sim no)
-		(at 54.61 186.69 0)
+		(at 54.61 187.96 0)
 		(effects
 			(font
 				(size 1 1)
@@ -5862,7 +6203,7 @@
 	)
 	(text "676n total\n77Hz"
 		(exclude_from_sim no)
-		(at 54.61 163.83 0)
+		(at 54.61 165.1 0)
 		(effects
 			(font
 				(size 1 1)
@@ -6023,7 +6364,7 @@
 		(uuid "0ceb3217-2b81-40bd-bb83-ac84b375c31f")
 	)
 	(label "HPF_SW_1"
-		(at 62.23 181.61 0)
+		(at 62.23 182.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6034,7 +6375,7 @@
 		(uuid "0cf94121-5515-43cf-9cd6-3f2745b60921")
 	)
 	(label "BAX_IN"
-		(at 22.86 170.18 0)
+		(at 22.86 175.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6100,7 +6441,7 @@
 		(uuid "2826e56d-c551-4991-bf4a-dbd81e2c8342")
 	)
 	(label "BAX_IN"
-		(at 22.86 160.02 0)
+		(at 22.86 161.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6253,8 +6594,8 @@
 		)
 		(uuid "912c8036-acec-45b2-8736-5c68c5715ba9")
 	)
-	(label "HPF_SW_4"
-		(at 62.23 170.18 0)
+	(label "HPF_SW_2"
+		(at 62.23 175.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6276,7 +6617,7 @@
 		(uuid "949bb645-9f3d-4b32-baa7-243efaa040c5")
 	)
 	(label "BAX_IN"
-		(at 22.86 181.61 0)
+		(at 22.86 182.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6342,7 +6683,7 @@
 		(uuid "aec136bb-7890-4cb5-b1ca-17df2cdb4809")
 	)
 	(label "CH_A_OUT"
-		(at 17.78 175.26 0)
+		(at 17.78 166.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6529,7 +6870,7 @@
 		(uuid "e80fa65f-ed3c-421a-bec5-22a064c572ea")
 	)
 	(label "HPF_SW_3"
-		(at 62.23 160.02 0)
+		(at 62.23 161.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6885,7 +7226,7 @@
 			(uuid "df0876cd-3cb6-4ce9-b59f-989abf8c2ada")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "RV102")
 					(unit 1)
@@ -7008,7 +7349,7 @@
 			(uuid "3c02b252-33c9-432d-baa8-06490d165481")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "Rb102")
 					(unit 1)
@@ -7018,7 +7359,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 40.64 154.94 270)
+		(at 40.64 156.21 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7027,7 +7368,7 @@
 		(dnp no)
 		(uuid "0d49cc65-0344-4cef-9540-2193ccec1314")
 		(property "Reference" "Chp108"
-			(at 39.37 153.67 90)
+			(at 39.37 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7036,7 +7377,7 @@
 			)
 		)
 		(property "Value" "68n"
-			(at 46.99 153.67 90)
+			(at 46.99 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7045,7 +7386,7 @@
 			)
 		)
 		(property "Footprint" "library:GRM31C5C1H683JA01L"
-			(at 40.64 154.94 0)
+			(at 40.64 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7054,7 +7395,7 @@
 			)
 		)
 		(property "Datasheet" "https://cz.mouser.com/datasheet/2/281/1/GRM31C5C1H683JA01_01A-1987729.pdf"
-			(at 40.64 154.94 0)
+			(at 40.64 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7063,7 +7404,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 40.64 154.94 0)
+			(at 40.64 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7072,7 +7413,7 @@
 			)
 		)
 		(property "LCSC Part #" "C77084"
-			(at 40.64 154.94 0)
+			(at 40.64 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7081,7 +7422,7 @@
 			)
 		)
 		(property "Mouser Part #" "81-GRM31C5C1H683JA01"
-			(at 40.64 154.94 0)
+			(at 40.64 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7090,7 +7431,7 @@
 			)
 		)
 		(property "Mfr Part #" "GRM31C5C1H683JA01L"
-			(at 40.64 154.94 0)
+			(at 40.64 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7099,7 +7440,7 @@
 			)
 		)
 		(property "Mfr" "Murata"
-			(at 40.64 154.94 0)
+			(at 40.64 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7108,7 +7449,7 @@
 			)
 		)
 		(property "Purpose" "HPF - sets high-pass cutoff frequency"
-			(at 40.64 154.94 0)
+			(at 40.64 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7117,7 +7458,7 @@
 			)
 		)
 		(property "Source" "LCSC"
-			(at 40.64 154.94 0)
+			(at 40.64 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7132,7 +7473,7 @@
 			(uuid "1cd4452e-b15e-4c72-9cb5-e6761e4d8731")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "Chp108")
 					(unit 1)
@@ -7253,7 +7594,7 @@
 			(uuid "4dc43dff-c5f9-4d00-ab92-fd12e3c0418d")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "C105")
 					(unit 1)
@@ -7376,7 +7717,7 @@
 			(uuid "3f31629c-79b7-45b4-b39a-a162e44080c0")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "Ct102")
 					(unit 1)
@@ -7483,7 +7824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Source" "Mouser"
+		(property "Source" "LCSC"
 			(at 227.33 30.48 0)
 			(effects
 				(font
@@ -7508,7 +7849,7 @@
 			(uuid "2a25f24e-fb41-4b2a-9c5b-9f065a73357e")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "U102")
 					(unit 1)
@@ -7521,7 +7862,7 @@
 		(at 115.57 184.15 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "18da6871-9a80-419b-9cdc-8889939a356d")
@@ -7635,7 +7976,7 @@
 			(uuid "71244b11-52dd-4000-ae52-d063c72bb091")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "H107")
 					(unit 1)
@@ -7757,7 +8098,7 @@
 			(uuid "31ed60cc-2e1e-44e1-8266-c8a6e4012eca")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "Cf104")
 					(unit 1)
@@ -7878,7 +8219,7 @@
 			(uuid "181efc4e-b651-4bef-9f3c-f1c30c454aa0")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "Chp102")
 					(unit 1)
@@ -7891,7 +8232,7 @@
 		(at 115.57 171.45 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "1fa2a96f-0a9a-4711-904c-1014255704ca")
@@ -8005,7 +8346,7 @@
 			(uuid "54501fe8-1dc9-45a5-9344-3da4d33fc3c0")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "H104")
 					(unit 1)
@@ -8015,7 +8356,7 @@
 	)
 	(symbol
 		(lib_id "sw_SK14D01G6:SK14D01G6")
-		(at 78.74 180.34 0)
+		(at 78.74 175.26 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8024,7 +8365,7 @@
 		(dnp no)
 		(uuid "20f5cd50-cb23-4f28-a46f-42e34a9ef620")
 		(property "Reference" "S102"
-			(at 83.82 185.42 0)
+			(at 83.82 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8033,7 +8374,7 @@
 			)
 		)
 		(property "Value" "SK14D01G6"
-			(at 83.82 187.96 0)
+			(at 83.82 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8042,7 +8383,7 @@
 			)
 		)
 		(property "Footprint" "library:sw_SK14D01G6"
-			(at 97.79 85.42 0)
+			(at 97.79 80.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8051,8 +8392,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.arrow.com/en/products/sk14d01g6/ck"
-			(at 97.79 -14.58 0)
+		(property "Datasheet" "https://cz.mouser.com/datasheet/2/240/sk-3051091.pdf"
+			(at 97.79 -19.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8062,7 +8403,7 @@
 			)
 		)
 		(property "Description" "Slide Switches SP4T 0.3 Amp at 30 V"
-			(at 78.74 180.34 0)
+			(at 78.74 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8071,7 +8412,7 @@
 			)
 		)
 		(property "Height" "4.7"
-			(at 97.79 -214.58 0)
+			(at 97.79 -219.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8081,7 +8422,7 @@
 			)
 		)
 		(property "Purpose" "Sets high-pass filter cutoff frequency"
-			(at 78.74 180.34 0)
+			(at 78.74 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8090,7 +8431,7 @@
 			)
 		)
 		(property "Mouser Part #" "611-SK-14D01-G6 "
-			(at 97.79 -314.58 0)
+			(at 97.79 -319.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8100,7 +8441,7 @@
 			)
 		)
 		(property "Mfr" "C&K"
-			(at 97.79 -514.58 0)
+			(at 97.79 -519.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8110,7 +8451,7 @@
 			)
 		)
 		(property "Mfr Part #" "SK14D01G6"
-			(at 97.79 -614.58 0)
+			(at 97.79 -619.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8120,7 +8461,7 @@
 			)
 		)
 		(property "Source" "Mouser"
-			(at 78.74 180.34 0)
+			(at 78.74 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8153,7 +8494,7 @@
 			(uuid "2fce26ee-f881-436a-ad1b-c3f3aa878b72")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "S102")
 					(unit 1)
@@ -8163,7 +8504,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_Small")
-		(at 40.64 181.61 270)
+		(at 40.64 182.88 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8171,7 +8512,7 @@
 		(dnp no)
 		(uuid "23462491-9738-4657-9975-d9dce7104298")
 		(property "Reference" "Chp104"
-			(at 35.56 180.34 90)
+			(at 35.56 181.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8179,7 +8520,7 @@
 			)
 		)
 		(property "Value" "100u 50V"
-			(at 48.26 180.34 90)
+			(at 48.26 181.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8187,7 +8528,7 @@
 			)
 		)
 		(property "Footprint" "library:EEEFTH101XAP"
-			(at 40.64 181.61 0)
+			(at 40.64 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8196,7 +8537,7 @@
 			)
 		)
 		(property "Datasheet" "https://cz.mouser.com/datasheet/2/315/ABA0000C1240-1130326.pdf"
-			(at 40.64 181.61 0)
+			(at 40.64 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8205,7 +8546,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 40.64 181.61 0)
+			(at 40.64 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8214,7 +8555,7 @@
 			)
 		)
 		(property "Purpose" "HPF - sets high-pass cutoff frequency "
-			(at 40.64 181.61 0)
+			(at 40.64 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8223,7 +8564,7 @@
 			)
 		)
 		(property "LCSC Part #" "C165974 "
-			(at 40.64 181.61 0)
+			(at 40.64 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8232,7 +8573,7 @@
 			)
 		)
 		(property "Mouser Part #" "667-EEE-FTH101XAP"
-			(at 40.64 181.61 0)
+			(at 40.64 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8241,7 +8582,7 @@
 			)
 		)
 		(property "Mfr Part #" "EEEFTH101XAP"
-			(at 40.64 181.61 0)
+			(at 40.64 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8250,7 +8591,7 @@
 			)
 		)
 		(property "Mfr" "Panasonic"
-			(at 40.64 181.61 0)
+			(at 40.64 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8259,7 +8600,7 @@
 			)
 		)
 		(property "Source" "LCSC"
-			(at 40.64 181.61 0)
+			(at 40.64 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8274,7 +8615,7 @@
 			(uuid "4d86d1f5-a929-45da-bedd-e62089275dbb")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "Chp104")
 					(unit 1)
@@ -8287,7 +8628,7 @@
 		(at 157.48 184.15 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "2ed2fd3f-7e2a-4296-8fa1-8ad48684eb78")
@@ -8401,7 +8742,7 @@
 			(uuid "70616c65-592a-41bf-b9cf-22a89e3b9b47")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "H109")
 					(unit 1)
@@ -8522,7 +8863,7 @@
 			(uuid "500da0a8-c551-4eec-8a3c-d3ad4f34d4b9")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "Chp103")
 					(unit 1)
@@ -8643,7 +8984,7 @@
 			(uuid "5642adda-3c61-465d-a115-9e79345b848f")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "C102")
 					(unit 1)
@@ -8656,7 +8997,7 @@
 		(at 137.16 157.48 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "36117b58-1f99-4f2a-8aca-4a87a51e57ef")
@@ -8770,7 +9111,7 @@
 			(uuid "342c23ee-3fa2-42ad-80f0-bb86203f03ad")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "H102")
 					(unit 1)
@@ -8894,7 +9235,7 @@
 			(uuid "d8ae79e4-ac27-411d-8087-c7bf892476ca")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "Cb103")
 					(unit 1)
@@ -9001,7 +9342,7 @@
 				(hide yes)
 			)
 		)
-		(property "Source" "Mouser"
+		(property "Source" "LCSC"
 			(at 105.41 73.66 0)
 			(effects
 				(font
@@ -9017,7 +9358,7 @@
 			(uuid "0685eda9-6993-442b-b13e-cf9af5a0e139")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "Rf101")
 					(unit 1)
@@ -9139,7 +9480,7 @@
 			(uuid "bf389130-3f65-4896-aee2-021c33aba8b9")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "Cf103")
 					(unit 1)
@@ -9286,7 +9627,7 @@
 			(uuid "e8f5c436-f279-4f44-bf16-e17e8dbdec50")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "J101")
 					(unit 1)
@@ -9396,7 +9737,7 @@
 			(uuid "36ac8ef5-2595-48ee-b2c4-a68aa99ed275")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "#PWR027")
 					(unit 1)
@@ -9405,6 +9746,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SK14D01G6_1")
 		(lib_id "sw_SK14D01G6:SK14D01G6")
 		(at 62.23 121.92 0)
 		(mirror x)
@@ -9442,7 +9784,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.arrow.com/en/products/sk14d01g6/ck"
+		(property "Datasheet" "https://cz.mouser.com/datasheet/2/240/sk-3051091.pdf"
 			(at 81.28 -73 0)
 			(effects
 				(font
@@ -9544,7 +9886,7 @@
 			(uuid "cc1af2c9-0083-41c7-ba49-e2883952c8d2")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "S101")
 					(unit 1)
@@ -9557,7 +9899,7 @@
 		(at 115.57 157.48 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "4e083221-fa4f-41ea-92f0-c69556b97674")
@@ -9671,7 +10013,7 @@
 			(uuid "e9cb31f3-b572-41f1-bd20-585b36511f59")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "H101")
 					(unit 1)
@@ -9681,7 +10023,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 40.64 170.18 90)
+		(at 40.64 175.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9689,7 +10031,7 @@
 		(dnp no)
 		(uuid "5e01253e-c611-4755-bbb3-174635ec416f")
 		(property "Reference" "Chp105"
-			(at 35.56 168.91 90)
+			(at 35.56 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9697,7 +10039,7 @@
 			)
 		)
 		(property "Value" "220n"
-			(at 45.72 168.91 90)
+			(at 45.72 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9705,7 +10047,7 @@
 			)
 		)
 		(property "Footprint" "library:GRM31C5C1H224JE02L"
-			(at 40.64 170.18 0)
+			(at 40.64 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9714,7 +10056,7 @@
 			)
 		)
 		(property "Datasheet" "https://cz.mouser.com/datasheet/2/281/1/GRM31C5C1H224JE02_01A-1987815.pdf"
-			(at 40.64 170.18 0)
+			(at 40.64 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9723,7 +10065,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 40.64 170.18 0)
+			(at 40.64 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9732,7 +10074,7 @@
 			)
 		)
 		(property "LCSC Part #" "C464977"
-			(at 40.64 170.18 0)
+			(at 40.64 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9741,7 +10083,7 @@
 			)
 		)
 		(property "Mouser Part #" "81-GRM31C5C1H224JE2L"
-			(at 40.64 170.18 0)
+			(at 40.64 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9750,7 +10092,7 @@
 			)
 		)
 		(property "Mfr Part #" "GRM31C5C1H224JE02L"
-			(at 40.64 170.18 0)
+			(at 40.64 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9759,7 +10101,7 @@
 			)
 		)
 		(property "Mfr" "Murata"
-			(at 40.64 170.18 0)
+			(at 40.64 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9768,7 +10110,7 @@
 			)
 		)
 		(property "Purpose" "HPF - sets high-pass cutoff frequency"
-			(at 40.64 170.18 0)
+			(at 40.64 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9777,7 +10119,7 @@
 			)
 		)
 		(property "Source" "LCSC"
-			(at 40.64 170.18 0)
+			(at 40.64 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9792,7 +10134,7 @@
 			(uuid "ad116fa4-3865-49ba-9819-3d30748e5643")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "Chp105")
 					(unit 1)
@@ -9915,7 +10257,7 @@
 			(uuid "40a97001-3d35-4df8-b2bb-515ade883f6c")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "Ct101")
 					(unit 1)
@@ -10038,7 +10380,7 @@
 			(uuid "e52412a1-58e4-42e9-94c4-38a32bcdaaa5")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "Rt102")
 					(unit 1)
@@ -10161,7 +10503,7 @@
 			(uuid "e2f28879-7e18-46f0-b854-4067206c3f21")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "R103")
 					(unit 1)
@@ -10283,7 +10625,7 @@
 			(uuid "95305bbb-fc43-41ca-b014-904490382f73")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "Cf102")
 					(unit 1)
@@ -10296,7 +10638,7 @@
 		(at 137.16 184.15 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "71ccee90-04ca-4339-870a-7db0d072dc9f")
@@ -10410,7 +10752,7 @@
 			(uuid "32ce5513-635d-4729-b874-29c4da3b07ed")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "H108")
 					(unit 1)
@@ -10484,7 +10826,7 @@
 			(uuid "666f2184-c789-4b68-8d57-6fa825453a8c")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "#PWR021")
 					(unit 1)
@@ -10607,7 +10949,7 @@
 			(uuid "9f3b4903-176c-4c2a-96f9-3be528326551")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "Rb101")
 					(unit 1)
@@ -10673,7 +11015,7 @@
 			(uuid "760e5230-aba3-4583-9a2e-4655c30e0960")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "#PWR026")
 					(unit 1)
@@ -10797,7 +11139,7 @@
 			(uuid "b3b5e7e6-f18e-427e-a846-870d0e1b48b5")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "Cb102")
 					(unit 1)
@@ -10863,7 +11205,7 @@
 			(uuid "594deb98-038f-4eab-8876-426541e920e5")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "#PWR024")
 					(unit 1)
@@ -10970,7 +11312,7 @@
 				(hide yes)
 			)
 		)
-		(property "Source" "Mouser"
+		(property "Source" "LCSC"
 			(at 104.14 36.83 0)
 			(effects
 				(font
@@ -10995,7 +11337,7 @@
 			(uuid "1a3dea14-8862-4c80-b038-cab8725e1bc1")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "U101")
 					(unit 1)
@@ -11118,7 +11460,7 @@
 			(uuid "fa36ce6b-2f19-4f6b-a790-72c8b5653a0e")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "D102")
 					(unit 1)
@@ -11242,7 +11584,7 @@
 			(uuid "02972f75-c597-496b-8c77-27080c8dea55")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "Cb101")
 					(unit 1)
@@ -11366,7 +11708,7 @@
 			(uuid "40ec837f-df1c-4490-82fb-95bb3432315e")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "Cb104")
 					(unit 1)
@@ -11489,7 +11831,7 @@
 			(uuid "4cb5a3b4-63f7-450a-9c15-712cf88d1e25")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "R101")
 					(unit 1)
@@ -11596,7 +11938,7 @@
 				(hide yes)
 			)
 		)
-		(property "Source" "Mouser"
+		(property "Source" "LCSC"
 			(at 196.85 68.58 0)
 			(effects
 				(font
@@ -11612,7 +11954,7 @@
 			(uuid "37d35d31-cf2e-4206-9fe6-a88aa55f7967")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "R104")
 					(unit 1)
@@ -11733,7 +12075,7 @@
 			(uuid "578072cd-eae0-4b26-b762-1422da2aaa1a")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "C103")
 					(unit 1)
@@ -11887,7 +12229,7 @@
 			(uuid "c4ed5e6c-be27-446a-8f23-0d2dac41cac5")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "S103")
 					(unit 1)
@@ -12032,7 +12374,7 @@
 			(uuid "c4da3293-80cc-49b0-a750-0297e316b6d6")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "J102")
 					(unit 1)
@@ -12155,7 +12497,7 @@
 			(uuid "c5f44995-0575-4b8e-a037-9d5b69ae4f83")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "R105")
 					(unit 1)
@@ -12276,7 +12618,7 @@
 			(uuid "40ff59db-bc70-4510-b79d-74578d446165")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "C104")
 					(unit 1)
@@ -12350,7 +12692,7 @@
 			(uuid "2ec1fa45-a4fa-439e-b45b-c1bae9dab996")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "#PWR03")
 					(unit 1)
@@ -12360,7 +12702,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 40.64 160.02 270)
+		(at 40.64 161.29 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12369,7 +12711,7 @@
 		(dnp no)
 		(uuid "ba4b5470-81d0-4169-9744-1e20e59d88a2")
 		(property "Reference" "Chp107"
-			(at 39.37 158.75 90)
+			(at 39.37 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12378,7 +12720,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 48.26 158.75 90)
+			(at 48.26 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12387,7 +12729,7 @@
 			)
 		)
 		(property "Footprint" "library:GRM31C5C2A104JA01L"
-			(at 40.64 160.02 0)
+			(at 40.64 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12396,7 +12738,7 @@
 			)
 		)
 		(property "Datasheet" "https://cz.mouser.com/datasheet/2/281/1/GRM31C5C2A104JA01_01A-1987817.pdf"
-			(at 40.64 160.02 0)
+			(at 40.64 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12405,7 +12747,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 40.64 160.02 0)
+			(at 40.64 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12414,7 +12756,7 @@
 			)
 		)
 		(property "LCSC Part #" "C405303"
-			(at 40.64 160.02 0)
+			(at 40.64 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12423,7 +12765,7 @@
 			)
 		)
 		(property "Mouser Part #" "81-GRM31C5C2A104JA1L"
-			(at 40.64 160.02 0)
+			(at 40.64 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12432,7 +12774,7 @@
 			)
 		)
 		(property "Mfr Part #" "GRM31C5C2A104JA01L"
-			(at 40.64 160.02 0)
+			(at 40.64 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12441,7 +12783,7 @@
 			)
 		)
 		(property "Mfr" "Murata"
-			(at 40.64 160.02 0)
+			(at 40.64 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12450,7 +12792,7 @@
 			)
 		)
 		(property "Purpose" "HPF - sets high-pass cutoff frequency"
-			(at 40.64 160.02 0)
+			(at 40.64 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12459,7 +12801,7 @@
 			)
 		)
 		(property "Source" "LCSC"
-			(at 40.64 160.02 0)
+			(at 40.64 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12474,7 +12816,7 @@
 			(uuid "ae03962f-fa1f-4bd3-bd37-fab5e340203e")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "Chp107")
 					(unit 1)
@@ -12598,7 +12940,7 @@
 			(uuid "fd6db232-6b4e-42d1-a19f-750a569c4f0b")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "Ct103")
 					(unit 1)
@@ -12734,7 +13076,7 @@
 			(uuid "458aa421-13cd-4f2f-8033-72b76652c417")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "RV101")
 					(unit 1)
@@ -12747,7 +13089,7 @@
 		(at 157.48 157.48 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "c4206f64-6648-4592-89ba-4b364add331b")
@@ -12861,7 +13203,7 @@
 			(uuid "03c7c15b-eb1b-419c-98a3-d31cfee47b4c")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "H103")
 					(unit 1)
@@ -12984,7 +13326,7 @@
 			(uuid "0b9c4e09-7306-41ee-994e-6efd890a7c22")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "Ct104")
 					(unit 1)
@@ -13107,7 +13449,7 @@
 			(uuid "d72263e7-a66b-4000-af08-8c643878f0a1")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "Rt101")
 					(unit 1)
@@ -13120,7 +13462,7 @@
 		(at 137.16 171.45 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "c9f74f48-38f8-497b-9298-ebea46c12fe0")
@@ -13234,7 +13576,7 @@
 			(uuid "016b3d50-1ddc-4dc7-8628-a61d23c213c1")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "H105")
 					(unit 1)
@@ -13357,7 +13699,7 @@
 			(uuid "70579a7b-a16a-4cee-be64-488157f7ed02")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "D101")
 					(unit 1)
@@ -13479,7 +13821,7 @@
 			(uuid "d2b75f6d-80f8-43ee-a916-00b8558b7aab")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "Cf106")
 					(unit 1)
@@ -13545,7 +13887,7 @@
 			(uuid "b163fdfd-fe87-49f7-8ace-918185a33ebc")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "#PWR022")
 					(unit 1)
@@ -13611,7 +13953,7 @@
 			(uuid "69037989-fc38-41a4-b9f0-0ed70bcb0e36")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "#PWR011")
 					(unit 1)
@@ -13621,7 +13963,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 40.64 165.1 90)
+		(at 40.64 170.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13629,7 +13971,7 @@
 		(dnp no)
 		(uuid "dd3eb56c-1d38-49f5-818d-dcde1bffa5e7")
 		(property "Reference" "Chp106"
-			(at 35.56 163.83 90)
+			(at 35.56 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13637,7 +13979,7 @@
 			)
 		)
 		(property "Value" "220n"
-			(at 45.72 163.83 90)
+			(at 45.72 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13645,7 +13987,7 @@
 			)
 		)
 		(property "Footprint" "library:GRM31C5C1H224JE02L"
-			(at 40.64 165.1 0)
+			(at 40.64 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13654,7 +13996,7 @@
 			)
 		)
 		(property "Datasheet" "https://cz.mouser.com/datasheet/2/281/1/GRM31C5C1H224JE02_01A-1987815.pdf"
-			(at 40.64 165.1 0)
+			(at 40.64 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13663,7 +14005,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 40.64 165.1 0)
+			(at 40.64 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13672,7 +14014,7 @@
 			)
 		)
 		(property "LCSC Part #" "C464977"
-			(at 40.64 165.1 0)
+			(at 40.64 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13681,7 +14023,7 @@
 			)
 		)
 		(property "Mouser Part #" "81-GRM31C5C1H224JE2L"
-			(at 40.64 165.1 0)
+			(at 40.64 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13690,7 +14032,7 @@
 			)
 		)
 		(property "Mfr Part #" "GRM31C5C1H224JE02L"
-			(at 40.64 165.1 0)
+			(at 40.64 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13699,7 +14041,7 @@
 			)
 		)
 		(property "Mfr" "Murata"
-			(at 40.64 165.1 0)
+			(at 40.64 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13708,7 +14050,7 @@
 			)
 		)
 		(property "Purpose" "HPF - sets high-pass cutoff frequency"
-			(at 40.64 165.1 0)
+			(at 40.64 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13717,7 +14059,7 @@
 			)
 		)
 		(property "Source" "LCSC"
-			(at 40.64 165.1 0)
+			(at 40.64 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13732,7 +14074,7 @@
 			(uuid "5f3c7a7f-5b70-4c7e-8874-ed72c78ca6ee")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "Chp106")
 					(unit 1)
@@ -13853,7 +14195,7 @@
 			(uuid "b422858d-2e37-448a-8c4a-2e119fa39fe2")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "Cf101")
 					(unit 1)
@@ -13976,7 +14318,7 @@
 			(uuid "cbf7c6e0-f3b6-4a33-8cae-ae7958c6477d")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "R102")
 					(unit 1)
@@ -13989,7 +14331,7 @@
 		(at 157.48 171.45 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "ee7c3861-ad1d-450e-a820-3a5107540113")
@@ -14103,7 +14445,7 @@
 			(uuid "56e9c1f6-9d0f-47b2-9f80-caabf7e26487")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "H106")
 					(unit 1)
@@ -14214,7 +14556,7 @@
 			(uuid "ce84d837-6a7d-4e64-909a-e59453c09d09")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "#PWR025")
 					(unit 1)
@@ -14336,7 +14678,7 @@
 			(uuid "aea863b1-1688-4665-b3cc-90dcf240e419")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "Cf105")
 					(unit 1)
@@ -14472,7 +14814,7 @@
 			(uuid "236f59ea-d71c-4647-b87b-0c243a328fd1")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "RV103")
 					(unit 1)
@@ -14538,7 +14880,7 @@
 			(uuid "9b18b337-67b9-4d26-b5c3-86e3544b6eba")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "#PWR023")
 					(unit 1)
@@ -14604,7 +14946,7 @@
 			(uuid "46979d0f-b615-4931-a7ac-a3d2ef2f62de")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "#PWR030")
 					(unit 1)
@@ -14670,7 +15012,7 @@
 			(uuid "46dc721c-c7f8-4ae9-b5ee-f6ae0cd131ea")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "#PWR031")
 					(unit 1)
@@ -14791,7 +15133,7 @@
 			(uuid "de1795aa-5ecb-425d-82d8-a8bf90eb8ae9")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "C101")
 					(unit 1)
@@ -14912,7 +15254,7 @@
 			(uuid "17439519-2d6e-4d26-a83b-855583f513cc")
 		)
 		(instances
-			(project "2023_PiezoPreamp"
+			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/22efb792-a214-4fa2-af90-c218e40ee577"
 					(reference "Chp101")
 					(unit 1)

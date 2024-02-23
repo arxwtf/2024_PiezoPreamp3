@@ -16,4 +16,5 @@
   (lib (name "bjt_BC847BS_115")(type "KiCad")(uri "${KIPRJMOD}/library/bjt_BC847BS_115.kicad_sym")(options "")(descr ""))
   (lib (name "sw_0S203011MA2QP1")(type "KiCad")(uri "${KIPRJMOD}/library/sw_0S203011MA2QP1.kicad_sym")(options "")(descr ""))
   (lib (name "sw_SK14D01G6")(type "KiCad")(uri "${KIPRJMOD}/library/sw_SK14D01G6.kicad_sym")(options "")(descr ""))
+  (lib (name "StandoffPCB")(type "KiCad")(uri "${KIPRJMOD}/library/StandoffPCB.kicad_sym")(options "")(descr ""))
 )
