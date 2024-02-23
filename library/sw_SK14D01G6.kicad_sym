@@ -34,7 +34,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.arrow.com/en/products/sk14d01g6/ck"
+		(property "Datasheet" "https://cz.mouser.com/datasheet/2/240/sk-3051091.pdf"
 			(at 19.05 -194.92 0)
 			(effects
 				(font
@@ -134,7 +134,7 @@
 			)
 			(polyline
 				(pts
-					(xy 8.89 -5.08) (xy 12.7 -5.08) (xy 12.7 -10.16) (xy 7.62 -10.16)
+					(xy 7.62 -5.08) (xy 12.7 -5.08) (xy 12.7 -10.16) (xy 8.89 -10.16)
 				)
 				(stroke
 					(width 0)
@@ -188,7 +188,7 @@
 			(pin passive line
 				(at 0 -5.08 0)
 				(length 5.08)
-				(name "C1"
+				(name "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -206,7 +206,7 @@
 			(pin passive line
 				(at 0 -7.62 0)
 				(length 5.08)
-				(name "C2"
+				(name "C1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -224,7 +224,7 @@
 			(pin passive line
 				(at 0 -10.16 0)
 				(length 5.08)
-				(name "2"
+				(name "C2"
 					(effects
 						(font
 							(size 1.27 1.27)
