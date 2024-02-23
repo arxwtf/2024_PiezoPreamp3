@@ -1695,7 +1695,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "1b11284a-921c-465b-ac11-5af1427a756c")
 		(property "Reference" "H405"
@@ -1887,7 +1887,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "3049d612-4735-4e4a-856b-e5e4cd7a44ff")
 		(property "Reference" "H406"
@@ -4094,7 +4094,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "c6d347e5-1977-418c-acae-d59348969b71")
 		(property "Reference" "H407"
@@ -4346,7 +4346,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "cfbc999b-8300-43d3-94f8-d63be7565dee")
 		(property "Reference" "H408"
