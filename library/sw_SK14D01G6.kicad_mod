@@ -65,6 +65,17 @@
 		)
 	)
 	(attr through_hole)
+	(fp_circle
+		(center -5 -4.9)
+		(end -4.717157 -4.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "B.SilkS")
+		(uuid "5c434285-053a-437a-92bb-f004fff7a5fc")
+	)
 	(fp_line
 		(start -7.3 -4.3)
 		(end 7.3 -4.3)

@@ -774,7 +774,7 @@
 			)
 		)
 		(property "ki_fp_filters" "MountingHole*Pad*"
-			(at -5.5 0.4 0)
+			(at 136.9 97.85 0)
 			(layer "F.Fab")
 			(uuid "c36d5cd8-b43e-4fd5-bbe6-dd0385f682fb")
 			(effects
@@ -784,7 +784,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/c4206f64-6648-4592-89ba-4b364add331b")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
@@ -965,7 +964,7 @@
 			)
 		)
 		(property "ki_fp_filters" "MountingHole*Pad*"
-			(at 568.4 434.3 0)
+			(at 728.2 541.55 0)
 			(layer "F.Fab")
 			(uuid "0107bb78-14af-4a98-8202-6eb2d24578e4")
 			(effects
@@ -975,7 +974,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/18da6871-9a80-419b-9cdc-8889939a356d")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
@@ -1156,7 +1154,7 @@
 			)
 		)
 		(property "ki_fp_filters" "MountingHole*Pad*"
-			(at 728.4 435 0)
+			(at 847.1 543.75 0)
 			(layer "F.Fab")
 			(uuid "01aa7e7c-d218-4951-a0e8-2789e51271c3")
 			(effects
@@ -1166,7 +1164,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/e56e49ba-8974-4847-b6bf-e83116731cf2/635f27a3-4e1c-4ac9-aa49-8bdc297bbbb1")
 		(sheetname "4-MountingAndAccessories")
 		(sheetfile "4-MountingAndAccessories.kicad_sch")
@@ -1354,7 +1351,17 @@
 				)
 			)
 		)
-		(property ki_fp_filters "R_*")
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "c811c089-d938-4528-b633-2a939f90c909")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/a8b40479-ff6c-4751-98fc-05f3af9d4f2c")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
@@ -1641,7 +1648,7 @@
 			)
 		)
 		(property "ki_fp_filters" "CP_*"
-			(at 286.85 204.7 0)
+			(at 430.75 307.75 0)
 			(layer "F.Fab")
 			(uuid "ca7de699-ceff-42e3-b371-d32f6e30c1d3")
 			(effects
@@ -1651,7 +1658,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "CP_*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/0dedface-3f51-4f7f-a216-4b5184435cf9")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
@@ -2053,7 +2059,7 @@
 			)
 		)
 		(property "ki_fp_filters" "C_*"
-			(at 237.85 -56.5 0)
+			(at 384.45 32.75 0)
 			(layer "F.Fab")
 			(uuid "8a2adca6-5f90-4b65-8c73-e657dd3f8cf2")
 			(effects
@@ -2063,7 +2069,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/b4f1da3a-c499-4835-9776-786f37bc46b0")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
@@ -2332,7 +2337,7 @@
 			)
 		)
 		(property "ki_fp_filters" "C_*"
-			(at 129.9 86.45 0)
+			(at 216.35 -44.15 0)
 			(layer "F.Fab")
 			(uuid "84b6e3e6-750b-45c2-a771-72f9e59402c4")
 			(effects
@@ -2342,7 +2347,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/c683fcba-79cf-4b25-9361-809d0cc5dca7")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
@@ -2640,7 +2644,7 @@
 			)
 		)
 		(property "ki_fp_filters" "MountingHole*Pad*"
-			(at 573.9 425.7 0)
+			(at 736.1 532.95 0)
 			(layer "F.Fab")
 			(uuid "1d709490-b0e2-452d-8698-0cd54210bc91")
 			(effects
@@ -2650,7 +2654,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/2ed2fd3f-7e2a-4296-8fa1-8ad48684eb78")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
@@ -2819,7 +2822,7 @@
 			)
 		)
 		(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-			(at 0 0 0)
+			(at 181.338 105.05 0)
 			(layer "F.Fab")
 			(uuid "8bf6f84c-ea54-425b-b87c-3a8a125eccd2")
 			(effects
@@ -2829,7 +2832,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/b10e95cd-10a1-4d25-b6a0-2bd4304f390c/c6e519a7-1494-43c8-9548-bafdf8d48218")
 		(sheetname "2-Power")
 		(sheetfile "2-Power.kicad_sch")
@@ -3143,7 +3145,7 @@
 			)
 		)
 		(property "ki_fp_filters" "R_*"
-			(at 448.35 128.65 0)
+			(at 249.45 -365.7 0)
 			(layer "F.Fab")
 			(uuid "5ae0b2a0-1520-490a-b63f-fa91583631af")
 			(effects
@@ -3153,7 +3155,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "R_*")
 		(path "/92c2a844-101a-40c5-a0eb-d2ce1ffb9165/ad1827bf-7f2b-4d62-811e-69785ea1f413")
 		(sheetname "3-BatteryIndicator")
 		(sheetfile "3-BatteryIndicator.kicad_sch")
@@ -3437,7 +3438,17 @@
 				)
 			)
 		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "22e7012b-983f-4729-a019-188282912d24")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/e56e49ba-8974-4847-b6bf-e83116731cf2/197e721c-82ca-47d9-9764-e5a1052d0c09")
 		(sheetname "4-MountingAndAccessories")
 		(sheetfile "4-MountingAndAccessories.kicad_sch")
@@ -3672,7 +3683,7 @@
 			)
 		)
 		(property "ki_fp_filters" "C_*"
-			(at 3.65 2.55 0)
+			(at 173.7 77.65 0)
 			(layer "F.Fab")
 			(uuid "e7a18ce7-1368-4756-b454-fd443fd99f4c")
 			(effects
@@ -3682,7 +3693,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/f33bce7e-1167-4a57-a6a2-9afbe1335593")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
@@ -3955,7 +3965,7 @@
 			)
 		)
 		(property "ki_fp_filters" "C_*"
-			(at 157.6 90.25 0)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "c2d0a78c-1dcd-49a8-85a4-052aeb670dfc")
 			(effects
@@ -3965,7 +3975,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/dd3eb56c-1d38-49f5-818d-dcde1bffa5e7")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
@@ -4251,7 +4260,7 @@
 			)
 		)
 		(property "ki_fp_filters" "R_*"
-			(at 30.65 203.65 0)
+			(at 150.55 288.8 0)
 			(layer "F.Fab")
 			(uuid "9b89cdca-367c-402a-8a8e-97f8d4463781")
 			(effects
@@ -4261,7 +4270,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "R_*")
 		(path "/92c2a844-101a-40c5-a0eb-d2ce1ffb9165/be535837-bd40-4f68-8331-bcde06aab845")
 		(sheetname "3-BatteryIndicator")
 		(sheetfile "3-BatteryIndicator.kicad_sch")
@@ -4559,7 +4567,7 @@
 			)
 		)
 		(property "ki_fp_filters" "MountingHole*"
-			(at 474.8 435 0)
+			(at 656.9 543.75 0)
 			(layer "F.Fab")
 			(uuid "d0aec449-6ac9-4ed9-a3fb-5dc7818c1684")
 			(effects
@@ -4569,7 +4577,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "MountingHole*")
 		(path "/e56e49ba-8974-4847-b6bf-e83116731cf2/9555a647-fdf4-4b69-ba93-8e0493f76b39")
 		(sheetname "4-MountingAndAccessories")
 		(sheetfile "4-MountingAndAccessories.kicad_sch")
@@ -4760,7 +4767,7 @@
 			)
 		)
 		(property "ki_fp_filters" "CP_*"
-			(at 157.3 102.25 0)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "796442fc-6446-402d-96e9-d7fe75c5a56b")
 			(effects
@@ -4770,7 +4777,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "CP_*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/23462491-9738-4657-9975-d9dce7104298")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
@@ -5172,7 +5178,7 @@
 			)
 		)
 		(property "ki_fp_filters" "R_*"
-			(at -328.3 -192.7 0)
+			(at 488.8 287.25 0)
 			(layer "F.Fab")
 			(uuid "7da1a410-79ea-4900-8a41-1e3f8c255e67")
 			(effects
@@ -5182,7 +5188,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "R_*")
 		(path "/b10e95cd-10a1-4d25-b6a0-2bd4304f390c/3a227af9-057d-4a35-bdd3-d5544961b19b")
 		(sheetname "2-Power")
 		(sheetfile "2-Power.kicad_sch")
@@ -5474,7 +5479,7 @@
 			)
 		)
 		(property "ki_fp_filters" "C_*"
-			(at 451.05 133.25 0)
+			(at 259.95 -361.1 0)
 			(layer "F.Fab")
 			(uuid "321972fa-4426-4a62-b6ad-0cb40eaa6965")
 			(effects
@@ -5484,7 +5489,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
 		(path "/92c2a844-101a-40c5-a0eb-d2ce1ffb9165/304ee354-6f16-4c1e-8e09-5fe4bd02c8f9")
 		(sheetname "3-BatteryIndicator")
 		(sheetfile "3-BatteryIndicator.kicad_sch")
@@ -5770,7 +5774,7 @@
 			)
 		)
 		(property "ki_fp_filters" "C_*"
-			(at -173.3 551.55 0)
+			(at -401.35 -66.85 0)
 			(layer "F.Fab")
 			(uuid "0911fd69-1ac8-471f-aee1-3fb3d9f25e18")
 			(effects
@@ -5780,7 +5784,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
 		(path "/b10e95cd-10a1-4d25-b6a0-2bd4304f390c/32f6de0d-27af-4693-83d0-933e342776e2")
 		(sheetname "2-Power")
 		(sheetfile "2-Power.kicad_sch")
@@ -6078,7 +6081,7 @@
 			)
 		)
 		(property "ki_fp_filters" "MountingHole*Pad*"
-			(at 527.4 369.3 0)
+			(at 659.5 461.65 0)
 			(layer "F.Fab")
 			(uuid "d6c2ec39-6afd-44f8-8306-38e452084b3d")
 			(effects
@@ -6088,7 +6091,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/1fa2a96f-0a9a-4711-904c-1014255704ca")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
@@ -6243,7 +6245,17 @@
 				)
 			)
 		)
-		(property ki_fp_filters "SOT?23*")
+		(property "ki_fp_filters" "SOT?23*"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "fd8f9e0b-9b4c-4900-bf34-1be3d20c80b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/928b82ca-ced7-4bd3-b04a-34937b049177")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
@@ -6611,7 +6623,7 @@
 			)
 		)
 		(property "ki_fp_filters" "C_*"
-			(at -81.75 141.5 0)
+			(at -0.6 1 0)
 			(layer "F.Fab")
 			(uuid "970eabc8-75cf-4e81-b6ea-06c750b37e51")
 			(effects
@@ -6621,7 +6633,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/8a73d4d7-8d5c-4b0e-b404-0f255713c715")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
@@ -6897,7 +6908,7 @@
 			)
 		)
 		(property "ki_fp_filters" "R_*"
-			(at 566.3375 370.1 0)
+			(at 707.375 461.25 0)
 			(layer "F.Fab")
 			(uuid "1a022fea-728e-4c63-a82b-87ab3cdbf0b2")
 			(effects
@@ -6907,7 +6918,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "R_*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/689ccb10-48d1-4f65-ad2a-efc55751487d")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
@@ -7180,7 +7190,7 @@
 			)
 		)
 		(property "ki_fp_filters" "C_*"
-			(at 157.6 83.05 0)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "0f8c4410-80cd-4d36-a71d-e0befac6c779")
 			(effects
@@ -7190,7 +7200,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/fec15c9f-9f71-4a6d-bc1c-5bb14cddfcba")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
@@ -7476,7 +7485,7 @@
 			)
 		)
 		(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-			(at 265.25 -50.25 0)
+			(at -105.15 159.5 0)
 			(layer "F.Fab")
 			(uuid "ced38947-c404-4127-963c-ea0ed7752285")
 			(effects
@@ -7486,7 +7495,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/92ccfacc-6359-4050-975e-e33490c4cfd2")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
@@ -7784,7 +7792,7 @@
 			)
 		)
 		(property "ki_fp_filters" "C_*"
-			(at 51.95 230.65 0)
+			(at -87.55 139.5 0)
 			(layer "F.Fab")
 			(uuid "8ae8ee6b-fea5-485c-b06d-d5f63b73bbc3")
 			(effects
@@ -7794,7 +7802,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
 		(path "/b10e95cd-10a1-4d25-b6a0-2bd4304f390c/b071136e-e312-4d5d-b17d-0f0483eb1c60")
 		(sheetname "2-Power")
 		(sheetfile "2-Power.kicad_sch")
@@ -8080,7 +8087,7 @@
 			)
 		)
 		(property "ki_fp_filters" "C_*"
-			(at 446.65 138.05 0)
+			(at 262.45 -356.7 0)
 			(layer "F.Fab")
 			(uuid "a44cd7f1-0311-4430-9730-1d3daf2be280")
 			(effects
@@ -8090,7 +8097,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
 		(path "/92c2a844-101a-40c5-a0eb-d2ce1ffb9165/65a94269-454d-465a-ae89-dd3877ff1c8e")
 		(sheetname "3-BatteryIndicator")
 		(sheetfile "3-BatteryIndicator.kicad_sch")
@@ -8388,7 +8394,7 @@
 			)
 		)
 		(property "ki_fp_filters" "MountingHole*"
-			(at 728.4 312.6 0)
+			(at 910.5 390.75 0)
 			(layer "F.Fab")
 			(uuid "02f9f63f-0878-4c5f-b89a-57584ab1f772")
 			(effects
@@ -8398,7 +8404,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "MountingHole*")
 		(path "/e56e49ba-8974-4847-b6bf-e83116731cf2/c83c3bf2-680c-4702-8ecd-004753bd2a21")
 		(sheetname "4-MountingAndAccessories")
 		(sheetfile "4-MountingAndAccessories.kicad_sch")
@@ -8602,7 +8607,7 @@
 			)
 		)
 		(property "ki_fp_filters" "C_*"
-			(at 3.45 2.35 0)
+			(at 170.9 77.65 0)
 			(layer "F.Fab")
 			(uuid "02d2ae16-d241-4323-94c1-9ca10e55a913")
 			(effects
@@ -8612,7 +8617,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/40104d3a-453c-4eff-8612-995616e0416d")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
@@ -8904,7 +8908,7 @@
 			)
 		)
 		(property "ki_fp_filters" "C_*"
-			(at 0.2 0.7 0)
+			(at 173.5 91.65 0)
 			(layer "F.Fab")
 			(uuid "4cac212a-d393-4c65-bf46-e970a800d4cd")
 			(effects
@@ -8914,7 +8918,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/fe9ab3ef-1493-4b16-832e-f061d275d440")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
@@ -9212,7 +9215,7 @@
 			)
 		)
 		(property "ki_fp_filters" "R_*"
-			(at 243.9 189.3 0)
+			(at -60.6 335.45 0)
 			(layer "F.Fab")
 			(uuid "81d8d1d5-1350-49cc-a0e5-95991f9ee21d")
 			(effects
@@ -9222,7 +9225,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "R_*")
 		(path "/92c2a844-101a-40c5-a0eb-d2ce1ffb9165/336a40dd-1c74-428a-84f6-d5a8b245955b")
 		(sheetname "3-BatteryIndicator")
 		(sheetfile "3-BatteryIndicator.kicad_sch")
@@ -9508,9 +9510,8 @@
 			)
 		)
 		(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-			(at -3.6 -5 0)
+			(at 149.2 114.15 0)
 			(layer "F.Fab")
-			(hide yes)
 			(uuid "e14d30b7-829b-4a0f-8991-bb2992c5db8c")
 			(effects
 				(font
@@ -9519,7 +9520,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/b10e95cd-10a1-4d25-b6a0-2bd4304f390c/be809193-c978-42f3-a9c8-547f53db30fd")
 		(sheetname "2-Power")
 		(sheetfile "2-Power.kicad_sch")
@@ -9891,9 +9891,8 @@
 			)
 		)
 		(property "ki_fp_filters" "R_*"
-			(at 14.9 -7.9 0)
+			(at 158.5 115.85 0)
 			(layer "F.Fab")
-			(hide yes)
 			(uuid "6857b1fa-20f5-4261-95c6-34257efd2166")
 			(effects
 				(font
@@ -9902,7 +9901,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "R_*")
 		(path "/b10e95cd-10a1-4d25-b6a0-2bd4304f390c/33da1130-9d60-42fd-b5b0-3fe848ba469c")
 		(sheetname "2-Power")
 		(sheetfile "2-Power.kicad_sch")
@@ -10191,7 +10189,7 @@
 			)
 		)
 		(property "ki_fp_filters" "C_*"
-			(at 131.8 85.45 0)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "f0a79b5c-e628-400a-b179-1589868e024a")
 			(effects
@@ -10201,7 +10199,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/0ed6efd3-479c-41c5-9987-63f019f2ee72")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
@@ -10487,7 +10484,7 @@
 			)
 		)
 		(property "ki_fp_filters" "C_*"
-			(at 0.2 -2.3 0)
+			(at 164.5 82.45 0)
 			(layer "F.Fab")
 			(uuid "d6173501-3260-41d6-a2d2-eb52a8bbda06")
 			(effects
@@ -10497,7 +10494,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
 		(path "/b10e95cd-10a1-4d25-b6a0-2bd4304f390c/7c69dd11-b891-4057-b471-7abd6e1849f7")
 		(sheetname "2-Power")
 		(sheetfile "2-Power.kicad_sch")
@@ -10783,7 +10779,7 @@
 			)
 		)
 		(property "ki_fp_filters" "Potentiometer*"
-			(at -3.4 -1.564 0)
+			(at 127.8 85.782 0)
 			(layer "F.Fab")
 			(uuid "8ff12162-2123-4509-ad4c-3524aa5d64d6")
 			(effects
@@ -10793,7 +10789,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "Potentiometer*")
 		(path "/92c2a844-101a-40c5-a0eb-d2ce1ffb9165/ab5781ef-1ca5-47f6-bd41-8bd44b1e1f21")
 		(sheetname "3-BatteryIndicator")
 		(sheetfile "3-BatteryIndicator.kicad_sch")
@@ -11104,7 +11099,7 @@
 			)
 		)
 		(property "ki_fp_filters" "C_*"
-			(at 0 0 0)
+			(at 152.3 85.65 0)
 			(layer "F.Fab")
 			(uuid "2f55e3aa-5a79-4df4-81fd-ea13d8d85bf0")
 			(effects
@@ -11114,7 +11109,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/ba4b5470-81d0-4169-9744-1e20e59d88a2")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
@@ -11412,7 +11406,7 @@
 			)
 		)
 		(property "ki_fp_filters" "MountingHole*Pad*"
-			(at -0.4 -4.1 0)
+			(at 132.3 88.15 0)
 			(layer "F.Fab")
 			(uuid "62f41ea0-1a4e-4cd2-903e-699fc0eab784")
 			(effects
@@ -11422,7 +11416,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/36117b58-1f99-4f2a-8aca-4a87a51e57ef")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
@@ -11591,7 +11584,7 @@
 			)
 		)
 		(property "ki_fp_filters" "C_*"
-			(at 438.85 -390.35 0)
+			(at -232.65 -345.7 0)
 			(layer "F.Fab")
 			(uuid "72d0a76c-b0a6-4253-9f1f-5875cc064b7a")
 			(effects
@@ -11601,7 +11594,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
 		(path "/b10e95cd-10a1-4d25-b6a0-2bd4304f390c/1a44450c-dd4f-4d16-aedf-4bfaa31a47bf")
 		(sheetname "2-Power")
 		(sheetfile "2-Power.kicad_sch")
@@ -11877,7 +11869,7 @@
 			)
 		)
 		(property "ki_fp_filters" "C_*"
-			(at -0.5 0.6 0)
+			(at 143.7 83.45 0)
 			(layer "F.Fab")
 			(uuid "3fb2c513-4b2f-40ad-bead-5659003e30a1")
 			(effects
@@ -11887,7 +11879,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/9b23d72d-68a2-443d-b13c-28a96ecc1eb9")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
@@ -12179,7 +12170,7 @@
 			)
 		)
 		(property "ki_fp_filters" "C_*"
-			(at -1.5 -2 0)
+			(at 173 93.35 0)
 			(layer "F.Fab")
 			(uuid "9ffc1d3b-e58f-41f7-8f69-c5a9845dfa71")
 			(effects
@@ -12189,7 +12180,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/340ff424-da63-4c75-b8d2-1f97490b0187")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
@@ -12468,7 +12458,7 @@
 			)
 		)
 		(property "ki_fp_filters" "C_*"
-			(at 133.8 85.95 0)
+			(at 47.85 219.75 0)
 			(layer "F.Fab")
 			(uuid "eaf11eaf-d149-496c-b808-eba482de7212")
 			(effects
@@ -12478,7 +12468,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/622a5f67-0f66-40e4-a524-de368b9c2af9")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
@@ -12764,7 +12753,7 @@
 			)
 		)
 		(property "ki_fp_filters" "C_*"
-			(at 3.8 0.1 0)
+			(at 138.4 82.95 0)
 			(layer "F.Fab")
 			(uuid "22454f3d-bb14-456f-b5ab-8c3e7f825e30")
 			(effects
@@ -12774,7 +12763,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/a3d8e19f-c1e2-45b8-a801-58f7456a1f52")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
@@ -13060,7 +13048,7 @@
 			)
 		)
 		(property "ki_fp_filters" "R_*"
-			(at -3.5 -1.6 0)
+			(at 145 110.65 0)
 			(layer "F.Fab")
 			(uuid "d595aa87-4c71-4707-a3a9-7e2e459053f6")
 			(effects
@@ -13070,7 +13058,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "R_*")
 		(path "/b10e95cd-10a1-4d25-b6a0-2bd4304f390c/299ad78b-b805-4e1d-be39-c896b173a5d2")
 		(sheetname "2-Power")
 		(sheetfile "2-Power.kicad_sch")
@@ -13356,7 +13343,7 @@
 			)
 		)
 		(property "ki_fp_filters" "C_*"
-			(at 49.75 228.55 0)
+			(at -87.65 137.8 0)
 			(layer "F.Fab")
 			(uuid "92da0cab-12e3-45cf-abe0-eabd630d2af3")
 			(effects
@@ -13366,7 +13353,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
 		(path "/b10e95cd-10a1-4d25-b6a0-2bd4304f390c/48d29059-4a95-4bd3-beee-e99b8f2f5f26")
 		(sheetname "2-Power")
 		(sheetfile "2-Power.kicad_sch")
@@ -13654,7 +13640,7 @@
 			)
 		)
 		(property "ki_fp_filters" "MountingHole*Pad*"
-			(at -9.8 -1.9 0)
+			(at 134.5 92.95 0)
 			(layer "F.Fab")
 			(uuid "adf092b3-5ebe-4f9d-8d44-e08a04eba3ef")
 			(effects
@@ -13664,7 +13650,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/4e083221-fa4f-41ea-92f0-c69556b97674")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
@@ -13819,7 +13804,17 @@
 				)
 			)
 		)
-		(property ki_fp_filters "SOT?23*")
+		(property "ki_fp_filters" "SOT?23*"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "41bf9141-7490-43db-816e-708d26123c44")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/136861b4-0198-4b18-aa63-aba3fcb1c786")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
@@ -14194,7 +14189,7 @@
 			)
 		)
 		(property "ki_fp_filters" "R_*"
-			(at -13.7 2.3 0)
+			(at 150.2 82.85 0)
 			(layer "F.Fab")
 			(uuid "58c28056-5e2a-4afe-bd8f-7ad6a4bdbea4")
 			(effects
@@ -14204,7 +14199,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "R_*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/c6927a2a-b727-49ea-8220-c09bb9269423")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
@@ -15941,7 +15935,7 @@
 			)
 		)
 		(property "ki_fp_filters" "C_*"
-			(at 0 0 0)
+			(at 152.1 83.15 0)
 			(layer "F.Fab")
 			(uuid "a0c792e9-f8f2-496d-90e1-1deba6b206e2")
 			(effects
@@ -15951,7 +15945,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/0d49cc65-0344-4cef-9540-2193ccec1314")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
@@ -16237,7 +16230,7 @@
 			)
 		)
 		(property "ki_fp_filters" "C_*"
-			(at 7.33 -16.9 0)
+			(at 178.4 85.75 0)
 			(layer "F.Fab")
 			(uuid "484a6499-e252-43f5-a129-f24447a9a44b")
 			(effects
@@ -16247,7 +16240,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
 		(path "/b10e95cd-10a1-4d25-b6a0-2bd4304f390c/9d138330-c985-4a40-ba99-3337c0ecbf23")
 		(sheetname "2-Power")
 		(sheetfile "2-Power.kicad_sch")
@@ -16509,7 +16501,17 @@
 				)
 			)
 		)
-		(property ki_fp_filters "R_*")
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "31793c01-ee94-4588-a729-50b1b0a1ad24")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/3ede5b4b-d454-47f7-a70b-c7a13dbb0df2")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
@@ -16793,7 +16795,17 @@
 				)
 			)
 		)
-		(property ki_fp_filters "SWITCH12_EG4208A_EWI")
+		(property "ki_fp_filters" "SWITCH12_EG4208A_EWI"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "064956f5-0207-416e-9c9f-2e32daf7fe8b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/b10e95cd-10a1-4d25-b6a0-2bd4304f390c/186e7e94-a505-41cc-ad5c-678e44ad3ca7")
 		(sheetname "2-Power")
 		(sheetfile "2-Power.kicad_sch")
@@ -17327,7 +17339,7 @@
 			)
 		)
 		(property "ki_fp_filters" "MountingHole*Pad*"
-			(at 529.8 355.6 0)
+			(at 661.9 443.35 0)
 			(layer "F.Fab")
 			(uuid "3260937b-ec34-4155-b633-a86ceed60658")
 			(effects
@@ -17337,7 +17349,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/c9f74f48-38f8-497b-9298-ebea46c12fe0")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
@@ -17493,7 +17504,7 @@
 			)
 		)
 		(property "ki_fp_filters" "C_*"
-			(at 157.6 85.45 0)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "5b6e2bce-cf8f-4ed2-8423-84b746fb70dc")
 			(effects
@@ -17503,7 +17514,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/1bad02be-d1b4-4d2d-89e4-2bd530184cf1")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
@@ -17789,7 +17799,7 @@
 			)
 		)
 		(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-			(at 668.55 370.4 0)
+			(at 835.4 463.35 0)
 			(layer "F.Fab")
 			(uuid "726380b5-ff40-4cee-8b9e-97554a683dee")
 			(effects
@@ -17799,7 +17809,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/d6809b98-b87c-4200-bf8c-18a1e0a69e64")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
@@ -18097,7 +18106,7 @@
 			)
 		)
 		(property "ki_fp_filters" "R_*"
-			(at 6.5 4.6 0)
+			(at 142 89.55 0)
 			(layer "F.Fab")
 			(uuid "63ee1a58-b00e-4135-bccd-053f2f65993f")
 			(effects
@@ -18107,7 +18116,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "R_*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/002800ac-df8c-45d4-8d9d-52dccc6b9185")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
@@ -18380,7 +18388,7 @@
 			)
 		)
 		(property "ki_fp_filters" "R_*"
-			(at 0 0 0)
+			(at 172 88.75 0)
 			(layer "F.Fab")
 			(uuid "3595ee47-616d-40ad-9f21-65815dd889fb")
 			(effects
@@ -18390,7 +18398,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "R_*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/ec7e2b7a-b909-481d-9965-04cfe43b332d")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
@@ -18791,7 +18798,7 @@
 			)
 		)
 		(property "ki_fp_filters" "C_*"
-			(at 2.7 2.3 0)
+			(at 172.8 89.15 0)
 			(layer "F.Fab")
 			(uuid "a29fdaa4-f4bb-4ed0-b4bb-fc8d2a9d02c6")
 			(effects
@@ -18801,7 +18808,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/a8b47be6-3f87-495f-88f2-2c11905bd123")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
@@ -19087,7 +19093,7 @@
 			)
 		)
 		(property "ki_fp_filters" "C_*"
-			(at -1.05 12.05 0)
+			(at 177.7 82.35 0)
 			(layer "F.Fab")
 			(uuid "775179bd-2c0a-42f8-b925-0fc233cc7525")
 			(effects
@@ -19097,7 +19103,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/6c3ab7fc-c396-4894-81e9-074fa8ea2ce9")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
@@ -19385,7 +19390,7 @@
 			)
 		)
 		(property "ki_fp_filters" "SOT-26_ZXMP3A17E6_DIO SOT-26_ZXMP3A17E6_DIO-M SOT-26_ZXMP3A17E6_DIO-L"
-			(at 108.844098 -155.55 0)
+			(at -1.15 -0.094098 0)
 			(layer "F.Fab")
 			(uuid "27b2af50-286d-47c7-9426-d3519475fc77")
 			(effects
@@ -19395,7 +19400,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "SOT-26_ZXMP3A17E6_DIO SOT-26_ZXMP3A17E6_DIO-M SOT-26_ZXMP3A17E6_DIO-L")
 		(path "/b10e95cd-10a1-4d25-b6a0-2bd4304f390c/4dbeb656-ae94-433d-9cfb-48b057a0bd42")
 		(sheetname "2-Power")
 		(sheetfile "2-Power.kicad_sch")
@@ -19780,7 +19784,7 @@
 			)
 		)
 		(property "ki_fp_filters" "R_*"
-			(at 401.6 -331.45 0)
+			(at -197.15 -312.75 0)
 			(layer "F.Fab")
 			(uuid "8a19c71b-e79e-4f39-9a74-c8dc158a36ad")
 			(effects
@@ -19790,7 +19794,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "R_*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/6a9b426c-a1d3-4a38-8e67-4d71f8200628")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
@@ -20076,7 +20079,7 @@
 			)
 		)
 		(property "ki_fp_filters" "R_*"
-			(at 426.55 -345.45 0)
+			(at -197.95 -331.1 0)
 			(layer "F.Fab")
 			(uuid "51104e9f-2b2f-4ecc-bfae-0a64b13a0718")
 			(effects
@@ -20086,7 +20089,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "R_*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/b35fbecc-20c6-4f00-826b-f1e0500fb0dd")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
@@ -20382,7 +20384,7 @@
 			)
 		)
 		(property "ki_fp_filters" "C_*"
-			(at -1.95 -2.25 0)
+			(at 175.3 82.35 0)
 			(layer "F.Fab")
 			(uuid "26db29b6-febb-46e7-8775-cf22ac1f07fc")
 			(effects
@@ -20392,7 +20394,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/e70604e3-daf2-440a-8057-1278e89f65cf")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
@@ -20678,7 +20679,7 @@
 			)
 		)
 		(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-			(at 600 421 0)
+			(at 750.4 530.95 0)
 			(layer "F.Fab")
 			(uuid "66647cd6-4d58-4935-b81d-017c44efcd6b")
 			(effects
@@ -20688,7 +20689,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/92c2a844-101a-40c5-a0eb-d2ce1ffb9165/0aebe032-9040-4fd3-b4d3-546bfdc7130e")
 		(sheetname "3-BatteryIndicator")
 		(sheetfile "3-BatteryIndicator.kicad_sch")
@@ -21053,7 +21053,7 @@
 			)
 		)
 		(property "ki_fp_filters" "C_*"
-			(at 0 0 0)
+			(at 152.22 87.75 0)
 			(layer "F.Fab")
 			(uuid "ebb97d5f-bb31-4857-979f-a4372035a975")
 			(effects
@@ -21063,7 +21063,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/5e01253e-c611-4755-bbb3-174635ec416f")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
@@ -21349,7 +21348,7 @@
 			)
 		)
 		(property "ki_fp_filters" "C_*"
-			(at 3.65 3.85 0)
+			(at 176.4 77.65 0)
 			(layer "F.Fab")
 			(uuid "d3d8217b-92fc-466c-8b9c-2255083dd3d3")
 			(effects
@@ -21359,7 +21358,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/d9129fd3-9fb9-4a4f-95b1-1ece9cd2ec54")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
@@ -21943,7 +21941,7 @@
 			)
 		)
 		(property "ki_fp_filters" "C_*"
-			(at 157.6 87.85 0)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "76eeea24-d727-4326-af1f-ad27c47ab174")
 			(effects
@@ -21953,7 +21951,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/328bf469-a8df-4a35-a452-a3622df6abef")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
@@ -22245,7 +22242,7 @@
 			)
 		)
 		(property "ki_fp_filters" "R_*"
-			(at 79.7 418.4 0)
+			(at 201.4 506.85 0)
 			(layer "F.Fab")
 			(uuid "951428a8-4593-4388-a976-5805e0bc5176")
 			(effects
@@ -22255,7 +22252,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "R_*")
 		(path "/92c2a844-101a-40c5-a0eb-d2ce1ffb9165/bcb6b696-6a13-4990-bb52-dffc55500a46")
 		(sheetname "3-BatteryIndicator")
 		(sheetfile "3-BatteryIndicator.kicad_sch")
@@ -22541,7 +22537,7 @@
 			)
 		)
 		(property "ki_fp_filters" "R_*"
-			(at 335.6 190.5 0)
+			(at 496 283.35 0)
 			(layer "F.Fab")
 			(uuid "cae94a3e-95f2-4f48-bd3d-2c20434ed3e9")
 			(effects
@@ -22551,7 +22547,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "R_*")
 		(path "/b10e95cd-10a1-4d25-b6a0-2bd4304f390c/6a5e2f67-3668-4aaf-93f4-3eff39dc332e")
 		(sheetname "2-Power")
 		(sheetfile "2-Power.kicad_sch")
@@ -22837,7 +22832,7 @@
 			)
 		)
 		(property "ki_fp_filters" "R_*"
-			(at -6.1 -11.7 0)
+			(at 150.5 79.55 0)
 			(layer "F.Fab")
 			(uuid "a9f27ef7-d88d-4252-adb6-0c98a829b2ef")
 			(effects
@@ -22847,7 +22842,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "R_*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/7c61d49f-fae1-43ef-ac2a-05570d556fd6")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
@@ -23120,7 +23114,7 @@
 			)
 		)
 		(property "ki_fp_filters" "R_*"
-			(at 0 0 0)
+			(at 172 86.75 0)
 			(layer "F.Fab")
 			(uuid "aa7d7dc9-98d0-4889-bc72-b1b9dbd1efc8")
 			(effects
@@ -23130,7 +23124,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "R_*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/a453f0a1-5c81-49fb-b24f-060905b6e0ef")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
@@ -23525,7 +23518,7 @@
 			)
 		)
 		(property "ki_fp_filters" "C_*"
-			(at 5.2 5.8 0)
+			(at 134.9 83.95 0)
 			(layer "F.Fab")
 			(uuid "11ec6465-bd82-46d4-a2d4-13849f7b273e")
 			(effects
@@ -23535,7 +23528,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/38c67b0a-f298-407a-8505-a4b8eb806e37")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
@@ -23827,7 +23819,7 @@
 			)
 		)
 		(property "ki_fp_filters" "C_*"
-			(at 3.45 2.35 0)
+			(at 169.6 77.65 0)
 			(layer "F.Fab")
 			(uuid "ae9f0ae0-e5a4-4921-a681-d3f0bef9f98b")
 			(effects
@@ -23837,7 +23829,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/1b700ba3-1a4e-4c15-8eba-d734968dcbd2")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
@@ -24135,7 +24126,7 @@
 			)
 		)
 		(property "ki_fp_filters" "MountingHole*"
-			(at 474.8 312.6 0)
+			(at 593.5 390.75 0)
 			(layer "F.Fab")
 			(uuid "76654764-3d6e-4b9a-bfbc-94dddc51e05a")
 			(effects
@@ -24145,7 +24136,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "MountingHole*")
 		(path "/e56e49ba-8974-4847-b6bf-e83116731cf2/57be1ee6-2ca8-4c81-847b-9537b0b0fc75")
 		(sheetname "4-MountingAndAccessories")
 		(sheetfile "4-MountingAndAccessories.kicad_sch")
@@ -24355,7 +24345,7 @@
 			)
 		)
 		(property "ki_fp_filters" "MountingHole*Pad*"
-			(at 638 436.6 0)
+			(at 795.4 543.85 0)
 			(layer "F.Fab")
 			(uuid "91b9bef0-587f-4cea-b057-903f807eee07")
 			(effects
@@ -24365,7 +24355,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/71ccee90-04ca-4339-870a-7db0d072dc9f")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
@@ -24534,7 +24523,7 @@
 			)
 		)
 		(property "ki_fp_filters" "C_*"
-			(at -281.5 -210.7 0)
+			(at 441 307.35 0)
 			(layer "F.Fab")
 			(uuid "28573362-ba52-452d-9642-24595e318bd8")
 			(effects
@@ -24544,7 +24533,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
 		(path "/b10e95cd-10a1-4d25-b6a0-2bd4304f390c/1cf1428c-f093-4e1a-943d-e3a8baab2159")
 		(sheetname "2-Power")
 		(sheetfile "2-Power.kicad_sch")
@@ -24836,7 +24824,7 @@
 			)
 		)
 		(property "ki_fp_filters" "R_*"
-			(at 418 -66.6 0)
+			(at 538 20.25 0)
 			(layer "F.Fab")
 			(uuid "eb657569-0c11-4b55-92d1-9d2378aa0d79")
 			(effects
@@ -24846,7 +24834,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "R_*")
 		(path "/92c2a844-101a-40c5-a0eb-d2ce1ffb9165/799830e3-f4c1-4516-9f26-c66a89ad7225")
 		(sheetname "3-BatteryIndicator")
 		(sheetfile "3-BatteryIndicator.kicad_sch")
@@ -25144,7 +25131,7 @@
 			)
 		)
 		(property "ki_fp_filters" "MountingHole*Pad*"
-			(at 524.1 341.6 0)
+			(at 656.2 424.75 0)
 			(layer "F.Fab")
 			(uuid "d2516f08-5bcf-4ab8-b06b-8f79f3e131df")
 			(effects
@@ -25154,7 +25141,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/ee7c3861-ad1d-450e-a820-3a5107540113")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
@@ -25323,7 +25309,7 @@
 			)
 		)
 		(property "ki_fp_filters" "C_*"
-			(at -2 3.4 0)
+			(at 131.7 87.45 0)
 			(layer "F.Fab")
 			(uuid "1dd935ca-737c-40de-8b6b-f518709f071d")
 			(effects
@@ -25333,7 +25319,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/bf47c6fe-e785-4751-a050-a115db25c618")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
@@ -26667,7 +26652,7 @@
 			(at 0 0.725 0)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "05eeea08-1ac0-4be7-aaf0-33a79d048f4c")
+			(uuid "61f39acf-e20c-4368-aeef-6f6b65638282")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26680,7 +26665,7 @@
 			(at 0 0.725 0)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "d73363de-af8c-467c-948c-1f746252fed7")
+			(uuid "09f711d0-f74e-4aa4-9379-9d3863bd8556")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26694,7 +26679,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d34a706a-eb07-45a4-a9a2-7f9b7fa51c54")
+			(uuid "254ddad9-6887-42a5-8ad6-6343df82059d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26707,7 +26692,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "a0081035-947b-4a15-b539-fba5ad50d64c")
+			(uuid "73440268-dc29-4efd-af88-482fb1c4c958")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26720,7 +26705,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e82c4f5f-aa72-4adb-812c-a51cff7fd154")
+			(uuid "2a3bbfc0-f8ce-4052-9f08-aa65223fe132")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26813,8 +26798,6 @@
 			)
 		)
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/20f5cd50-cb23-4f28-a46f-42e34a9ef620")
-		(sheetname "1-ChargeAmpAndEQ")
-		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
 		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start -7.3 0)
@@ -26824,7 +26807,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "5a01c9d4-44d4-4216-b92e-46a3b887f3b8")
+			(uuid "b3421f22-148b-481f-9d74-a8408bd07c5f")
 		)
 		(fp_line
 			(start -7.3 4.3)
@@ -26834,7 +26817,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "c5efebf4-0f22-4ed8-9d07-bb702b659ec1")
+			(uuid "12997a49-9f60-438e-a65e-45e2e27760f2")
 		)
 		(fp_line
 			(start -4 -6)
@@ -26844,7 +26827,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "0fa6d31a-e9a5-4a24-a512-dfe1db777dc5")
+			(uuid "96124a46-7061-4be3-b454-6ba57228c473")
 		)
 		(fp_line
 			(start -2 -6)
@@ -26854,7 +26837,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "53513824-1bc2-4df6-8db4-6d987f6e2956")
+			(uuid "8afeb9b5-e070-4da1-a1fd-4346a054218d")
 		)
 		(fp_line
 			(start -2 0)
@@ -26864,7 +26847,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "bb519629-05ad-4748-ad11-ac64a2698ab8")
+			(uuid "67d243ad-eb29-4446-97f8-a500935007c4")
 		)
 		(fp_line
 			(start 4 -6)
@@ -26874,7 +26857,7 @@
 				(type default)
 			)
 			(layer "B.SilkS")
-			(uuid "a825fd9e-724e-40f5-8df9-af51745a4050")
+			(uuid "3de48cb3-1e7e-4291-8997-814b9e3a1b0b")
 		)
 		(fp_line
 			(start 4 -6)
@@ -26884,7 +26867,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "98090712-cb84-4de8-bfaf-c74356d314ec")
+			(uuid "f0f4a159-c6bb-4b21-851a-7c597724092f")
 		)
 		(fp_line
 			(start 7.3 0)
@@ -26894,7 +26877,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "75eb8f2d-241b-47fc-b317-4e937d539d6a")
+			(uuid "53478b97-f649-426e-b845-4908bcfadd15")
 		)
 		(fp_line
 			(start 7.3 0.95)
@@ -26904,7 +26887,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "9b6aa8df-c4de-41fd-8c8f-cd5f99eda1eb")
+			(uuid "d5d25571-f80c-4155-b313-6407824379bd")
 		)
 		(fp_line
 			(start 7.3 3.35)
@@ -26914,7 +26897,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "b5dc832c-26ed-4951-8b6e-6bedf7d9de88")
+			(uuid "3a4d66f3-c0c3-4fac-99dd-f9836ebd8a7e")
 		)
 		(fp_line
 			(start 7.3 4.3)
@@ -26924,7 +26907,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "d320b7ee-d9d7-4bca-8638-558ef5c6c676")
+			(uuid "de09ee9e-c460-4e25-be48-e898fca7eac1")
 		)
 		(fp_circle
 			(center -5 4.9)
@@ -26935,7 +26918,18 @@
 			)
 			(fill solid)
 			(layer "B.SilkS")
-			(uuid "d0d4457a-db14-4864-9457-57d2d6a3b605")
+			(uuid "67f09e1b-6669-4369-838b-94ffe1cfbc7e")
+		)
+		(fp_circle
+			(center -5 4.9)
+			(end -4.717157 4.9)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.SilkS")
+			(uuid "4692f9fb-d82a-4174-bb4f-8c4c2c22ec29")
 		)
 		(fp_line
 			(start -9.037 -3.85)
@@ -26945,7 +26939,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "10e95422-d277-4b97-8e02-d80250f0fd1d")
+			(uuid "50f47e12-4ef1-4443-b007-08b17b9397ee")
 		)
 		(fp_line
 			(start -9.037 5.3)
@@ -26955,7 +26949,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "c301de54-d5d8-41ac-9a31-da02aa27b418")
+			(uuid "c6cd8977-c0c5-4899-aafd-da77ce63022c")
 		)
 		(fp_line
 			(start 9.037 -3.85)
@@ -26965,7 +26959,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "f3e6c840-4a4d-4f8b-9a10-9b3c35a44368")
+			(uuid "2d1fcd6a-414e-4ba7-a5f8-e650a8781968")
 		)
 		(fp_line
 			(start 9.037 5.3)
@@ -26975,7 +26969,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "ea66a4f4-99c0-4750-8bde-988f12d93e13")
+			(uuid "d0e1b03c-3cfe-425b-a94b-e2581517593e")
 		)
 		(fp_line
 			(start -7.3 0)
@@ -26985,7 +26979,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "b03e5862-4e10-4efc-871a-666787e3d1de")
+			(uuid "8ec6a30e-d33e-4ceb-883d-cac220206390")
 		)
 		(fp_line
 			(start -7.3 4.3)
@@ -26995,7 +26989,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "ba4af696-3ccb-4f2d-90db-489814d57b12")
+			(uuid "ab35b1b0-0bb9-4782-b97b-48c3e2b8bbd6")
 		)
 		(fp_line
 			(start -4 -6)
@@ -27005,7 +26999,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "adf4c49e-40fb-4cc7-95ce-9cf6aeb7bd92")
+			(uuid "d5ceae2d-675e-4cad-9d75-df95a0254111")
 		)
 		(fp_line
 			(start -2 -6)
@@ -27015,7 +27009,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "b556da5f-0cc7-41f0-8182-1d0485ab33c9")
+			(uuid "133fb9d4-fc90-40ba-af1d-c8f0697e58b1")
 		)
 		(fp_line
 			(start -2 -0.025)
@@ -27025,7 +27019,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "24244ce6-4f5a-436f-b533-b5d2c517a879")
+			(uuid "853b037e-17d4-4dbc-a5e4-9f6f5c2e758e")
 		)
 		(fp_line
 			(start 4 -6)
@@ -27035,7 +27029,7 @@
 				(type default)
 			)
 			(layer "B.Fab")
-			(uuid "c32d3886-2f90-484f-a6fa-92a19bbd2198")
+			(uuid "22c41891-0020-43db-a330-8f49f86f2d7b")
 		)
 		(fp_line
 			(start 4 -6)
@@ -27045,7 +27039,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "c3273cd3-52e1-4ea1-b2d0-ccc694dcd72d")
+			(uuid "b899d830-3fbc-4e4c-8e4b-e1e249e03036")
 		)
 		(fp_line
 			(start 7.3 0)
@@ -27055,7 +27049,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "e56d7acf-6283-43f0-af16-96ee3425ea4b")
+			(uuid "d452a6a3-be72-44c4-b5d0-a67339005dcf")
 		)
 		(fp_line
 			(start 7.3 4.3)
@@ -27065,12 +27059,12 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "716e9761-da06-4f83-8436-44798e15ae98")
+			(uuid "30ef9a0d-c2bc-4d85-a795-ce90b49d2bf6")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0.725 0)
 			(layer "B.Fab")
-			(uuid "f7ccb80a-93c2-466e-bb7d-cedbb60fd678")
+			(uuid "4341d6ff-07d0-4c17-b214-bfa1e4021184")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27088,7 +27082,7 @@
 			(net 58 "/1-ChargeAmpAndEQ/HPF_SW_1")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "1c858d92-24fe-4158-9dd5-9755bbda9511")
+			(uuid "c3337dfe-4897-45ef-8a7f-cdbc2c0fea27")
 		)
 		(pad "2" thru_hole circle
 			(at -3 2.15)
@@ -27099,7 +27093,7 @@
 			(net 59 "/1-ChargeAmpAndEQ/HPF_SW_2")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "6d2ed598-f960-48d7-9537-162bfbbc394c")
+			(uuid "d973ef91-abbc-47fc-9a5a-ca431ed7af8c")
 		)
 		(pad "3" thru_hole circle
 			(at -1 2.15)
@@ -27110,7 +27104,7 @@
 			(net 9 "/1-ChargeAmpAndEQ/CH_A_OUT")
 			(pinfunction "C1")
 			(pintype "passive")
-			(uuid "f684cfae-ea49-40e8-ac77-291bced745eb")
+			(uuid "2f5b8b4e-0288-4a50-b236-6cc199c32554")
 		)
 		(pad "4" thru_hole circle
 			(at 1 2.15)
@@ -27121,7 +27115,7 @@
 			(net 9 "/1-ChargeAmpAndEQ/CH_A_OUT")
 			(pinfunction "C2")
 			(pintype "passive")
-			(uuid "19d946a5-8e62-419e-b9fb-c425b96fe2e6")
+			(uuid "03898163-8c65-4c84-99f7-01e4b8df12ee")
 		)
 		(pad "5" thru_hole circle
 			(at 3 2.15)
@@ -27132,7 +27126,7 @@
 			(net 48 "/1-ChargeAmpAndEQ/HPF_SW_3")
 			(pinfunction "3")
 			(pintype "passive")
-			(uuid "77d18601-ea55-4d53-83ce-aef946b8a0a6")
+			(uuid "faae42c4-fc58-471e-bcbf-28eba2b6a675")
 		)
 		(pad "6" thru_hole circle
 			(at 5 2.15)
@@ -27143,7 +27137,7 @@
 			(net 60 "unconnected-(S102-4-Pad6)")
 			(pinfunction "4")
 			(pintype "passive+no_connect")
-			(uuid "7a56b027-785a-40fd-a5ed-9bd7eac821c5")
+			(uuid "d01bfe1d-f082-4a36-b461-c560b02abcfd")
 		)
 		(pad "MH1" thru_hole circle
 			(at -7.1 2.15)
@@ -27154,7 +27148,7 @@
 			(net 49 "unconnected-(S102-PadMH1)")
 			(pinfunction "MH1")
 			(pintype "passive+no_connect")
-			(uuid "65ff0eb0-f635-48da-ae46-2d8187e8bfba")
+			(uuid "12de49bc-c928-4cb4-ba33-4aa7d186669f")
 		)
 		(pad "MH2" thru_hole circle
 			(at 7.1 2.15)
@@ -27165,7 +27159,7 @@
 			(net 50 "unconnected-(S102-PadMH2)")
 			(pinfunction "MH2")
 			(pintype "passive+no_connect")
-			(uuid "fc57a0ed-c3f7-4a1e-b689-adf1494bf794")
+			(uuid "8988f131-342d-487e-8092-bdf62f9acfca")
 		)
 		(model "${KIPRJMOD}/library/sw_SK14D01G6.step"
 			(offset
@@ -27613,7 +27607,7 @@
 			(at 0 0.725 0)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "392a2dc4-0e04-4612-ae3d-46e013ffa3d7")
+			(uuid "59594b63-c4fd-4ece-a5fb-d4af3215e308")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27626,7 +27620,7 @@
 			(at 0 0.725 0)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "933f6921-2e00-4392-88f4-ce9bdaf6137b")
+			(uuid "6bef59eb-d9e8-40b4-a152-1e215a2638a2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27640,7 +27634,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "1dba22e7-ba15-4cd7-8b9b-6a3b75312b66")
+			(uuid "6aacb949-d94b-4dee-bd6a-041ca9d188c2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27653,7 +27647,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "2fcb492b-fd40-448d-839c-8133ec914931")
+			(uuid "81bf18ea-c2e0-4f9c-bd8a-bc1a0f7e589a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27666,7 +27660,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "8e1f8f1d-c3de-4426-ba4d-4a1e1279947b")
+			(uuid "cee2d23d-3fe1-4ff1-9761-aef0100f9b7b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27759,8 +27753,6 @@
 			)
 		)
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/49df1a88-0e6b-4570-907a-5ebfa699ca26")
-		(sheetname "1-ChargeAmpAndEQ")
-		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
 		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start -7.3 0)
@@ -27770,7 +27762,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "0363101a-8434-464a-a012-bbdf5de6aba5")
+			(uuid "9e2d3e2f-96a7-40fd-b13a-98e20e6b465b")
 		)
 		(fp_line
 			(start -7.3 4.3)
@@ -27780,7 +27772,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "cf15a58d-1845-4ca4-a3d8-eeee2409bf4e")
+			(uuid "80f1f646-3d0a-4446-8e15-06a4376c36c3")
 		)
 		(fp_line
 			(start -4 -6)
@@ -27790,7 +27782,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "b454b6eb-5bb9-400f-b93e-866272f6e1a7")
+			(uuid "69416c46-65f8-4389-bbab-eda40c68c4b4")
 		)
 		(fp_line
 			(start -2 -6)
@@ -27800,7 +27792,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "3a1245c5-f9b3-4604-8412-ddfd8095c6dd")
+			(uuid "fb5352be-fd27-4131-97ef-ddad1c7f0af6")
 		)
 		(fp_line
 			(start -2 0)
@@ -27810,7 +27802,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "39233aa1-1473-4e40-ae5a-83d6c936a49d")
+			(uuid "e8953d73-fd51-4f79-bdf4-bbe0f2a10ce9")
 		)
 		(fp_line
 			(start 4 -6)
@@ -27820,7 +27812,7 @@
 				(type default)
 			)
 			(layer "B.SilkS")
-			(uuid "5e734f66-a6b3-42b0-855f-fc29687f2933")
+			(uuid "4e2e9df7-92dd-41c8-9a6d-d4ae7995dada")
 		)
 		(fp_line
 			(start 4 -6)
@@ -27830,7 +27822,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "efe49ef7-fdfd-48b5-9bae-b38819e4cb69")
+			(uuid "d4d58177-42d3-448a-ae61-7b11d8eac1d2")
 		)
 		(fp_line
 			(start 7.3 0)
@@ -27840,7 +27832,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "1313131a-ab20-4239-979b-9179fcd13348")
+			(uuid "e5f81ad2-6bd8-44a1-8e52-02beb8a8312f")
 		)
 		(fp_line
 			(start 7.3 0.95)
@@ -27850,7 +27842,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "906d2bbc-d0a3-4b11-be8d-1669b0d5a6f4")
+			(uuid "4d5934a8-3e70-4816-b5e9-f1cf7d8a3993")
 		)
 		(fp_line
 			(start 7.3 3.35)
@@ -27860,7 +27852,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "eac2ec3a-0759-4a66-972b-556bcee279e9")
+			(uuid "2d76fc5a-9d09-4c41-91a2-4063c4146f3f")
 		)
 		(fp_line
 			(start 7.3 4.3)
@@ -27870,7 +27862,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "6261c786-bd9c-4f74-b684-261984cbe272")
+			(uuid "8e4e35ef-7909-4098-84ed-d97e1b9f1767")
 		)
 		(fp_circle
 			(center -5 4.9)
@@ -27881,7 +27873,18 @@
 			)
 			(fill solid)
 			(layer "B.SilkS")
-			(uuid "46d8d8bd-7d1d-493b-8ae0-d1f2a9367c6c")
+			(uuid "3899bb7c-c9c6-4ad1-9728-9aea8a3bd83d")
+		)
+		(fp_circle
+			(center -5 4.9)
+			(end -4.717157 4.9)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.SilkS")
+			(uuid "95a22f36-9460-4351-92af-c4660cfb4f76")
 		)
 		(fp_line
 			(start -9.037 -3.85)
@@ -27891,7 +27894,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "e05c68de-2121-4ab8-8285-e39bebc70f35")
+			(uuid "54e03a2d-4878-498a-bd7a-5cf7ea352506")
 		)
 		(fp_line
 			(start -9.037 5.3)
@@ -27901,7 +27904,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "80441936-8478-443c-9dc8-58b7aa76dcd0")
+			(uuid "9bce1bc6-e8cb-45f9-8f28-367f635bd92b")
 		)
 		(fp_line
 			(start 9.037 -3.85)
@@ -27911,7 +27914,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "de0bb1a1-993e-4b8d-8cb2-2d889588cec1")
+			(uuid "27ec7be8-faf9-4523-a1e6-b944cb430846")
 		)
 		(fp_line
 			(start 9.037 5.3)
@@ -27921,7 +27924,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "4344163c-759b-47fb-8b28-3e8ec5d8a67d")
+			(uuid "3b759e3e-851c-471f-b487-0a9981b4c749")
 		)
 		(fp_line
 			(start -7.3 0)
@@ -27931,7 +27934,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "d7691a16-683d-44e7-b82b-545f494fd49f")
+			(uuid "78e201c8-e18b-4d33-ab37-88922d1d4682")
 		)
 		(fp_line
 			(start -7.3 4.3)
@@ -27941,7 +27944,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "862df366-1fbf-4123-b54c-94b45b5b1bd3")
+			(uuid "d14a77dc-040b-4e66-adcc-7ed852e07186")
 		)
 		(fp_line
 			(start -4 -6)
@@ -27951,7 +27954,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "e05db8e6-852c-45f5-8a1b-507a6623ea75")
+			(uuid "065c1828-df92-4bbf-95af-54a70efcb7fd")
 		)
 		(fp_line
 			(start -2 -6)
@@ -27961,7 +27964,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "3891e9dd-1ecf-4d82-a5d9-c9ca81383acb")
+			(uuid "108939f6-9472-4a28-a4d7-5241e4a60ade")
 		)
 		(fp_line
 			(start -2 -0.025)
@@ -27971,7 +27974,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "85c9b429-6e9b-4773-9e4f-03ac629f039a")
+			(uuid "1c0f6fab-e319-4d51-b1dc-18d3292b6c6e")
 		)
 		(fp_line
 			(start 4 -6)
@@ -27981,7 +27984,7 @@
 				(type default)
 			)
 			(layer "B.Fab")
-			(uuid "a462fb05-5d4b-46a7-ad40-6bbe187b342c")
+			(uuid "71f934dc-d393-4cb9-98c7-f3d1068fb58f")
 		)
 		(fp_line
 			(start 4 -6)
@@ -27991,7 +27994,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "b948f8d6-404f-438b-8f55-7e3398a92f6d")
+			(uuid "0cc689ff-dbb3-4878-9de6-2abbbba46a13")
 		)
 		(fp_line
 			(start 7.3 0)
@@ -28001,7 +28004,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "02b2dce2-4164-40d3-b5da-58060f69a4aa")
+			(uuid "1d565145-5dc6-4ad4-bba1-d948440c4f00")
 		)
 		(fp_line
 			(start 7.3 4.3)
@@ -28011,12 +28014,12 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "4293975b-c88c-4b67-9feb-4eef273cbba5")
+			(uuid "3b754e2f-5d64-4b36-a7b9-9b47352b87f8")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0.725 0)
 			(layer "B.Fab")
-			(uuid "e6e9db39-d249-4040-8d86-2c1ce22b1f70")
+			(uuid "8a1cc06c-551e-4620-9145-696a5fedcf80")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28034,7 +28037,7 @@
 			(net 45 "/1-ChargeAmpAndEQ/G_SW_1")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "bec45f45-64dc-4f5b-8a7f-6987c9c1cd83")
+			(uuid "277c3293-a917-412c-9552-429832642be4")
 		)
 		(pad "2" thru_hole circle
 			(at -3 2.15)
@@ -28045,7 +28048,7 @@
 			(net 46 "/1-ChargeAmpAndEQ/G_SW_2")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "8000f620-372c-40f2-a191-53b5e071100e")
+			(uuid "699976a4-ae3d-4bd9-90b0-b22e25058538")
 		)
 		(pad "3" thru_hole circle
 			(at -1 2.15)
@@ -28056,7 +28059,7 @@
 			(net 9 "/1-ChargeAmpAndEQ/CH_A_OUT")
 			(pinfunction "C1")
 			(pintype "passive")
-			(uuid "3138598a-5451-4de5-ac03-5ecd397c5e89")
+			(uuid "fa360894-e7ba-4608-a3f4-168685fb744d")
 		)
 		(pad "4" thru_hole circle
 			(at 1 2.15)
@@ -28067,7 +28070,7 @@
 			(net 9 "/1-ChargeAmpAndEQ/CH_A_OUT")
 			(pinfunction "C2")
 			(pintype "passive")
-			(uuid "47555f53-86cb-4def-8122-af3735ef2242")
+			(uuid "d41ce71e-fc75-49e0-8c4d-b95b7ca761b1")
 		)
 		(pad "5" thru_hole circle
 			(at 3 2.15)
@@ -28078,7 +28081,7 @@
 			(net 47 "/1-ChargeAmpAndEQ/G_SW_5")
 			(pinfunction "3")
 			(pintype "passive")
-			(uuid "25da54f8-0d8d-4dcb-9808-96c4208afbe9")
+			(uuid "e05cfdcd-6f0b-4474-bd72-be85abfd658c")
 		)
 		(pad "6" thru_hole circle
 			(at 5 2.15)
@@ -28089,7 +28092,7 @@
 			(net 10 "/1-ChargeAmpAndEQ/G_SW_6")
 			(pinfunction "4")
 			(pintype "passive")
-			(uuid "6bf90b75-8713-49ad-b149-196c33a5d379")
+			(uuid "875f0de4-c72d-48ae-b2c7-6ad708ef7ece")
 		)
 		(pad "MH1" thru_hole circle
 			(at -7.1 2.15)
@@ -28100,7 +28103,7 @@
 			(net 55 "unconnected-(S101-PadMH1)")
 			(pinfunction "MH1")
 			(pintype "passive+no_connect")
-			(uuid "c26c2c1f-fdd0-43b2-b746-2a7b1747c3c7")
+			(uuid "8fcc6042-b8e2-482e-ae5f-57bbe1d648dc")
 		)
 		(pad "MH2" thru_hole circle
 			(at 7.1 2.15)
@@ -28111,7 +28114,7 @@
 			(net 56 "unconnected-(S101-PadMH2)")
 			(pinfunction "MH2")
 			(pintype "passive+no_connect")
-			(uuid "26bea43b-a30c-4242-bf77-df8244758630")
+			(uuid "24325b2a-df21-4f03-8f14-37e1cf1183e1")
 		)
 		(model "${KIPRJMOD}/library/sw_SK14D01G6.step"
 			(offset
