@@ -8421,7 +8421,7 @@
 				(hide yes)
 			)
 		)
-		(property "Purpose" "Sets high-pass filter cutoff frequency"
+		(property "Purpose" "SP4T. Sets high-pass filter cutoff frequency"
 			(at 78.74 175.26 0)
 			(effects
 				(font
@@ -9813,7 +9813,7 @@
 				(hide yes)
 			)
 		)
-		(property "Purpose" "Sets gain (ratio of feedback capacitance vs piezo capacitance)"
+		(property "Purpose" "SP4T. Sets gain (ratio of feedback capacitance vs piezo capacitance)"
 			(at 62.23 121.92 0)
 			(effects
 				(font
@@ -12150,7 +12150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Purpose" "sets Baxandall center frequency"
+		(property "Purpose" "DP3T. Sets Baxandall center frequency"
 			(at 156.21 125.73 0)
 			(effects
 				(font

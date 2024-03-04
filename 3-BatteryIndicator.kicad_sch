@@ -3720,7 +3720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Purpose" "changes the mode of power-on LED. Left = BI, right = LED always on"
+		(property "Purpose" "SPDT. Changes the mode of power-on LED. Left = BI, right = LED always on"
 			(at 66.04 151.13 0)
 			(effects
 				(font

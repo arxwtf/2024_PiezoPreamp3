@@ -5936,7 +5936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Purpose" "ON/OFF switch for DC + true bypass switch for audio"
+		(property "Purpose" "4PDT. ON/OFF switch for DC + true bypass switch for audio"
 			(at 49.53 121.92 0)
 			(effects
 				(font
@@ -5990,7 +5990,7 @@
 				(hide yes)
 			)
 		)
-		(property "Source" "TME"
+		(property "Source" "Mouser"
 			(at 49.53 121.92 0)
 			(effects
 				(font
