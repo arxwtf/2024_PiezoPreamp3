@@ -16249,7 +16249,7 @@
 				)
 			)
 		)
-		(property "Purpose" "ON/OFF switch for DC + true bypass switch for audio"
+		(property "Purpose" "4PDT. ON/OFF switch for DC + true bypass switch for audio"
 			(at -1.6 -10.7 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16261,7 +16261,7 @@
 				)
 			)
 		)
-		(property "Source" "TME"
+		(property "Source" "Mouser"
 			(at -1.6 -10.7 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25096,7 +25096,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Purpose" "changes the mode of power-on LED. Left = BI, right = LED always on"
+		(property "Purpose" "SPDT. Changes the mode of power-on LED. Left = BI, right = LED always on"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -25391,7 +25391,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Purpose" "sets Baxandall center frequency"
+		(property "Purpose" "DP3T. Sets Baxandall center frequency"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -25936,7 +25936,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Purpose" "Sets high-pass filter cutoff frequency"
+		(property "Purpose" "SP4T. Sets high-pass filter cutoff frequency"
 			(at -20.3 0.1 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -26007,6 +26007,8 @@
 			)
 		)
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/20f5cd50-cb23-4f28-a46f-42e34a9ef620")
+		(sheetname "1-ChargeAmpAndEQ")
+		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
 		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start -7.3 0)
@@ -26891,7 +26893,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Purpose" "Sets gain (ratio of feedback capacitance vs piezo capacitance)"
+		(property "Purpose" "SP4T. Sets gain (ratio of feedback capacitance vs piezo capacitance)"
 			(at -20.3 0.1 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -26962,6 +26964,8 @@
 			)
 		)
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/49df1a88-0e6b-4570-907a-5ebfa699ca26")
+		(sheetname "1-ChargeAmpAndEQ")
+		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
 		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start -7.3 0)
@@ -29983,6 +29987,22 @@
 		(uuid "e2bd0249-8079-4afe-8b48-c183f5d83663")
 	)
 	(segment
+		(start 151.32 82.95)
+		(end 151.32 81.47)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 11)
+		(uuid "0018b464-da6e-4dcc-96b9-f2f4a19e0921")
+	)
+	(segment
+		(start 150.85 81)
+		(end 148.3 81)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 11)
+		(uuid "b768c6a1-3301-4a46-a156-98b7b6f23614")
+	)
+	(segment
 		(start 136.86 85.55)
 		(end 136.86 86.035)
 		(width 0.3493)
@@ -29997,6 +30017,14 @@
 		(layer "F.Cu")
 		(net 11)
 		(uuid "ef7efa99-8cbf-4e7d-b402-a77cff09573f")
+	)
+	(segment
+		(start 151.32 81.47)
+		(end 150.85 81)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 11)
+		(uuid "f5bd1d2e-703c-42ce-8a8b-1321b1585c2f")
 	)
 	(segment
 		(start 133.9 87.65)
@@ -31341,6 +31369,22 @@
 		(layer "F.Cu")
 		(net 44)
 		(uuid "d6668226-ec00-4c6e-ae70-5624b42fca0d")
+	)
+	(segment
+		(start 154.08 82.95)
+		(end 151.58 80.45)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 48)
+		(uuid "0a6285c5-48bd-45ee-91d3-0dbc13f28bcb")
+	)
+	(segment
+		(start 151.58 80.45)
+		(end 147.7 80.45)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 48)
+		(uuid "372c183e-b40c-40bf-beeb-f40d1906b78a")
 	)
 	(zone
 		(net 2)

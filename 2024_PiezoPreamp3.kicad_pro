@@ -181,7 +181,6 @@
       "track_widths": [
         0.0,
         0.3,
-        0.3493,
         0.5
       ],
       "tuning_pattern_settings": {
@@ -503,7 +502,7 @@
         "microvia_drill": 0.1,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(204, 102, 0)",
         "track_width": 0.5,
         "via_diameter": 0.8,
         "via_drill": 0.4,
@@ -523,6 +522,34 @@
       {
         "netclass": "Power",
         "pattern": "Vbias"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/2-Power/DC_IN_POS"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/2-Power/DC_IN_SW"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/2-Power/DC_IN_ESD"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "Vbi"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/2-Power/RP_GATE"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/2-Power/BYPASS"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "DC_IN_NEG"
       }
     ]
   },
