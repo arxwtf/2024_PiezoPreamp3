@@ -1190,7 +1190,7 @@
 		(descr "MCA1206")
 		(tags "Resistor")
 		(property "Reference" "R104"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c65f0117-dbc0-41dd-9c67-f6133960eea2")
@@ -1202,7 +1202,7 @@
 			)
 		)
 		(property "Value" "10M"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b05603e7-704b-4bba-b60b-dd73d01806c0")
@@ -1250,7 +1250,7 @@
 			)
 		)
 		(property "LCSC Part #" "C4259100"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d0652a08-10cd-4efb-b744-f6b4a7a4f9fa")
@@ -1262,7 +1262,7 @@
 			)
 		)
 		(property "Mfr" "Vishay"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d49327d5-764c-44b4-9605-3ff15a589449")
@@ -1274,7 +1274,7 @@
 			)
 		)
 		(property "Mfr Part #" "MCA1206MD1005BP100"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4bd733d1-3ef8-4877-a295-7637396989ac")
@@ -1286,7 +1286,7 @@
 			)
 		)
 		(property "Mouser Part #" "594-MCA1206MD1005BP1"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "69f45513-2c4c-45dd-a2bf-b462ff165354")
@@ -1298,7 +1298,7 @@
 			)
 		)
 		(property "Purpose" "not sure"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4d326feb-03be-4bc8-9dc4-ef9e9e49c829")
@@ -1310,7 +1310,7 @@
 			)
 		)
 		(property "Source" "LCSC"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f5b09d56-1cb1-453c-a6e5-361a00725e50")
@@ -1417,7 +1417,7 @@
 			(uuid "f3ba9a78-ef0b-435a-a74b-4e895e4996af")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "60fd2743-c176-4a2a-9993-bb5d28a7aca5")
 			(effects
@@ -3713,7 +3713,7 @@
 		(descr "GRM31_0.20 L=3.2mm W=1.6mm T=1.6mm")
 		(tags "Capacitor")
 		(property "Reference" "Chp106"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "4e3bfc03-0423-4ef9-89df-00da9bfd3081")
@@ -3725,7 +3725,7 @@
 			)
 		)
 		(property "Value" "220n"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "d56b3fa8-7ad3-495c-9978-b647a6df51f8")
@@ -3773,7 +3773,7 @@
 			)
 		)
 		(property "LCSC Part #" "C464977"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9e0ecdb0-10a7-4c96-8e47-f026a647aabf")
@@ -3785,7 +3785,7 @@
 			)
 		)
 		(property "Mfr" "Murata"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "dde1e80f-b41e-49cf-a1a0-792042e59857")
@@ -3797,7 +3797,7 @@
 			)
 		)
 		(property "Mfr Part #" "GRM31C5C1H224JE02L"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4db37c86-4a01-45a9-bf9e-19afe74cce71")
@@ -3809,7 +3809,7 @@
 			)
 		)
 		(property "Mouser Part #" "81-GRM31C5C1H224JE2L"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e768cceb-ab62-480f-ac3c-89a13a136c52")
@@ -3821,7 +3821,7 @@
 			)
 		)
 		(property "Purpose" "HPF - sets high-pass cutoff frequency"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "dc60a516-c159-4408-918f-c9eb871bf3db")
@@ -3833,7 +3833,7 @@
 			)
 		)
 		(property "Source" "LCSC"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "66334b7c-3fbd-47d6-9d4e-0032090a529a")
@@ -3940,7 +3940,7 @@
 			(uuid "4a933224-6994-4152-b9d5-8f78571d5f95")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "6c816654-5bff-42bd-9a0d-f32034eacf8c")
 			(effects
@@ -4479,7 +4479,7 @@
 		(descr "SMD_Lytic_D8")
 		(tags "Capacitor Polarised")
 		(property "Reference" "Chp104"
-			(at -0.425 0 360)
+			(at -0.425 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "2d8596d8-8313-4b24-aeab-3bc2334f106b")
@@ -4491,7 +4491,7 @@
 			)
 		)
 		(property "Value" "100u 50V"
-			(at -0.425 0 360)
+			(at -0.425 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "58a2abed-7e88-4cd3-a4d2-47f6b3ed35ca")
@@ -4828,7 +4828,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at -0.425 0 360)
+			(at -0.425 0 0)
 			(layer "F.Fab")
 			(uuid "dc9df348-b2f3-4964-8ad8-61929dea3a8c")
 			(effects
@@ -6828,7 +6828,7 @@
 		(descr "GRM31_0.20 L=3.2mm W=1.6mm T=1.6mm")
 		(tags "Capacitor")
 		(property "Reference" "Chp101"
-			(at 0 -0.4 270)
+			(at 0 -0.4 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "20b7e2e0-e73c-4a5b-9b29-46031ae4f9f5")
@@ -6840,7 +6840,7 @@
 			)
 		)
 		(property "Value" "68n"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "223cc8b5-d39e-4077-b22d-6c24faa082db")
@@ -6888,7 +6888,7 @@
 			)
 		)
 		(property "LCSC Part #" "C77084"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "97100deb-2f43-4c3e-bb62-1f2d448bcf85")
@@ -6900,7 +6900,7 @@
 			)
 		)
 		(property "Mfr" "Murata"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8821302f-2b2b-4670-ab99-881414208f72")
@@ -6912,7 +6912,7 @@
 			)
 		)
 		(property "Mfr Part #" "GRM31C5C1H683JA01L"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "35802adb-9634-49dd-91b2-3fe72865e554")
@@ -6924,7 +6924,7 @@
 			)
 		)
 		(property "Mouser Part #" "81-GRM31C5C1H683JA01"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "edfad858-352f-4957-a159-97525859cbe4")
@@ -6936,7 +6936,7 @@
 			)
 		)
 		(property "Purpose" "HPF - sets high-pass cutoff frequency "
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f1b9461b-0030-4052-b7ae-2f368b73a0c5")
@@ -6948,7 +6948,7 @@
 			)
 		)
 		(property "Source" "LCSC"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a582e2c7-33df-40a4-a7e3-8bc43feb393e")
@@ -7055,7 +7055,7 @@
 			(uuid "785a9a3c-e3a1-4ad9-9354-5256d2585cce")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "a46083fa-b02d-459e-9fe1-b55a0da0b7f9")
 			(effects
@@ -16842,7 +16842,7 @@
 		(descr "GRM31_0.20 L=3.2mm W=1.6mm T=1.6mm")
 		(tags "Capacitor")
 		(property "Reference" "Chp102"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "9d612390-d5c6-44b1-b0c0-83b7c51067a0")
@@ -16854,7 +16854,7 @@
 			)
 		)
 		(property "Value" "220n"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b299911e-5fb4-467d-b20a-8d248ba569fd")
@@ -16902,7 +16902,7 @@
 			)
 		)
 		(property "LCSC Part #" "C464977"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "967f1181-f540-4e30-a747-c45ef297612f")
@@ -16914,7 +16914,7 @@
 			)
 		)
 		(property "Mfr" "Murata"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a9e1d9db-5ad2-4c02-bf9b-ca82133f35f4")
@@ -16926,7 +16926,7 @@
 			)
 		)
 		(property "Mfr Part #" "GRM31C5C1H224JE02L"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "781f83bf-054e-4b47-a024-a66bdf2bbd9d")
@@ -16938,7 +16938,7 @@
 			)
 		)
 		(property "Mouser Part #" "81-GRM31C5C1H224JE2L"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3885f744-4189-4f74-835e-5b5fe8f288c4")
@@ -16950,7 +16950,7 @@
 			)
 		)
 		(property "Purpose" "HPF - sets high-pass cutoff frequency"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4be21138-6c39-4518-8417-866039b239f9")
@@ -16962,7 +16962,7 @@
 			)
 		)
 		(property "Source" "LCSC"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e98c6a1a-197c-4d28-8c84-f65ee336e559")
@@ -17069,7 +17069,7 @@
 			(uuid "ead23d34-1345-4581-807f-d51e658bba3f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "d5882824-8b6b-481c-a865-14cb833f44b2")
 			(effects
@@ -18643,7 +18643,7 @@
 		(descr "SOT-26_3")
 		(tags "Undefined or Miscellaneous")
 		(property "Reference" "U201"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "d33461ee-51d8-42d9-afb4-fe281436e4b7")
@@ -18655,7 +18655,7 @@
 			)
 		)
 		(property "Value" "ZXMP3A17E6TA"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "9d8966ff-37b2-454a-a891-9dc078e4fedf")
@@ -18703,7 +18703,7 @@
 			)
 		)
 		(property "LCSC Part #" "C154715"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ca6992dc-39bf-45bb-bcf1-3c71375aaa87")
@@ -18715,7 +18715,7 @@
 			)
 		)
 		(property "Mfr" "Diodes Inc"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ab3496df-add9-462a-8594-2c0dd409d745")
@@ -18727,7 +18727,7 @@
 			)
 		)
 		(property "Mfr Part #" "ZXMP3A17E6TA"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e7ce92c6-0819-48a4-9f87-937b75da2e75")
@@ -18739,7 +18739,7 @@
 			)
 		)
 		(property "Mouser Part #" "522-ZXMP3A17E6TA"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "58a35264-b0dd-4f62-a6a0-3991885b3c63")
@@ -18751,7 +18751,7 @@
 			)
 		)
 		(property "Purpose" "Reverse polarity protection"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9c4c0425-bd93-45bf-b47c-7fbc41fec1b3")
@@ -18763,7 +18763,7 @@
 			)
 		)
 		(property "Source" "LCSC"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "07a0153e-c4d7-4adf-adbb-ee2cbb916f42")
@@ -18775,7 +18775,7 @@
 			)
 		)
 		(property "TME Part #" ""
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a1d75c77-ef5b-49be-b276-f1c47226daa4")
@@ -18956,7 +18956,7 @@
 			(uuid "4983224f-3d1e-4337-97ef-89d8a7b1f4e8")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "a2a6ae97-5b8f-486a-8442-80fc8e00b209")
 			(effects
@@ -20275,7 +20275,7 @@
 		(descr "GRM31_0.20 L=3.2mm W=1.6mm T=1.6mm")
 		(tags "Capacitor")
 		(property "Reference" "Chp105"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b7135272-e68b-4f14-a6da-f6a95f554c31")
@@ -20287,7 +20287,7 @@
 			)
 		)
 		(property "Value" "220n"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "030f3dbb-4098-4fd0-8d5c-3780fb7e7dae")
@@ -20508,7 +20508,7 @@
 			(uuid "2f8c7938-f154-4f3a-8cbc-c5b8f17abbbd")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "b5c9f066-3913-4c47-b1d9-dafb894b3ad5")
 			(effects
@@ -21149,7 +21149,7 @@
 		(descr "GRM31_0.20 L=3.2mm W=1.6mm T=1.6mm")
 		(tags "Capacitor")
 		(property "Reference" "Chp103"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "1996ec27-4942-4754-8da7-3fc90598c8d9")
@@ -21161,7 +21161,7 @@
 			)
 		)
 		(property "Value" "220n"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c3aa4529-8b6b-4eaa-9f63-57ff0777e973")
@@ -21209,7 +21209,7 @@
 			)
 		)
 		(property "LCSC Part #" "C464977"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4849690f-6909-4fc2-a96e-edfc9769af76")
@@ -21221,7 +21221,7 @@
 			)
 		)
 		(property "Mfr" "Murata"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8fbffe40-198d-4edc-8c86-912e363c48ef")
@@ -21233,7 +21233,7 @@
 			)
 		)
 		(property "Mfr Part #" "GRM31C5C1H224JE02L"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "140838c6-4cfb-4ff6-8135-116a6e8b1dc3")
@@ -21245,7 +21245,7 @@
 			)
 		)
 		(property "Mouser Part #" "81-GRM31C5C1H224JE2L"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fabd1c84-225b-48ee-9c56-86600502e575")
@@ -21257,7 +21257,7 @@
 			)
 		)
 		(property "Purpose" "HPF - sets high-pass cutoff frequency"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "75c651b0-281b-40a5-aaf5-d4b83d924880")
@@ -21269,7 +21269,7 @@
 			)
 		)
 		(property "Source" "LCSC"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5dfa3c43-6073-41db-818f-981642ae4260")
@@ -21376,7 +21376,7 @@
 			(uuid "76bea251-595e-4912-b86c-ce2ce08c74c5")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "203513f2-2629-475a-9eb7-217916fea3ac")
 			(effects
@@ -23627,7 +23627,7 @@
 		(descr "C3216 (160 thickness)")
 		(tags "Capacitor")
 		(property "Reference" "C202"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "1b023465-9186-4052-80dd-8803a996f6a0")
@@ -23639,7 +23639,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "f257af43-f4dd-4710-91c5-a979876cbd2b")
@@ -23687,7 +23687,7 @@
 			)
 		)
 		(property "LCSC Part #" "C12891"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3b44eaa6-1fc0-48ab-9b46-d3aa9d953a11")
@@ -23699,7 +23699,7 @@
 			)
 		)
 		(property "Mfr" "Samsung"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "78502570-83fd-43e4-bb3b-255bee085cb6")
@@ -23711,7 +23711,7 @@
 			)
 		)
 		(property "Mfr Part #" "CL31A226KAHNNNE"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1f4d5241-f871-4ac1-8ea2-b8240b486610")
@@ -23723,7 +23723,7 @@
 			)
 		)
 		(property "Mouser Part #" "187-CL31A226KAHNNNE "
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9adb834b-42c6-4fff-b62f-044136d089f0")
@@ -23735,7 +23735,7 @@
 			)
 		)
 		(property "Purpose" "Power supply Pi filter"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "44bde6ec-cecd-42ab-ad2f-bf6553e0989b")
@@ -23747,7 +23747,7 @@
 			)
 		)
 		(property "Source" "LCSC"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d3fab67a-6f27-4c9c-9374-2f50020cf69b")
@@ -23867,7 +23867,7 @@
 			(uuid "63875b37-eea0-4ed6-bdc2-6f1829f61f1c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "b5c0d1b0-84b4-48b1-89ea-15b7d8c9630a")
 			(effects
