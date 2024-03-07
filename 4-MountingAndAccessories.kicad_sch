@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Mounting, hardware and accessories")
-		(date "2024-02-20")
+		(date "2024-03-07")
 		(rev "3.0")
 		(company "Arx")
 	)
@@ -1365,9 +1365,9 @@
 		)
 		(uuid "94ac9214-86de-459a-8a6a-f02a7eee93c7")
 	)
-	(text "alt: Keystone 79"
+	(text "alt: Keystone 71\n(bit too short)"
 		(exclude_from_sim no)
-		(at 139.7 119.38 0)
+		(at 139.7 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3243,7 +3243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cz.mouser.com/datasheet/2/215/1-745942.pdf"
+		(property "Datasheet" "https://cz.mouser.com/datasheet/2/215/9-745395.pdf"
 			(at 146.05 108.585 0)
 			(effects
 				(font
@@ -3279,7 +3279,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr Part #" "71"
+		(property "Mfr Part #" "79"
 			(at 146.05 108.585 0)
 			(effects
 				(font
@@ -3288,7 +3288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part #" "534-071"
+		(property "Mouser Part #" "534-079"
 			(at 146.05 108.585 0)
 			(effects
 				(font
@@ -3306,7 +3306,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME Part #" "KEYS71"
+		(property "TME Part #" "KEYS79"
 			(at 146.05 108.585 0)
 			(effects
 				(font

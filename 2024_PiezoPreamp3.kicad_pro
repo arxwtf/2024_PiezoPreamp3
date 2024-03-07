@@ -181,7 +181,7 @@
       "track_widths": [
         0.0,
         0.3,
-        0.4
+        0.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -495,7 +495,7 @@
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(204, 102, 0)",
-        "track_width": 0.4,
+        "track_width": 0.5,
         "via_diameter": 0.7,
         "via_drill": 0.3,
         "wire_width": 6
@@ -525,10 +525,6 @@
       },
       {
         "netclass": "Power",
-        "pattern": "/2-Power/DC_IN_ESD"
-      },
-      {
-        "netclass": "Power",
         "pattern": "Vbi"
       },
       {
@@ -542,6 +538,14 @@
       {
         "netclass": "Power",
         "pattern": "DC_IN_NEG"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/2-Power/RP_DRAIN"
       }
     ]
   },
@@ -819,7 +823,7 @@
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Source"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {

@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Piezo Preamp + EQ")
-		(date "2024-02-20")
+		(date "2024-03-07")
 		(rev "3.0")
 		(company "Arx")
 		(comment 1 "changing switches, reducing BOM")
