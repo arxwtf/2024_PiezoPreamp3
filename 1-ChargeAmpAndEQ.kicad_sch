@@ -13733,7 +13733,7 @@
 				)
 			)
 		)
-		(property "Footprint" "library:GRM1885C1H102JA01D"
+		(property "Footprint" "library:cap_SMD_DNP"
 			(at 41.91 100.33 0)
 			(effects
 				(font
