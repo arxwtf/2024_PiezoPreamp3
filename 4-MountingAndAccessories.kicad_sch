@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Mounting, hardware and accessories")
-		(date "2024-03-07")
+		(date "2024-03-10")
 		(rev "3.0")
 		(company "Arx")
 	)
@@ -3324,6 +3324,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alt" "71 (too short)"
+			(at 146.05 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
@@ -5077,6 +5086,15 @@
 			)
 		)
 		(property "Source" "TME"
+			(at 116.84 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt" "FIX-LEMB2-4.8V0-F, FIX-LEMB2-7V0-F, FIX-LEMB2-8V0-F, FIX-LEMB2-10V0-F "
 			(at 116.84 100.33 0)
 			(effects
 				(font

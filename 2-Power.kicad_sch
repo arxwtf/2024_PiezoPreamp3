@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Power Supply and Opamp Biasing")
-		(date "2024-03-07")
+		(date "2024-03-10")
 		(rev "3.0")
 		(company "Arx")
 	)
@@ -6894,7 +6894,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "library:RT0603BRD0747KL"
+		(property "Footprint" "library:RT0603FRD0747KL"
 			(at 135.89 121.92 0)
 			(effects
 				(font
@@ -6921,7 +6921,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C326725"
+		(property "LCSC Part #" "C728633"
 			(at 135.89 121.92 0)
 			(effects
 				(font
@@ -6930,7 +6930,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part #" "603-RT0603BRD0747KL"
+		(property "Mouser Part #" "603-RT0603FRD0747KL "
 			(at 135.89 121.92 0)
 			(effects
 				(font
@@ -6939,7 +6939,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr Part #" "RT0603BRD0747KL"
+		(property "Mfr Part #" "RT0603FRD0747KL"
 			(at 135.89 121.92 0)
 			(effects
 				(font
@@ -6967,6 +6967,24 @@
 			)
 		)
 		(property "Source" "LCSC"
+			(at 135.89 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt" "RT0603BRD0747KL"
+			(at 135.89 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part #" "-"
 			(at 135.89 121.92 0)
 			(effects
 				(font
@@ -7099,6 +7117,15 @@
 			)
 		)
 		(property "TME Part #" "KEYS232"
+			(at 39.37 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt" "232-M, 233, 234"
 			(at 39.37 77.47 0)
 			(effects
 				(font
@@ -7804,7 +7831,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "library:RT0603BRD0747KL"
+		(property "Footprint" "library:RT0603FRD0747KL"
 			(at 135.89 138.43 0)
 			(effects
 				(font
@@ -7831,7 +7858,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C326725"
+		(property "LCSC Part #" "C728633"
 			(at 135.89 138.43 0)
 			(effects
 				(font
@@ -7840,7 +7867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part #" "603-RT0603BRD0747KL"
+		(property "Mouser Part #" "603-RT0603FRD0747KL "
 			(at 135.89 138.43 0)
 			(effects
 				(font
@@ -7849,7 +7876,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr Part #" "RT0603BRD0747KL"
+		(property "Mfr Part #" "RT0603FRD0747KL"
 			(at 135.89 138.43 0)
 			(effects
 				(font
@@ -7877,6 +7904,24 @@
 			)
 		)
 		(property "Source" "LCSC"
+			(at 135.89 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt" "RT0603BRD0747KL"
+			(at 135.89 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part #" "-"
 			(at 135.89 138.43 0)
 			(effects
 				(font
@@ -7991,7 +8036,7 @@
 				)
 			)
 		)
-		(property "Footprint" "library:GRM31C5C2A104JA01L"
+		(property "Footprint" "library:GRM31C5C1H104JA01L"
 			(at 229.87 130.81 0)
 			(effects
 				(font
@@ -8000,7 +8045,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cz.mouser.com/datasheet/2/281/1/GRM31C5C2A104JA01_01A-1987817.pdf"
+		(property "Datasheet" "https://cz.mouser.com/datasheet/2/281/1/GRM31C5C1H104JA01_01A-1987788.pdf"
 			(at 229.87 130.81 0)
 			(effects
 				(font
@@ -8018,7 +8063,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C405303"
+		(property "LCSC Part #" "C97946"
 			(at 229.87 130.81 0)
 			(effects
 				(font
@@ -8027,7 +8072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part #" "81-GRM31C5C2A104JA1L"
+		(property "Mouser Part #" "81-GRM31C5C1H104JA1L "
 			(at 229.87 130.81 0)
 			(effects
 				(font
@@ -8036,7 +8081,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr Part #" "GRM31C5C2A104JA01L"
+		(property "Mfr Part #" "GRM31C5C1H104JA01L"
 			(at 229.87 130.81 0)
 			(effects
 				(font
@@ -8064,6 +8109,24 @@
 			)
 		)
 		(property "Source" "LCSC"
+			(at 229.87 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt" "GRM31C5C2A104JA01L"
+			(at 229.87 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part #" "-"
 			(at 229.87 130.81 0)
 			(effects
 				(font
@@ -8112,7 +8175,7 @@
 				)
 			)
 		)
-		(property "Footprint" "library:GRM31C5C2A104JA01L"
+		(property "Footprint" "library:GRM31C5C1H104JA01L"
 			(at 262.89 130.81 0)
 			(effects
 				(font
@@ -8121,7 +8184,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cz.mouser.com/datasheet/2/281/1/GRM31C5C2A104JA01_01A-1987817.pdf"
+		(property "Datasheet" "https://cz.mouser.com/datasheet/2/281/1/GRM31C5C1H104JA01_01A-1987788.pdf"
 			(at 262.89 130.81 0)
 			(effects
 				(font
@@ -8139,7 +8202,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C405303"
+		(property "LCSC Part #" "C97946"
 			(at 262.89 130.81 0)
 			(effects
 				(font
@@ -8148,7 +8211,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part #" "81-GRM31C5C2A104JA1L"
+		(property "Mouser Part #" "81-GRM31C5C1H104JA1L "
 			(at 262.89 130.81 0)
 			(effects
 				(font
@@ -8157,7 +8220,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr Part #" "GRM31C5C2A104JA01L"
+		(property "Mfr Part #" "GRM31C5C1H104JA01L"
 			(at 262.89 130.81 0)
 			(effects
 				(font
@@ -8185,6 +8248,24 @@
 			)
 		)
 		(property "Source" "LCSC"
+			(at 262.89 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt" "GRM31C5C2A104JA01L"
+			(at 262.89 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part #" "-"
 			(at 262.89 130.81 0)
 			(effects
 				(font

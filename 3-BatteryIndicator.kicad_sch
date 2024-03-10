@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Battery & Power Indicator")
-		(date "2024-03-07")
+		(date "2024-03-10")
 		(rev "3.0")
 		(company "Arx")
 	)
@@ -2235,6 +2235,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alt" "APTD1608LSURCK same footprint"
+			(at 219.71 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "10921d5f-ea15-4624-a2af-592e4e305a58")
 		)
@@ -2993,7 +3002,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "library:RT0603BRD0747KL"
+		(property "Footprint" "library:RT0603FRD0747KL"
 			(at 90.17 71.12 0)
 			(effects
 				(font
@@ -3029,7 +3038,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C326725"
+		(property "LCSC Part #" "C728633"
 			(at 90.17 71.12 0)
 			(effects
 				(font
@@ -3047,7 +3056,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr Part #" "RT0603BRD0747KL"
+		(property "Mfr Part #" "RT0603FRD0747KL"
 			(at 90.17 71.12 0)
 			(effects
 				(font
@@ -3056,7 +3065,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part #" "603-RT0603BRD0747KL"
+		(property "Mouser Part #" "603-RT0603FRD0747KL "
 			(at 90.17 71.12 0)
 			(effects
 				(font
@@ -3066,6 +3075,24 @@
 			)
 		)
 		(property "Source" "LCSC"
+			(at 90.17 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt" "RT0603BRD0747KL"
+			(at 90.17 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part #" "-"
 			(at 90.17 71.12 0)
 			(effects
 				(font
@@ -3309,7 +3336,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "library:ERA-3AEB392V"
+		(property "Footprint" "library:RT0603FRE073K9L"
 			(at 90.17 95.25 0)
 			(effects
 				(font
@@ -3318,7 +3345,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cz.mouser.com/datasheet/2/315/AOA0000C307-1149632.pdf"
+		(property "Datasheet" "https://cz.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_12-3003070.pdf"
 			(at 90.17 95.25 0)
 			(effects
 				(font
@@ -3345,7 +3372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Panasonic"
+		(property "Mfr" "Yageo"
 			(at 90.17 95.25 0)
 			(effects
 				(font
@@ -3354,7 +3381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr Part #" "ERA-3AEB392V"
+		(property "Mfr Part #" "RT0603FRE073K9L"
 			(at 90.17 95.25 0)
 			(effects
 				(font
@@ -3363,7 +3390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part #" "667-ERA-3AEB392V"
+		(property "Mouser Part #" "603-RT0603FRE073K9L "
 			(at 90.17 95.25 0)
 			(effects
 				(font
@@ -3372,7 +3399,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C473237"
+		(property "LCSC Part #" "C863790"
 			(at 90.17 95.25 0)
 			(effects
 				(font
@@ -3382,6 +3409,24 @@
 			)
 		)
 		(property "Source" "LCSC"
+			(at 90.17 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt" "ERA-3AEB392V"
+			(at 90.17 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part #" "-"
 			(at 90.17 95.25 0)
 			(effects
 				(font
@@ -3433,7 +3478,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "library:RT0603BRD0747KL"
+		(property "Footprint" "library:RT0603FRD0747KL"
 			(at 90.17 82.55 0)
 			(effects
 				(font
@@ -3469,7 +3514,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C326725"
+		(property "LCSC Part #" "C728633"
 			(at 90.17 82.55 0)
 			(effects
 				(font
@@ -3487,7 +3532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr Part #" "RT0603BRD0747KL"
+		(property "Mfr Part #" "RT0603FRD0747KL"
 			(at 90.17 82.55 0)
 			(effects
 				(font
@@ -3496,7 +3541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part #" "603-RT0603BRD0747KL"
+		(property "Mouser Part #" "603-RT0603FRD0747KL "
 			(at 90.17 82.55 0)
 			(effects
 				(font
@@ -3506,6 +3551,24 @@
 			)
 		)
 		(property "Source" "LCSC"
+			(at 90.17 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt" "RT0603BRD0747KL"
+			(at 90.17 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part #" "-"
 			(at 90.17 82.55 0)
 			(effects
 				(font
@@ -3557,7 +3620,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "library:RT0603BRD0747KL"
+		(property "Footprint" "library:RT0603FRD0747KL"
 			(at 185.42 73.66 0)
 			(effects
 				(font
@@ -3593,7 +3656,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C326725"
+		(property "LCSC Part #" "C728633"
 			(at 185.42 73.66 0)
 			(effects
 				(font
@@ -3611,7 +3674,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr Part #" "RT0603BRD0747KL"
+		(property "Mfr Part #" "RT0603FRD0747KL"
 			(at 185.42 73.66 0)
 			(effects
 				(font
@@ -3620,7 +3683,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part #" "603-RT0603BRD0747KL"
+		(property "Mouser Part #" "603-RT0603FRD0747KL "
 			(at 185.42 73.66 0)
 			(effects
 				(font
@@ -3630,6 +3693,24 @@
 			)
 		)
 		(property "Source" "LCSC"
+			(at 185.42 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt" "RT0603BRD0747KL"
+			(at 185.42 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part #" "-"
 			(at 185.42 73.66 0)
 			(effects
 				(font
@@ -3775,6 +3856,15 @@
 			)
 		)
 		(property "Source" "TME"
+			(at 66.04 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt" "OS102011MA1QN1C, OS102011MA1QS1, OS102011MA1QS1C, 1825232-1"
 			(at 66.04 151.13 0)
 			(effects
 				(font

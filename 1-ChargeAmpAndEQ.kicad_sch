@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Charge Amp and Baxandall EQ")
-		(date "2024-03-07")
+		(date "2024-03-10")
 		(rev "3.0")
 		(company "Arx")
 	)
@@ -7261,7 +7261,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "library:ERA-3AEB392V"
+		(property "Footprint" "library:RT0603FRE073K9L"
 			(at 175.26 68.58 0)
 			(effects
 				(font
@@ -7270,7 +7270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cz.mouser.com/datasheet/2/315/AOA0000C307-1149632.pdf"
+		(property "Datasheet" "https://cz.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_12-3003070.pdf"
 			(at 175.26 68.58 0)
 			(effects
 				(font
@@ -7288,7 +7288,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C473237"
+		(property "LCSC Part #" "C863790"
 			(at 175.26 68.58 0)
 			(effects
 				(font
@@ -7297,7 +7297,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part #" "667-ERA-3AEB392V"
+		(property "Mouser Part #" "603-RT0603FRE073K9L "
 			(at 175.26 68.58 0)
 			(effects
 				(font
@@ -7306,7 +7306,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr Part #" "ERA-3AEB392V"
+		(property "Mfr Part #" "RT0603FRE073K9L"
 			(at 175.26 68.58 0)
 			(effects
 				(font
@@ -7315,7 +7315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Panasonic"
+		(property "Mfr" "Yageo"
 			(at 175.26 68.58 0)
 			(effects
 				(font
@@ -7334,6 +7334,24 @@
 			)
 		)
 		(property "Source" "LCSC"
+			(at 175.26 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt" "ERA-3AEB392V"
+			(at 175.26 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part #" "-"
 			(at 175.26 68.58 0)
 			(effects
 				(font
@@ -7833,6 +7851,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alt" "OP2134"
+			(at 227.33 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "18457ae6-0af3-4987-a57a-6f228b49e697")
 		)
@@ -7882,7 +7909,7 @@
 				)
 			)
 		)
-		(property "Footprint" "library:FreePad_1.1mm_2.0mm"
+		(property "Footprint" "library:FreePad_1.1mm_2.1mm_rect"
 			(at 115.57 184.15 0)
 			(effects
 				(font
@@ -7964,6 +7991,15 @@
 			)
 		)
 		(property "Source" "-"
+			(at 115.57 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt" ""
 			(at 115.57 184.15 0)
 			(effects
 				(font
@@ -8252,7 +8288,7 @@
 				)
 			)
 		)
-		(property "Footprint" "library:FreePad_1.1mm_2.0mm"
+		(property "Footprint" "library:FreePad_1.1mm_2.1mm_rect"
 			(at 115.57 171.45 0)
 			(effects
 				(font
@@ -8334,6 +8370,15 @@
 			)
 		)
 		(property "Source" "-"
+			(at 115.57 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt" ""
 			(at 115.57 171.45 0)
 			(effects
 				(font
@@ -8461,6 +8506,15 @@
 			)
 		)
 		(property "Source" "Mouser"
+			(at 78.74 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt" "SK14D01G6L"
 			(at 78.74 175.26 0)
 			(effects
 				(font
@@ -8648,7 +8702,7 @@
 				)
 			)
 		)
-		(property "Footprint" "library:FreePad_1.1mm_2.0mm"
+		(property "Footprint" "library:FreePad_1.1mm_2.1mm"
 			(at 157.48 184.15 0)
 			(effects
 				(font
@@ -8730,6 +8784,15 @@
 			)
 		)
 		(property "Source" "-"
+			(at 157.48 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt" ""
 			(at 157.48 184.15 0)
 			(effects
 				(font
@@ -9017,7 +9080,7 @@
 				)
 			)
 		)
-		(property "Footprint" "library:FreePad_1.1mm_2.0mm"
+		(property "Footprint" "library:FreePad_1.1mm_2.1mm"
 			(at 137.16 157.48 0)
 			(effects
 				(font
@@ -9107,6 +9170,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alt" ""
+			(at 137.16 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "342c23ee-3fa2-42ad-80f0-bb86203f03ad")
 		)
@@ -9147,7 +9219,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "library:GRM31C5C2A104JA01L"
+		(property "Footprint" "library:GRM31C5C1H104JA01L"
 			(at 123.19 128.27 0)
 			(effects
 				(font
@@ -9156,7 +9228,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cz.mouser.com/datasheet/2/281/1/GRM31C5C2A104JA01_01A-1987817.pdf"
+		(property "Datasheet" "https://cz.mouser.com/datasheet/2/281/1/GRM31C5C1H104JA01_01A-1987788.pdf"
 			(at 123.19 128.27 0)
 			(effects
 				(font
@@ -9174,7 +9246,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C405303"
+		(property "LCSC Part #" "C97946"
 			(at 123.19 128.27 0)
 			(effects
 				(font
@@ -9183,7 +9255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part #" "81-GRM31C5C2A104JA1L"
+		(property "Mouser Part #" "81-GRM31C5C1H104JA1L "
 			(at 123.19 128.27 0)
 			(effects
 				(font
@@ -9192,7 +9264,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr Part #" "GRM31C5C2A104JA01L"
+		(property "Mfr Part #" "GRM31C5C1H104JA01L"
 			(at 123.19 128.27 0)
 			(effects
 				(font
@@ -9220,6 +9292,24 @@
 			)
 		)
 		(property "Source" "LCSC"
+			(at 123.19 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt" "GRM31C5C2A104JA01L"
+			(at 123.19 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part #" "-"
 			(at 123.19 128.27 0)
 			(effects
 				(font
@@ -9861,6 +9951,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alt" "SK14D01G6L"
+			(at 62.23 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b9ced47d-8f73-476d-bd3e-9c5c0259e5db")
 		)
@@ -9919,7 +10018,7 @@
 				)
 			)
 		)
-		(property "Footprint" "library:FreePad_1.1mm_2.0mm"
+		(property "Footprint" "library:FreePad_1.1mm_2.1mm_rect"
 			(at 115.57 157.48 0)
 			(effects
 				(font
@@ -10001,6 +10100,15 @@
 			)
 		)
 		(property "Source" "-"
+			(at 115.57 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt" ""
 			(at 115.57 157.48 0)
 			(effects
 				(font
@@ -10415,7 +10523,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "library:ERA-3AEB392V"
+		(property "Footprint" "library:RT0603FRE073K9L"
 			(at 191.77 55.88 0)
 			(effects
 				(font
@@ -10424,7 +10532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cz.mouser.com/datasheet/2/315/AOA0000C307-1149632.pdf"
+		(property "Datasheet" "https://cz.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_12-3003070.pdf"
 			(at 191.77 55.88 0)
 			(effects
 				(font
@@ -10442,7 +10550,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C473237"
+		(property "LCSC Part #" "C863790"
 			(at 191.77 55.88 0)
 			(effects
 				(font
@@ -10451,7 +10559,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part #" "667-ERA-3AEB392V"
+		(property "Mouser Part #" "603-RT0603FRE073K9L "
 			(at 191.77 55.88 0)
 			(effects
 				(font
@@ -10460,7 +10568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr Part #" "ERA-3AEB392V"
+		(property "Mfr Part #" "RT0603FRE073K9L"
 			(at 191.77 55.88 0)
 			(effects
 				(font
@@ -10469,7 +10577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Panasonic"
+		(property "Mfr" "Yageo"
 			(at 191.77 55.88 0)
 			(effects
 				(font
@@ -10488,6 +10596,24 @@
 			)
 		)
 		(property "Source" "LCSC"
+			(at 191.77 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt" "ERA-3AEB392V"
+			(at 191.77 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part #" "-"
 			(at 191.77 55.88 0)
 			(effects
 				(font
@@ -10658,7 +10784,7 @@
 				)
 			)
 		)
-		(property "Footprint" "library:FreePad_1.1mm_2.0mm"
+		(property "Footprint" "library:FreePad_1.1mm_2.1mm"
 			(at 137.16 184.15 0)
 			(effects
 				(font
@@ -10740,6 +10866,15 @@
 			)
 		)
 		(property "Source" "-"
+			(at 137.16 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt" ""
 			(at 137.16 184.15 0)
 			(effects
 				(font
@@ -10861,7 +10996,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "library:ERA-3AEB392V"
+		(property "Footprint" "library:RT0603FRE073K9L"
 			(at 175.26 43.18 0)
 			(effects
 				(font
@@ -10870,7 +11005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cz.mouser.com/datasheet/2/315/AOA0000C307-1149632.pdf"
+		(property "Datasheet" "https://cz.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_12-3003070.pdf"
 			(at 175.26 43.18 0)
 			(effects
 				(font
@@ -10888,7 +11023,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C473237"
+		(property "LCSC Part #" "C863790"
 			(at 175.26 43.18 0)
 			(effects
 				(font
@@ -10897,7 +11032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part #" "667-ERA-3AEB392V"
+		(property "Mouser Part #" "603-RT0603FRE073K9L "
 			(at 175.26 43.18 0)
 			(effects
 				(font
@@ -10906,7 +11041,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr Part #" "ERA-3AEB392V"
+		(property "Mfr Part #" "RT0603FRE073K9L"
 			(at 175.26 43.18 0)
 			(effects
 				(font
@@ -10915,7 +11050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Panasonic"
+		(property "Mfr" "Yageo"
 			(at 175.26 43.18 0)
 			(effects
 				(font
@@ -10934,6 +11069,24 @@
 			)
 		)
 		(property "Source" "LCSC"
+			(at 175.26 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt" "ERA-3AEB392V"
+			(at 175.26 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part #" "-"
 			(at 175.26 43.18 0)
 			(effects
 				(font
@@ -11313,6 +11466,15 @@
 			)
 		)
 		(property "Source" "LCSC"
+			(at 104.14 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt" "OP2134"
 			(at 104.14 36.83 0)
 			(effects
 				(font
@@ -11743,7 +11905,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "library:RT0603BRE07150RL_UL-M"
+		(property "Footprint" "library:ERA-3AEB151V"
 			(at 81.28 36.83 0)
 			(effects
 				(font
@@ -11752,7 +11914,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cz.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_12-3003070.pdf"
+		(property "Datasheet" "https://cz.mouser.com/datasheet/2/315/AOA0000C307-1149632.pdf"
 			(at 81.28 36.83 0)
 			(effects
 				(font
@@ -11779,7 +11941,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C728601"
+		(property "LCSC Part #" "C543626"
 			(at 81.28 36.83 0)
 			(effects
 				(font
@@ -11788,7 +11950,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part #" "603-RT0603BRE07150RL "
+		(property "Mouser Part #" "667-ERA-3AEB151V"
 			(at 81.28 36.83 0)
 			(effects
 				(font
@@ -11797,7 +11959,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr Part #" "RT0603BRE07150RL"
+		(property "Mfr Part #" "ERA3AEB151V"
 			(at 81.28 36.83 0)
 			(effects
 				(font
@@ -11806,7 +11968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Yageo"
+		(property "Mfr" "Panasonic"
 			(at 81.28 36.83 0)
 			(effects
 				(font
@@ -11816,6 +11978,24 @@
 			)
 		)
 		(property "Source" "LCSC"
+			(at 81.28 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt" "RT0603BRE07150RL"
+			(at 81.28 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part #" "-"
 			(at 81.28 36.83 0)
 			(effects
 				(font
@@ -12728,7 +12908,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "library:GRM31C5C2A104JA01L"
+		(property "Footprint" "library:GRM31C5C1H104JA01L"
 			(at 40.64 161.29 0)
 			(effects
 				(font
@@ -12737,7 +12917,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cz.mouser.com/datasheet/2/281/1/GRM31C5C2A104JA01_01A-1987817.pdf"
+		(property "Datasheet" "https://cz.mouser.com/datasheet/2/281/1/GRM31C5C1H104JA01_01A-1987788.pdf"
 			(at 40.64 161.29 0)
 			(effects
 				(font
@@ -12755,7 +12935,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C405303"
+		(property "LCSC Part #" "C97946"
 			(at 40.64 161.29 0)
 			(effects
 				(font
@@ -12764,7 +12944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part #" "81-GRM31C5C2A104JA1L"
+		(property "Mouser Part #" "81-GRM31C5C1H104JA1L "
 			(at 40.64 161.29 0)
 			(effects
 				(font
@@ -12773,7 +12953,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr Part #" "GRM31C5C2A104JA01L"
+		(property "Mfr Part #" "GRM31C5C1H104JA01L"
 			(at 40.64 161.29 0)
 			(effects
 				(font
@@ -12801,6 +12981,24 @@
 			)
 		)
 		(property "Source" "LCSC"
+			(at 40.64 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt" "GRM31C5C2A104JA01L"
+			(at 40.64 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part #" "-"
 			(at 40.64 161.29 0)
 			(effects
 				(font
@@ -13109,7 +13307,7 @@
 				)
 			)
 		)
-		(property "Footprint" "library:FreePad_1.1mm_2.0mm"
+		(property "Footprint" "library:FreePad_1.1mm_2.1mm"
 			(at 157.48 157.48 0)
 			(effects
 				(font
@@ -13191,6 +13389,15 @@
 			)
 		)
 		(property "Source" "-"
+			(at 157.48 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt" ""
 			(at 157.48 157.48 0)
 			(effects
 				(font
@@ -13482,7 +13689,7 @@
 				)
 			)
 		)
-		(property "Footprint" "library:FreePad_1.1mm_2.0mm"
+		(property "Footprint" "library:FreePad_1.1mm_2.1mm"
 			(at 137.16 171.45 0)
 			(effects
 				(font
@@ -13564,6 +13771,15 @@
 			)
 		)
 		(property "Source" "-"
+			(at 137.16 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt" ""
 			(at 137.16 171.45 0)
 			(effects
 				(font
@@ -14230,7 +14446,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "library:RT0603BRE07150RL_UL-M"
+		(property "Footprint" "library:ERA-3AEB151V"
 			(at 81.28 41.91 0)
 			(effects
 				(font
@@ -14239,7 +14455,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cz.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_12-3003070.pdf"
+		(property "Datasheet" "https://cz.mouser.com/datasheet/2/315/AOA0000C307-1149632.pdf"
 			(at 81.28 41.91 0)
 			(effects
 				(font
@@ -14266,7 +14482,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C728601"
+		(property "LCSC Part #" "C543626"
 			(at 81.28 41.91 0)
 			(effects
 				(font
@@ -14275,7 +14491,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part #" "603-RT0603BRE07150RL "
+		(property "Mouser Part #" "667-ERA-3AEB151V"
 			(at 81.28 41.91 0)
 			(effects
 				(font
@@ -14284,7 +14500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr Part #" "RT0603BRE07150RL"
+		(property "Mfr Part #" "ERA3AEB151V"
 			(at 81.28 41.91 0)
 			(effects
 				(font
@@ -14293,7 +14509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Yageo"
+		(property "Mfr" "Panasonic"
 			(at 81.28 41.91 0)
 			(effects
 				(font
@@ -14303,6 +14519,24 @@
 			)
 		)
 		(property "Source" "LCSC"
+			(at 81.28 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt" "RT0603BRE07150RL"
+			(at 81.28 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME Part #" "-"
 			(at 81.28 41.91 0)
 			(effects
 				(font
@@ -14351,7 +14585,7 @@
 				)
 			)
 		)
-		(property "Footprint" "library:FreePad_1.1mm_2.0mm"
+		(property "Footprint" "library:FreePad_1.1mm_2.1mm"
 			(at 157.48 171.45 0)
 			(effects
 				(font
@@ -14433,6 +14667,15 @@
 			)
 		)
 		(property "Source" "-"
+			(at 157.48 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt" ""
 			(at 157.48 171.45 0)
 			(effects
 				(font
