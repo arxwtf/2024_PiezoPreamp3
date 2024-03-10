@@ -126,13 +126,13 @@
 		(uuid "a1357dd4-d1e2-44e0-b8e1-e8e1a1167dc0")
 	)
 	(fp_circle
-		(center 16.867 -3.939)
-		(end 16.867 -3.875)
+		(center 15.65 -3.939)
+		(end 15.783 -3.939)
 		(stroke
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill solid)
 		(layer "F.SilkS")
 		(uuid "1799f4b4-b305-4022-94f7-497952693836")
 	)

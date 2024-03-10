@@ -223,8 +223,8 @@
 		(uuid "97138ffc-f5b4-45bb-887f-78b5a4320320")
 	)
 	(fp_circle
-		(center 2.05 0)
-		(end 2.15 0)
+		(center 2.15 0)
+		(end 2.25 0)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -404,8 +404,8 @@
 		(uuid "cfe0c277-5a94-47a3-b9b2-27399112624a")
 	)
 	(fp_circle
-		(center 2.05 0)
-		(end 2.15 0)
+		(center 2.15 0)
+		(end 2.25 0)
 		(stroke
 			(width 0.2)
 			(type solid)
