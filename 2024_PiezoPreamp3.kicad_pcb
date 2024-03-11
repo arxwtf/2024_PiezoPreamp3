@@ -8,13 +8,11 @@
 	)
 	(paper "A4")
 	(title_block
-		(title "Piezo Preamp + EQ")
-		(date "2024-01-17")
-		(rev "2.3")
+		(title "Piezo Preamp")
+		(date "2024-03-11")
+		(rev "3.0")
 		(company "Arx")
-		(comment 1 "v2.1: PCB: fixing pad sizes - some were too small")
-		(comment 2 "v2.2: scheme, PCB: fixing T and R pins on audio jacks - they were swapped before")
-		(comment 3 "v2.3: PCB: adjusting board size to better fit the enclosure. Increasing opamp pad sizes.")
+		(comment 1 "v3.0: +ON/OFF sw w/ true bypass, +BI mode sw, + DC jack, external pots, -LED trimpot,")
 	)
 	(layers
 		(0 "F.Cu" signal)
