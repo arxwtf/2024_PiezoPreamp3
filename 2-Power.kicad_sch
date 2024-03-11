@@ -5923,7 +5923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "EG4208A"
+		(property "Datasheet" "https://cz.mouser.com/datasheet/2/140/EG-3305192.pdf"
 			(at 49.53 121.92 0)
 			(effects
 				(font
