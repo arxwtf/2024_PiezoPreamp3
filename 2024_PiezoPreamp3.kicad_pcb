@@ -119,7 +119,7 @@
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 4)
 			(plotframeref no)
-			(viasonmask yes)
+			(viasonmask no)
 			(mode 1)
 			(useauxorigin no)
 			(hpglpennumber 1)
@@ -777,7 +777,7 @@
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/c4206f64-6648-4592-89ba-4b364add331b")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(pad "1" thru_hole circle
 			(at 0 0 90)
 			(size 2.1 2.1)
@@ -955,7 +955,7 @@
 			)
 		)
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/18da6871-9a80-419b-9cdc-8889939a356d")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(pad "1" thru_hole roundrect
 			(at 0 0)
 			(size 2.1 2.1)
@@ -2860,7 +2860,7 @@
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/2ed2fd3f-7e2a-4296-8fa1-8ad48684eb78")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 2.1 2.1)
@@ -6224,7 +6224,7 @@
 			)
 		)
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/1fa2a96f-0a9a-4711-904c-1014255704ca")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(pad "1" thru_hole roundrect
 			(at 0 0)
 			(size 2.1 2.1)
@@ -11559,7 +11559,7 @@
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/36117b58-1f99-4f2a-8aca-4a87a51e57ef")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(pad "1" thru_hole circle
 			(at 0 0 90)
 			(size 2.1 2.1)
@@ -13273,7 +13273,7 @@
 			)
 		)
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/4e083221-fa4f-41ea-92f0-c69556b97674")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(pad "1" thru_hole roundrect
 			(at 0 0 90)
 			(size 2.1 2.1)
@@ -16649,7 +16649,7 @@
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/c9f74f48-38f8-497b-9298-ebea46c12fe0")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 2.1 2.1)
@@ -23921,7 +23921,7 @@
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/71ccee90-04ca-4339-870a-7db0d072dc9f")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 2.1 2.1)
@@ -24693,7 +24693,7 @@
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/ee7c3861-ad1d-450e-a820-3a5107540113")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 2.1 2.1)
@@ -28660,9 +28660,8 @@
 			(justify bottom mirror)
 		)
 	)
-	(gr_text "←ON/OFF SW"
-		(locked yes)
-		(at 155.5 110.25 0)
+	(gr_text "↖ON/OFF"
+		(at 158.4 111.05 0)
 		(layer "B.SilkS" knockout)
 		(uuid "05256037-4fd8-43f5-b2fb-9abde8cd9671")
 		(effects
@@ -30475,9 +30474,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "ON SW↗"
-		(locked yes)
-		(at 158.05 111.45 0)
+	(gr_text "ON-OFF↗"
+		(at 156.9 111.45 0)
 		(layer "F.SilkS" knockout)
 		(uuid "368d6a63-2f9a-40f2-a8d8-774fadfb074b")
 		(effects
