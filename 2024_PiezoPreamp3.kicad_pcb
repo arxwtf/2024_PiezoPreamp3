@@ -119,7 +119,7 @@
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 4)
 			(plotframeref no)
-			(viasonmask no)
+			(viasonmask yes)
 			(mode 1)
 			(useauxorigin no)
 			(hpglpennumber 1)
@@ -142,7 +142,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "production/gerbers/")
+			(outputdirectory "production/manual/gerbers/")
 		)
 	)
 	(net 0 "")
@@ -351,12 +351,12 @@
 				)
 			)
 		)
-		(property "Field-1" ""
+		(property "Source" "LCSC"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ed5dc297-1666-4484-972f-5d79cff8444b")
+			(uuid "9ddd7fe9-e4aa-46fa-8182-677b4c9b84a9")
 			(effects
 				(font
 					(size 1 1)
@@ -364,12 +364,38 @@
 				)
 			)
 		)
-		(property "Source" "LCSC"
+		(property "Fab attr" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9ddd7fe9-e4aa-46fa-8182-677b4c9b84a9")
+			(uuid "2b2ab626-0b5a-474f-a919-f7f26be3787b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc2fc911-39de-4529-bc47-b4984423516a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c16677c-d649-475a-b252-e47d518a00a3")
 			(effects
 				(font
 					(size 1 1)
@@ -773,6 +799,45 @@
 				)
 			)
 		)
+		(property "Fab attr" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c51b155f-9ad1-42e8-a364-85dc9ea9e08c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bdcfabb4-6694-4595-8e41-74b4df0760e9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bc718619-14bd-4a52-8aca-b3c5d2ece184")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/c4206f64-6648-4592-89ba-4b364add331b")
 		(sheetname "1-ChargeAmpAndEQ")
@@ -954,7 +1019,49 @@
 				)
 			)
 		)
+		(property "Fab attr" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d08978dc-196d-4be9-bfb2-5ee356f07d7d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "803dd4d6-6e83-470d-bdf6-3eb753df5b00")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "87ac25ba-a510-4f6c-9f99-22d309f7a2e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/18da6871-9a80-419b-9cdc-8889939a356d")
+		(sheetname "1-ChargeAmpAndEQ")
+		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
 		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(pad "1" thru_hole roundrect
 			(at 0 0)
@@ -1119,12 +1226,38 @@
 				)
 			)
 		)
-		(property "Field-1" ""
+		(property "Fab attr" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a8de4a3f-f309-4680-95d5-f577099997d9")
+			(uuid "099f92bd-edf7-47cb-a4f6-9a1b8a9d2010")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "07e6aca4-ee66-4559-9e85-26eb8f142576")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c46a1d88-3401-4565-b20b-7f3eeb3a4d41")
 			(effects
 				(font
 					(size 1 1)
@@ -1314,6 +1447,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f5b09d56-1cb1-453c-a6e5-361a00725e50")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab attr" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "69431680-1a0c-44c7-b3c3-c03fbacef4c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "71c3c700-5f58-4654-988d-9134ea812b18")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "010bfba1-5625-4e1e-8519-3345696e3069")
 			(effects
 				(font
 					(size 1 1)
@@ -1595,12 +1767,38 @@
 				)
 			)
 		)
-		(property "Field-1" ""
+		(property "Fab attr" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "82c7d89d-419b-4505-91ec-38195f17200b")
+			(uuid "3bbe82d9-8eb1-4289-b437-dc724ffb8a44")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d5ab6f29-2076-44f8-a3cb-0734c8fb5e09")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "31416517-7e6a-4399-87ee-537b0dca29bd")
 			(effects
 				(font
 					(size 1 1)
@@ -1997,12 +2195,38 @@
 				)
 			)
 		)
-		(property "Field-1" ""
+		(property "Fab attr" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fce2fd67-1a9a-414c-bfef-e354e638d090")
+			(uuid "102ebe31-fa98-421e-a8ff-5006b417c03c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5aa85602-2ae8-4a40-bc0d-20e19f4ca5b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "58352acf-bbc6-4201-91c7-89590abcca9f")
 			(effects
 				(font
 					(size 1 1)
@@ -2272,6 +2496,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7e87f504-8456-4a3b-a0b4-509b0612dba3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab attr" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f304d68d-9bab-48d1-962e-2cc5314a6ba8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91cfc396-4f22-4a57-a745-76edc34fa6c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "999496a2-ab23-46f2-97eb-d6a5062a105f")
 			(effects
 				(font
 					(size 1 1)
@@ -2551,6 +2814,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "83777f0a-ce5e-45d1-a6f5-6e1ec7382481")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab attr" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "af4c3a4f-a427-43b6-84ee-0be652deceb1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e1ce415c-a797-4e86-960a-c5b4237c61af")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3f9c4e5d-35b9-455d-a2e5-91b3495735cd")
 			(effects
 				(font
 					(size 1 1)
@@ -2856,6 +3158,45 @@
 				)
 			)
 		)
+		(property "Fab attr" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b4e6b13e-6e9e-47da-96aa-0243e7700306")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "633ab6be-a3e8-4f78-bb67-5f5191e692e3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3037e23f-bb7a-4285-8db8-124d16dd5d78")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/2ed2fd3f-7e2a-4296-8fa1-8ad48684eb78")
 		(sheetname "1-ChargeAmpAndEQ")
@@ -3012,12 +3353,38 @@
 				)
 			)
 		)
-		(property "Field-1" ""
+		(property "Fab attr" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "12765bd6-369d-46b3-8cc6-718069aaae13")
+			(uuid "0b242d30-55e6-4c3f-92c0-a30a26b2e2e6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b42fd42-758f-44c7-8d1e-9bb99d31e86b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b9b9062-e49c-48ef-9efa-d2db1d4c8642")
 			(effects
 				(font
 					(size 1 1)
@@ -3352,6 +3719,45 @@
 				)
 			)
 		)
+		(property "Fab attr" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5dbd6389-5c84-40ca-a13d-fe642eb7986f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "31277938-fde2-42ba-992a-a3e4e3534b23")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c6aa7c35-0795-4fb8-95a2-ec220ad927c5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/92c2a844-101a-40c5-a0eb-d2ce1ffb9165/ad1827bf-7f2b-4d62-811e-69785ea1f413")
 		(sheetname "3-BatteryIndicator")
@@ -3637,11 +4043,63 @@
 				)
 			)
 		)
+		(property "Fab attr" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "60a145d1-2fa7-44f2-8725-58218032e08d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f7fc2a9f-4867-4306-901d-dded0aee1bf6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c286295-2a18-4d98-a18d-6431bac6770c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alt" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "82dfdd20-6a1a-4471-829e-186bda602307")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/e56e49ba-8974-4847-b6bf-e83116731cf2/197e721c-82ca-47d9-9764-e5a1052d0c09")
 		(sheetname "4-MountingAndAccessories")
 		(sheetfile "4-MountingAndAccessories.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole exclude_from_pos_files)
 		(fp_rect
 			(start -5 -10.3)
 			(end 5 -0.3)
@@ -3859,12 +4317,38 @@
 				)
 			)
 		)
-		(property "Field-1" ""
+		(property "Fab attr" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "41c954b1-7b16-448f-a888-b6349037d75f")
+			(uuid "c4d1040f-46ae-4a77-8846-78b81b450c7a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91689707-d02c-472d-94e2-2c4bfe5fdc63")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "28f77f9e-dbad-4385-8403-7060de0dec06")
 			(effects
 				(font
 					(size 1 1)
@@ -4138,6 +4622,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "66334b7c-3fbd-47d6-9d4e-0032090a529a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab attr" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a0bf22dd-82fb-42f9-a375-84c35ec0a9ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "37270cac-9530-4220-9254-82435f4b26fa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e7c146d-be09-4be9-ab08-95adb94d45f3")
 			(effects
 				(font
 					(size 1 1)
@@ -4444,6 +4967,45 @@
 				)
 			)
 		)
+		(property "Fab attr" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bda1913a-a6ed-4197-8199-04570dc76f50")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b653a72d-dea1-41db-b5bc-75237f6d7e5c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "705659c9-da04-4500-ae78-0299b27d5549")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/92c2a844-101a-40c5-a0eb-d2ce1ffb9165/be535837-bd40-4f68-8331-bcde06aab845")
 		(sheetname "3-BatteryIndicator")
@@ -4728,12 +5290,38 @@
 				)
 			)
 		)
-		(property "Field-1" ""
+		(property "Fab attr" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bf2c50f6-0d87-4081-ae10-840772eb3920")
+			(uuid "09e8cb4b-8e30-47d5-9c13-9db34635bc03")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7c30348e-7cac-43f1-a4ed-d71d51713fdf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6728eee5-3ca9-4d18-af8c-ad1890cb7c35")
 			(effects
 				(font
 					(size 1 1)
@@ -4925,6 +5513,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7180ccb6-3def-4bc6-a765-d7648d0c5869")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab attr" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "19345290-9b15-491d-b18d-0262795c8104")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "42899daf-5ba7-4490-89ce-f341be6ef311")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f8bf8492-fc41-4b51-a2e9-4e155548262d")
 			(effects
 				(font
 					(size 1 1)
@@ -5347,6 +5974,45 @@
 				)
 			)
 		)
+		(property "Fab attr" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d003756a-7c48-4d49-a0ff-059051a85558")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "57392825-1fe0-4f31-b9cd-6031b31cdfca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "872308e6-0f1d-443a-bdef-ce5319afa20d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/b10e95cd-10a1-4d25-b6a0-2bd4304f390c/3a227af9-057d-4a35-bdd3-d5544961b19b")
 		(sheetname "2-Power")
@@ -5626,12 +6292,38 @@
 				)
 			)
 		)
-		(property "Field-1" ""
+		(property "Fab attr" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8f9c1865-4c86-4563-b2c5-63f8b4d4d895")
+			(uuid "475c41d2-3c49-4bc6-98c2-02bfdce37dbe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a30749d-033b-461d-b87c-8339f4fd9104")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e9e2697b-a809-42d0-b38a-e4b8a323d602")
 			(effects
 				(font
 					(size 1 1)
@@ -5912,12 +6604,38 @@
 				)
 			)
 		)
-		(property "Field-1" ""
+		(property "Fab attr" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "628de3c2-047e-4d91-802e-6bbe82626db3")
+			(uuid "7578479a-1a85-48d3-9a65-26e8e38a5ed1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d3f6b0a-98db-47ff-8930-d44bb24b74af")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bd2accb7-f1ba-41e2-9797-aaf6f2b7e5e5")
 			(effects
 				(font
 					(size 1 1)
@@ -6223,7 +6941,49 @@
 				)
 			)
 		)
+		(property "Fab attr" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0d01506a-e95e-4141-a90e-57b025bbc832")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "083e09d3-f615-4acb-a48d-b9275a6f090a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d951f19-f24a-4763-80e9-77d9c675d707")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/1fa2a96f-0a9a-4711-904c-1014255704ca")
+		(sheetname "1-ChargeAmpAndEQ")
+		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
 		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(pad "1" thru_hole roundrect
 			(at 0 0)
@@ -6490,6 +7250,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "44abb5da-6964-4889-966f-3748fd868133")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab attr" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c4453e4-2b0c-4ea6-82de-d74f41d668f4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "85a388a4-903d-4f48-babf-117a41bb7676")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "180"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0db08f74-914b-4878-9162-7ef1803cf7bc")
 			(effects
 				(font
 					(size 1 1)
@@ -6865,6 +7664,45 @@
 				)
 			)
 		)
+		(property "Fab attr" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e42ee1e1-24c2-43fc-ba7c-26a8960d1f47")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3872f304-0774-4634-9b31-d7020aaba7ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b1cf80e-8aef-4b0e-9d28-a2cc78123c8f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/8a73d4d7-8d5c-4b0e-b404-0f255713c715")
 		(sheetname "1-ChargeAmpAndEQ")
@@ -7128,12 +7966,38 @@
 				)
 			)
 		)
-		(property "Field-1" ""
+		(property "Fab attr" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d4f86c23-ad92-4351-9e4f-05bfc5e1e576")
+			(uuid "8012e422-268c-4941-a180-e4004ca81b15")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1e03d50c-4389-4e57-9d79-bbacbbef80e5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "18e0896a-5acd-4cf8-8e3e-f59078714302")
 			(effects
 				(font
 					(size 1 1)
@@ -7414,6 +8278,45 @@
 				)
 			)
 		)
+		(property "Fab attr" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d32f1c79-c26c-4af1-a47d-3aa2876cc595")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c65b6cff-3197-4d25-9950-75216f6956f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d820243-2433-4d13-9250-fc34e0ebe723")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/fec15c9f-9f71-4a6d-bc1c-5bb14cddfcba")
 		(sheetname "1-ChargeAmpAndEQ")
@@ -7687,12 +8590,38 @@
 				)
 			)
 		)
-		(property "Field-1" ""
+		(property "Fab attr" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e89e11bb-6d47-4742-8497-82d83fea78c8")
+			(uuid "3dff5022-43ca-4d95-953c-65fa6cca809d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0a5a57a3-f310-4836-8b97-f862c98b5a42")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5b432bde-f852-40f4-8c18-a5bd45ee8b8b")
 			(effects
 				(font
 					(size 1 1)
@@ -8011,6 +8940,45 @@
 				)
 			)
 		)
+		(property "Fab attr" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5ca5675d-12f3-4473-abff-542ac170e391")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b6b29af-c7c8-4783-91eb-89e2e53575de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7805b454-779b-43ed-8eb8-67c92eb6db2f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/b10e95cd-10a1-4d25-b6a0-2bd4304f390c/b071136e-e312-4d5d-b17d-0f0483eb1c60")
 		(sheetname "2-Power")
@@ -8284,12 +9252,38 @@
 				)
 			)
 		)
-		(property "Field-1" ""
+		(property "Fab attr" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5fad6964-8b4f-4910-a681-d72db4218b0b")
+			(uuid "b4dd566c-0c0c-458e-afa5-6db0f9208a1e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2ac5db49-e444-457d-9a51-5e7fdeb81ea3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bd64553e-9108-433c-9c14-7c4e68400c8d")
 			(effects
 				(font
 					(size 1 1)
@@ -8581,12 +9575,38 @@
 				)
 			)
 		)
-		(property "Field-1" ""
+		(property "Fab attr" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0147a595-0d6c-4428-bb18-f11c0db85367")
+			(uuid "839934d2-1f21-4afd-8ad7-0b84015dd0da")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d2d2141-5d90-47fc-9a08-bb414574ccad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5bcaf006-aeda-40cd-9706-18f6003bc307")
 			(effects
 				(font
 					(size 1 1)
@@ -8785,12 +9805,38 @@
 				)
 			)
 		)
-		(property "Field-1" ""
+		(property "Fab attr" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ed3c0bd1-44d0-4015-bb28-7b4b718ae99e")
+			(uuid "7a3e8274-471c-40c6-9ae7-24277bcd9635")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "35038c29-7790-4a81-946c-fa1044e3811e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a2958335-5cab-4017-980c-19a3d5d16a31")
 			(effects
 				(font
 					(size 1 1)
@@ -9077,12 +10123,38 @@
 				)
 			)
 		)
-		(property "Field-1" ""
+		(property "Fab attr" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dbf09201-4583-4723-98a4-f5216ba8557e")
+			(uuid "1bf778d9-c31a-461c-8099-ad5142d81fc3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9fe73e8a-90b1-4be3-bede-fe99fce6288f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "daa1419c-d852-4fb1-a069-27716f5c37e0")
 			(effects
 				(font
 					(size 1 1)
@@ -9375,12 +10447,38 @@
 				)
 			)
 		)
-		(property "Field-1" ""
+		(property "Fab attr" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d9a9664e-de3e-4816-ab97-e49fab2e84f1")
+			(uuid "14701f91-d3d9-4a78-a03b-fd781c74a104")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f70612e1-38a0-498e-9568-49df073a7318")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2f97b539-0bee-4f22-939f-01bba4fd040e")
 			(effects
 				(font
 					(size 1 1)
@@ -9661,12 +10759,38 @@
 				)
 			)
 		)
-		(property "Field-1" ""
+		(property "Fab attr" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "74fd64f6-3504-4a03-8264-23632bf1fad1")
+			(uuid "fe2c1b14-f257-47d8-8e5e-d87cbc6ea6bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cad878d3-dec6-40f7-8f59-30cfc7fabbbe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "41674041-b853-402c-8d58-74c34c616b6c")
 			(effects
 				(font
 					(size 1 1)
@@ -10033,12 +11157,38 @@
 				)
 			)
 		)
-		(property "Field-1" ""
+		(property "Fab attr" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2e8fc92d-8605-4d34-af4d-04f9bcf9fa58")
+			(uuid "4866f927-0610-4092-987c-32b1663e95d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1e47f1e2-08b2-4cfb-be05-bbaee55f8784")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d5f2ea1-6448-4d3f-990d-f5fe60399a28")
 			(effects
 				(font
 					(size 1 1)
@@ -10328,6 +11478,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5be54c4b-c2a4-4d52-aa13-578411f8782e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab attr" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5b079a10-6f1e-4a97-b28f-f2ae6cc4ab81")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "670f460a-e000-41f3-ab6b-1d673a86f0be")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3748b3f8-37ad-48b8-896b-47153502d850")
 			(effects
 				(font
 					(size 1 1)
@@ -10634,6 +11823,45 @@
 				)
 			)
 		)
+		(property "Fab attr" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "369a151b-3a83-443c-be64-b5edc3117223")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "33bcbc07-0881-4a07-a0ee-8c7bacb5f6f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bb655b87-e6fb-4095-ade9-e6d8483c1a51")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/b10e95cd-10a1-4d25-b6a0-2bd4304f390c/7c69dd11-b891-4057-b471-7abd6e1849f7")
 		(sheetname "2-Power")
@@ -10907,12 +12135,38 @@
 				)
 			)
 		)
-		(property "Field-1" ""
+		(property "Fab attr" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b7298ecc-e073-4b3c-993a-c98b182b3116")
+			(uuid "245cc535-b14c-40a6-b465-a361dd123d2e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dfdaa88e-41be-4f97-8700-e2f77a501ba4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "-90"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ee8138f4-a97a-4539-b2cf-d12bda602812")
 			(effects
 				(font
 					(size 1 1)
@@ -11257,6 +12511,45 @@
 				)
 			)
 		)
+		(property "Fab attr" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "83ae6a7e-f677-44a0-b863-73217097baec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a66b333c-e5eb-4d01-89a7-0c641e1548b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "38a39d80-0af9-42d5-8ce0-848c8a908c51")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/ba4b5470-81d0-4169-9744-1e20e59d88a2")
 		(sheetname "1-ChargeAmpAndEQ")
@@ -11555,6 +12848,45 @@
 				)
 			)
 		)
+		(property "Fab attr" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "542ca846-5503-4b69-b1e2-96e19f2c034f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b93c300c-d154-40bd-b393-c102e8bf67ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fc4f4d7e-0c31-49e1-8552-4878efefd4d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/36117b58-1f99-4f2a-8aca-4a87a51e57ef")
 		(sheetname "1-ChargeAmpAndEQ")
@@ -11711,12 +13043,38 @@
 				)
 			)
 		)
-		(property "Field-1" ""
+		(property "Fab attr" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6a2cb050-317f-4c85-8c33-85ba69b90c1e")
+			(uuid "414da94f-70dc-47f1-a758-e429dcd3c037")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9ca4f9d3-529a-4ac5-b110-95f54a54f00d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ae17f150-f8be-458b-b8ef-140ef87ec8cc")
 			(effects
 				(font
 					(size 1 1)
@@ -12003,12 +13361,38 @@
 				)
 			)
 		)
-		(property "Field-1" ""
+		(property "Fab attr" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4e6c11fb-ce7b-4340-ae28-b3edfdea4e17")
+			(uuid "70929253-1482-4d1d-9a32-21f08a997a5f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b1e28a53-a0e7-46dd-a320-cfd541d27790")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "af2575ff-b347-4bc9-8cf0-df8c4e2f50da")
 			(effects
 				(font
 					(size 1 1)
@@ -12288,6 +13672,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "08b14411-693d-41d8-addf-678dd6bdef60")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab attr" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cb1c4a90-c6c9-4e19-9aed-65a7a5bd2e3a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bcbb499c-bf98-4997-83bd-dfb346734613")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d278c299-c71f-4bfa-bca0-c92f5486c203")
 			(effects
 				(font
 					(size 1 1)
@@ -12675,12 +14098,38 @@
 				)
 			)
 		)
-		(property "Field-1" ""
+		(property "Fab attr" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f5ab848a-d28f-4cd4-b2ac-4949bd769658")
+			(uuid "a9eb5b58-6c31-497d-ad1a-62133fc955d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "39512ccd-b0f4-4e1d-8158-cfe1ef9c6433")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "efb222e9-7ae8-452b-8747-29597e84179d")
 			(effects
 				(font
 					(size 1 1)
@@ -12961,12 +14410,38 @@
 				)
 			)
 		)
-		(property "Field-1" ""
+		(property "Fab attr" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "07f7d23f-b720-4a6a-a4f2-50387ca4459b")
+			(uuid "c7dadc61-0b56-4dc1-b273-049a9b11a29b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b93de05-783c-4668-9cd4-cc208c935473")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "06f6b93d-0317-4a39-88f6-b462ce2112d7")
 			(effects
 				(font
 					(size 1 1)
@@ -13272,7 +14747,49 @@
 				)
 			)
 		)
+		(property "Fab attr" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "95b60f3d-ef50-4b14-8c08-c96117c63398")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d98dbd65-6dc8-47e3-b248-5d4a3198400d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0ba92938-54fe-4ddc-9707-5056de7aac2b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/4e083221-fa4f-41ea-92f0-c69556b97674")
+		(sheetname "1-ChargeAmpAndEQ")
+		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
 		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(pad "1" thru_hole roundrect
 			(at 0 0 90)
@@ -13432,6 +14949,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8a8842e1-9e8b-4406-8bd2-1168b10ab8b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab attr" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0ba44568-2cc8-486e-ab07-8be70532434c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c5690983-1e42-40d2-a4a8-9ef4488892f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "180"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "674ff42b-db26-4969-ad3d-de92022cef63")
 			(effects
 				(font
 					(size 1 1)
@@ -13801,12 +15357,38 @@
 				)
 			)
 		)
-		(property "Field-1" ""
+		(property "Fab attr" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "17c73f72-507a-47b9-9a18-2755cbc5a687")
+			(uuid "0cd28c0a-ec3c-4144-a03c-3f5218696992")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d7790b9a-91db-43c5-9d7b-e3b53f172c2f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "caf5819b-871f-498c-821a-c63581dd3437")
 			(effects
 				(font
 					(size 1 1)
@@ -14108,12 +15690,38 @@
 				)
 			)
 		)
-		(property "Field-1" ""
+		(property "Fab attr" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4361b8d2-fa21-4d28-ba8d-982711b136c1")
+			(uuid "c42b797a-c786-4ed5-b26e-2fd3d06fd22e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1da6f235-ebf9-4609-b0a6-7f0f61f2edcd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f2b3196d-f800-4986-b0d6-6a0df710c109")
 			(effects
 				(font
 					(size 1 1)
@@ -14124,7 +15732,7 @@
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/b28266f7-3e04-4d29-a736-d9febb62ae31")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start -16.5 -5.2)
 			(end -16.5 5.2)
@@ -14682,12 +16290,38 @@
 				)
 			)
 		)
-		(property "Field-1" ""
+		(property "Fab attr" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c9c27881-0957-47f8-8653-59eff1d7e59a")
+			(uuid "df67f932-1d66-4b06-a79b-4fb02e4fd813")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e9a5aaee-43eb-46cc-8d3d-5b64e4267834")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7b626129-3d99-40f3-a594-cd28c4f97c7b")
 			(effects
 				(font
 					(size 1 1)
@@ -14698,7 +16332,7 @@
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/43b31734-73a5-458c-b6bb-02b7bbe56c1a")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start 17.5 -5)
 			(end 17.5 5)
@@ -15552,6 +17186,45 @@
 				)
 			)
 		)
+		(property "Fab attr" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8bf7bb8d-ae42-4c95-b647-42854ab2281c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "24156377-6c34-47a9-b93c-80f86f93736e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5d06bf38-51f8-4ff8-9047-08b507a1ad3a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/0d49cc65-0344-4cef-9540-2193ccec1314")
 		(sheetname "1-ChargeAmpAndEQ")
@@ -15818,6 +17491,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "21de0145-9cc4-4d34-b0f9-1bc8a98e897e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab attr" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "07e3e6b1-ccc1-46f9-aa6a-741e3a7e19af")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "80c563f3-c3ab-4692-bca6-08652cd04291")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "47bedf16-29d8-47e8-ae02-c23c08d3a1cd")
 			(effects
 				(font
 					(size 1 1)
@@ -16110,11 +17822,50 @@
 				)
 			)
 		)
+		(property "Fab attr" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8330a31f-a1ca-43a4-84fc-a72e71e67562")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1e47cc26-7f60-4e8b-9d49-10fe8cc17e8b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "78cf18dd-6c61-4f87-9d6a-4dfcfef5a286")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SWITCH12_EG4208A_EWI")
 		(path "/b10e95cd-10a1-4d25-b6a0-2bd4304f390c/186e7e94-a505-41cc-ad5c-678e44ad3ca7")
 		(sheetname "2-Power")
 		(sheetfile "2-Power.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole exclude_from_pos_files)
 		(fp_circle
 			(center -6.5 -1.25)
 			(end -6.2893 -1.3)
@@ -16645,6 +18396,45 @@
 				)
 			)
 		)
+		(property "Fab attr" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c85db3f7-5173-4f17-8db0-3d1d70a99a33")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "727aa88c-c95f-4285-be8e-646de7581d6b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8cd46e0a-1d59-4675-a223-1f13aa2cec8b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/c9f74f48-38f8-497b-9298-ebea46c12fe0")
 		(sheetname "1-ChargeAmpAndEQ")
@@ -16794,6 +18584,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e98c6a1a-197c-4d28-8c84-f65ee336e559")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab attr" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "60478e45-3dea-4552-bf42-662edf559f1a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "834203b0-5c54-4704-9c04-894facc68b98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "83d62276-15e0-4e30-9a19-cc29c0620921")
 			(effects
 				(font
 					(size 1 1)
@@ -17074,12 +18903,38 @@
 				)
 			)
 		)
-		(property "Field-1" ""
+		(property "Fab attr" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "641ec00c-473e-451a-a2f2-cc8b9a5cfa54")
+			(uuid "44160313-7603-421a-a496-d7ca42296e58")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a01a9229-b38e-4c43-ac4d-4bef6e2bb5c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0276cbc2-8aed-4dbc-9dac-987020b13711")
 			(effects
 				(font
 					(size 1 1)
@@ -17391,6 +19246,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "851a6a08-3463-477d-a59f-9206e3aebbab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab attr" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c5fe77fd-504e-4729-82ce-4478e4392c6e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "98dfb382-5d5b-42ec-86ba-4e800aeab10e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c229d143-acfe-418c-8bc8-7b0b457c3278")
 			(effects
 				(font
 					(size 1 1)
@@ -17804,6 +19698,45 @@
 				)
 			)
 		)
+		(property "Fab attr" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0070c4f6-ad86-4b9b-ad8a-2bfc27e39fbe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b8f5a500-3ea6-4d49-ae73-29440a6ca405")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3263cd8d-5ab3-4750-8a89-b66dc258a132")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/ec7e2b7a-b909-481d-9965-04cfe43b332d")
 		(sheetname "1-ChargeAmpAndEQ")
@@ -18115,12 +20048,38 @@
 				)
 			)
 		)
-		(property "Field-1" ""
+		(property "Fab attr" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2cffc939-4914-44af-99bd-7f34c9b69e80")
+			(uuid "7c560c5b-ed0b-49a1-acda-bb36f97ce54d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "be8fccc5-490d-49b8-8799-24b69df57f47")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cfbd2605-45b1-4329-946b-8d7407f775ba")
 			(effects
 				(font
 					(size 1 1)
@@ -18401,12 +20360,38 @@
 				)
 			)
 		)
-		(property "Field-1" ""
+		(property "Fab attr" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "731443b2-de33-4e9f-81d3-8f820821db9b")
+			(uuid "f426c485-1d7b-4bbe-ae2e-b2801dcbf3c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "efedb4b8-1ee9-46ac-a953-8aa5644f8fe9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ba51b98-c90d-4d17-91cb-de7123a15dcf")
 			(effects
 				(font
 					(size 1 1)
@@ -18689,12 +20674,38 @@
 				)
 			)
 		)
-		(property "Field-1" ""
+		(property "Fab attr" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "00314fa0-eab4-476b-bf94-ba7730ba0cd6")
+			(uuid "f35e8f23-509b-4c7e-8d14-1412e2a6cbf7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "49aae712-efae-46cb-a76d-ddd67c17636b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "-90"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9996d15e-c344-4019-9462-4d364d41022b")
 			(effects
 				(font
 					(size 1 1)
@@ -19100,6 +21111,45 @@
 				)
 			)
 		)
+		(property "Fab attr" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b98d512d-461b-42d7-83d7-2fd7050709da")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7dfc0879-4018-4070-ae0f-46950c0c0d30")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "78a2c7cb-82e8-4bac-b679-684afc6c1d8f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/6a9b426c-a1d3-4a38-8e67-4d71f8200628")
 		(sheetname "1-ChargeAmpAndEQ")
@@ -19372,12 +21422,12 @@
 				)
 			)
 		)
-		(property "Field-1" ""
+		(property "Fab attr" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4cb811dd-1bde-4f7e-941d-03cf6fd36b31")
+			(uuid "7dfea075-507e-40e5-9322-0465635b6d7c")
 			(effects
 				(font
 					(size 1 1)
@@ -19385,7 +21435,36 @@
 				)
 			)
 		)
+		(property "Fab min" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c1d1d8e-1bac-4fa0-a2d4-e7f326bc8436")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e6f0771-5cda-4fc6-aef9-92a14fb447de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/b35fbecc-20c6-4f00-826b-f1e0500fb0dd")
+		(sheetname "1-ChargeAmpAndEQ")
+		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.2 0.625)
@@ -19665,12 +21744,38 @@
 				)
 			)
 		)
-		(property "Field-1" ""
+		(property "Fab attr" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f46e2dab-8635-40a7-9265-6dbc350925e4")
+			(uuid "61f4f015-a992-4028-9295-dcc8953b6036")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ca17cf9a-0aec-4bba-8032-879ce7278e5e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "394be6f5-2731-427f-9219-76248a97189a")
 			(effects
 				(font
 					(size 1 1)
@@ -19957,6 +22062,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6e512693-652e-4f6a-b0e2-6587f0b0a7a8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab attr" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a87b3afc-cb96-4108-a3e5-7c6bac9f3d52")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c0e54022-4111-4e3e-bb4a-8f8779294feb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "356ae932-0aed-4cb5-88e0-1f02b40e730a")
 			(effects
 				(font
 					(size 1 1)
@@ -20329,6 +22473,45 @@
 				)
 			)
 		)
+		(property "Fab attr" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a79f53fa-9244-4c3a-b1d2-02261ab3e99b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a700ea12-bd36-4b6a-b1ba-f9cd182a7ca9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "96a9e480-e0b2-48a7-9d6a-a6ef77f90915")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/5e01253e-c611-4755-bbb3-174635ec416f")
 		(sheetname "1-ChargeAmpAndEQ")
@@ -20602,12 +22785,38 @@
 				)
 			)
 		)
-		(property "Field-1" ""
+		(property "Fab attr" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1eaee788-ab78-432e-91ce-f46be5560edc")
+			(uuid "a2f454e8-fb27-430e-ae8a-0814904da663")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "19733193-f1b6-4a5d-8cd8-a025ea72e82f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7af5c81c-aa2e-474e-89fa-cc1a25615bf5")
 			(effects
 				(font
 					(size 1 1)
@@ -21199,6 +23408,45 @@
 				)
 			)
 		)
+		(property "Fab attr" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eceb31c9-b145-4927-b638-902aa4756830")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "36f1a6eb-7033-4278-8085-7e41090bf68b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "42f7e50a-8057-4f80-8b61-f26e74faf387")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/328bf469-a8df-4a35-a452-a3622df6abef")
 		(sheetname "1-ChargeAmpAndEQ")
@@ -21497,6 +23745,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d670ea84-70e8-4da3-b758-23a56607ab67")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab attr" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d8dfdda-eb7d-41a8-a048-07c87fb28e3f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a4104ff-51a9-49bc-856d-f3c63e0c1732")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ebb0f877-62e4-48f7-b15d-c8aa39d76c75")
 			(effects
 				(font
 					(size 1 1)
@@ -21910,6 +24197,45 @@
 				)
 			)
 		)
+		(property "Fab attr" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5295927f-2641-411f-a74e-94b962008a5c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2bb097c-66fd-49ac-a478-0b40f00ea4ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "41f9d1f5-b76a-4f9b-a51a-34c5939f1590")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/b10e95cd-10a1-4d25-b6a0-2bd4304f390c/6a5e2f67-3668-4aaf-93f4-3eff39dc332e")
 		(sheetname "2-Power")
@@ -22209,6 +24535,45 @@
 				)
 			)
 		)
+		(property "Fab attr" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2053dd9b-8d1f-47e6-b7b0-8c99a16504dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2632b56a-e4b2-412d-98bb-55bef602cad1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8fdb43e3-9601-4ee2-a33a-dc5955452cf1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/7c61d49f-fae1-43ef-ac2a-05570d556fd6")
 		(sheetname "1-ChargeAmpAndEQ")
@@ -22501,6 +24866,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ffc42d90-2b5a-4cd5-8045-8458078669d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab attr" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "437e020d-dcbe-4052-934b-10d88056ba86")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fd07b42b-8d6a-4de9-af34-4d3b4cb8e854")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a4b9c752-e3c4-487d-ae42-ef7c65ae7d59")
 			(effects
 				(font
 					(size 1 1)
@@ -22839,6 +25243,45 @@
 				)
 			)
 		)
+		(property "Fab attr" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "06d43b26-5e34-44a7-bc8c-3eb2d365e525")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "01658793-7a4d-4b6d-bb7e-3145dd89831d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8bf5912e-d90b-43f2-b385-c3e4399ddf37")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/38c67b0a-f298-407a-8505-a4b8eb806e37")
 		(sheetname "1-ChargeAmpAndEQ")
@@ -23118,12 +25561,38 @@
 				)
 			)
 		)
-		(property "Field-1" ""
+		(property "Fab attr" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e87e55f2-c43a-4334-b3b3-384c43a2b4ea")
+			(uuid "9609069e-af7a-4803-bcae-e381d9c8d70a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f50a11a5-9142-49bb-86a7-d7d509b1153c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0d140629-669b-4b5a-9ada-ef917797f2f3")
 			(effects
 				(font
 					(size 1 1)
@@ -23415,12 +25884,38 @@
 				)
 			)
 		)
-		(property "Field-1" ""
+		(property "Fab attr" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2cb315d3-536a-44ef-b49b-f951d901d518")
+			(uuid "bd65248d-f148-418a-b054-9b5d1d4c1d84")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ecd357c9-a2a5-4181-9b1a-0911930ea869")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0a471706-ab77-4c40-8e5c-64a7f7e52e72")
 			(effects
 				(font
 					(size 1 1)
@@ -23612,6 +26107,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e9441d90-cdd2-42ac-9be6-5ea7d605ee41")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab attr" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "db38bc88-4168-488a-ac8e-a413bc18cf5f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "06706edf-69dd-4aed-b5fc-d2fd409b1aca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "03b6948c-2e3d-4b38-9753-a4b1f7d4cdc0")
 			(effects
 				(font
 					(size 1 1)
@@ -23917,6 +26451,45 @@
 				)
 			)
 		)
+		(property "Fab attr" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ceef1400-afc5-4a52-bd3e-5fff48417fc5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d444c93-624d-47d2-a8a8-0f4c557a1b19")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d3f9a6d-d779-482f-915d-c9aa35cc4672")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/71ccee90-04ca-4339-870a-7db0d072dc9f")
 		(sheetname "1-ChargeAmpAndEQ")
@@ -24073,12 +26646,38 @@
 				)
 			)
 		)
-		(property "Field-1" ""
+		(property "Fab attr" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "51f347fa-d085-40c6-88ec-adec1f2b0ba1")
+			(uuid "3036f13f-c4a5-417d-91e3-fba0b852665b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c4d5e9b5-2cd9-425a-994b-d5dfc36beb81")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a2f80982-3826-4f42-9968-644f4969d581")
 			(effects
 				(font
 					(size 1 1)
@@ -24391,6 +26990,45 @@
 				)
 			)
 		)
+		(property "Fab attr" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "26d06b58-8779-4944-af8d-46652e14b24c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "25297241-dbd7-499f-9b55-671e08702333")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0a47324f-ca59-46f7-98b1-1b0d3ecc5a61")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/92c2a844-101a-40c5-a0eb-d2ce1ffb9165/799830e3-f4c1-4516-9f26-c66a89ad7225")
 		(sheetname "3-BatteryIndicator")
@@ -24689,6 +27327,45 @@
 				)
 			)
 		)
+		(property "Fab attr" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6580e819-b32a-447b-8994-b6117c7e655a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0a08e00e-9188-4d8c-9b0f-5c200d6b9de9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "72d70d6d-d2ab-4dbe-8c79-c687f29eae1f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/ee7c3861-ad1d-450e-a820-3a5107540113")
 		(sheetname "1-ChargeAmpAndEQ")
@@ -24845,12 +27522,38 @@
 				)
 			)
 		)
-		(property "Field-1" ""
+		(property "Fab attr" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5abcc35f-bea2-4e8e-b9fb-c4852711b771")
+			(uuid "c6ebeb64-508e-4bfb-8e0c-1416d11f1937")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f7cb396b-6bf5-4b45-b478-ea5d4bd387b4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3bfa6dad-ee3a-4b08-ac1f-06c4bc4647e9")
 			(effects
 				(font
 					(size 1 1)
@@ -25483,10 +28186,52 @@
 				(justify mirror)
 			)
 		)
+		(property "Fab attr" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5269d0a8-653b-413a-9fe5-fcdcc92937e2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4236cb46-f116-415f-92be-479aa7a2c89e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2bb8f9e8-db8a-42d6-ae4a-0350e8fdd753")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/92c2a844-101a-40c5-a0eb-d2ce1ffb9165/c9505d5f-081e-4456-be6a-4ac53f931550")
 		(sheetname "3-BatteryIndicator")
 		(sheetfile "3-BatteryIndicator.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start 4.3 -2.2)
 			(end -4.3 -2.2)
@@ -25821,10 +28566,52 @@
 				(justify mirror)
 			)
 		)
+		(property "Fab attr" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6c387c3a-5739-4b21-a1d0-2103b131dc74")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d4eeb243-89b4-47cb-b5d4-f057755d76ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2e025e32-eba0-4d7e-8256-dc56ce72bc0a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/a9a98466-039b-4ba3-97f0-1fe9fa0ee129")
 		(sheetname "1-ChargeAmpAndEQ")
 		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start -6.3 0)
 			(end 6.3 0)
@@ -26381,8 +29168,52 @@
 				(justify mirror)
 			)
 		)
+		(property "Fab attr" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e150cc93-5edd-4f9a-9796-88117b2f58c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "64bb33e4-3929-414d-91ab-28ccb74052d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "41d651a3-6411-449e-b653-801649c68ad9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/20f5cd50-cb23-4f28-a46f-42e34a9ef620")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(sheetname "1-ChargeAmpAndEQ")
+		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start -7.3 0)
 			(end -7.3 0.95)
@@ -26932,8 +29763,52 @@
 				(justify mirror)
 			)
 		)
+		(property "Fab attr" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "07f53fe4-02e4-4b65-93e6-c3d1718e871a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9140d8e7-a95f-4945-bb2b-2c96ff223894")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bee17f5c-5197-41c4-9abd-bbf2a4203790")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/e56e49ba-8974-4847-b6bf-e83116731cf2/959a9431-6cfb-444d-9fc5-7f41ca70bb42")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(sheetname "4-MountingAndAccessories")
+		(sheetfile "4-MountingAndAccessories.kicad_sch")
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start 13.3 -7.94)
 			(end 2.415 -7.94)
@@ -27349,8 +30224,52 @@
 				(justify mirror)
 			)
 		)
+		(property "Fab attr" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d6c71a82-7a49-4135-b2a1-d8d9394b6ef8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "648a796d-e790-4ce0-889f-c5af10d21c26")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "58e85545-cb95-440e-bdf3-9117b74b462f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/22efb792-a214-4fa2-af90-c218e40ee577/49df1a88-0e6b-4570-907a-5ebfa699ca26")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(sheetname "1-ChargeAmpAndEQ")
+		(sheetfile "1-ChargeAmpAndEQ.kicad_sch")
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start -7.3 0)
 			(end -7.3 0.95)
@@ -27899,10 +30818,52 @@
 				(justify mirror)
 			)
 		)
+		(property "Fab attr" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c75ac5d4-984d-4d5d-a0dd-501ed8b81166")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Fab min" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "63d8c6d1-7d73-4484-bdb2-e5f7709fe1e9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8c09a6f0-7390-4720-8dab-6534bd283a37")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/b10e95cd-10a1-4d25-b6a0-2bd4304f390c/65f63acd-60c4-449b-8fb2-c28e5573f04a")
 		(sheetname "2-Power")
 		(sheetfile "2-Power.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start 15 9)
 			(end 15 6.7)
