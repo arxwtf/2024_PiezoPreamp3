@@ -554,7 +554,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "production/gerbers/",
+      "plot": "production/manual/gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -962,7 +962,7 @@
       }
     ],
     "bom_settings": {
-      "exclude_dnp": true,
+      "exclude_dnp": false,
       "fields_ordered": [
         {
           "group_by": false,
@@ -992,7 +992,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -1004,13 +1004,13 @@
           "group_by": false,
           "label": "Mfr",
           "name": "Mfr",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -1034,13 +1034,13 @@
           "group_by": false,
           "label": "Mouser Part #",
           "name": "Mouser Part #",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "TME Part #",
           "name": "TME Part #",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -1052,13 +1052,13 @@
           "group_by": false,
           "label": "Source",
           "name": "Source",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Purpose",
           "name": "Purpose",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -1082,13 +1082,31 @@
           "group_by": false,
           "label": "Alt",
           "name": "Alt",
-          "show": true
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Fab min",
+          "name": "Fab min",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Fab attr",
+          "name": "Fab attr",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB Rotation Offset",
+          "name": "JLCPCB Rotation Offset",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "name": "",
-      "sort_asc": true,
+      "sort_asc": false,
       "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,

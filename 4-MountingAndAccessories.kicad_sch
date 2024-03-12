@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Mounting, hardware and accessories")
-		(date "2024-03-10")
+		(date "2024-03-12")
 		(rev "3.0")
 		(company "Arx")
 	)
@@ -1551,6 +1551,33 @@
 				(hide yes)
 			)
 		)
+		(property "Fab attr" ""
+			(at 163.83 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fab min" ""
+			(at 163.83 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 163.83 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
@@ -1669,6 +1696,42 @@
 			)
 		)
 		(property "Source" "Mouser"
+			(at 60.96 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fab attr" ""
+			(at 60.96 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fab min" ""
+			(at 60.96 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 60.96 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt" ""
 			(at 60.96 100.33 0)
 			(effects
 				(font
@@ -1798,6 +1861,33 @@
 			)
 		)
 		(property "TME Part #" "TFF-M2.5X15/DR1212"
+			(at 101.6 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fab attr" ""
+			(at 101.6 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fab min" ""
+			(at 101.6 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
 			(at 101.6 34.29 0)
 			(effects
 				(font
@@ -1998,6 +2088,33 @@
 				(hide yes)
 			)
 		)
+		(property "Fab attr" ""
+			(at 120.65 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fab min" ""
+			(at 120.65 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 120.65 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
@@ -2190,6 +2307,33 @@
 				(hide yes)
 			)
 		)
+		(property "Fab attr" ""
+			(at 186.69 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fab min" ""
+			(at 186.69 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 186.69 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
@@ -2316,6 +2460,33 @@
 				(hide yes)
 			)
 		)
+		(property "Fab attr" ""
+			(at 48.26 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fab min" ""
+			(at 48.26 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 48.26 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
@@ -2434,6 +2605,33 @@
 			)
 		)
 		(property "Source" "-"
+			(at 49.53 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fab attr" ""
+			(at 49.53 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fab min" ""
+			(at 49.53 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
 			(at 49.53 43.18 0)
 			(effects
 				(font
@@ -2571,6 +2769,33 @@
 				(hide yes)
 			)
 		)
+		(property "Fab attr" ""
+			(at 207.01 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fab min" ""
+			(at 207.01 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 207.01 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
@@ -2688,6 +2913,33 @@
 			)
 		)
 		(property "Source" ""
+			(at 170.18 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fab attr" ""
+			(at 170.18 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fab min" ""
+			(at 170.18 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
 			(at 170.18 97.79 0)
 			(effects
 				(font
@@ -2822,6 +3074,33 @@
 				(hide yes)
 			)
 		)
+		(property "Fab attr" ""
+			(at 186.69 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fab min" ""
+			(at 186.69 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 186.69 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
@@ -2939,6 +3218,33 @@
 			)
 		)
 		(property "Source" ""
+			(at 194.31 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fab attr" ""
+			(at 194.31 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fab min" ""
+			(at 194.31 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
 			(at 194.31 97.79 0)
 			(effects
 				(font
@@ -3073,6 +3379,33 @@
 				(hide yes)
 			)
 		)
+		(property "Fab attr" ""
+			(at 147.32 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fab min" ""
+			(at 147.32 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 147.32 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
@@ -3191,6 +3524,33 @@
 			)
 		)
 		(property "Source" "-"
+			(at 74.295 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fab attr" ""
+			(at 74.295 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fab min" ""
+			(at 74.295 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
 			(at 74.295 43.18 0)
 			(effects
 				(font
@@ -3333,6 +3693,33 @@
 				(hide yes)
 			)
 		)
+		(property "Fab attr" ""
+			(at 146.05 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fab min" ""
+			(at 146.05 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 146.05 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
@@ -3451,6 +3838,33 @@
 			)
 		)
 		(property "Source" ""
+			(at 232.41 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fab attr" ""
+			(at 232.41 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fab min" ""
+			(at 232.41 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
 			(at 232.41 57.15 0)
 			(effects
 				(font
@@ -3585,6 +3999,33 @@
 				(hide yes)
 			)
 		)
+		(property "Fab attr" ""
+			(at 232.41 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fab min" ""
+			(at 232.41 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 232.41 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
@@ -3702,6 +4143,33 @@
 			)
 		)
 		(property "Source" ""
+			(at 170.18 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fab attr" ""
+			(at 170.18 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fab min" ""
+			(at 170.18 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
 			(at 170.18 107.95 0)
 			(effects
 				(font
@@ -3836,6 +4304,33 @@
 				(hide yes)
 			)
 		)
+		(property "Fab attr" ""
+			(at 250.19 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fab min" ""
+			(at 250.19 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 250.19 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
@@ -3954,6 +4449,33 @@
 			)
 		)
 		(property "Source" ""
+			(at 250.19 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fab attr" ""
+			(at 250.19 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fab min" ""
+			(at 250.19 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
 			(at 250.19 38.1 0)
 			(effects
 				(font
@@ -4088,6 +4610,33 @@
 				(hide yes)
 			)
 		)
+		(property "Fab attr" ""
+			(at 147.32 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fab min" ""
+			(at 147.32 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 147.32 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
@@ -4206,6 +4755,33 @@
 			)
 		)
 		(property "TME Part #" "TFF-M2.5X15/DR1212"
+			(at 101.6 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fab attr" ""
+			(at 101.6 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fab min" ""
+			(at 101.6 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
 			(at 101.6 55.88 0)
 			(effects
 				(font
@@ -4340,6 +4916,33 @@
 				(hide yes)
 			)
 		)
+		(property "Fab attr" ""
+			(at 74.295 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fab min" ""
+			(at 74.295 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 74.295 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
@@ -4458,6 +5061,33 @@
 			)
 		)
 		(property "TME Part #" "TFF-M2.5X15/DR1212"
+			(at 120.65 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fab attr" ""
+			(at 120.65 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fab min" ""
+			(at 120.65 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
 			(at 120.65 55.88 0)
 			(effects
 				(font
@@ -4592,6 +5222,33 @@
 				(hide yes)
 			)
 		)
+		(property "Fab attr" ""
+			(at 163.83 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fab min" ""
+			(at 163.83 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 163.83 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
@@ -4710,6 +5367,33 @@
 			)
 		)
 		(property "TME Part #" "TFM-M2.5X20/DR2212"
+			(at 207.01 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fab attr" ""
+			(at 207.01 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fab min" ""
+			(at 207.01 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
 			(at 207.01 35.56 0)
 			(effects
 				(font
@@ -4843,6 +5527,33 @@
 				(hide yes)
 			)
 		)
+		(property "Fab attr" ""
+			(at 194.31 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fab min" ""
+			(at 194.31 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 194.31 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
@@ -4960,6 +5671,33 @@
 			)
 		)
 		(property "Source" "-"
+			(at 194.31 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fab attr" ""
+			(at 194.31 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fab min" ""
+			(at 194.31 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
 			(at 194.31 124.46 0)
 			(effects
 				(font
@@ -5103,6 +5841,33 @@
 				(hide yes)
 			)
 		)
+		(property "Fab attr" ""
+			(at 116.84 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fab min" ""
+			(at 116.84 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 116.84 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "2024_PiezoPreamp3"
 				(path "/6e141482-2809-49ad-b316-4cdedc98ad26/e56e49ba-8974-4847-b6bf-e83116731cf2"
@@ -5220,6 +5985,33 @@
 			)
 		)
 		(property "Source" ""
+			(at 170.18 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fab attr" ""
+			(at 170.18 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fab min" ""
+			(at 170.18 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
 			(at 170.18 124.46 0)
 			(effects
 				(font
