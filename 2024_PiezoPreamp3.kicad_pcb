@@ -31135,6 +31135,7 @@
 	(gr_line
 		(start 113.2 83.05)
 		(end 111.6 83.05)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -31145,6 +31146,7 @@
 	(gr_circle
 		(center 150.4 84.85)
 		(end 154 84.85)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -31168,6 +31170,7 @@
 	(gr_rect
 		(start 187.6 71.25)
 		(end 189.2 115.65)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -31179,6 +31182,7 @@
 	(gr_line
 		(start 145.4 73.25)
 		(end 145.4 74.85)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -31189,6 +31193,7 @@
 	(gr_circle
 		(center 182.8 78.15)
 		(end 184.15 78.15)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -31200,6 +31205,7 @@
 	(gr_circle
 		(center 118 108.75)
 		(end 119.35 108.75)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -31211,6 +31217,7 @@
 	(gr_line
 		(start 113.2 89.05)
 		(end 111.6 89.05)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -31221,6 +31228,7 @@
 	(gr_line
 		(start 189.2 80.55)
 		(end 187.6 80.55)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -31231,6 +31239,7 @@
 	(gr_circle
 		(center 118 78.15)
 		(end 119.35 78.15)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -31242,6 +31251,7 @@
 	(gr_circle
 		(center 173.3 84.849996)
 		(end 176.9 84.849996)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -31265,6 +31275,7 @@
 	(gr_circle
 		(center 127.5 84.85)
 		(end 131.1 84.85)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -31276,6 +31287,7 @@
 	(gr_line
 		(start 175.9 74.85)
 		(end 175.9 73.25)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -31286,6 +31298,7 @@
 	(gr_line
 		(start 113.2 105.55)
 		(end 111.6 105.55)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -31296,6 +31309,7 @@
 	(gr_line
 		(start 167.9 113.65)
 		(end 167.9 112.05)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -31306,6 +31320,7 @@
 	(gr_line
 		(start 189.2 92.55)
 		(end 187.6 92.55)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -31316,6 +31331,7 @@
 	(gr_line
 		(start 133.9 74.85)
 		(end 133.9 73.25)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -31326,6 +31342,7 @@
 	(gr_line
 		(start 113.2 92.55)
 		(end 111.6 92.55)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -31336,6 +31353,7 @@
 	(gr_line
 		(start 189.2 105.55)
 		(end 187.6 105.55)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -31346,6 +31364,7 @@
 	(gr_line
 		(start 189.2 91.35)
 		(end 187.6 91.35)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -31356,6 +31375,7 @@
 	(gr_rect
 		(start 111.6 112.05)
 		(end 189.2 113.65)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -31367,6 +31387,7 @@
 	(gr_rect
 		(start 109.9 90.05)
 		(end 111 108.05)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -31378,6 +31399,7 @@
 	(gr_circle
 		(center 182.8 108.75)
 		(end 184.15 108.75)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -31389,6 +31411,7 @@
 	(gr_line
 		(start 174.9 113.65)
 		(end 174.9 112.05)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -31399,6 +31422,7 @@
 	(gr_rect
 		(start 189.6 90.05)
 		(end 190.7 108.05)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -31410,6 +31434,7 @@
 	(gr_line
 		(start 155.4 73.25)
 		(end 155.4 74.85)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -31420,6 +31445,7 @@
 	(gr_line
 		(start 125.9 74.85)
 		(end 125.9 73.25)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -31442,6 +31468,7 @@
 	(gr_circle
 		(center 150.4 109.95)
 		(end 151.35 109.95)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -31453,6 +31480,7 @@
 	(gr_line
 		(start 165.9 74.85)
 		(end 165.9 73.25)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -33812,7 +33840,7 @@
 		)
 	)
 	(gr_text "Treble pot\nX = 12.6, Y = 9.8"
-		(at 127.3 65.65 0)
+		(at 127.3 62.7 0)
 		(layer "Dwgs.User")
 		(uuid "00003ec1-13a9-46f2-9e21-ea0072f91dc5")
 		(effects
@@ -33824,7 +33852,7 @@
 		)
 	)
 	(gr_text "Bass pot\ntight: X = 35.5, Y = 9.8 "
-		(at 150.7 65.55 0)
+		(at 150.7 62.6 0)
 		(layer "Dwgs.User")
 		(uuid "1018f989-13fa-4cae-81e4-8f3a8d5c35c9")
 		(effects
@@ -33874,7 +33902,7 @@
 		)
 	)
 	(gr_text "Volume pot\ntight: X = 58.4, Y = 9.8"
-		(at 176 65.55 0)
+		(at 176 62.6 0)
 		(layer "Dwgs.User")
 		(uuid "bd829a5e-dca4-4117-91b4-80cd96f1c315")
 		(effects
@@ -33956,11 +33984,11 @@
 		(layer "Dwgs.User")
 		(uuid "f7cc966f-0328-4532-ad43-f62cfbc9bc35")
 		(pts
-			(xy 114.9 70.55) (xy 150.4 70.55)
+			(xy 114.9 67.9) (xy 150.4 67.9)
 		)
 		(height 0)
 		(gr_text "35.5000 mm"
-			(at 132.65 69.4 0)
+			(at 132.65 66.75 0)
 			(layer "Dwgs.User")
 			(uuid "f7cc966f-0328-4532-ad43-f62cfbc9bc35")
 			(effects
