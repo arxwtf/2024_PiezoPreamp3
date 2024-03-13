@@ -33811,7 +33811,7 @@
 			(justify bottom)
 		)
 	)
-	(gr_text "Treble pot\ntight: X = 12.6, Y = 9.8\nloose: X = , Y = 12.3"
+	(gr_text "Treble pot\nX = 12.6, Y = 9.8"
 		(at 127.3 65.65 0)
 		(layer "Dwgs.User")
 		(uuid "00003ec1-13a9-46f2-9e21-ea0072f91dc5")
@@ -33823,7 +33823,7 @@
 			(justify bottom)
 		)
 	)
-	(gr_text "Bass pot\ntight: X = 35.5, Y = 9.8 \nloose: X = 35.5, Y = 12.3\n"
+	(gr_text "Bass pot\ntight: X = 35.5, Y = 9.8 "
 		(at 150.7 65.55 0)
 		(layer "Dwgs.User")
 		(uuid "1018f989-13fa-4cae-81e4-8f3a8d5c35c9")
@@ -33861,8 +33861,8 @@
 			(justify bottom)
 		)
 	)
-	(gr_text "board outline tolerane: 0.2mm on every side"
-		(at 101.5 147.55 0)
+	(gr_text "board outline tolerance: 0.2mm on every side"
+		(at 112.6 126.85 0)
 		(layer "Dwgs.User")
 		(uuid "933ad9d1-8bb9-4d82-8aa8-c20dc1cde10b")
 		(effects
@@ -33873,19 +33873,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "loose jack Y = 27.2\n"
-		(at 199.2 103.05 0)
-		(layer "Dwgs.User")
-		(uuid "9d50e10e-d16c-4bbf-a968-dc3e99da808a")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "Volume pot\ntight: X = 58.4, Y = 9.8\nloose: X = 60+, Y = 12.3"
+	(gr_text "Volume pot\ntight: X = 58.4, Y = 9.8"
 		(at 176 65.55 0)
 		(layer "Dwgs.User")
 		(uuid "bd829a5e-dca4-4117-91b4-80cd96f1c315")
@@ -33902,11 +33890,11 @@
 		(layer "Dwgs.User")
 		(uuid "34b8709e-e62b-441d-8c5a-7ac4db1eaf5b")
 		(pts
-			(xy 118.8 130.05) (xy 170.8 130.05)
+			(xy 121.4 122.85) (xy 173.4 122.85)
 		)
 		(height 0)
 		(gr_text "9V battery + clip: 52.0000 mm"
-			(at 144.8 128.9 0)
+			(at 147.4 121.7 0)
 			(layer "Dwgs.User")
 			(uuid "34b8709e-e62b-441d-8c5a-7ac4db1eaf5b")
 			(effects
@@ -33935,11 +33923,11 @@
 		(layer "Dwgs.User")
 		(uuid "4adbab4d-e45a-459c-b975-12cf476f83ab")
 		(pts
-			(xy 102.8 75.05) (xy 102.8 113.05)
+			(xy 102.8 75.05) (xy 102.8 111.85)
 		)
 		(height 0)
-		(gr_text "PCB Y: 38.0000 mm"
-			(at 101.65 94.05 90)
+		(gr_text "PCB Y: 36.8000 mm"
+			(at 101.65 93.45 90)
 			(layer "Dwgs.User")
 			(uuid "4adbab4d-e45a-459c-b975-12cf476f83ab")
 			(effects
