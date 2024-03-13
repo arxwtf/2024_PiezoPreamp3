@@ -33,6 +33,8 @@ fp-info-cache
 /library/trash/
 /ltspice/trash/
 /resources/trash/
+/production/manual/gerbers
+/production/Piezo_Preamp_*/
 
 # OS files
 .DS_Store

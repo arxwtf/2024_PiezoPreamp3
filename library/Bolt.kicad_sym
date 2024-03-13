@@ -1,0 +1,78 @@
+(kicad_symbol_lib (version 20220914) (generator kicad_symbol_editor)
+  (symbol "Bolt" (in_bom yes) (on_board yes)
+    (property "Reference" "H" (at 0 0 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "" (at 0 0 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "Bolt_0_1"
+      (polyline
+        (pts
+          (xy -0.635 -5.715)
+          (xy 0.635 -5.715)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -0.635 -5.08)
+          (xy 0.635 -5.08)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -0.635 -3.81)
+          (xy 0.635 -3.81)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.635 -4.445)
+          (xy -0.635 -4.445)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+    )
+    (symbol "Bolt_1_1"
+      (polyline
+        (pts
+          (xy -0.635 -2.54)
+          (xy -0.635 -6.35)
+          (xy 0.635 -6.35)
+          (xy 0.635 -2.54)
+          (xy -0.635 -2.54)
+        )
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (polyline
+        (pts
+          (xy -1.905 -1.27)
+          (xy -0.635 -1.27)
+          (xy -0.635 -1.905)
+          (xy 0.635 -1.905)
+          (xy 0.635 -1.27)
+          (xy 1.905 -1.27)
+          (xy 1.905 -2.54)
+          (xy -1.905 -2.54)
+          (xy -1.905 -1.27)
+        )
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+    )
+  )
+)
