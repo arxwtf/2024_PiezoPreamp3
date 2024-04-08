@@ -7,7 +7,7 @@
 	(title_block
 		(title "Charge Amp and Baxandall EQ")
 		(date "2024-03-12")
-		(rev "3.0")
+		(rev "3.1")
 		(company "Arx")
 	)
 	(lib_symbols
