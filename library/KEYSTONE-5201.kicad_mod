@@ -64,7 +64,7 @@
 			)
 		)
 	)
-	(attr through_hole)
+	(attr through_hole exclude_from_pos_files)
 	(fp_rect
 		(start -5.7 -0.3)
 		(end 5.7 0.3)
