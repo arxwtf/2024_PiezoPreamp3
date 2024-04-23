@@ -7314,7 +7314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Alt" "232-M, 233, 234"
+		(property "Alt" "232-M, 233, 234, COMF BS-IC (TME)"
 			(at 39.37 77.47 0)
 			(effects
 				(font

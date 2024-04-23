@@ -31539,7 +31539,7 @@
 	)
 	(gr_circle
 		(center 150.4 109.95)
-		(end 151.35 109.95)
+		(end 151.4 109.95)
 		(locked yes)
 		(stroke
 			(width 0.1)
