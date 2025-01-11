@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Charge Amp and Baxandall EQ")
-		(date "2024-03-12")
+		(date "2025-01-11")
 		(rev "3.1")
 		(company "Arx")
 	)
@@ -6148,7 +6148,7 @@
 	)
 	(text "Opamp needs to have low input \nbias current, i.e. a JFET type. \nAlt: OP2134 (higher consumption)."
 		(exclude_from_sim no)
-		(at 95.25 20.32 0)
+		(at 93.98 20.32 0)
 		(effects
 			(font
 				(size 1 1)
