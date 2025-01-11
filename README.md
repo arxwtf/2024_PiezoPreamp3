@@ -4,6 +4,10 @@ A simple preamp to be used for e.g. guitar piezo (contact) microphones.
 
 Created in KiCAD v8 and LTSpice.
 
+[User manual here.](https://arx.wtf/piezo-preamp-3/Arx_PiezoPreamp_v3.1-User_Manual.pdf)
+
+[Detailed information / blog here.](https://arx.wtf/blog/3-piezo-preamp)
+
 ![Rendered PCB](render.png?raw=true "Rendered PCB")
 
 
@@ -94,4 +98,6 @@ Contains some additional resources, inspiration and schematics used during devel
 Contains schematic sheets plotted from KiCAD, individually as .png and in one file as .pdf.
 
 ## Known problems
+- when the circuit is turned ON or OFF (by the power-on switch and inserting of cable into AUDIO OUT jack), it might produce a strong voltage transient (a loud "pop"). Be careful when you're using it with sensitive equipment downstream.
+
 - battery spring (used only for grounding) is too close to the PCB edge. This creates unnecessary force between the PCB and the enclosure wall. The spring can be shortened, or not used at all.
