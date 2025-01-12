@@ -15,9 +15,9 @@ Created in KiCAD v8 and LTSpice.
 
 Basically an integrator circuit. Provides low-impedance input. The gain is adjustable and depends on the input piezo capacitance. In my measurements, piezo discs have following capacitances:
 
-- small disc: ~10nF
-- medium disc: ~20nF
-- large disc: ~40nF
+- small disc (15mm diameter): ~7-10nF
+- medium disc (27mm diameter): ~16-22nF
+- large disc (35mm diameter): ~37-40nF
 
 But I've also seen mentions of piezo discs with <10nF capacitance. Connecting multiple piezo discs in parallel increases the capacitance, so the maximum piezo capacitance can be in order of ~100nF or so.
 
